@@ -5,7 +5,7 @@ node_modules/
 /BDS/worlds/Bedrock level/level.dat
 /BDS/worlds/Bedrock level/level.dat_old
 /BDS/worlds/Bedrock level/levelname.txt
-/BDS/worlds/Bedrock level/level.dat/db
+/BDS/worlds/Bedrock level/db
 /BDS/worlds/Bedrock level/master-logs
 
 # Ignore backups folder
