@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "fantasy:jade_projectile",
+            "materials": {
+                "default": "egg"
+            },
+            "textures": {
+                "default": "textures/entity/projectiles/jade_projectile"
+            },
+            "geometry": {
+                "default": "geometry.jade_projectile"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+        }
+    }
+}

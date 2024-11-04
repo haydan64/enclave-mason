@@ -1,0 +1,21 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:sapphire"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "A"
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:sapphire_block"
+            }
+        },
+        "result": {
+            "item": "fantasy:sapphire",
+            "count": 9
+        }
+    }
+}

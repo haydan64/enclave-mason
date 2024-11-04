@@ -1,0 +1,198 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.plainzombie" : {
+			"initial_state" : "idle",
+			"states" : {
+				"idle": {
+					"animations": ["idle"],
+                    "transitions":[
+                        {"walk": "query.ground_speed >= 0.6 && !query.has_target && !query.is_in_water"},
+						{"chase": "query.ground_speed >= 0.6 && query.has_target"},
+						{"walkwater": "query.ground_speed >= 0.2 && query.is_in_water"},
+						{"attack": "query.is_delayed_attacking && !query.is_item_equipped"},
+						{"attackweapon": "query.is_delayed_attacking && query.is_item_equipped"},
+						{"riding": "query.is_riding"},
+						{"stunned": "query.is_stunned"}
+                    ],
+					"blend_transition":0.3
+                },
+				"walk": {
+					"animations": [
+						{"walk": "variable.animation.walk == 1"},
+						{"walk2": "variable.animation.walk == 2"},
+						{"walk3": "variable.animation.walk == 3"},
+						{"look_at_target": "variable.animation.look_at_target == 1"}
+					],
+					"on_entry": ["variable.animation.walk = math.random_integer(1, 3);", "variable.animation.look_at_target = 1;"],
+                    "transitions":[
+                        {"idle": "query.ground_speed < 0.6 && !query.has_target"},
+						{"chase": "query.ground_speed >= 0.6 && query.has_target"},
+						{"attack": "query.is_delayed_attacking && !query.is_item_equipped"},
+						{"attackweapon": "query.is_delayed_attacking && query.is_item_equipped"},
+						{"stunned": "query.is_stunned"}
+                    ],
+					"blend_transition":0.3
+                },
+				"walkwater": {
+					"animations": ["walkwater"],
+                    "transitions":[
+                        {"idle": "query.ground_speed < 0.2 && !query.is_in_water"},
+						{"attack": "query.is_delayed_attacking"},
+						{"stunned": "query.is_stunned"},
+						{"riding": "query.is_riding"}
+                    ],
+					"blend_transition":0.3
+                },
+				"chase": {
+					"animations": [
+						{"chase": "variable.animation.chase == 1"},
+						{"chase2": "variable.animation.chase == 2"},
+						{"chase3": "variable.animation.chase == 3"}
+					],
+					"on_entry": ["variable.animation.chase = math.random_integer(1, 3);"],
+                    "transitions":[
+                        {"idle": "query.ground_speed < 0.6 && !query.has_target"},
+						{"walk": "query.ground_speed >= 0.6 && !query.has_target"},
+						{"attack": "query.is_delayed_attacking && !query.is_item_equipped"},
+						{"attackweapon": "query.is_delayed_attacking && query.is_item_equipped"},
+						{"stunned": "query.is_stunned"},
+						{"riding": "query.is_riding"},
+						{"walkwater": "query.ground_speed >= 0.2 && query.is_in_water"}
+                    ],
+					"blend_transition":0.3
+                },
+				"attack": {
+					"animations": [
+						{"attack": "variable.animation.attack == 1"},
+						{"attack2": "variable.animation.attack == 2"},
+						{"attack3": "variable.animation.attack == 3"}
+					],
+					"on_entry": ["variable.animation.attack = math.random_integer(1, 3);"],
+                    "transitions":[
+                        {"chase": "!query.is_delayed_attacking && query.ground_speed >= 0.4"},
+						{"idle": "!query.is_delayed_attacking && query.ground_speed < 0.4"},
+						{"stunned": "query.is_stunned"}
+                    ],
+					"blend_transition":0.3
+                },
+				"attackweapon": {
+					"animations": [
+						{"attackweapon": "variable.animation.attackweapon == 1"},
+						{"attackweapon2": "variable.animation.attackweapon == 2"},
+						{"attackweapon3": "variable.animation.attackweapon == 3"}
+					],
+					"on_entry": ["variable.animation.attackweapon = math.random_integer(1, 3);"],
+                    "transitions":[
+                        {"chase": "!query.is_delayed_attacking && query.ground_speed >= 0.2"},
+						{"idle": "!query.is_delayed_attacking && query.ground_speed < 0.2"},
+						{"stunned": "query.is_stunned"}
+                    ],
+					"blend_transition":0.3
+                },
+				"stunned": {
+					"animations": ["stunned"],
+                    "transitions":[
+						{"idle": "!query.is_stunned && query.all_animations_finished && !query.has_target && query.ground_speed < 0.2"},
+                        {"walk": "!query.is_stunned && query.all_animations_finished && !query.is_in_water && !query.has_target"},
+						{"walkwater": "!query.is_stunned && query.all_animations_finished && query.is_in_water"},
+						{"chase": "!query.is_stunned && query.all_animations_finished && !query.is_in_water && query.has_target"}
+                    ],
+					"blend_transition":0.3
+                },
+				"riding": {
+					"animations": ["riding"],
+                    "transitions":[
+                        {"idle": "!query.is_riding"},
+						{"ridingattack": "query.is_riding && query.is_delayed_attacking"},
+						{"ridingstunned": "query.is_stunned && query.is_riding"}
+                    ],
+					"blend_transition":0.3
+                },
+				"ridingstunned": {
+					"animations": ["ridingstun"],
+                    "transitions":[
+						{"riding": "!query.is_stunned && query.is_riding"}
+                    ],
+					"blend_transition":0.3
+                },
+				"ridingattack": {
+					"animations": ["ridingattack"],
+                    "transitions":[
+                        {"riding": "!query.is_delayed_attacking"},
+						{"ridingstunned": "query.is_stunned && query.is_riding"}
+                    ],
+					"blend_transition":0.3
+                }
+			}
+		},
+		"controller.animation.plainzombie.death": {
+			"initial_state": "dead",
+			"states": {
+				"default": {
+					"transitions": [
+						{"dead": "!q.is_alive"}
+						
+					]
+				},
+				"dead": {
+					"animations": ["death_rot","dead"],
+					"on_entry": [
+						"/particle nba:cloud_red_explosion ~~1~",
+						"/summon xp_orb ~ ~0.2 ~",
+						"/summon xp_orb ~ ~0.2 ~",
+						"/summon xp_orb ~ ~0.2 ~"
+					],
+					"transitions": [
+						{"default": "q.is_alive"}
+					]
+				}
+			}
+		},
+
+		"controller.animation.plainzombie.corpse" : {
+			"initial_state" : "dead",
+			"states" : {
+				"dead": {
+					"animations": ["dead"],
+					"transitions":[
+                        {"deadfall": "!q.is_on_ground && query.all_animations_finished"},
+						{"deadground": "q.is_on_ground && query.all_animations_finished"}
+                    ],
+					"blend_transition":0.1
+                },
+				"deadfall": {
+					"animations": ["deadfalling"],
+					"transitions":[
+                        {"deadground": "q.is_on_ground "}
+                    ],
+					"blend_transition":0.1,
+					"blend_via_shortest_path": true
+                },
+				"deadground": {
+					"animations": [
+						{"deadground": "variable.animation.deadg == 1"},
+						{"deadground2": "variable.animation.deadg == 2"},
+						{"deadground3": "variable.animation.deadg == 3"}
+					],
+					"on_entry": ["variable.animation.deadg = math.random_integer(1, 3);"]
+                }
+			}
+		},
+
+		"controller.animation.mineralzombie.corpse1" : {
+			"initial_state" : "deadfall",
+			"states" : {
+				"deadfall": {
+					"animations": [
+						{"deadground": "variable.animation.mdeadfall == 1"},
+						{"deadground2": "variable.animation.mdeadfall == 2"}
+					],
+					"on_entry": ["variable.animation.mdeadfall = math.random_integer(1, 2);"],
+					"blend_transition":0.1,
+					"blend_via_shortest_path": true
+                }
+			}
+		}
+	}
+}

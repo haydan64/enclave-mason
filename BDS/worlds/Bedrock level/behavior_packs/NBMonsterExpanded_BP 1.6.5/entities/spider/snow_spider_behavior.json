@@ -1,0 +1,763 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "nba:snow_spider",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			
+			"nba:spidertype1":{
+				"minecraft:variant": {
+					"value": 0
+				  },
+				  "minecraft:movement": {
+					"value": 0.3
+				},
+				"minecraft:attack": {
+					"damage": 3,
+					"effect_name": "slowness",
+					"effect_duration": 7
+				},
+				
+				"minecraft:environment_sensor": {
+					"triggers": [
+                        {
+							"filters":{
+								"all_of":[
+									{ "test": "weather", "operator": "!=", "value": "clear" },
+									{ "test": "in_water_or_rain", "operator": "!=", "value": true }
+								]
+							},
+							"event": "sspider"
+						}
+                    ]
+				},
+				"minecraft:on_death": {
+					"event": "corpse1",
+					"target": "self"
+				}
+
+			},
+			"nba:spidertype2":{
+				"minecraft:variant": {
+					"value": 1
+				  },
+				  "minecraft:movement": {
+					"value": 0.3
+				},
+				"minecraft:attack": {
+					"damage": 3,
+					"effect_name": "slowness",
+					"effect_duration": 7
+				},
+				
+				"minecraft:environment_sensor": {
+					"triggers": [
+                        {
+							"filters":{
+								"all_of":[
+									{ "test": "weather", "operator": "!=", "value": "clear" },
+									{ "test": "in_water_or_rain", "operator": "!=", "value": true }
+								]
+							},
+							"event": "sspider2"
+						}
+                    ]
+				},
+				"minecraft:on_death": {
+					"event": "corpse2",
+					"target": "self"
+				}
+
+			},
+			"nba:spidertype3":{
+				"minecraft:variant": {
+					"value": 2
+				  },
+				  "minecraft:movement": {
+					"value": 0.3
+				},
+				"minecraft:attack": {
+					"damage": 3,
+					"effect_name": "slowness",
+					"effect_duration": 7
+				},
+				
+				"minecraft:environment_sensor": {
+					"triggers": [
+                        {
+							"filters":{
+								"all_of":[
+									{ "test": "weather", "operator": "!=", "value": "clear" },
+									{ "test": "in_water_or_rain", "operator": "!=", "value": true }
+								]
+							},
+							"event": "sspider3"
+						}
+                    ]
+				},
+				"minecraft:on_death": {
+					"event": "corpse3",
+					"target": "self"
+				}
+
+			},
+			"nba:spidertype4":{
+				"minecraft:variant": {
+					"value": 3
+				  },
+				  "minecraft:movement": {
+					"value": 0.3
+				},
+				"minecraft:attack": {
+					"damage": 3,
+					"effect_name": "slowness",
+					"effect_duration": 7
+				},
+				"minecraft:environment_sensor": {
+					"triggers": [
+                        {
+							"filters":{
+								"all_of":[
+									{ "test": "weather", "operator": "!=", "value": "clear" },
+									{ "test": "in_water_or_rain", "operator": "!=", "value": true }
+								]
+							},
+							"event": "sspider4"
+						}
+                    ]
+				},
+				"minecraft:on_death": {
+					"event": "corpse4",
+					"target": "self"
+				}
+
+			},
+
+			"nba:sspidertype1":{
+				"minecraft:variant": {
+					"value": 4
+				  },
+				  "minecraft:movement": {
+					"value": 0.37
+				},
+				"minecraft:attack": {
+					"damage": 4,
+					"effect_name": "slowness",
+					"effect_duration": 12
+				},
+				"minecraft:environment_sensor": {
+					"triggers": [
+                        {
+							"filters":{
+								"all_of":[
+									{
+										"any_of": [
+											{ "test": "weather", "operator": "==", "value": "clear" },
+											{ "test": "in_water_or_rain", "operator": "==", "value": true }
+										]
+									}	
+								]
+							},
+							"event": "spider"
+						}
+                    ]
+				},
+				"minecraft:on_death": {
+					"event": "zcorpse1",
+					"target": "self"
+				}
+
+			},
+			"nba:sspidertype2":{
+				"minecraft:variant": {
+					"value": 5
+				  },
+				  "minecraft:movement": {
+					"value": 0.37
+				},
+				"minecraft:attack": {
+					"damage": 4,
+					"effect_name": "slowness",
+					"effect_duration": 10
+				},
+				"minecraft:environment_sensor": {
+					"triggers": [
+                        {
+							"filters":{
+								"all_of":[
+									{
+										"any_of": [
+											{ "test": "weather", "operator": "==", "value": "clear" },
+											{ "test": "in_water_or_rain", "operator": "==", "value": true }
+										]
+									}	
+								]
+							},
+							"event": "spider2"
+						}
+                    ]
+				},
+				"minecraft:on_death": {
+					"event": "zcorpse2",
+					"target": "self"
+				}
+
+			},
+			"nba:sspidertype3":{
+				"minecraft:variant": {
+					"value": 6
+				  },
+				  "minecraft:movement": {
+					"value": 0.37
+				},
+				"minecraft:attack": {
+					"damage": 4,
+					"effect_name": "slowness",
+					"effect_duration": 10
+				},
+				"minecraft:environment_sensor": {
+					"triggers": [
+                        {
+							"filters":{
+								"all_of":[
+									{
+										"any_of": [
+											{ "test": "weather", "operator": "==", "value": "clear" },
+											{ "test": "in_water_or_rain", "operator": "==", "value": true }
+										]
+									}	
+								]
+							},
+							"event": "spider3"
+						}
+                    ]
+				},
+				"minecraft:on_death": {
+					"event": "zcorpse3",
+					"target": "self"
+				}
+
+			},
+			"nba:sspidertype4":{
+				"minecraft:variant": {
+					"value": 7
+				  },
+				  "minecraft:movement": {
+					"value": 0.37
+				},
+				"minecraft:attack": {
+					"damage": 4,
+					"effect_name": "slowness",
+					"effect_duration": 10
+				},
+				"minecraft:environment_sensor": {
+					"triggers": [
+                        {
+							"filters":{
+								"all_of":[
+									{
+										"any_of": [
+											{ "test": "weather", "operator": "==", "value": "clear" },
+											{ "test": "in_water_or_rain", "operator": "==", "value": true }
+										]
+									}	
+								]
+							},
+							"event": "spider4"
+						}
+                    ]
+				},
+				"minecraft:on_death": {
+					"event": "corpse4",
+					"target": "self"
+				}
+
+			},
+
+			"nbadead1": {
+				"minecraft:transformation": {
+					"delay": 0,
+					"into": "nba:snow_spider_corpse<nba:corpse1>"
+				  }
+			},
+			"nbadead2": {
+				"minecraft:transformation": {
+					"delay": 0,
+					"into": "nba:snow_spider_corpse<nba:corpse2>"
+				  }
+			},
+			"nbadead3": {
+				"minecraft:transformation": {
+					"delay": 0,
+					"into": "nba:snow_spider_corpse<nba:corpse3>"
+				  }
+			},
+			"nbadead4": {
+				"minecraft:transformation": {
+					"delay": 0,
+					"into": "nba:snow_spider_corpse<nba:corpse4>"
+				  }
+			},
+
+			"znbadead1": {
+				"minecraft:transformation": {
+					"delay": 0,
+					"into": "nba:snow_spider_corpse<znba:corpse1>"
+				  }
+			},
+			"znbadead2": {
+				"minecraft:transformation": {
+					"delay": 0,
+					"into": "nba:snow_spider_corpse<znba:corpse2>"
+				  }
+			},
+			"znbadead3": {
+				"minecraft:transformation": {
+					"delay": 0,
+					"into": "nba:snow_spider_corpse<znba:corpse3>"
+				  }
+			},
+			"znbadead4": {
+				"minecraft:transformation": {
+					"delay": 0,
+					"into": "nba:snow_spider_corpse<znba:corpse4>"
+				  }
+			},
+
+			"nba:stunned":{
+				"minecraft:is_stunned":{},
+				"minecraft:timer": {
+				  "looping": false,
+				  "time": 0.5,
+				  "time_down_event": {
+					"event": "notstunned"
+				  }
+				}
+			}
+
+
+		},
+		"components": {
+			"minecraft:behavior.delayed_attack": {
+				"priority": 3,
+				"track_target": true,
+				"attack_duration": 0.83,
+				"speed_multiplier": 1,
+				"reach_multiplier": 2
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+				  {
+					"on_damage": {
+					  "filters": {
+						"all_of": [
+						  { "test": "has_damage", "value": "attack" },
+						  { "test": "has_component", "subject": "self", "operator": "!=", "value": "minecraft:is_stunned" }
+						]
+					  },
+					  "event": "stunned"
+					},
+					"deals_damage": true
+				  }
+				]
+			  },
+			"minecraft:is_hidden_when_invisible": {
+			},
+			"minecraft:experience_reward": {
+				"on_death": "query.last_hit_by_player ? 5 : 0"
+			},
+			"minecraft:nameable": {},
+			"minecraft:type_family": {
+				"family": ["spider", "monster", "mob", "arthropod"]
+			},
+			"minecraft:behavior.leap_at_target": {
+				"priority": 4,
+				"yd": 0.4,
+				"must_be_on_ground": false
+			},
+			"minecraft:behavior.melee_attack": {
+				"priority": 3,
+				"track_target": true,
+				"reach_multiplier": 0.8
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/spider.json"
+			},
+			"minecraft:collision_box": {
+				"width": 1,
+				"height": 0.5
+			},
+			"minecraft:custom_hit_test": {
+				"hitboxes": [
+					{
+						"width": 1,
+						"height": 0.5,
+						"pivot": [0, 0.55, 0]
+					}
+				]
+			},
+			"minecraft:health": {
+				"value": 16,
+				"max": 16
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 2,
+				"must_see": true,
+				"reselect_targets": true,
+				"within_radius": 25,
+				"must_see_forget_duration": 17,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "player"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "snowgolem"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "irongolem"
+								}
+							]
+						},
+						"max_dist": 35
+					}
+				]
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			
+			"minecraft:navigation.climb": {
+				"can_path_over_water": false,
+				"avoid_water": true
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:can_climb": {},
+			
+			"minecraft:despawn": {
+				"despawn_from_distance": {}
+			},
+			"minecraft:behavior.float": {
+				"priority": 5
+			},
+			"minecraft:behavior.mount_pathing": {
+				"priority": 5,
+				"speed_multiplier": 1.25,
+				"target_dist": 0,
+				"track_target": true
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 6,
+				"speed_multiplier": 0.8
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 7,
+				"look_distance": 6,
+				"probability": 0.02
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 7
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 1
+			},
+			
+			"minecraft:rideable": {
+				"seat_count": 1,
+				"family_types": ["zombie"],
+				"seats": {
+					"position": [0, 0.54, -0.1]
+				}
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"randomize": [
+					{
+						"weight": 20,
+						"remove": {},
+						"add": {
+							"component_groups": ["nba:spidertype1","minecraft:spider_neutral"]
+						}
+					},
+					{
+						"weight": 40,
+						"remove": {},
+						"add": {
+							"component_groups": ["nba:spidertype2","minecraft:spider_neutral"]
+						}
+					},
+					{
+						"weight": 40,
+						"remove": {},
+						"add": {
+							"component_groups": ["nba:spidertype3","minecraft:spider_neutral"]
+						}
+					},
+					{
+						"weight": 20,
+						"remove": {},
+						"add": {
+							"component_groups": ["nba:spidertype4","minecraft:spider_neutral"]
+						}
+					}
+				]
+			},
+			"sspider": {
+				"remove": {
+					"component_groups": ["nba:spidertype1"]
+				},
+				"add": {
+					"component_groups": ["nba:sspidertype1"]
+				}
+			},
+			"sspider2": {
+				"remove": {
+					"component_groups": ["nba:spidertype2"]
+				},
+				"add": {
+					"component_groups": ["nba:sspidertype2"]
+				}
+			},
+			"sspider3": {
+				"remove": {
+					"component_groups": ["nba:spidertype3"]
+				},
+				"add": {
+					"component_groups": ["nba:sspidertype3"]
+				}
+			},
+			"sspider4": {
+				"remove": {
+					"component_groups": ["nba:spidertype4"]
+				},
+				"add": {
+					"component_groups": ["nba:sspidertype4"]
+				}
+			},
+
+			"spider": {
+				"remove": {
+					"component_groups": ["nba:sspidertype"]
+					
+				},
+				"add": {
+					"component_groups": ["nba:spidertype"]
+				}
+			},
+			"spider2": {
+				"remove": {
+					"component_groups": ["nba:sspidertype2"]
+					
+				},
+				"add": {
+					"component_groups": ["nba:spidertype2"]
+				}
+			},
+			"spider3": {
+				"remove": {
+					"component_groups": ["nba:sspidertype3"]
+					
+				},
+				"add": {
+					"component_groups": ["nba:spidertype3"]
+				}
+			},
+			"spider4": {
+				"remove": {
+					"component_groups": ["nba:sspidertype4"]
+				},
+				"add": {
+					
+					"component_groups": ["nba:spidertype4"]
+				}
+			},
+
+			"stunned": {
+				"add": {
+				  "component_groups": [
+					"nba:stunned"
+				  ]
+				}
+			},
+			"notstunned": {
+				"remove": {
+				  "component_groups": [
+					"nba:stunned"
+				  ]
+				}
+			},
+			"corpse1": {
+				"queue_command": {
+					"command": [
+						"particle nba:cloud_cyan_explosion ~~1~",
+						"summon xp_orb ~ ~0.2 ~",
+						"summon xp_orb ~ ~0.2 ~",
+						"summon xp_orb ~ ~0.2 ~",
+						"event entity @s corpseeffect1"
+					]
+				}
+			},
+			"corpseeffect1":{
+				"add": {
+					"component_groups": [
+					  "nbadead1"
+					]
+				  }
+			},
+			"corpse2": {
+				"queue_command": {
+					"command": [
+						"particle nba:cloud_cyan_explosion ~~1~",
+						"summon xp_orb ~ ~0.2 ~",
+						"summon xp_orb ~ ~0.2 ~",
+						"summon xp_orb ~ ~0.2 ~",
+						"event entity @s corpseeffect2"
+					]
+				}
+			},
+			"corpseeffect2":{
+				"add": {
+					"component_groups": [
+					  "nbadead2"
+					]
+				  }
+			},
+			"corpse3": {
+				"queue_command": {
+					"command": [
+						"particle nba:cloud_cyan_explosion ~~1~",
+						"summon xp_orb ~ ~0.2 ~",
+						"summon xp_orb ~ ~0.2 ~",
+						"summon xp_orb ~ ~0.2 ~",
+						"event entity @s corpseeffect3"
+					]
+				}
+			},
+			"corpseeffect3":{
+				"add": {
+					"component_groups": [
+					  "nbadead3"
+					]
+				  }
+			},
+			"corpse4": {
+				"queue_command": {
+					"command": [
+						"particle nba:cloud_cyan_explosion ~~1~",
+						"summon xp_orb ~ ~0.2 ~",
+						"summon xp_orb ~ ~0.2 ~",
+						"summon xp_orb ~ ~0.2 ~",
+						"event entity @s corpseeffect4"
+					]
+				}
+			},
+			"corpseeffect4":{
+				"add": {
+					"component_groups": [
+					  "nbadead4"
+					]
+				  }
+			},
+			"zcorpse1": {
+				"queue_command": {
+					"command": [
+						"particle nba:cloud_cyan_explosion ~~1~",
+						"summon xp_orb ~ ~0.2 ~",
+						"summon xp_orb ~ ~0.2 ~",
+						"summon xp_orb ~ ~0.2 ~",
+						"event entity @s zcorpseeffect1"
+					]
+				}
+			},
+			"zcorpseeffect2":{
+				"add": {
+					"component_groups": [
+					  "znbadead2"
+					]
+				  }
+			},
+			"zcorpse2": {
+				"queue_command": {
+					"command": [
+						"particle nba:cloud_cyan_explosion ~~1~",
+						"summon xp_orb ~ ~0.2 ~",
+						"summon xp_orb ~ ~0.2 ~",
+						"summon xp_orb ~ ~0.2 ~",
+						"event entity @s zcorpseeffect2"
+					]
+				}
+			},
+			"zcorpseeffect3":{
+				"add": {
+					"component_groups": [
+					  "znbadead3"
+					]
+				  }
+			},
+			"zcorpse3": {
+				"queue_command": {
+					"command": [
+						"particle nba:cloud_cyan_explosion ~~1~",
+						"summon xp_orb ~ ~0.2 ~",
+						"summon xp_orb ~ ~0.2 ~",
+						"summon xp_orb ~ ~0.2 ~",
+						"event entity @s zcorpseeffect3"
+					]
+				}
+			},
+			"zcorpseeffect4":{
+				"add": {
+					"component_groups": [
+					  "znbadead4"
+					]
+				  }
+			},
+			"zcorpse4": {
+				"queue_command": {
+					"command": [
+						"particle nba:cloud_cyan_explosion ~~1~",
+						"summon xp_orb ~ ~0.2 ~",
+						"summon xp_orb ~ ~0.2 ~",
+						"summon xp_orb ~ ~0.2 ~",
+						"event entity @s zcorpseeffect4"
+					]
+				}
+			}
+
+		}
+	}
+}

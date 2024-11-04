@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:ruby_gladius"
+		},
+
+    
+		"tags": [ "ruby_blueprint" ],
+		"pattern": [
+			" L",
+			"/ "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:ruby_longblade"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:ruby_blueprint"
+			}
+		],
+		"result": { "item": "hax:ruby_gladius" }
+	}
+}

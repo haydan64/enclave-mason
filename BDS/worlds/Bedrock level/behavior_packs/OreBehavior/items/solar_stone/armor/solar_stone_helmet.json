@@ -1,0 +1,49 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "fantasy:solar_stone_helmet",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "solar_stone_helmet.png"
+            },
+            "minecraft:display_name": {},
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.helmet"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": true,
+            "minecraft:render_offsets": "helmets",
+            "minecraft:enchantable": {
+                "value": 6,
+                "slot": "armor_head"
+            },
+            "minecraft:armor": {
+                "protection": 5
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.head"
+            },
+            "minecraft:durability": {
+                "max_durability": 714,
+                "damage_chance": {
+                    "min": 90,
+                    "max": 100
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "fantasy:solar_stone_helmet",
+                            "fantasy:solar_stone"
+                            ],
+                            "repair_amount": 390
+                    }
+                ]
+            }
+        }
+    }
+}

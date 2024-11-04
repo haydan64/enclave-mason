@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:ruby_claymore"
+		},
+
+    
+		"tags": [ "ruby_blueprint" ],
+		"pattern": [
+			"  H",
+			"BP ",
+			"/B "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:ruby_axehead"
+			},
+			"P": {
+				"item": "hax:ruby_plating"
+			},
+			"B": {
+				"item": "hax:ruby_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:ruby_blueprint"
+			}
+		],
+		"result": { "item": "hax:ruby_claymore" }
+	}
+}

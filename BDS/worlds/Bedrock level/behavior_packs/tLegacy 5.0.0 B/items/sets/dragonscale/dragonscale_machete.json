@@ -1,0 +1,47 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.axe"
+			},
+			"identifier": "hax:dragonscale_machete"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Dragonscale Machete\n§7Abyssal"
+			},
+			"minecraft:icon": {
+				"texture": "hax:dragonscale_machete"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 6,
+			"minecraft:enchantable": {
+				"value": 24,
+				"slot": "axe"
+			},
+			"minecraft:durability": {
+				"max_durability": 1976
+			},
+			"minecraft:repairable":{
+				"repair_items": [
+					{
+						"items": [
+							"hax:dragonscale_machete"
+						],
+						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+					},
+					{
+						"items": [
+							"hax:scale_cluster"
+						],
+						"repair_amount": "context.other->query.max_durability * 0.25" //493
+					}
+				]
+			},
+			"minecraft:can_destroy_in_creative": false
+		}
+	}
+}

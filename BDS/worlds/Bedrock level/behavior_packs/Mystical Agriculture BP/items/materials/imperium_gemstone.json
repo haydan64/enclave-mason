@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:imperium_gemstone",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "imperium_gemstone"
+			},
+			"minecraft:display_name": {
+				"value": "Imperium Gemstone"
+			}
+		}
+	}
+}

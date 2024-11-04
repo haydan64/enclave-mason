@@ -1,0 +1,66 @@
+Master BDS Manager Docs
+Version: 1
+
+
+Config:
+-General
+	"auto-start-bds" determines if the minecraft server will start automatically.
+		-Boolean
+		-If false, bds will have to be started via control panel or command.
+
+-Auto-Backup:
+	"auto-backup" is the number of hours between backups.
+		-May be a float.
+		-If zero backups will be disabled.
+		-Default is 0
+
+	"min-backup-age" is the age in days that all backups will be kept before some
+	of them will be destroyed. (ALL backups are kepts for this amount of days)
+		-Must be a positive integer
+		-If zero all the backups will be kept (until max-backup-age)
+			
+	"max-backup-age" is the age in days that all backups in which all backups will
+	be destroyed. (ALL backups are destroyed after this amount of days)
+		-Must be a positive integer
+		-If zero old backups won't be deleted.
+
+	"backup-directory" is the directory to store the backups.
+		-Must be a string
+		-Default is "./backups"
+		-The directory WON'T be automatically generated.
+
+-Control Panel:
+	"enable-control-panel"
+		-Must be boolean
+		-Default is true
+
+	"https-key"
+		-Must lead to the .pem file with the domains's private key.
+		-It is important to settup these so that passwords transmitted are secure and encrypted.
+		-(If expired, run 'certbot renew' to renew)
+
+	"https-cert"
+		-Must lead to the .pem file with the domain's fullchain certificate.
+		-It is important to settup this so that nobody can impersonate the website and fish passwords.
+		-(If expired, run 'certbot renew' to renew)
+
+
+
+Commands:
+	reloadConfig
+		-will reload the config
+		-Not all values will be reloaded, and may need a restart.
+
+	backup
+		-will create a backup.
+		-Backup is saved to the directory specified in the config.
+
+	createUser
+		-creates a user that can use the control panel.
+		-takes a username as a parameter.
+		-will followup asking for a password.
+	changePassword
+		-changes the username of a user.
+		-takes a username
+		-will followup asking for a password
+		-Changing password also gens a new authToken.

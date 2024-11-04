@@ -1,0 +1,50 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			},
+			"identifier": "hax:wood_greatsword"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Wooden Greatsword"
+			},
+			"minecraft:icon": {
+				"texture": "hax:wood_greatsword"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 6,
+			"minecraft:enchantable": {
+				"value": 15,
+				"slot": "sword"
+			},
+			"minecraft:durability": {
+				"max_durability": 73
+			},
+			"minecraft:repairable":{
+				"repair_items": [
+					{
+						"items": [
+							"hax:wood_greatsword"
+						],
+						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+					},
+					{
+						"items": [
+							"minecraft:planks",
+							"minecraft:crimson_planks",
+							"minecraft:warped_planks",
+							"minecraft:mangrove_planks"
+						],
+						"repair_amount": "context.other->query.max_durability * 0.25" //18
+					}
+				]
+			},
+			"minecraft:can_destroy_in_creative": false
+		}
+	}
+}

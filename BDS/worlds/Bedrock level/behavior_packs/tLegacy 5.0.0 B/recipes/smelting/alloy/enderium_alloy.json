@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "hax:enderium_alloy"
+    },
+
+    
+    "tags": ["blast_furnace"],
+    "input": "hax:enderium_blend",
+    "output": "hax:enderium_ingot"
+  }
+  
+}

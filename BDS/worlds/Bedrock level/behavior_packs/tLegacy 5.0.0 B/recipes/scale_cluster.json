@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:scale_cluster"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "##",
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "hax:scale_shard"
+      }
+    },
+    
+    "unlock": [
+      {
+        "item": "hax:scale_shard"
+      }
+    ],
+    "result": {
+      "item": "hax:scale_cluster"
+    }
+  }
+}

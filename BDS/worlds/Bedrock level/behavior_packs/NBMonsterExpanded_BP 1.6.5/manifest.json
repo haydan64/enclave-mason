@@ -1,0 +1,45 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "NB Monster Expanded Behavior 1.6.5",
+		"description": "Add more monster to the game!",
+		"uuid": "f60572d8-a5e6-4cc3-8904-9608edb2c5af",
+		"version": [1, 0, 0],
+		"min_engine_version": [1, 20, 70]
+	},
+	"metadata": {
+		"authors": ["Nuwan04"],
+		"generated_with": {
+			"blockbench_entity_wizard": ["1.0.8"]
+		}
+	},
+	"dependencies": [
+		{
+			"uuid": "8195f814-e54f-43eb-a1bd-4bb826f4de07",
+			"version": [1, 0, 0]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.14.0"
+		}
+	],
+	"modules": [
+		{
+			"description": "Behavior",
+			"version": [1, 0, 0],
+			"uuid": "0c5d3677-a954-4e70-96c4-e7a7dce666ea",
+			"type": "data"
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "8c69e009-b32d-4a39-8fdd-4784dfe1ad19",
+			"entry": "scripts/index.js",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:wood_gladius"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" L",
+			"/ "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:wood_longblade"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:wooden_shavings"
+			}
+		],
+		"result": { "item": "hax:wood_gladius" }
+	}
+}

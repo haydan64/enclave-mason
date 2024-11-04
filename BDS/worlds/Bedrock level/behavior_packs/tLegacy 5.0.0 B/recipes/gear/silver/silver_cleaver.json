@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:silver_cleaver"
+		},
+
+    
+		"tags": [ "silver_blueprint" ],
+		"pattern": [
+			" SS",
+			"BP ",
+			"/  "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:silver_shortblade"
+			},
+			"B": {
+				"item": "hax:silver_bar"
+			},
+			"P": {
+				"item": "hax:silver_plating"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:silver_blueprint"
+			}
+		],
+		"result": { "item": "hax:silver_cleaver" }
+	}
+}

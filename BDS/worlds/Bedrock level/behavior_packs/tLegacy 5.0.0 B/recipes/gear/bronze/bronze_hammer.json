@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:bronze_hammer"
+		},
+
+    
+		"tags": [ "bronze_blueprint" ],
+		"pattern": [
+			"PIP",
+			" / ",
+			" / "
+		],
+
+		"key": {
+			"P": {
+				"item": "hax:bronze_plating"
+			},
+			"I": {
+				"item": "hax:bronze_ingot"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:bronze_blueprint"
+			}
+		],
+		"result": { "item": "hax:bronze_hammer" }
+	}
+}

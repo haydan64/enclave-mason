@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:prismarine_agglomeratio",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "prismarine_agglomeratio"
+			},
+			"minecraft:display_name": {
+				"value": "Prismarine Agglomeratio"
+			}
+		}
+	}
+}

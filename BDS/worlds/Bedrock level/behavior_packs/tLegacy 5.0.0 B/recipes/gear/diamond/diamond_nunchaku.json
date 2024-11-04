@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:diamond_nunchaku"
+		},
+
+    
+		"tags": [ "diamond_blueprint" ],
+		"pattern": [
+			"/B",
+			"BI",
+			"/ "
+		],
+
+		"key": {
+			"B": {
+				"item": "hax:diamond_bar"
+			},
+			"I": {
+				"item": "minecraft:diamond"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:diamond_blueprint"
+			}
+		],
+		"result": { "item": "hax:diamond_nunchaku" }
+	}
+}

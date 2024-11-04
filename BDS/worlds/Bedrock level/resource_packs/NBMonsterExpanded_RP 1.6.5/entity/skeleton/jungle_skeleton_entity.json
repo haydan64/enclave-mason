@@ -1,0 +1,56 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:jungle_skeleton",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"default": "textures/entity/skeleton/jungle_skeleton/skeleton",
+				"default2": "textures/entity/skeleton/jungle_skeleton/skeleton2",
+				"default3": "textures/entity/skeleton/jungle_skeleton/skeleton3",
+				"default4": "textures/entity/skeleton/jungle_skeleton/skeleton4",
+				"default5": "textures/entity/skeleton/jungle_skeleton/skeleton5"
+			},
+			"geometry": {
+				"default": "geometry.skeletonv2"
+			},
+			"hide_armor": false,
+			"spawn_egg": {
+				"base_color": "#4d6e43",
+				"overlay_color": "#18801d"
+			},
+			"scripts": {
+				"animate": [
+					"controller",
+					"controllerdead"
+				  ]
+			},
+			"animations": {
+				"controller" : "controller.animation.skeletonv2",
+				"controllerdead": "controller.animation.skeletonv2.death",
+				"look_at_target": "animation.common.look_at_target",
+				"idle" : "animation.skeletonv2.idle",
+				"walk" : "animation.skeletonv2.walk",
+				"walkwatermelee" : "animation.skeletonv2.walkwatermelee",
+				"walkwaterrange" : "animation.skeletonv2.walkwaterranged",
+				"rangeattackmove": "animation.skeletonv2.longrangeattackmove",
+				"meleeattack": "animation.skeletonv2.meleeattack",
+				"meleeattack2": "animation.skeletonv2.meleeattack2",
+				"meleeattack3": "animation.skeletonv2.meleeattack3",
+				"rangeattack": "animation.skeletonv2.longrangeattack",
+				"meleeattackstun1": "animation.skeletonv2.meleeattackstun",
+				"rangeattackstun1": "animation.skeletonv2.longrangestun",
+				"deathrot": "animation.skeletonv2.deathrot",
+				"dead": "animation.skeletonv2.dead",
+				"riding": "animation.skeletonv2.riding",
+				"ridingstun": "animation.skeletonv2.ridingstun"
+
+			},
+			"render_controllers": ["controller.render.fivevariant"],
+			"enable_attachables": true
+		}
+	}
+}

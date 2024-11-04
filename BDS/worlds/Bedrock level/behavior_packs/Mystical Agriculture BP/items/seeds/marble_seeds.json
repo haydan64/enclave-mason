@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:marble_seeds",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.seed"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "marble_seeds"
+			},
+			"minecraft:display_name": {
+				"value": "Marble Seeds\n§7Tier: §e1§r"
+			},
+			"minecraft:block_placer": {
+				"block": "strat:marble_crop"
+			}
+		}
+	}
+}

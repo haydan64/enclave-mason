@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:alt_lead_nugget"
+    },
+
+    
+    "tags": [ "lead_blueprint" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "hax:lead_ingot"
+      }
+    },
+    "unlock": [
+			{
+				"item": "hax:lead_blueprint"
+			}
+		],
+    "result": {
+      "item": "hax:lead_nugget",
+      "count": 4
+    }
+  }
+}

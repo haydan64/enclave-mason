@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 Not Found</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .box {
+            background-color: grey;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px 2px aquamarine;
+            color: rgb(0, 255, 4);
+            color: rgb(0, 242, 255);
+            color: rgb(203, 33, 33);
+            color: rgb(200, 0, 210);
+            color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+    </div>
+</body>
+<script>
+    /**
+    * @typedef {Object} Avatar_Decoration_Data
+    * @property {String} asset
+    * @property {String} sku_id
+    * @property {String | Date | null} expires_at
+    */
+    
+    /**
+    * @typedef {Object} Discord
+    * @property {BigInt} ID
+    * @property {String} username
+    * @property {String} avatar
+    * @property {String} discriminator
+    * @property {String | null} banner
+    * @property {String | null} accentColor
+    * @property {String | null} globalName
+    * @property {Avatar_Decoration_Data} avatarDecorationData
+    * @property {String | null} bannerColor
+    * @property {String | null} clan
+    * @property {String | null} locale
+    * @property {String | null} avatarDecorationData
+    */
+    /**
+    * @typedef {Object} Minecraft
+    * @property {BigInt} XUID
+    * @property {String} username
+    */
+    /**
+    * @typedef {Object} User
+    * @property {Discord} Discord
+    * @property {Minecraft} Minecraft
+    */
+    
+    /**
+    * @type {User}
+    */
+    
+    /**
+    * @type {User | null}
+    */
+    const User = "<Inject>ServerAuthedUser</Inject>";
+
+    document.write("Hello " + User.Discord.username + "!");
+    
+</script>
+
+</html>

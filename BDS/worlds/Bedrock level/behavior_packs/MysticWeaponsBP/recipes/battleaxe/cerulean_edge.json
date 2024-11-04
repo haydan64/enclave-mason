@@ -1,0 +1,25 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mystic:cerulean_edge"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "##",
+            "#S",
+            " S"
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:stick"
+            },
+            "#": {
+                "item": "item:water_stone_shard"
+            }
+        },
+        "result": {
+            "item": "mystic:cerulean_edge"
+        }
+    }
+}

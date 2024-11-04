@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:steel_battleaxe"
+		},
+
+    
+		"tags": [ "steel_blueprint" ],
+		"pattern": [
+			"HPH",
+			" / ",
+			" / "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:steel_axehead"
+			},
+			"P": {
+				"item": "hax:steel_plating"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:steel_blueprint"
+			}
+		],
+		"result": { "item": "hax:steel_battleaxe" }
+	}
+}

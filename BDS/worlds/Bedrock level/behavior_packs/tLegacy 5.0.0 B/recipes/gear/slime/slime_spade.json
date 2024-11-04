@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:slime_spade"
+		},
+
+    
+		"tags": [ "slime_blueprint" ],
+		"pattern": [
+			" IH",
+			" /I",
+			"/  "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:slime_spadehead"
+			},
+			"I": {
+				"item": "minecraft:slime"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:slime_blueprint"
+			}
+		],
+		"result": { "item": "hax:slime_spade" }
+	}
+}

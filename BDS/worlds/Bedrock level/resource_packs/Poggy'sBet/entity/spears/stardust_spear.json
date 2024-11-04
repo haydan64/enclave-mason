@@ -1,0 +1,28 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "better_on_bedrock:thrown_stardust_spear",
+			"geometry": {
+				"default": "geometry.stone_spear_item"
+			},
+			"textures": {
+				"default": "textures/entity/spears/stardust_spear"
+			},
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"render_controllers": [
+				"controller.render.better_on_bedrock.my_thrown_trident"
+			],
+			"animations": {
+				"rotate": "animation.better_on_bedrock.spear.rotate"
+			},
+			"scripts": {
+				"animate": [
+					"rotate"
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.life.crystal" : {
+			"initial_state" : "default",
+			"states" : {
+				"default": {
+					"animations": ["default"],
+					"particle_effects" : [
+						{
+							"effect" : "particle",
+							"locator" : "locator"
+						},
+						{
+							"effect" : "particle2",
+							"locator" : "locator2"
+						}
+					]
+                }
+			}
+		}
+	}
+}

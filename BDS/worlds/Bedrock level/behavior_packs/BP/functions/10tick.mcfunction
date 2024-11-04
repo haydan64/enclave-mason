@@ -1,0 +1,1 @@
+execute as @e [type=enclave:agriculture_tnt] at @s run particle enclave:tnt_particles ~ ~ ~

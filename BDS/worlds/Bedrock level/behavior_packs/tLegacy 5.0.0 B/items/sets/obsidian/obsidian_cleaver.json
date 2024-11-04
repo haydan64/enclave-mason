@@ -1,0 +1,47 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			},
+			"identifier": "hax:obsidian_cleaver"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Obsidian Cleaver\n§7Necrotic I"
+			},
+			"minecraft:icon": {
+				"texture": "hax:obsidian_cleaver"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 7,
+			"minecraft:enchantable": {
+				"value": 7,
+				"slot": "sword"
+			},
+			"minecraft:durability": {
+				"max_durability": 207
+			},
+			"minecraft:repairable":{
+				"repair_items": [
+					{
+						"items": [
+							"hax:obsidian_cleaver"
+						],
+						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+					},
+					{
+						"items": [
+							"minecraft:obsidian"
+						],
+						"repair_amount": "context.other->query.max_durability * 0.25" //47
+					}
+				]
+			},
+			"minecraft:can_destroy_in_creative": false
+		}
+	}
+}

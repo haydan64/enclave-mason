@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:steel_leggings"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "AAA",
+            "A A",
+            "A A"
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:steel"
+            }
+        },
+        "result": {
+            "item": "fantasy:steel_leggings"
+        }
+    }
+}

@@ -1,0 +1,199 @@
+{
+    "fantasy:moonstone_block": {
+        "textures": "fantasy_moonstone_block",
+        "sound": "metal"
+    },
+    "fantasy:ospherestone_block": {
+        "textures": "fantasy_ospherestone_block",
+        "sound": "metal"
+    },
+    "fantasy:solarstone_block": {
+        "textures": "fantasy_solarstone_block",
+        "sound": "metal"
+    },
+    "fantasy:solarstone_ore": {
+        "textures": "fantasy_solarstone_ore",
+        "sound": "stone"
+    },
+    "fantasy:moonstone_ore": {
+        "textures": "fantasy_moonstone_ore",
+        "sound": "stone"
+    },
+    "fantasy:ospherestone_ore": {
+        "textures": "fantasy_ospherestone_ore",
+        "sound": "stone"
+    },
+    "fantasy:burningstone_ore": {
+        "textures": "fantasy_burningstone_ore",
+        "sound": "stone"
+    },
+    "fantasy:ruby_ore": {
+        "textures": "ruby_ore",
+        "sound": "stone"
+    },
+    "fantasy:ruby_block": {
+        "textures": "ruby_block",
+        "sound": "metal"
+    },
+    "fantasy:sapphire_ore": {
+        "textures": "sapphire_ore",
+        "sound": "stone"
+    },
+    "fantasy:sapphire_block": {
+        "textures": "sapphire_block",
+        "sound": "metal"
+    },
+    "fantasy:jade_ore": {
+        "textures": "jade_ore",
+        "sound": "stone"
+    },
+    "fantasy:jade_block": {
+        "textures": "jade_block",
+        "sound": "metal"
+    },
+    "fantasy:jade_dirt": {
+        "textures": "jade_dirt",
+        "sound": "stone"
+    },
+    "fantasy:spinel_ore": {
+        "textures": "spinel_ore",
+        "sound": "stone"
+    },
+    "fantasy:spinel_block": {
+        "textures": "spinel_block",
+        "sound": "metal"
+    },
+    "fantasy:peridot_ore": {
+        "textures": "peridot_ore",
+        "sound": "stone"
+    },
+    "fantasy:peridot_block": {
+        "textures": "peridot_block",
+        "sound": "metal"
+    },
+    "fantasy:aquamarine_ore": {
+        "textures": "aquamarine_ore",
+        "sound": "stone"
+    },
+    "fantasy:aquamarine_block": {
+        "textures": "aquamarine_block",
+        "sound": "metal"
+    },
+    "fantasy:bismuth_ore": {
+        "textures": "bismuth_ore",
+        "sound": "stone"
+    },
+    "fantasy:bismuth_block": {
+        "textures": "bismuth_block",
+        "sound": "metal"
+    },
+    "fantasy:onyx_ore": {
+        "textures": "onyx_ore",
+        "sound": "stone"
+    },
+    "fantasy:onyx_block": {
+        "textures": "onyx_block",
+        "sound": "metal"
+    },
+    "fantasy:opal_ore": {
+        "textures": "opal_ore",
+        "sound": "stone"
+    },
+    "fantasy:opal_block": {
+        "textures": "opal_block",
+        "sound": "metal"
+    },
+    "fantasy:sulfur_ore": {
+        "textures": "sulfur_ore",
+        "sound": "stone"
+    },
+    "fantasy:steel_ore": {
+        "textures": "steel_ore",
+        "sound": "stone"
+    },
+    "fantasy:steel_block": {
+        "textures": "steel_block",
+        "sound": "metal"
+    },
+    "fantasy:tungsten_ore": {
+        "textures": "tungsten_ore",
+        "sound": "stone"
+    },
+    "fantasy:tungsten_block": {
+        "textures": "tungsten_block",
+        "sound": "metal"
+    },
+    "fantasy:platinum_ore": {
+        "textures": "platinum_ore",
+        "sound": "stone"
+    },
+    "fantasy:platinum_block": {
+        "textures": "platinum_block",
+        "sound": "metal"
+    },
+    "fantasy:netheroom_ore": {
+        "textures": "netheroom_ore",
+        "sound": "stone"
+    },
+    "fantasy:netheroom_block": {
+        "textures": "netheroom_block",
+        "sound": "metal"
+    },
+    "fantasy:garnet_ore": {
+        "textures": "garnet_ore",
+        "sound": "stone"
+    },
+    "fantasy:garnet_block": {
+        "textures": "garnet_block",
+        "sound": "metal"
+    },
+    "fantasy:topaz_ore": {
+        "textures": "topaz_ore",
+        "sound": "stone"
+    },
+    "fantasy:topaz_block": {
+        "textures": "topaz_block",
+        "sound": "metal"
+    },
+    "fantasy:alexandrite_ore": {
+        "textures": "alexandrite_ore",
+        "sound": "stone"
+    },
+    "fantasy:alexandrite_block": {
+        "textures": "alexandrite_block",
+        "sound": "metal"
+    },
+    "fantasy:malachite_ore": {
+        "textures": "malachite_ore",
+        "sound": "stone"
+    },
+    "fantasy:malachite_block": {
+        "textures": "malachite_block",
+        "sound": "metal"
+    },
+    "fantasy:jasper_ore": {
+        "textures": "jasper_ore",
+        "sound": "stone"
+    },
+    "fantasy:jasper_block": {
+        "textures": "jasper_block",
+        "sound": "metal"
+    },
+    "fantasy:watermelon_tourmaline_ore": {
+        "textures": "watermelon_tourmaline_ore",
+        "sound": "stone"
+    },
+    "fantasy:watermelon_tourmaline_block": {
+        "textures": "watermelon_tourmaline_block",
+        "sound": "metal"
+    },
+    "fantasy:tailors_table": {
+        "textures": "tailors_table",
+        "sound": "wood"
+    },
+    "format_version": [
+        1,
+        1,
+        0
+    ]
+}

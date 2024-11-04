@@ -1,0 +1,22 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mystic:divine_chestplate"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "# #",
+            "###",
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "item:light_stone_shard"
+            }
+        },
+        "result": {
+            "item": "mystic:divine_chestplate"
+        }
+    }
+}

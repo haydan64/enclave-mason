@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:emerald_gladius"
+		},
+
+    
+		"tags": [ "emerald_blueprint" ],
+		"pattern": [
+			" L",
+			"/ "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:emerald_longblade"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:emerald_blueprint"
+			}
+		],
+		"result": { "item": "hax:emerald_gladius" }
+	}
+}

@@ -1,0 +1,57 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "nba:life_crystal"
+    },
+    "components": {
+      "minecraft:hand_equipped": false,
+      "minecraft:foil": false,
+      "minecraft:allow_off_hand": false,
+			"minecraft:liquid_clipped": false,
+      
+      "minecraft:icon": {
+        "texture": "life_crystal"
+      },
+      "minecraft:display_name": {
+        "value": "Life Crystal"
+      },
+      "minecraft:render_offsets": "apple",
+      "minecraft:creative_category": {
+				"parent": "equipment"
+			},
+      "minecraft:cooldown":{
+        "category" : "use",
+        "duration" : 1.5
+    },
+      "minecraft:throwable": {
+        "do_swing_animation": true
+      },
+      "minecraft:projectile": {
+            "projectile_entity": "nba:life_crystal_p",
+            "shoot_sound": "random.bow"
+          },
+      
+      
+      "minecraft:max_stack_size": 8,
+      "minecraft:on_use":{
+        "on_use":{
+           "event":"throw",
+           "target":"self"
+           
+        }
+     }
+  },
+       "events":{
+          "throw":{
+             "run_command":{
+                "command":[
+                    "execute @p ~ ~ ~ playsound throw.projectile"
+               ]
+            }
+           }
+        }
+      
+    
+  }
+}

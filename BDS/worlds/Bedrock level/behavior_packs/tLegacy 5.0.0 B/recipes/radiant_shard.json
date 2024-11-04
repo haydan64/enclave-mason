@@ -1,0 +1,36 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "hax:radiant_shard"
+    },
+
+    
+    "tags": [ "tiered_table" ],
+    "ingredients": [
+      {
+        "item": "hax:superconductor_blend"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      },
+      {
+        "item": "hax:ruby_shard"
+      },
+      {
+        "item": "hax:diamond_shard"
+      }
+    ],
+    
+    "unlock": [
+      {
+        "item": "minecraft:amethyst_shard"
+      }
+    ],
+    "result": {
+      "item": "hax:radiant_shard",
+      "count": 1
+    },
+"priority": 1
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "hax:furnace_steel_lance"
+    },
+
+
+    "tags": ["furnace", "blast_furnace"],
+    "input": "hax:steel_lance",
+    "output": "hax:steel_nugget"
+  }
+  
+}

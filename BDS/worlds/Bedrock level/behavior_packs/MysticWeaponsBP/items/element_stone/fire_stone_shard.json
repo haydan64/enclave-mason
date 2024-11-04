@@ -1,0 +1,23 @@
+{
+    "format_version": "1.20.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "item:fire_stone_shard",
+            "menu_category": {
+                "category": "items",
+                "group": "itemGroup.name.stoneShard"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "fire_stone_shard"
+            },
+            "minecraft:display_name": {
+                "value": "Fire Stone Shard"
+            },
+            "minecraft:glint": true,
+            "minecraft:stacked_by_data": true,
+            "minecraft:hand_equipped": true
+        }
+    }
+}

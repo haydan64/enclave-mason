@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:diamond_pickaxe"
+		},
+
+    
+		"tags": [ "diamond_blueprint" ],
+		"pattern": [
+			"SI ",
+			" /I",
+			"/ S"
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:diamond_shortblade"
+			},
+			"I": {
+				"item": "minecraft:diamond"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:diamond_blueprint"
+			}
+		],
+		"result": { "item": "minecraft:diamond_pickaxe" }
+	}
+}

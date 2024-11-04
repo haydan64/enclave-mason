@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:obsidian_bar"
+		},
+
+    
+		"tags": [ "obsidian_blueprint" ],
+		"pattern": [
+			"",
+			"N ",
+			" N"
+		],
+
+		"key": {
+			"N": {
+				"item": "hax:obsidian_shard"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:obsidian_blueprint"
+			}
+		],
+		"result": { "item": "hax:obsidian_bar" }
+	}
+}

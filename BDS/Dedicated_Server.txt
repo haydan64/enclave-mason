@@ -1,0 +1,273 @@
+Dedicated_Server.txt
+[2024-11-04 00:59:42:516 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 00:59:44:713 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 00:59:46:969 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 00:59:49:170 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 00:59:51:466 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 00:59:53:658 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 00:59:55:905 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 00:59:57:953 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:00:055 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:04:377 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:07:044 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:09:106 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:11:204 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:13:304 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:15:401 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:17:503 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:19:602 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:20:634 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:blugrod_tall
+
+
+[2024-11-04 01:00:21:703 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:23:911 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:26:064 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:28:238 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:30:395 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:32:560 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:34:645 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.639442443847656,80.85762023925781,-317.5537414550781],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:36:738 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-58.50608825683594,80.85762023925781,-317.7383728027344],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:38:366 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:blugrod_tall
+
+
+[2024-11-04 01:00:38:837 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-63.144386291503906,80.85762023925781,-348.44049072265625],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:40:935 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-81.456298828125,80.85762023925781,-388.7728576660156],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:43:038 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-108.89120483398438,80.85762023925781,-424.7728271484375],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:45:206 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-114.76554870605469,80.85762023925781,-447.5389099121094],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:46:018 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:blugrod_tall
+
+
+[2024-11-04 01:00:47:282 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-98.70887756347656,77.78596496582031,-457.8453063964844],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:49:507 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-91.50611877441406,78.17596435546875,-461.14013671875],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:51:679 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-90.97977447509766,74,-463.39373779296875],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:53:904 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-93.45714569091797,75,-461.8661193847656],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:55:831 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:blugrod_tall_item
+
+
+[2024-11-04 01:00:55:831 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:glow_flower_item
+
+
+[2024-11-04 01:00:55:831 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:wildflower_item
+
+
+[2024-11-04 01:00:55:831 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:wild_flower_item
+
+
+[2024-11-04 01:00:55:831 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:blugrod_tall_item
+
+
+[2024-11-04 01:00:55:831 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:glow_flower_item
+
+
+[2024-11-04 01:00:55:831 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:wildflower_item
+
+
+[2024-11-04 01:00:55:831 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:wild_flower_item
+
+
+[2024-11-04 01:00:56:047 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-94.55196380615234,75,-461.8614196777344],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:58:149 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-94.15515899658203,75,-458.4275207519531],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:00:58:852 INFO] [Scripting] [Player Place] {"location":[-94,75,-461],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_log"}
+
+[2024-11-04 01:00:59:563 INFO] [Scripting] [Player Place] {"location":[-93,75,-460],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_log"}
+
+[2024-11-04 01:01:00:357 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-93.55744171142578,75,-457.2336730957031],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:02:009 INFO] [Scripting] [Player Place] {"location":[-94,75,-453],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_log"}
+
+[2024-11-04 01:01:02:581 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-92.96434783935547,75,-455.4234924316406],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:02:586 INFO] [Scripting] [Player Place] {"location":[-93,75,-454],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_log"}
+
+[2024-11-04 01:01:03:503 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:blugrod_tall_item
+
+
+[2024-11-04 01:01:03:503 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:glow_flower_item
+
+
+[2024-11-04 01:01:03:503 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:wildflower_item
+
+
+[2024-11-04 01:01:03:503 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:wild_flower_item
+
+
+[2024-11-04 01:01:04:795 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-94.86991882324219,75,-456.158203125],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:06:984 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-89.8459243774414,76.78723907470703,-454.9783935546875],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:09:175 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-89.95665740966797,75.16633605957031,-457.39501953125],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:09:446 INFO] [Scripting] [Player Place] {"location":[-92,73,-459],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_log"}
+
+[2024-11-04 01:01:09:867 INFO] [Scripting] [Player Place] {"location":[-92,74,-459],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_log"}
+
+[2024-11-04 01:01:10:412 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:blugrod_tall_item
+
+
+[2024-11-04 01:01:10:412 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:glow_flower_item
+
+
+[2024-11-04 01:01:10:412 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:wildflower_item
+
+
+[2024-11-04 01:01:10:412 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:wild_flower_item
+
+
+[2024-11-04 01:01:10:670 INFO] [Scripting] [Player Place] {"location":[-92,75,-459],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_log"}
+
+[2024-11-04 01:01:10:743 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:blugrod_tall_item
+
+
+[2024-11-04 01:01:10:743 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:glow_flower_item
+
+
+[2024-11-04 01:01:10:743 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:wildflower_item
+
+
+[2024-11-04 01:01:10:743 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:wild_flower_item
+
+
+[2024-11-04 01:01:11:407 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-89.90555572509766,75.16633605957031,-456.9858093261719],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:12:524 INFO] [Scripting] [Player Place] {"location":[-92,73,-458],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_log"}
+
+[2024-11-04 01:01:13:636 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-89.61058044433594,75.16633605957031,-456.0044860839844],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:13:748 INFO] [Scripting] [Player Place] {"location":[-92,73,-457],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_log"}
+
+[2024-11-04 01:01:14:070 INFO] [Scripting] [Player Place] {"location":[-92,73,-456],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_log"}
+
+[2024-11-04 01:01:14:337 INFO] [Scripting] [Player Place] {"location":[-92,73,-455],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_log"}
+
+[2024-11-04 01:01:14:895 INFO] [Scripting] [Player Place] {"location":[-92,74,-455],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_log"}
+
+[2024-11-04 01:01:15:483 INFO] [Scripting] [Player Place] {"location":[-92,75,-455],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_log"}
+
+[2024-11-04 01:01:15:913 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-89.31965637207031,75.16633605957031,-454.16461181640625],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:15:970 INFO] [Scripting] [Player Place] {"location":[-92,74,-456],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_log"}
+
+[2024-11-04 01:01:16:503 INFO] [Scripting] [Player Place] {"location":[-92,75,-456],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_log"}
+
+[2024-11-04 01:01:17:076 INFO] [Scripting] [Player Place] {"location":[-92,74,-458],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_log"}
+
+[2024-11-04 01:01:17:752 INFO] [Scripting] [Player Place] {"location":[-92,74,-457],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_log"}
+
+[2024-11-04 01:01:18:117 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-89.57134246826172,75.16633605957031,-455.3541564941406],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:18:223 INFO] [Scripting] [Player Place] {"location":[-92,75,-457],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_log"}
+
+[2024-11-04 01:01:19:121 INFO] [Scripting] [Player Place] {"location":[-92,75,-458],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_log"}
+
+[2024-11-04 01:01:20:313 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-89.72504425048828,75.16633605957031,-455.763671875],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:21:259 INFO] [Scripting] [Player Place] {"location":[-90,73,-459],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_planks"}
+
+[2024-11-04 01:01:21:575 INFO] [Scripting] [Player Place] {"location":[-90,73,-458],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_planks"}
+
+[2024-11-04 01:01:21:735 INFO] [Scripting] [Player Place] {"location":[-90,73,-457],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_planks"}
+
+[2024-11-04 01:01:21:840 INFO] [Scripting] [Player Place] {"location":[-90,73,-456],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_planks"}
+
+[2024-11-04 01:01:22:002 INFO] [Scripting] [Player Place] {"location":[-90,73,-455],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_planks"}
+
+[2024-11-04 01:01:22:537 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-90.46829223632812,75.16633605957031,-449.4413757324219],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:24:341 INFO] [Scripting] [Player Place] {"location":[-91,73,-459],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_planks"}
+
+[2024-11-04 01:01:24:616 INFO] [Scripting] [Player Place] {"location":[-91,73,-458],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_planks"}
+
+[2024-11-04 01:01:24:777 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-90.14196014404297,74,-453.58209228515625],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:24:781 INFO] [Scripting] [Player Place] {"location":[-91,73,-457],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_planks"}
+
+[2024-11-04 01:01:24:945 INFO] [Scripting] [Player Place] {"location":[-91,73,-456],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_planks"}
+
+[2024-11-04 01:01:25:053 INFO] [Scripting] [Player Place] {"location":[-91,73,-455],"dimension":"minecraft:overworld","player":"Cas Apollyon","block":"minecraft:spruce_planks"}
+
+[2024-11-04 01:01:27:001 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-84.69622802734375,74,-460.34576416015625],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:29:191 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-83.9312515258789,74,-455.6636047363281],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:30:900 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:blugrod_tall_item
+
+
+[2024-11-04 01:01:30:900 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:glow_flower_item
+
+
+[2024-11-04 01:01:30:900 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:wildflower_item
+
+
+[2024-11-04 01:01:30:900 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:wild_flower_item
+
+
+[2024-11-04 01:01:31:410 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-91.54057312011719,77.78872680664062,-462.8631591796875],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:33:615 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-93.33746337890625,78.0273666381836,-464.5567321777344],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:35:846 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-103.03639221191406,78.0273666381836,-445.4958801269531],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:37:979 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-95.7532730102539,86.57367706298828,-469.25750732421875],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:40:074 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-101.94281768798828,85.09181213378906,-466.2164001464844],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:42:173 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-96.0462417602539,78.83682250976562,-464.3193359375],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:44:434 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-97.08328247070312,75,-466.86688232421875],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:46:547 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-92.20297241210938,73.26636505126953,-469.20721435546875],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:48:646 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-85.81591033935547,70,-470.081787109375],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:49:619 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:blugrod_tall_item
+
+
+[2024-11-04 01:01:49:619 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:glow_flower_item
+
+
+[2024-11-04 01:01:49:619 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:wildflower_item
+
+
+[2024-11-04 01:01:49:619 INFO] [Item] Unknown item during Deferred ItemDescriptor resolution: better_on_bedrock:wild_flower_item
+
+
+[2024-11-04 01:01:50:810 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-88.32763671875,70,-468.8714599609375],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:53:039 INFO] [Scripting] [Players Update] [{"name":"Haydan0874","location":[-56.37417221069336,80,-315.7900085449219],"gamemode":"creative","tag":["admin","worldedit","inspector","staff","dev","kam","disableCommands","joined3","allow_corpse","toolTip","gotConfig","!holding","introMove"]},{"name":"Cas Apollyon","location":[-96.97340393066406,75,-468.7828674316406],"gamemode":"creative","tag":["staff","worldedit","disableCommands","joined3","gotConfig","!holding","introMove","honey_bottle"]}]
+
+[2024-11-04 01:01:55:228 INFO] [Scripting] [Players Update] [{"n

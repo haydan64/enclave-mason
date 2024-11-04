@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:alt_emerald_shard"
+    },
+
+    
+    "tags": [ "emerald_blueprint" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:emerald"
+      }
+    },
+    "unlock": [
+			{
+				"item": "hax:emerald_blueprint"
+			}
+		],
+    "result": {
+      "item": "hax:emerald_shard",
+      "count": 4
+    }
+  }
+}

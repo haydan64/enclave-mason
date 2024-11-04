@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:silver_rapier"
+		},
+
+    
+		"tags": [ "silver_blueprint" ],
+		"pattern": [
+			"  S",
+			"BS ",
+			"/  "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:silver_shortblade"
+			},
+			"B": {
+				"item": "hax:silver_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:silver_blueprint"
+			}
+		],
+		"result": { "item": "hax:silver_rapier" }
+	}
+}

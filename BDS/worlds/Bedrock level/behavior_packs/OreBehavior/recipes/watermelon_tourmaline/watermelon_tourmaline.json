@@ -1,0 +1,21 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:watermelon_tourmaline"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "A"
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:watermelon_tourmaline_block"
+            }
+        },
+        "result": {
+            "item": "fantasy:watermelon_tourmaline",
+            "count": 9
+        }
+    }
+}

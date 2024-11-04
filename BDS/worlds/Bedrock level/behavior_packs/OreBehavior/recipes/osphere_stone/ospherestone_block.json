@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "ospherestone_block_45a019d1"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "fantasy:ospherestone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "fantasy:ospherestone_block",
+      "count": 1
+    }
+  }
+}

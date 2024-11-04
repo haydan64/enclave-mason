@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:rose_gold_essence",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "rose_gold_essence"
+			},
+			"minecraft:display_name": {
+				"value": "Rose Gold Essence"
+			}
+		}
+	}
+}

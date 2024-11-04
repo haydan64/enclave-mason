@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:gold_ingot_from_nuggets"
+    },
+
+    
+    "tags": [ "null" ],
+    "group": "gold_ingot",
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:gold_nugget"
+      }
+    },
+    "unlock": [
+            {
+                "item": "minecraft:end_gateway",
+                "data": 4
+            }
+        ],
+    "result": {
+      "item": "minecraft:gold_ingot"
+    }
+  }
+}

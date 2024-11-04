@@ -1,0 +1,39 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:darkness_stalker",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "spider"
+			},
+			"textures": {
+				"default": "textures/entity/darkness_stalker"
+			},
+			"spawn_egg": {
+				"base_color": "#2e3830",
+				"overlay_color": "#972929"
+			},
+			"geometry": {
+				"default": "geometry.darkness.stalker"
+			},
+			"scripts": {
+				"animate":[
+					"general",
+					"look_at_target"
+				]
+				
+			},
+			"animations": {
+				"general": "controller.animation.darkness_stalker",
+				"idle": "animation.darkness.stalker.idle",
+				"pose": "animation.darkness.stalker.pose",
+				"walk": "animation.darkness.stalker.walk",
+				"look_at_target": "animation.common.look_at_target"
+				
+			},
+			"render_controllers": ["controller.render.onevariant"]
+			
+		}
+	}
+}

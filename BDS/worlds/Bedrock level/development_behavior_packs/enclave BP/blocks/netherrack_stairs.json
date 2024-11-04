@@ -1,0 +1,151 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "enclave:netherrack_stairs",
+			"states": {
+				"enclave:rotation": [
+					2,
+					3,
+					4,
+					5
+				],
+				"enclave:upsidedown": [
+					0,
+					1
+				]
+			},
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.stairs"
+			}
+		},
+		"components": {
+			"minecraft:geometry": "geometry.netherrack_stairs",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "netherrack",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:custom_components": [
+				"enclave:rotation",
+				"enclave:upsidedown"
+			],
+			"minecraft:transformation": {
+				"rotation": [
+					0,
+					0,
+					0
+				]
+			},
+			"tag:stone_stairs": {}
+		},
+		"permutations": [
+			{
+				"condition": "q.block_state('enclave:rotation') == 2 && q.block_state('enclave:upsidedown') == 0",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							0,
+							0
+						]
+					},
+					"tag:stone_stairs_north": {}
+				}
+			},
+			{
+				"condition": "q.block_state('enclave:rotation') == 3 && q.block_state('enclave:upsidedown') == 0",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							180,
+							0
+						]
+					},
+					"tag:stone_stairs_south": {}
+				}
+			},
+			{
+				"condition": "q.block_state('enclave:rotation') == 4 && q.block_state('enclave:upsidedown') == 0",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							90,
+							0
+						]
+					},
+					"tag:stone_stairs_east": {}
+				}
+			},
+			{
+				"condition": "q.block_state('enclave:rotation') == 5 && q.block_state('enclave:upsidedown') == 0",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							0,
+							-90,
+							0
+						]
+					},
+					"tag:stone_stairs_west": {}
+				}
+			},
+			{
+				"condition": "q.block_state('enclave:rotation') == 2 && q.block_state('enclave:upsidedown') == 1",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							90,
+							0,
+							0
+						]
+					},
+					"tag:stone_stairs_north": {}
+				}
+			},
+			{
+				"condition": "q.block_state('enclave:rotation') == 3 && q.block_state('enclave:upsidedown') == 1",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							90,
+							180,
+							0
+						]
+					},
+					"tag:stone_stairs_south": {}
+				}
+			},
+			{
+				"condition": "q.block_state('enclave:rotation') == 4 && q.block_state('enclave:upsidedown') == 1",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							90,
+							90,
+							0
+						]
+					},
+					"tag:stone_stairs_east": {}
+				}
+			},
+			{
+				"condition": "q.block_state('enclave:rotation') == 5 && q.block_state('enclave:upsidedown') == 1",
+				"components": {
+					"minecraft:transformation": {
+						"rotation": [
+							90,
+							-90,
+							0
+						]
+					},
+					"tag:stone_stairs_west": {}
+				}
+			}
+		]
+	}
+}

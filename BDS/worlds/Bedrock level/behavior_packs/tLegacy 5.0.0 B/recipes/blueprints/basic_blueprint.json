@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:basic_blueprint"
+		},
+
+    
+		"tags": [ "tiered_table" ],
+		"pattern": [
+			" P ",
+			"P#P",
+			" P "
+		],
+
+		"key": {
+			"#": {
+				"item": "minecraft:blue_dye"
+			},
+			"P": {
+				"item": "minecraft:paper"
+			}
+		},
+
+		"unlock": [
+			{
+			  "item": "minecraft:paper"
+			}
+		  ],
+		"result": { 
+			"item": "hax:basic_blueprint",
+     			"count": 4
+		},
+		"priority": -1
+	}
+}

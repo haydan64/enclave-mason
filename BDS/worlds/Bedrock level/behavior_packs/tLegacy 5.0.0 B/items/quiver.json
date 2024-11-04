@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.chestplate"
+			},
+			"identifier": "hax:quiver"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Quiver"
+			},
+			"minecraft:icon": {
+				"textures": {
+					"default": "hax:quiver"
+				}
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:wearable": {
+				"slot": "slot.armor.chest",
+				"protection": 0
+			},
+			"minecraft:hand_equipped": true
+		}
+	}
+}

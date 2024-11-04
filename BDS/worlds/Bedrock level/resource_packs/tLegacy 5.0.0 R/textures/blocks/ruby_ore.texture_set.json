@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "ruby_ore",
+		"metalness_emissive_roughness": "ruby_ore_mer",
+		"heightmap": "ruby_ore_heightmap"
+	}
+}

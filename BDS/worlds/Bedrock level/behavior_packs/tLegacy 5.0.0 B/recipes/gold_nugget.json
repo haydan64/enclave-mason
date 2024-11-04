@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:gold_nugget"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    
+    "unlock": [
+      {
+        "item": "minecraft:gold_ingot"
+      }
+    ],
+    "result": {
+      "item": "minecraft:gold_nugget",
+      "count": 4
+    }
+  }
+}

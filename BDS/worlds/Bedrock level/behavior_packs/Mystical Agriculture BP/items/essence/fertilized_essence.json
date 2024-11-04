@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.81",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:fertilized_essence",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": "fertilized_essence",
+			"minecraft:custom_components": ["strat:fertilizer"],
+			"minecraft:display_name": {
+				"value": "Fertilized Essence\n§71/10 Drop Chance§r"
+			},
+			"tag:fertilizer": {}
+		}
+	}
+}

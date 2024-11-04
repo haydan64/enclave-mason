@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:golden_hoe"
+		},
+
+    
+		"tags": [ "gold_blueprint" ],
+		"pattern": [
+			"SL",
+			" /",
+			" /"
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:gold_longblade"
+			},
+			"S": {
+				"item": "hax:gold_shortblade"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:gold_blueprint"
+			}
+		],
+		"result": { "item": "minecraft:golden_hoe" }
+	}
+}

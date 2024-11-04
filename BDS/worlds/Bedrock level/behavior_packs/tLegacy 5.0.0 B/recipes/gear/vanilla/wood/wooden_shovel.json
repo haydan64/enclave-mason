@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:wooden_shovel"
+    },
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+			"H",
+			"/",
+			"/"
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:wood_spadehead"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:wooden_shavings"
+			}
+		],
+		"result": { "item": "minecraft:wooden_shovel" },
+    "priority": -1
+  }
+}

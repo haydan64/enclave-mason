@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:ruby_battleaxe"
+		},
+
+    
+		"tags": [ "ruby_blueprint" ],
+		"pattern": [
+			"HPH",
+			" / ",
+			" / "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:ruby_axehead"
+			},
+			"P": {
+				"item": "hax:ruby_plating"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:ruby_blueprint"
+			}
+		],
+		"result": { "item": "hax:ruby_battleaxe" }
+	}
+}

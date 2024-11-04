@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:sculk_spider_corpse",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "spider",
+				"invisible": "spider_invisible"
+			},
+			"textures": {
+				"default": "textures/entity/spider/sculk_spider/spider"
+			},
+			"geometry": {
+				"default": "geometry.sculkspider"
+			},
+			"spawn_egg": {
+				"base_color": "#292423",
+				"overlay_color": "#1f89df"
+			},
+			"particle_effects": {
+                "particle": "nba:cloud_cyan_explosion"
+            },
+			"scripts": {
+				"animate": [
+					"controller"
+				  ]
+			},
+			"animations": {
+				"controller" : "controller.animation.spider.corpse",
+				"dead": "animation.spider.deadv2"
+			},
+			"render_controllers": ["controller.render.onevariant"]
+		}
+	}
+}

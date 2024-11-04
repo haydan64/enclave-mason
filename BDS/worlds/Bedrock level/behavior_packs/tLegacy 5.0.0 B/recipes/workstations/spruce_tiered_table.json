@@ -1,0 +1,51 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:spruce_tiered_table"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"CTS",
+			"LPL",
+			"L#L"
+		],
+
+		"key": {
+			"S": {
+				"item": "minecraft:smooth_stone"
+			},
+			"T": {
+				"item": "minecraft:crafting_table"
+			},
+			"C": {
+				"item": "minecraft:stonecutter_block"
+			},
+			"#": {
+				"item": "hax:iron_plating"
+			},
+			"P": {
+				"item": "minecraft:spruce_planks"
+			},
+			"L": {
+				"item": "minecraft:spruce_log"
+			}
+		},
+		"unlock": [
+			{
+				"item": "minecraft:crafting_table"
+			},
+			{
+				"item": "minecraft:stonecutter_block"
+			}
+		],
+
+
+		"result": {
+			"item": "hax:spruce_tiered_table"
+		},
+		"priority": 1
+	}
+}

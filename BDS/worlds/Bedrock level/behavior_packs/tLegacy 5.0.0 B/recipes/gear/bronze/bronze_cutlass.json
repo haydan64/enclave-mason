@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:bronze_cutlass"
+		},
+
+    
+		"tags": [ "bronze_blueprint" ],
+		"pattern": [
+			" SS",
+			"NL ",
+			"/N "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:bronze_longblade"
+			},
+			"S": {
+				"item": "hax:bronze_shortblade"
+			},
+			"N": {
+				"item": "hax:bronze_nugget"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:bronze_blueprint"
+			}
+		],
+		"result": { "item": "hax:bronze_cutlass" }
+	}
+}

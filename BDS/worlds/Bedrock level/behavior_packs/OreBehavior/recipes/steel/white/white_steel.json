@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:white_steel"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "AB"
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:steel"
+            },
+            "B": {
+                "item": "minecraft:dye",
+                "data": 15
+            }
+        },
+        "result": {
+            "item": "fantasy:white_steel"
+        }
+    }
+}

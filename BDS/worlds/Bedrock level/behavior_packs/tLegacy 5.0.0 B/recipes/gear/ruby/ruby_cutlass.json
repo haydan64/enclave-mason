@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:ruby_cutlass"
+		},
+
+    
+		"tags": [ "ruby_blueprint" ],
+		"pattern": [
+			" SS",
+			"NL ",
+			"/N "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:ruby_longblade"
+			},
+			"S": {
+				"item": "hax:ruby_shortblade"
+			},
+			"N": {
+				"item": "hax:ruby_shard"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:ruby_blueprint"
+			}
+		],
+		"result": { "item": "hax:ruby_cutlass" }
+	}
+}

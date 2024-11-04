@@ -1,0 +1,11 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:aggregate_feature": {
+        "description": {
+            "identifier": "minecraft:swamp_surface_flowers_feature_aggregate"
+        },
+        "features": [
+            "minecraft:legacy:swamp_flower_feature"
+        ]
+    }
+}

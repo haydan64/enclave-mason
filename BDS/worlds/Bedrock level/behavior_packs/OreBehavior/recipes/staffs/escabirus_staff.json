@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:escabirus_staff"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "  B",
+            " A ",
+            "B  "
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:blaze_rod"
+            },
+            "B": {
+                "item": "fantasy:jade_beetle"
+            }
+        },
+        "result": {
+            "item": "fantasy:escabirus_staff"
+        }
+    }
+}

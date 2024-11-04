@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:diamond_spade"
+		},
+
+    
+		"tags": [ "diamond_blueprint" ],
+		"pattern": [
+			" IH",
+			" /I",
+			"/  "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:diamond_spadehead"
+			},
+			"I": {
+				"item": "minecraft:diamond"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:diamond_blueprint"
+			}
+		],
+		"result": { "item": "hax:diamond_spade" }
+	}
+}

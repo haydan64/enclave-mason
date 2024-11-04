@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:raw_tin"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "hax:raw_tin_block"
+      }
+    },
+    
+    "unlock": [
+      {
+        "item": "hax:raw_tin_block"
+      }
+    ],
+    "result": {
+      "item": "hax:raw_tin",
+      "count": 9
+    }
+  }
+}

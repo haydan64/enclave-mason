@@ -1,0 +1,22 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mystic:obstruction_chestplate"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "# #",
+            "###",
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "item:earth_stone_shard"
+            }
+        },
+        "result": {
+            "item": "mystic:obstruction_chestplate"
+        }
+    }
+}

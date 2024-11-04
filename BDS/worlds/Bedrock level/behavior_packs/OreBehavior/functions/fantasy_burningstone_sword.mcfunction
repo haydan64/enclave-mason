@@ -1,0 +1,1 @@
+give @s fantasy:burningstone_sword

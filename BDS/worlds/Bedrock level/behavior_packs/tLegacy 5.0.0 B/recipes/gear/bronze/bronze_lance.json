@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:bronze_lance"
+		},
+
+    
+		"tags": [ "bronze_blueprint" ],
+		"pattern": [
+			" SH",
+			"INS",
+			"/I "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:bronze_spadehead"
+			},
+			"S": {
+				"item": "hax:bronze_shortblade"
+			},
+			"I": {
+				"item": "hax:bronze_ingot"
+			},
+			"N": {
+				"item": "hax:bronze_nugget"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:bronze_blueprint"
+			}
+		],
+		"result": { "item": "hax:bronze_lance" }
+	}
+}

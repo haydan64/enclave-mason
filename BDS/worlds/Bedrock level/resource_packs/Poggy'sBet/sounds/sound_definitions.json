@@ -1,0 +1,5655 @@
+{
+    "format_version": "1.14.0",
+    "sound_definitions": {
+        "a.sound": {
+            "category": "music",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/wandering_souls",
+                    "volume": 0.1,
+                    "weight": 1
+                }
+            ]
+        },
+        "ambient.bird": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/ambient/end/forest_birds2",
+                    "stream": true,
+                    "volume": 0.3,
+                    "weight": 4
+                },
+                {
+                    "name": "sounds/ambient/end/forest_birds3",
+                    "stream": true,
+                    "volume": 0.3,
+                    "weight": 4
+                }
+            ]
+        },
+        "mob.quetzacaw.idle": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/entity/quetzacaw/quetzecaw_speak1",
+                    "stream": true,
+                    "volume": 0.3,
+                    "weight": 4
+                },
+                {
+                    "name": "sounds/entity/quetzacaw/quetzecaw_speak2",
+                    "stream": true,
+                    "volume": 0.3,
+                    "weight": 4
+                },
+                {
+                    "name": "sounds/entity/quetzacaw/quetzecaw_speak3",
+                    "stream": true,
+                    "volume": 0.3,
+                    "weight": 4
+                },
+                {
+                    "name": "sounds/entity/quetzacaw/quetzecaw_speak4",
+                    "stream": true,
+                    "volume": 0.3,
+                    "weight": 4
+                }
+            ]
+        },
+        "ambient.bird_forest": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/ambient/end/forest_bird1",
+                    "stream": true,
+                    "volume": 0.7,
+                    "weight": 4
+                },
+                {
+                    "name": "sounds/ambient/end/forest_bird2",
+                    "stream": true,
+                    "volume": 0.7,
+                    "weight": 4
+                },
+                {
+                    "name": "sounds/ambient/end/forest_bird5",
+                    "stream": true,
+                    "volume": 0.7,
+                    "weight": 4
+                },
+                {
+                    "name": "sounds/ambient/end/forest_birds",
+                    "stream": true,
+                    "volume": 0.7,
+                    "weight": 4
+                },
+                {
+                    "name": "sounds/ambient/end/forest_birds2",
+                    "stream": true,
+                    "volume": 0.7,
+                    "weight": 4
+                },
+                {
+                    "name": "sounds/ambient/end/forest_birds3",
+                    "stream": true,
+                    "volume": 0.7,
+                    "weight": 4
+                }
+            ]
+        },
+        "ambient.cave_loop": {
+            "category": "music",
+            "sounds": [
+                "sounds/ambient/end/cave_loop"
+            ]
+        },
+        "ambient.cave_random": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/ambient/end/underground1",
+                    "stream": true,
+                    "volume": 0.5,
+                    "weight": 4
+                },
+                {
+                    "name": "sounds/ambient/end/underground2",
+                    "stream": true,
+                    "volume": 0.5,
+                    "weight": 4
+                },
+                {
+                    "name": "sounds/ambient/end/underground3",
+                    "stream": true,
+                    "volume": 0.5,
+                    "weight": 4
+                },
+                {
+                    "name": "sounds/ambient/end/underground4",
+                    "stream": true,
+                    "volume": 0.5,
+                    "weight": 4
+                },
+                {
+                    "name": "sounds/ambient/end/underground5",
+                    "stream": true,
+                    "volume": 0.5,
+                    "weight": 4
+                }
+            ]
+        },
+        "ambient.chorus_forest": {
+            "category": "music",
+            "sounds": [
+                "sounds/ambient/end/chorus_forest_ambient"
+            ]
+        },
+        "ambient.desert": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/ambient/end/desert_loop",
+                    "stream": true,
+                    "volume": 0.2,
+                    "weight": 4
+                }
+            ]
+        },
+        "ambient.end_wastes": {
+            "category": "music",
+            "sounds": [
+                "sounds/ambient/end/end_wastes_ambient"
+            ]
+        },
+        "ambient.fungal_grove": {
+            "category": "music",
+            "sounds": [
+                "sounds/ambient/end/fungal_grove_ambient"
+            ]
+        },
+        "ambient.jungle": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/ambient/end/jungle",
+                    "stream": true,
+                    "volume": 0.2,
+                    "weight": 4
+                }
+            ]
+        },
+        "ambient.lush_cave": {
+            "category": "music",
+            "sounds": [
+                "sounds/ambient/end/lush_cave_ambient"
+            ]
+        },
+        "ambient.night": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/ambient/end/night1",
+                    "stream": true,
+                    "volume": 0.7,
+                    "weight": 4
+                },
+                {
+                    "name": "sounds/ambient/end/night2",
+                    "stream": true,
+                    "volume": 0.7,
+                    "weight": 4
+                },
+                {
+                    "name": "sounds/ambient/end/night3",
+                    "stream": true,
+                    "volume": 0.7,
+                    "weight": 4
+                }
+            ]
+        },
+        "ambient.plains": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/ambient/end/plains",
+                    "stream": true,
+                    "volume": 0.5,
+                    "weight": 4
+                }
+            ]
+        },
+        "ambient.random.end": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/ambient/end/cry3",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 4
+                },
+                {
+                    "name": "sounds/ambient/end/famish1",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 4
+                },
+                {
+                    "name": "sounds/ambient/end/famish2",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 4
+                },
+                {
+                    "name": "sounds/ambient/end/Sprinkle1",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 4
+                },
+                {
+                    "name": "sounds/ambient/end/Sprinkle2",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 4
+                },
+                {
+                    "name": "sounds/ambient/end/Sprinkle3",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 4
+                }
+            ]
+        },
+        "ambient.snow": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/ambient/end/snow",
+                    "stream": true,
+                    "volume": 0.5,
+                    "weight": 4
+                }
+            ]
+        },
+        "ambient.swamp": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/ambient/end/swamp",
+                    "stream": true,
+                    "volume": 0.1
+                }
+            ]
+        },
+        "ambient.taiga_night": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/ambient/end/taiga_night",
+                    "stream": true,
+                    "volume": 0.5,
+                    "weight": 4
+                }
+            ]
+        },
+        "ambient.tame": {
+            "category": "record",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/travels",
+                    "volume": 0.3
+                }
+            ]
+        },
+        "ambient.underwater": {
+            "category": "ambient",
+            "sounds": [
+                {
+                    "is3D": false,
+                    "name": "sounds/ambient/underwater/additions/bubbles1",
+                    "weight": 1
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/ambient/underwater/additions/bubbles2",
+                    "weight": 1
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/ambient/underwater/additions/bubbles3",
+                    "weight": 1
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/ambient/underwater/additions/bubbles4",
+                    "weight": 1
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/ambient/underwater/additions/bubbles5",
+                    "weight": 1
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/ambient/underwater/additions/bubbles6",
+                    "weight": 1
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/ambient/underwater/additions/water1",
+                    "weight": 1
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/ambient/underwater/additions/water2",
+                    "weight": 1
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/ambient/underwater/additions/animal1",
+                    "weight": 2
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/ambient/underwater/additions/bass_whale1",
+                    "volume": 0.45,
+                    "weight": 2
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/ambient/underwater/additions/bass_whale2",
+                    "volume": 0.5,
+                    "weight": 2
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/ambient/underwater/additions/earth_crack",
+                    "weight": 2
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/ambient/underwater/additions/crackles1",
+                    "volume": 0.7,
+                    "weight": 2
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/ambient/underwater/additions/crackles2",
+                    "weight": 2
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/ambient/underwater/additions/driplets1",
+                    "volume": 0.5,
+                    "weight": 2
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/ambient/underwater/additions/driplets2",
+                    "volume": 0.5,
+                    "weight": 2
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/ambient/underwater/additions/driplets2",
+                    "volume": 0.5,
+                    "weight": 2
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/ambient/underwater/additions/animal2"
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/ambient/underwater/additions/dark1"
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/ambient/underwater/additions/dark2",
+                    "volume": 0.7
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/ambient/underwater/additions/dark3"
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/ambient/underwater/additions/dark4"
+                }
+            ]
+        },
+        "ambient.underwater.enter": {
+            "category": "ambient",
+            "sounds": [
+                "sounds/ambient/underwater/enter1",
+                "sounds/ambient/underwater/enter2",
+                "sounds/ambient/underwater/enter3"
+            ]
+        },
+        "ambient.underwater.exit": {
+            "category": "ambient",
+            "sounds": [
+                "sounds/ambient/underwater/exit1",
+                "sounds/ambient/underwater/exit2",
+                "sounds/ambient/underwater/exit3"
+            ]
+        },
+        "ambient.underwater.loop": {
+            "category": "ambient",
+            "sounds": [
+                {
+                    "is3D": false,
+                    "name": "sounds/ambient/underwater/underwater_ambience",
+                    "volume": 0.65
+                }
+            ]
+        },
+        "ambient.underwater.loop.additions": {
+            "category": "ambient",
+            "sounds": [
+                "sounds/ambient/underwater/additions/bubbles1",
+                "sounds/ambient/underwater/additions/bubbles2",
+                "sounds/ambient/underwater/additions/bubbles3",
+                "sounds/ambient/underwater/additions/bubbles4",
+                "sounds/ambient/underwater/additions/bubbles5",
+                "sounds/ambient/underwater/additions/bubbles6",
+                "sounds/ambient/underwater/additions/water1",
+                "sounds/ambient/underwater/additions/water2"
+            ]
+        },
+        "ambient.underwater.loop.additions.rare": {
+            "category": "ambient",
+            "sounds": [
+                "sounds/ambient/underwater/additions/animal1",
+                {
+                    "name": "sounds/ambient/underwater/additions/bass_whale1",
+                    "volume": 0.45
+                },
+                {
+                    "name": "sounds/ambient/underwater/additions/bass_whale2",
+                    "volume": 0.5
+                },
+                "sounds/ambient/underwater/additions/earth_crack",
+                {
+                    "name": "sounds/ambient/underwater/additions/crackles1",
+                    "volume": 0.7
+                },
+                "sounds/ambient/underwater/additions/crackles2",
+                {
+                    "name": "sounds/ambient/underwater/additions/driplets1",
+                    "volume": 0.5
+                },
+                {
+                    "name": "sounds/ambient/underwater/additions/driplets2",
+                    "volume": 0.5
+                }
+            ]
+        },
+        "ambient.underwater.loop.additions.ultra_rare": {
+            "category": "ambient",
+            "sounds": [
+                "sounds/ambient/underwater/additions/animal2",
+                "sounds/ambient/underwater/additions/dark1",
+                {
+                    "name": "sounds/ambient/underwater/additions/dark2",
+                    "volume": 0.7
+                },
+                "sounds/ambient/underwater/additions/dark3",
+                "sounds/ambient/underwater/additions/dark4"
+            ]
+        },
+        "ambient.vacant": {
+            "category": "music",
+            "sounds": [
+                "sounds/ambient/end/vacant_wind"
+            ]
+        },
+        "ambient.voided_abyss": {
+            "category": "music",
+            "sounds": [
+                "sounds/ambient/end/voided_abyss_ambient"
+            ]
+        },
+        "ambient.voiding_plains": {
+            "category": "music",
+            "sounds": [
+                "sounds/ambient/end/voiding_plains_ambient"
+            ]
+        },
+        "ambient.weather.rain": {
+            "category": "weather",
+            "min_distance": 100.0,
+            "sounds": [
+                {
+                    "name": "sounds/ambient/weather/rain1",
+                    "volume": 0.1
+                },
+                {
+                    "name": "sounds/ambient/weather/rain2",
+                    "volume": 0.1
+                },
+                {
+                    "name": "sounds/ambient/weather/rain3",
+                    "volume": 0.1
+                },
+                {
+                    "name": "sounds/ambient/weather/rain4",
+                    "volume": 0.1
+                },
+                {
+                    "name": "sounds/ambient/weather/rain5",
+                    "volume": 0.1
+                },
+                {
+                    "name": "sounds/ambient/weather/rain6",
+                    "volume": 0.1
+                },
+                {
+                    "name": "sounds/ambient/weather/rain7",
+                    "volume": 0.1
+                },
+                {
+                    "name": "sounds/ambient/weather/rain8",
+                    "volume": 0.1
+                }
+            ]
+        },
+        "bamboo_jungle": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "music/game/bromeliad",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 2
+                },
+                {
+                    "name": "music/game/hal1",
+                    "stream": true
+                },
+                {
+                    "name": "music/game/hal2",
+                    "stream": true
+                },
+                {
+                    "name": "music/game/hal3",
+                    "stream": true
+                },
+                {
+                    "name": "music/game/hal4",
+                    "stream": true
+                },
+                {
+                    "name": "music/game/left_to_bloom",
+                    "stream": true,
+                    "volume": 0.4
+                },
+                {
+                    "name": "music/game/nuance1",
+                    "stream": true
+                },
+                {
+                    "name": "music/game/nuance2",
+                    "stream": true
+                },
+                {
+                    "name": "music/game/piano1",
+                    "stream": true
+                },
+                {
+                    "name": "music/game/piano2",
+                    "stream": true
+                },
+                {
+                    "name": "music/game/piano3",
+                    "stream": true
+                }
+            ]
+        },
+        "block.beehive.drip": {
+            "category": "block",
+            "max_distance": 8.0,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/bubbles4"
+                },
+                "sounds/bubbles4",
+                "sounds/bubbles5"
+            ]
+        },
+        "block.chest.close": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/chest/close1",
+                "sounds/block/chest/close2",
+                "sounds/block/chest/close3"
+            ]
+        },
+        "block.chest.open": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/chest/open"
+            ]
+        },
+        "block.waystone.activate": {
+            "category": "block",
+            "sounds": [
+                {
+                    "is3D": false,
+                    "name": "sounds/blocks/waystone_activate",
+                    "volume": 1.2
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/blocks/waystone_activate",
+                    "pitch": 0.7,
+                    "volume": 1.2
+                },
+                {
+                    "is3D": false,
+                    "name": "sounds/blocks/waystone_activate",
+                    "pitch": 1.2,
+                    "volume": 1.2
+                }
+            ]
+        },
+        "block.waystone.ambient": {
+            "category": "block",
+            "sounds": [
+                {
+                    "is3D": true,
+                    "name": "sounds/blocks/waystone_ambient",
+                    "volume": 1.4
+                },
+                {
+                    "is3D": true,
+                    "name": "sounds/blocks/waystone_ambient",
+                    "pitch": 0.7,
+                    "volume": 1.4
+                },
+                {
+                    "is3D": true,
+                    "name": "sounds/blocks/waystone_ambient",
+                    "pitch": 1.2,
+                    "volume": 1.4
+                }
+            ]
+        },
+        "block.waystone.teleport": {
+            "category": "block",
+            "sounds": [
+                {
+                    "is3D": true,
+                    "name": "sounds/blocks/waystone_teleport",
+                    "volume": 1.2
+                },
+                {
+                    "is3D": true,
+                    "name": "sounds/blocks/waystone_teleport",
+                    "pitch": 0.7,
+                    "volume": 1.2
+                },
+                {
+                    "is3D": true,
+                    "name": "sounds/blocks/waystone_teleport",
+                    "pitch": 1.2,
+                    "volume": 1.2
+                }
+            ]
+        },
+        "boss.beam.charge": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/entity/boss/seeker_charge"
+            ]
+        },
+        "boss.beam.shoot": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/entity/boss/seeker_beam"
+            ]
+        },
+        "bounty": {
+            "category": "music",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/ui/toast/bounty_complete",
+                    "volume": 0.3
+                }
+            ]
+        },
+        "break.amethyst_block": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/amethyst/break1",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/break2",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/break3",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/break4",
+                    "volume": 1
+                }
+            ]
+        },
+        "break.amethyst_cluster": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/amethyst_cluster/break1",
+                    "pitch": 0.8,
+                    "volume": 0.8
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/break2",
+                    "pitch": 0.8,
+                    "volume": 0.8
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/break3",
+                    "pitch": 0.8,
+                    "volume": 0.8
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/break4",
+                    "pitch": 0.8,
+                    "volume": 0.8
+                }
+            ]
+        },
+        "break.azalea": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/azalea/break1",
+                "sounds/block/azalea/break2",
+                "sounds/block/azalea/break3",
+                "sounds/block/azalea/break4",
+                "sounds/block/azalea/break5",
+                "sounds/block/azalea/break6"
+            ]
+        },
+        "break.big_dripleaf": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/big_dripleaf/break1",
+                "sounds/block/big_dripleaf/break2",
+                "sounds/block/big_dripleaf/break3",
+                "sounds/block/big_dripleaf/break4",
+                "sounds/block/big_dripleaf/break5",
+                "sounds/block/big_dripleaf/break6"
+            ]
+        },
+        "break.calcite": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/calcite/break1",
+                    "volume": 0.9
+                },
+                {
+                    "name": "sounds/block/calcite/break2",
+                    "volume": 0.9
+                },
+                {
+                    "name": "sounds/block/calcite/break3",
+                    "volume": 0.9
+                },
+                {
+                    "name": "sounds/block/calcite/break4",
+                    "volume": 0.9
+                }
+            ]
+        },
+        "break.dripstone_block": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/dripstone/break1",
+                "sounds/block/dripstone/break2",
+                "sounds/block/dripstone/break3",
+                "sounds/block/dripstone/break4",
+                "sounds/block/dripstone/break5"
+            ]
+        },
+        "break.hanging_roots": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/hanging_roots/break1",
+                "sounds/block/hanging_roots/break2",
+                "sounds/block/hanging_roots/break3",
+                "sounds/block/hanging_roots/break4"
+            ]
+        },
+        "break.large_amethyst_bud": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/amethyst_cluster/break1",
+                    "pitch": 0.85,
+                    "volume": 0.7
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/break2",
+                    "pitch": 0.85,
+                    "volume": 0.7
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/break3",
+                    "pitch": 0.85,
+                    "volume": 0.7
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/break4",
+                    "pitch": 0.85,
+                    "volume": 0.7
+                }
+            ]
+        },
+        "break.medium_amethyst_bud": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/amethyst_cluster/break1",
+                    "pitch": 0.95,
+                    "volume": 0.55
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/break2",
+                    "pitch": 0.95,
+                    "volume": 0.55
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/break3",
+                    "pitch": 0.95,
+                    "volume": 0.55
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/break4",
+                    "pitch": 0.95,
+                    "volume": 0.55
+                }
+            ]
+        },
+        "break.pointed_dripstone": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/dripstone/break1",
+                "sounds/block/dripstone/break2",
+                "sounds/block/dripstone/break3",
+                "sounds/block/dripstone/break4",
+                "sounds/block/dripstone/break5"
+            ]
+        },
+        "break.small_amethyst_bud": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/amethyst_cluster/break1",
+                    "volume": 0.4
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/break2",
+                    "volume": 0.4
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/break3",
+                    "volume": 0.4
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/break4",
+                    "volume": 0.4
+                }
+            ]
+        },
+        "break.spore_blossom": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/spore_blossom/break1",
+                "sounds/block/spore_blossom/break2",
+                "sounds/block/spore_blossom/break3",
+                "sounds/block/spore_blossom/break4",
+                "sounds/block/spore_blossom/break5"
+            ]
+        },
+        "break.tuff": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/tuff/break1",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/tuff/break2",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/tuff/break3",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/tuff/break4",
+                    "volume": 1
+                }
+            ]
+        },
+        "bucket.empty_powder_snow": {
+            "category": "block",
+            "sounds": [
+                "sounds/bucket/empty_powder_snow1",
+                "sounds/bucket/empty_powder_snow2"
+            ]
+        },
+        "bucket.fill_powder_snow": {
+            "category": "player",
+            "sounds": [
+                "sounds/bucket/fill_powder_snow1",
+                "sounds/bucket/fill_powder_snow2"
+            ]
+        },
+        "camera.take_picture": {
+            "category": "record",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/record_stardust",
+                    "volume": 0.3
+                }
+            ]
+        },
+        "cauldron_drip.lava.pointed_dripstone": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/pointed_dripstone/drip_lava_cauldron1",
+                "sounds/block/pointed_dripstone/drip_lava_cauldron2",
+                "sounds/block/pointed_dripstone/drip_lava_cauldron3",
+                "sounds/block/pointed_dripstone/drip_lava_cauldron4"
+            ]
+        },
+        "cauldron_drip.water.pointed_dripstone": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/pointed_dripstone/drip_water_cauldron1",
+                "sounds/block/pointed_dripstone/drip_water_cauldron2",
+                "sounds/block/pointed_dripstone/drip_water_cauldron3",
+                "sounds/block/pointed_dripstone/drip_water_cauldron4",
+                "sounds/block/pointed_dripstone/drip_water_cauldron5",
+                "sounds/block/pointed_dripstone/drip_water_cauldron6",
+                "sounds/block/pointed_dripstone/drip_water_cauldron7",
+                "sounds/block/pointed_dripstone/drip_water_cauldron8"
+            ]
+        },
+        "cherry_grove": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/music/game/bromeliad",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/calm1",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/calm2",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/calm3",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/echo_in_the_wind",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/left_to_bloom",
+                    "stream": true,
+                    "volume": 0.4
+                }
+            ]
+        },
+        "chime.amethyst_block": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/amethyst/shimmer",
+                    "volume": 1
+                }
+            ]
+        },
+        "component.jump_to_block": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/component/jump_to_block/jump1",
+                "sounds/component/jump_to_block/jump2"
+            ]
+        },
+        "confused": {
+            "category": "music",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/confused",
+                    "volume": 0.3
+                }
+            ]
+        },
+        "confused_and_deeds_and_prelude": {
+            "category": "music",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/confused",
+                    "volume": 0.1,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/fox_fur",
+                    "volume": 0.1,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/acceptance",
+                    "volume": 0.1,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/reverie",
+                    "volume": 0.1,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/shelby",
+                    "volume": 0.1,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/wandering_souls",
+                    "volume": 0.1,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/cozy_palms",
+                    "volume": 0.1,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/travels",
+                    "volume": 0.1,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/deeds",
+                    "volume": 0.1,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/deeds_demo",
+                    "volume": 0.1,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/prelude",
+                    "volume": 0.1,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/calm1",
+                    "stream": true,
+                    "volume": 0.2,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/calm2",
+                    "stream": true,
+                    "volume": 0.2,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/calm3",
+                    "stream": true,
+                    "volume": 0.2,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/hal1",
+                    "stream": true,
+                    "volume": 0.1,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/hal2",
+                    "stream": true,
+                    "volume": 0.2,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/hal3",
+                    "stream": true,
+                    "volume": 0.1,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/hal4",
+                    "stream": true,
+                    "volume": 0.2,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/nuance1",
+                    "stream": true,
+                    "volume": 0.3,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/nuance2",
+                    "stream": true,
+                    "volume": 0.3,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/piano1",
+                    "stream": true,
+                    "volume": 0.2,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/piano2",
+                    "stream": true,
+                    "volume": 0.2,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/piano3",
+                    "stream": true,
+                    "volume": 0.2,
+                    "weight": 1
+                }
+            ]
+        },
+        "copper.wax.off": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/item/axe/wax_off1",
+                "sounds/item/axe/wax_off2",
+                "sounds/item/axe/wax_off3"
+            ]
+        },
+        "copper.wax.on": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/item/honeycomb/wax_on1",
+                "sounds/item/honeycomb/wax_on2",
+                "sounds/item/honeycomb/wax_on3"
+            ]
+        },
+        "cozy_palms": {
+            "category": "music",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/cozy_palms",
+                    "volume": 0.3
+                }
+            ]
+        },
+        "dawn.prelude": {
+            "category": "music",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/prelude",
+                    "volume": 0.3
+                }
+            ]
+        },
+        "deeds": {
+            "category": "music",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/deeds",
+                    "volume": 0.3
+                }
+            ]
+        },
+        "deeds_demo": {
+            "category": "music",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/deeds_demo",
+                    "volume": 0.3
+                }
+            ]
+        },
+        "deer.death": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/deer/deer_hurt_1",
+                    "volume": 0.2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/deer/deer_hurt_2",
+                    "volume": 0.2
+                }
+            ]
+        },
+        "deer.idle": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/deer/deer_idle_3",
+                    "volume": 0.2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/deer/deer_idle_2",
+                    "volume": 0.2
+                }
+            ]
+        },
+        "desert": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/music/game/crescent_dunes",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/hal1",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/hal2",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/hal3",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/hal4",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/nuance1",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/nuance2",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/one_more_day",
+                    "stream": true,
+                    "volume": 0.4
+                }
+            ]
+        },
+        "dig.azalea_leaves": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/azalea_leaves/break1",
+                "sounds/block/azalea_leaves/break2",
+                "sounds/block/azalea_leaves/break3",
+                "sounds/block/azalea_leaves/break4",
+                "sounds/block/azalea_leaves/break5",
+                "sounds/block/azalea_leaves/break6",
+                "sounds/block/azalea_leaves/break7"
+            ]
+        },
+        "dig.cave_vines": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/cave_vines/break1",
+                "sounds/block/cave_vines/break2",
+                "sounds/block/cave_vines/break3",
+                "sounds/block/cave_vines/break4",
+                "sounds/block/cave_vines/break5"
+            ]
+        },
+        "dig.copper": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/copper/break1",
+                "sounds/block/copper/break2",
+                "sounds/block/copper/break3",
+                "sounds/block/copper/break4"
+            ]
+        },
+        "dig.deepslate": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/deepslate/break1",
+                "sounds/block/deepslate/break2",
+                "sounds/block/deepslate/break3",
+                "sounds/block/deepslate/break4"
+            ]
+        },
+        "dig.deepslate_bricks": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/deepslate_bricks/place1",
+                "sounds/block/deepslate_bricks/place2",
+                "sounds/block/deepslate_bricks/place3",
+                "sounds/block/deepslate_bricks/place4",
+                "sounds/block/deepslate_bricks/place5",
+                "sounds/block/deepslate_bricks/place6"
+            ]
+        },
+        "dig.moss": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/moss/break1",
+                "sounds/block/moss/break2",
+                "sounds/block/moss/break3",
+                "sounds/block/moss/break4",
+                "sounds/block/moss/break5"
+            ]
+        },
+        "dig.powder_snow": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/powder_snow/break1",
+                "sounds/block/powder_snow/break2",
+                "sounds/block/powder_snow/break3",
+                "sounds/block/powder_snow/break4",
+                "sounds/block/powder_snow/break5",
+                "sounds/block/powder_snow/break6",
+                "sounds/block/powder_snow/break7"
+            ]
+        },
+        "drip.lava.pointed_dripstone": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/pointed_dripstone/drip_lava1",
+                "sounds/block/pointed_dripstone/drip_lava2",
+                "sounds/block/pointed_dripstone/drip_lava3",
+                "sounds/block/pointed_dripstone/drip_lava4",
+                "sounds/block/pointed_dripstone/drip_lava5",
+                "sounds/block/pointed_dripstone/drip_lava6"
+            ]
+        },
+        "drip.water.pointed_dripstone": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/pointed_dripstone/drip_water1",
+                "sounds/block/pointed_dripstone/drip_water2",
+                "sounds/block/pointed_dripstone/drip_water3",
+                "sounds/block/pointed_dripstone/drip_water4",
+                "sounds/block/pointed_dripstone/drip_water5",
+                "sounds/block/pointed_dripstone/drip_water6",
+                "sounds/block/pointed_dripstone/drip_water7",
+                "sounds/block/pointed_dripstone/drip_water8",
+                "sounds/block/pointed_dripstone/drip_water9",
+                "sounds/block/pointed_dripstone/drip_water10",
+                "sounds/block/pointed_dripstone/drip_water11",
+                "sounds/block/pointed_dripstone/drip_water12",
+                "sounds/block/pointed_dripstone/drip_water13",
+                "sounds/block/pointed_dripstone/drip_water14",
+                "sounds/block/pointed_dripstone/drip_water15"
+            ]
+        },
+        "enchanter.death": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/death",
+                    "volume": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/death2",
+                    "volume": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/death3",
+                    "volume": 1
+                }
+            ]
+        },
+        "enchanter.enchant": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/spell1",
+                    "volume": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/spell2",
+                    "volume": 1
+                }
+            ]
+        },
+        "enchanter.hurt": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/hurt1",
+                    "volume": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/hurt2",
+                    "volume": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/hurt3",
+                    "volume": 1
+                }
+            ]
+        },
+        "enchanter.idle": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/idle1",
+                    "volume": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/idle2",
+                    "volume": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/idle3",
+                    "volume": 1
+                }
+            ]
+        },
+        "entity.item.pickup": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/random/pop",
+                    "volume": 1.4
+                }
+            ]
+        },
+        "entity.player.swim": {
+            "category": "player",
+            "sounds": [
+                "sounds/liquid/swim5",
+                "sounds/liquid/swim6",
+                "sounds/liquid/swim7",
+                "sounds/liquid/swim8",
+                "sounds/liquid/swim9",
+                "sounds/liquid/swim10",
+                "sounds/liquid/swim11",
+                "sounds/liquid/swim12",
+                "sounds/liquid/swim13",
+                "sounds/liquid/swim14",
+                "sounds/liquid/swim15",
+                "sounds/liquid/swim16",
+                "sounds/liquid/swim17",
+                "sounds/liquid/swim18"
+            ]
+        },
+        "entity.wither_skeleton.ambient": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/wither_skeleton/idle1",
+                "sounds/mob/wither_skeleton/idle2",
+                "sounds/mob/wither_skeleton/idle3"
+            ]
+        },
+        "entity.wither_skeleton.death": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/wither_skeleton/death1",
+                "sounds/mob/wither_skeleton/death2"
+            ]
+        },
+        "entity.wither_skeleton.hurt": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/wither_skeleton/hurt1",
+                "sounds/mob/wither_skeleton/hurt2",
+                "sounds/mob/wither_skeleton/hurt3",
+                "sounds/mob/wither_skeleton/hurt4"
+            ]
+        },
+        "entity.wither_skeleton.step": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/wither_skeleton/step1",
+                "sounds/mob/wither_skeleton/step2",
+                "sounds/mob/wither_skeleton/step3",
+                "sounds/mob/wither_skeleton/step4"
+            ]
+        },
+        "epic_quest": {
+            "category": "music",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/epic_quest",
+                    "volume": 0.3
+                }
+            ]
+        },
+        "fall.amethyst_block": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/amethyst/step1",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step2",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step3",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step4",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step5",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step6",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step7",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step8",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step9",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step10",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step11",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step12",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step14",
+                    "volume": 1
+                }
+            ]
+        },
+        "fall.amethyst_cluster": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/amethyst/step1",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step2",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step3",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step4",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step5",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step6",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step7",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step8",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step9",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step10",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step11",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step12",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step14",
+                    "volume": 1
+                }
+            ]
+        },
+        "fall.azalea": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/azalea/step1",
+                "sounds/block/azalea/step2",
+                "sounds/block/azalea/step3",
+                "sounds/block/azalea/step4",
+                "sounds/block/azalea/step5",
+                "sounds/block/azalea/step6"
+            ]
+        },
+        "fall.azalea_leaves": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/azalea_leaves/step1",
+                "sounds/block/azalea_leaves/step2",
+                "sounds/block/azalea_leaves/step3",
+                "sounds/block/azalea_leaves/step4",
+                "sounds/block/azalea_leaves/step5"
+            ]
+        },
+        "fall.big_dripleaf": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/big_dripleaf/step1",
+                "sounds/block/big_dripleaf/step2",
+                "sounds/block/big_dripleaf/step3",
+                "sounds/block/big_dripleaf/step4",
+                "sounds/block/big_dripleaf/step5",
+                "sounds/block/big_dripleaf/step6"
+            ]
+        },
+        "fall.calcite": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/calcite/step1",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/calcite/step2",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/calcite/step3",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/calcite/step4",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/calcite/step5",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/calcite/step6",
+                    "volume": 1
+                }
+            ]
+        },
+        "fall.cave_vines": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/step/vines1",
+                "sounds/step/vines2",
+                "sounds/step/vines3",
+                "sounds/step/vines4",
+                "sounds/step/vines5"
+            ]
+        },
+        "fall.copper": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/copper/step1",
+                "sounds/block/copper/step2",
+                "sounds/block/copper/step3",
+                "sounds/block/copper/step4",
+                "sounds/block/copper/step5",
+                "sounds/block/copper/step6"
+            ]
+        },
+        "fall.deepslate": {
+            "category": "player",
+            "sounds": [
+                "sounds/block/deepslate/step1",
+                "sounds/block/deepslate/step2",
+                "sounds/block/deepslate/step3",
+                "sounds/block/deepslate/step4",
+                "sounds/block/deepslate/step5",
+                "sounds/block/deepslate/step6"
+            ]
+        },
+        "fall.deepslate_bricks": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/deepslate_bricks/step1",
+                "sounds/block/deepslate_bricks/step2",
+                "sounds/block/deepslate_bricks/step3",
+                "sounds/block/deepslate_bricks/step4",
+                "sounds/block/deepslate_bricks/step5",
+                "sounds/block/deepslate_bricks/step6"
+            ]
+        },
+        "fall.dripstone_block": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/dripstone/step1",
+                "sounds/block/dripstone/step2",
+                "sounds/block/dripstone/step3",
+                "sounds/block/dripstone/step4",
+                "sounds/block/dripstone/step5",
+                "sounds/block/dripstone/step6"
+            ]
+        },
+        "fall.hanging_roots": {
+            "category": "player",
+            "sounds": [
+                "sounds/block/hanging_roots/step1",
+                "sounds/block/hanging_roots/step2",
+                "sounds/block/hanging_roots/step3",
+                "sounds/block/hanging_roots/step4",
+                "sounds/block/hanging_roots/step5",
+                "sounds/block/hanging_roots/step6"
+            ]
+        },
+        "fall.moss": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/moss/step1",
+                "sounds/block/moss/step2",
+                "sounds/block/moss/step3",
+                "sounds/block/moss/step4",
+                "sounds/block/moss/step5",
+                "sounds/block/moss/step6"
+            ]
+        },
+        "fall.pointed_dripstone": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/dripstone/step1",
+                "sounds/block/dripstone/step2",
+                "sounds/block/dripstone/step3",
+                "sounds/block/dripstone/step4",
+                "sounds/block/dripstone/step5",
+                "sounds/block/dripstone/step6"
+            ]
+        },
+        "fall.powder_snow": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/powder_snow/step1",
+                "sounds/block/powder_snow/step2",
+                "sounds/block/powder_snow/step3",
+                "sounds/block/powder_snow/step4",
+                "sounds/block/powder_snow/step5",
+                "sounds/block/powder_snow/step6",
+                "sounds/block/powder_snow/step7",
+                "sounds/block/powder_snow/step8",
+                "sounds/block/powder_snow/step9",
+                "sounds/block/powder_snow/step10"
+            ]
+        },
+        "fall.spore_blossom": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/spore_blossom/step1",
+                "sounds/block/spore_blossom/step2",
+                "sounds/block/spore_blossom/step3",
+                "sounds/block/spore_blossom/step4",
+                "sounds/block/spore_blossom/step5",
+                "sounds/block/spore_blossom/step6"
+            ]
+        },
+        "fall.tuff": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/tuff/step1",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/tuff/step2",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/tuff/step3",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/tuff/step4",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/tuff/step5",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/tuff/step6",
+                    "volume": 1
+                }
+            ]
+        },
+        "flower_forest": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/music/game/bromeliad",
+                    "stream": true,
+                    "volume": 0.4
+                },
+                {
+                    "name": "sounds/music/game/echo_in_the_wind",
+                    "stream": true,
+                    "volume": 0.4
+                },
+                {
+                    "name": "sounds/music/game/hal1",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/hal2",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/hal3",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/hal4",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/left_to_bloom",
+                    "stream": true,
+                    "volume": 0.4
+                },
+                {
+                    "name": "sounds/music/game/nuance1",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/nuance2",
+                    "stream": true
+                }
+            ]
+        },
+        "goblin.death": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/goblin/death",
+                    "volume": 1.3
+                }
+            ]
+        },
+        "goblin.hurt": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/goblin/hurt1",
+                    "volume": 1.2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/goblin/hurt2",
+                    "volume": 1.2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/goblin/hurt3",
+                    "volume": 1.2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/goblin/hurt4",
+                    "volume": 1.2
+                }
+            ]
+        },
+        "goblin.idle": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/goblin/idle_1",
+                    "volume": 1.2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/goblin/idle_2",
+                    "volume": 1.2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/goblin/idle_3",
+                    "volume": 1.2
+                }
+            ]
+        },
+        "hit.amethyst_block": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/amethyst/step1",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step2",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step3",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step4",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step5",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step6",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step7",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step8",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step9",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step10",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step11",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step12",
+                    "volume": 1
+                }
+            ]
+        },
+        "hit.amethyst_cluster": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/amethyst/step1",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step2",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step3",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step4",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step5",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step6",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step7",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step8",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step9",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step10",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step11",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step12",
+                    "volume": 1
+                }
+            ]
+        },
+        "hit.azalea": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/azalea/step1",
+                "sounds/block/azalea/step2",
+                "sounds/block/azalea/step3",
+                "sounds/block/azalea/step4",
+                "sounds/block/azalea/step5",
+                "sounds/block/azalea/step6"
+            ]
+        },
+        "hit.azalea_leaves": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/azalea_leaves/step1",
+                    "pitch": 1.3,
+                    "volume": 0.83
+                },
+                {
+                    "name": "sounds/block/azalea_leaves/step2",
+                    "pitch": 1.3,
+                    "volume": 0.83
+                },
+                {
+                    "name": "sounds/block/azalea_leaves/step3",
+                    "pitch": 1.3,
+                    "volume": 0.83
+                },
+                {
+                    "name": "sounds/block/azalea_leaves/step4",
+                    "pitch": 1.3,
+                    "volume": 0.83
+                },
+                {
+                    "name": "sounds/block/azalea_leaves/step5",
+                    "pitch": 1.3,
+                    "volume": 0.83
+                }
+            ]
+        },
+        "hit.big_dripleaf": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/big_dripleaf/step1",
+                "sounds/block/big_dripleaf/step2",
+                "sounds/block/big_dripleaf/step3",
+                "sounds/block/big_dripleaf/step4",
+                "sounds/block/big_dripleaf/step5",
+                "sounds/block/big_dripleaf/step6"
+            ]
+        },
+        "hit.calcite": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/calcite/step1",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/calcite/step2",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/calcite/step3",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/calcite/step4",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/calcite/step5",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/calcite/step6",
+                    "volume": 1
+                }
+            ]
+        },
+        "hit.cave_vines": {
+            "category": "block",
+            "sounds": [
+                "sounds/step/vines1",
+                "sounds/step/vines2",
+                "sounds/step/vines3",
+                "sounds/step/vines4",
+                "sounds/step/vines5"
+            ]
+        },
+        "hit.copper": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/copper/step1",
+                "sounds/block/copper/step2",
+                "sounds/block/copper/step3",
+                "sounds/block/copper/step4",
+                "sounds/block/copper/step5",
+                "sounds/block/copper/step6"
+            ]
+        },
+        "hit.deepslate": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/deepslate/step1",
+                "sounds/block/deepslate/step2",
+                "sounds/block/deepslate/step3",
+                "sounds/block/deepslate/step4",
+                "sounds/block/deepslate/step5",
+                "sounds/block/deepslate/step6"
+            ]
+        },
+        "hit.deepslate_bricks": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/deepslate_bricks/step1",
+                "sounds/block/deepslate_bricks/step2",
+                "sounds/block/deepslate_bricks/step3",
+                "sounds/block/deepslate_bricks/step4",
+                "sounds/block/deepslate_bricks/step5"
+            ]
+        },
+        "hit.dripstone_block": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/dripstone/step1",
+                "sounds/block/dripstone/step2",
+                "sounds/block/dripstone/step3",
+                "sounds/block/dripstone/step4",
+                "sounds/block/dripstone/step5",
+                "sounds/block/dripstone/step6"
+            ]
+        },
+        "hit.hanging_roots": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/hanging_roots/step1",
+                "sounds/block/hanging_roots/step2",
+                "sounds/block/hanging_roots/step3",
+                "sounds/block/hanging_roots/step4",
+                "sounds/block/hanging_roots/step5",
+                "sounds/block/hanging_roots/step6"
+            ]
+        },
+        "hit.moss": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/moss/step1",
+                "sounds/block/moss/step2",
+                "sounds/block/moss/step3",
+                "sounds/block/moss/step4",
+                "sounds/block/moss/step5",
+                "sounds/block/moss/step6"
+            ]
+        },
+        "hit.pointed_dripstone": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/dripstone/step1",
+                "sounds/block/dripstone/step2",
+                "sounds/block/dripstone/step3",
+                "sounds/block/dripstone/step4",
+                "sounds/block/dripstone/step5",
+                "sounds/block/dripstone/step6"
+            ]
+        },
+        "hit.powder_snow": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/powder_snow/step1",
+                    "pitch": 1.3,
+                    "volume": 0.83
+                },
+                {
+                    "name": "sounds/block/powder_snow/step2",
+                    "pitch": 1.3,
+                    "volume": 0.83
+                },
+                {
+                    "name": "sounds/block/powder_snow/step3",
+                    "pitch": 1.3,
+                    "volume": 0.83
+                },
+                {
+                    "name": "sounds/block/powder_snow/step4",
+                    "pitch": 1.3,
+                    "volume": 0.83
+                },
+                {
+                    "name": "sounds/block/powder_snow/step5",
+                    "pitch": 1.3,
+                    "volume": 0.83
+                },
+                {
+                    "name": "sounds/block/powder_snow/step6",
+                    "pitch": 1.3,
+                    "volume": 0.83
+                },
+                {
+                    "name": "sounds/block/powder_snow/step7",
+                    "pitch": 1.3,
+                    "volume": 0.83
+                },
+                {
+                    "name": "sounds/block/powder_snow/step8",
+                    "pitch": 1.3,
+                    "volume": 0.83
+                },
+                {
+                    "name": "sounds/block/powder_snow/step9",
+                    "pitch": 1.3,
+                    "volume": 0.83
+                },
+                {
+                    "name": "sounds/block/powder_snow/step10",
+                    "pitch": 1.3,
+                    "volume": 0.83
+                }
+            ]
+        },
+        "hit.spore_blossom": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/spore_blossom/break1",
+                "sounds/block/spore_blossom/break2",
+                "sounds/block/spore_blossom/break3",
+                "sounds/block/spore_blossom/break4",
+                "sounds/block/spore_blossom/break5"
+            ]
+        },
+        "hit.tuff": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/tuff/step1",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/tuff/step2",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/tuff/step3",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/tuff/step4",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/tuff/step5",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/tuff/step6",
+                    "volume": 1
+                }
+            ]
+        },
+        "hollow.death": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/hollow/hollow_death",
+                    "volume": 0.2
+                }
+            ]
+        },
+        "hollow.hurt": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/hollow/hollow_hurt",
+                    "volume": 0.2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/hollow/hollow_hurt_2",
+                    "volume": 0.2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/hollow/hollow_hurt_3",
+                    "volume": 0.2
+                }
+            ]
+        },
+        "hollow.idle": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/hollow/hollow_idle_1",
+                    "volume": 0.2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/hollow/hollow_idle_2",
+                    "volume": 0.2
+                }
+            ]
+        },
+        "icebomb.hit": {
+            "category": "player",
+            "sounds": [
+                {
+                    "is3D": false,
+                    "load_on_low_memory": true,
+                    "name": "sounds/bubbles5",
+                    "stream": true
+                },
+                {
+                    "is3D": false,
+                    "load_on_low_memory": true,
+                    "name": "sounds/bubbles4",
+                    "stream": true
+                }
+            ]
+        },
+        "item.bone_meal.use": {
+            "category": "block",
+            "sounds": [
+                "sounds/item/bonemeal/bonemeal1",
+                "sounds/item/bonemeal/bonemeal2",
+                "sounds/item/bonemeal/bonemeal3",
+                "sounds/item/bonemeal/bonemeal4",
+                "sounds/item/bonemeal/bonemeal5"
+            ]
+        },
+        "item.bubble.blow": {
+            "category": "player",
+            "sounds": [
+                "sounds/bubbles2",
+                "sounds/bubbles3"
+            ]
+        },
+        "item.necklace.fail": {
+            "category": "player",
+            "sounds": [
+                {
+                    "is3D": false,
+                    "name": "sounds/items/ghost_necklace_fail",
+                    "volume": 1.7
+                }
+            ]
+        },
+        "item.necklace.stop": {
+            "category": "player",
+            "sounds": [
+                {
+                    "is3D": false,
+                    "name": "sounds/items/ghost_deactivate",
+                    "volume": 1.7
+                }
+            ]
+        },
+        "item.necklace.use": {
+            "category": "player",
+            "sounds": [
+                {
+                    "is3D": false,
+                    "name": "sounds/items/ghost_activate",
+                    "volume": 1.7
+                }
+            ]
+        },
+        "item.spyglass.stop_using": {
+            "category": "player",
+            "sounds": [
+                "sounds/item/spyglass/stop"
+            ]
+        },
+        "item.spyglass.use": {
+            "category": "player",
+            "sounds": [
+                "sounds/item/spyglass/use"
+            ]
+        },
+        "jump.azalea": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/azalea/step1",
+                "sounds/block/azalea/step2",
+                "sounds/block/azalea/step3",
+                "sounds/block/azalea/step4",
+                "sounds/block/azalea/step5",
+                "sounds/block/azalea/step6"
+            ]
+        },
+        "jump.big_dripleaf": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/big_dripleaf/step1",
+                "sounds/block/big_dripleaf/step2",
+                "sounds/block/big_dripleaf/step3",
+                "sounds/block/big_dripleaf/step4",
+                "sounds/block/big_dripleaf/step5",
+                "sounds/block/big_dripleaf/step6"
+            ]
+        },
+        "jump.cave_vines": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/step/vines1",
+                "sounds/step/vines2",
+                "sounds/step/vines3",
+                "sounds/step/vines4",
+                "sounds/step/vines5"
+            ]
+        },
+        "jump.deepslate": {
+            "category": "player",
+            "sounds": [
+                "sounds/block/deepslate/step1",
+                "sounds/block/deepslate/step2",
+                "sounds/block/deepslate/step3",
+                "sounds/block/deepslate/step4",
+                "sounds/block/deepslate/step5",
+                "sounds/block/deepslate/step6"
+            ]
+        },
+        "jump.deepslate_bricks": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/deepslate_bricks/step1",
+                "sounds/block/deepslate_bricks/step2",
+                "sounds/block/deepslate_bricks/step3",
+                "sounds/block/deepslate_bricks/step4",
+                "sounds/block/deepslate_bricks/step5"
+            ]
+        },
+        "jump.dripstone_block": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/dripstone/step1",
+                "sounds/block/dripstone/step2",
+                "sounds/block/dripstone/step3",
+                "sounds/block/dripstone/step4",
+                "sounds/block/dripstone/step5",
+                "sounds/block/dripstone/step6"
+            ]
+        },
+        "jump.hanging_roots": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/hanging_roots/step1",
+                "sounds/block/hanging_roots/step2",
+                "sounds/block/hanging_roots/step3",
+                "sounds/block/hanging_roots/step4",
+                "sounds/block/hanging_roots/step5",
+                "sounds/block/hanging_roots/step6"
+            ]
+        },
+        "jump.moss": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/moss/step1",
+                "sounds/block/moss/step2",
+                "sounds/block/moss/step3",
+                "sounds/block/moss/step4",
+                "sounds/block/moss/step5",
+                "sounds/block/moss/step6"
+            ]
+        },
+        "jump.pointed_dripstone": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/dripstone/step1",
+                "sounds/block/dripstone/step2",
+                "sounds/block/dripstone/step3",
+                "sounds/block/dripstone/step4",
+                "sounds/block/dripstone/step5",
+                "sounds/block/dripstone/step6"
+            ]
+        },
+        "jump.spore_blossom": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/spore_blossom/step1",
+                "sounds/block/spore_blossom/step2",
+                "sounds/block/spore_blossom/step3",
+                "sounds/block/spore_blossom/step4",
+                "sounds/block/spore_blossom/step5",
+                "sounds/block/spore_blossom/step6"
+            ]
+        },
+        "jungle": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/music/game/bromeliad",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/hal1",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/hal2",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/hal3",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/hal4",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/left_to_bloom",
+                    "volume": 0.4
+                },
+                {
+                    "name": "sounds/music/game/nuance1",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/nuance2",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/piano1",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/piano2",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/piano3",
+                    "stream": true
+                }
+            ]
+        },
+        "jungle_edge": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/music/game/bromeliad",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 2
+                },
+                {
+                    "name": "sounds/music/game/hal1",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/hal2",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/hal3",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/hal4",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/left_to_bloom",
+                    "stream": true,
+                    "volume": 0.4
+                },
+                {
+                    "name": "sounds/music/game/nuance1",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/nuance2",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/piano1",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/piano2",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/piano3",
+                    "stream": true
+                }
+            ]
+        },
+        "land.azalea": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/azalea/step1",
+                "sounds/block/azalea/step2",
+                "sounds/block/azalea/step3",
+                "sounds/block/azalea/step4",
+                "sounds/block/azalea/step5",
+                "sounds/block/azalea/step6"
+            ]
+        },
+        "land.big_dripleaf": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/big_dripleaf/step1",
+                "sounds/block/big_dripleaf/step2",
+                "sounds/block/big_dripleaf/step3",
+                "sounds/block/big_dripleaf/step4",
+                "sounds/block/big_dripleaf/step5",
+                "sounds/block/big_dripleaf/step6"
+            ]
+        },
+        "land.cave_vines": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/step/vines1",
+                "sounds/step/vines2",
+                "sounds/step/vines3",
+                "sounds/step/vines4",
+                "sounds/step/vines5"
+            ]
+        },
+        "land.deepslate": {
+            "category": "player",
+            "sounds": [
+                "sounds/block/deepslate/step1",
+                "sounds/block/deepslate/step2",
+                "sounds/block/deepslate/step3",
+                "sounds/block/deepslate/step4",
+                "sounds/block/deepslate/step5",
+                "sounds/block/deepslate/step6"
+            ]
+        },
+        "land.deepslate_bricks": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/deepslate_bricks/step1",
+                "sounds/block/deepslate_bricks/step2",
+                "sounds/block/deepslate_bricks/step3",
+                "sounds/block/deepslate_bricks/step4",
+                "sounds/block/deepslate_bricks/step5"
+            ]
+        },
+        "land.dripstone_block": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/dripstone/step1",
+                "sounds/block/dripstone/step2",
+                "sounds/block/dripstone/step3",
+                "sounds/block/dripstone/step4",
+                "sounds/block/dripstone/step5",
+                "sounds/block/dripstone/step6"
+            ]
+        },
+        "land.hanging_roots": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/hanging_roots/step1",
+                "sounds/block/hanging_roots/step2",
+                "sounds/block/hanging_roots/step3",
+                "sounds/block/hanging_roots/step4",
+                "sounds/block/hanging_roots/step5",
+                "sounds/block/hanging_roots/step6"
+            ]
+        },
+        "land.moss": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/moss/step1",
+                "sounds/block/moss/step2",
+                "sounds/block/moss/step3",
+                "sounds/block/moss/step4",
+                "sounds/block/moss/step5",
+                "sounds/block/moss/step6"
+            ]
+        },
+        "land.pointed_dripstone": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/pointed_dripstone/land1",
+                "sounds/block/pointed_dripstone/land2",
+                "sounds/block/pointed_dripstone/land3",
+                "sounds/block/pointed_dripstone/land4",
+                "sounds/block/pointed_dripstone/land5"
+            ]
+        },
+        "land.spore_blossom": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/spore_blossom/step1",
+                "sounds/block/spore_blossom/step2",
+                "sounds/block/spore_blossom/step3",
+                "sounds/block/spore_blossom/step4",
+                "sounds/block/spore_blossom/step5",
+                "sounds/block/spore_blossom/step6"
+            ]
+        },
+        "lich.attack": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/wraith/fire",
+                    "volume": 1
+                }
+            ]
+        },
+        "lich.attack_prepare": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/wraith/attack",
+                    "volume": 1
+                }
+            ]
+        },
+        "lich.death": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/wraith/death1",
+                    "volume": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/wraith/death2",
+                    "volume": 1
+                }
+            ]
+        },
+        "lich.hurt": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/wraith/hurt1",
+                    "volume": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/wraith/hurt2",
+                    "volume": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/wraith/hurt3",
+                    "volume": 1
+                }
+            ]
+        },
+        "lich.idle": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/wraith/idle1",
+                    "volume": 0.2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/wraith/idle2",
+                    "volume": 0.2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/wraith/idle3",
+                    "volume": 0.2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/wraith/idle4",
+                    "volume": 0.2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/wraith/idle5",
+                    "volume": 0.2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/wraith/idle6",
+                    "volume": 0.2
+                }
+            ]
+        },
+        "lich.puke": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/wraith/puke",
+                    "volume": 1
+                }
+            ]
+        },
+        "lich.teleportin": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/wraith/teleportin",
+                    "volume": 1
+                }
+            ]
+        },
+        "lich.teleportout": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/wraith/teleportout",
+                    "volume": 1
+                }
+            ]
+        },
+        "mesa": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/music/game/crescent_dunes",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 2
+                },
+                {
+                    "name": "sounds/music/game/echo_in_the_wind",
+                    "stream": true,
+                    "volume": 0.4
+                },
+                {
+                    "name": "sounds/music/game/hal1",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/hal2",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/hal3",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/hal4",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/nuance1",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/nuance2",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/one_more_day",
+                    "stream": true,
+                    "volume": 0.4
+                },
+                {
+                    "name": "sounds/music/game/piano1",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/piano2",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/piano3",
+                    "stream": true
+                }
+            ]
+        },
+        "mob.amulet.charge": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/ambient/underwater/additions/crackles1"
+            ]
+        },
+        "mob.amulet.shoot": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/anchor_impac"
+            ]
+        },
+        "mob.axolotl.attack": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/axolotl/attack1",
+                "sounds/mob/axolotl/attack2",
+                "sounds/mob/axolotl/attack3",
+                "sounds/mob/axolotl/attack4"
+            ]
+        },
+        "mob.axolotl.death": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/axolotl/death1",
+                "sounds/mob/axolotl/death2"
+            ]
+        },
+        "mob.axolotl.hurt": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/axolotl/hurt1",
+                "sounds/mob/axolotl/hurt2",
+                "sounds/mob/axolotl/hurt3",
+                "sounds/mob/axolotl/hurt4"
+            ]
+        },
+        "mob.axolotl.idle": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/axolotl/idle_air1",
+                "sounds/mob/axolotl/idle_air2",
+                "sounds/mob/axolotl/idle_air3",
+                "sounds/mob/axolotl/idle_air4",
+                "sounds/mob/axolotl/idle_air5"
+            ]
+        },
+        "mob.axolotl.idle_water": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/axolotl/idle1",
+                "sounds/mob/axolotl/idle2",
+                "sounds/mob/axolotl/idle3",
+                "sounds/mob/axolotl/idle4",
+                "sounds/mob/axolotl/idle5"
+            ]
+        },
+        "mob.axolotl.splash": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/mob/axolotl/splash1",
+                    "pitch": 1.2,
+                    "volume": 0.9
+                },
+                {
+                    "name": "sounds/mob/axolotl/splash2",
+                    "pitch": 1.2,
+                    "volume": 0.9
+                },
+                {
+                    "name": "sounds/mob/axolotl/splash3",
+                    "pitch": 1.2,
+                    "volume": 0.9
+                }
+            ]
+        },
+        "mob.axolotl.swim": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/axolotl/swim1",
+                "sounds/mob/axolotl/swim2",
+                "sounds/mob/axolotl/swim3",
+                "sounds/mob/axolotl/swim4",
+                "sounds/mob/axolotl/swim5",
+                "sounds/mob/axolotl/swim6",
+                "sounds/mob/axolotl/swim7"
+            ]
+        },
+        "mob.chorus_golem.hurt": {
+            "category": "player",
+            "sounds": [
+                "sounds/entity/stuff/chorus_golem/hit1",
+                "sounds/entity/stuff/chorus_golem/hit2",
+                "sounds/entity/stuff/chorus_golem/hit3",
+                "sounds/entity/stuff/chorus_golem/hit4"
+            ]
+        },
+        "mob.end.hurt": {
+            "category": "player",
+            "sounds": [
+                "sounds/entity/end_mobs/hurt",
+                "sounds/entity/end_mobs/hurt1",
+                "sounds/entity/end_mobs/hurt2",
+                "sounds/entity/end_mobs/hurt3"
+            ]
+        },
+        "mob.end.idle": {
+            "category": "player",
+            "sounds": [
+                "sounds/entity/end_mobs/idle",
+                "sounds/entity/end_mobs/idle1",
+                "sounds/entity/end_mobs/idle2",
+                "sounds/entity/end_mobs/idle3"
+            ]
+        },
+        "mob.geomancer.attack": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/geomancer/attack1",
+                "sounds/geomancer/attack2"
+            ]
+        },
+        "mob.geomancer.death": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/geomancer/death1",
+                "sounds/geomancer/death2",
+                "sounds/geomancer/death3"
+            ]
+        },
+        "mob.geomancer.hurt": {
+            "sounds": [
+                "sounds/geomancer/hurt1",
+                "sounds/geomancer/hurt2",
+                "sounds/geomancer/hurt3",
+                "sounds/geomancer/hurt4"
+            ]
+        },
+        "mob.geomancer.idle": {
+            "sounds": [
+                "sounds/geomancer/idle1",
+                "sounds/geomancer/idle2",
+                "sounds/geomancer/idle3",
+                "sounds/geomancer/idle4",
+                "sounds/geomancer/idle5",
+                "sounds/geomancer/idle6"
+            ]
+        },
+        "mob.geomancer.pillar_bomb.load": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/geomancer_pillar_bomb/load"
+            ]
+        },
+        "mob.geomancer.pillar_bomb.spawn": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/geomancer_pillar_bomb/spawn1",
+                "sounds/geomancer_pillar_bomb/spawn2"
+            ]
+        },
+        "mob.geomancer.pillar_wall.spawn": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/geomancer_pillar_wall/spawn1",
+                "sounds/geomancer_pillar_wall/spawn2",
+                "sounds/geomancer_pillar_wall/spawn3"
+            ]
+        },
+        "mob.geomancer.preattack": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/geomancer/preattack1",
+                "sounds/geomancer/preattack2"
+            ]
+        },
+        "mob.geomancer.wallhit": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/geomancer/wallhit1",
+                "sounds/geomancer/wallhit2"
+            ]
+        },
+        "mob.glorb.idle": {
+            "category": "player",
+            "sounds": [
+                "sounds/entity/stuff/glorb/moan1",
+                "sounds/entity/stuff/glorb/moan2",
+                "sounds/entity/stuff/glorb/moan4",
+                "sounds/entity/stuff/glorb/moan5"
+            ]
+        },
+        "mob.glow_squid.ambient": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/glow_squid/ambient1",
+                "sounds/mob/glow_squid/ambient2",
+                "sounds/mob/glow_squid/ambient3",
+                "sounds/mob/glow_squid/ambient4",
+                "sounds/mob/glow_squid/ambient5"
+            ]
+        },
+        "mob.glow_squid.death": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/glow_squid/death1",
+                "sounds/mob/glow_squid/death2",
+                "sounds/mob/glow_squid/death3"
+            ]
+        },
+        "mob.glow_squid.hurt": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/glow_squid/hurt1",
+                "sounds/mob/glow_squid/hurt2",
+                "sounds/mob/glow_squid/hurt3",
+                "sounds/mob/glow_squid/hurt4"
+            ]
+        },
+        "mob.glow_squid.ink_squirt": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/glow_squid/squirt1",
+                "sounds/mob/glow_squid/squirt2",
+                "sounds/mob/glow_squid/squirt3"
+            ]
+        },
+        "mob.goat.ambient": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/mob/goat/idle1",
+                    "volume": 0.82
+                },
+                {
+                    "name": "sounds/mob/goat/idle2",
+                    "volume": 0.82
+                },
+                {
+                    "name": "sounds/mob/goat/idle3",
+                    "volume": 0.84
+                },
+                {
+                    "name": "sounds/mob/goat/idle4",
+                    "volume": 0.84
+                },
+                {
+                    "name": "sounds/mob/goat/idle5",
+                    "volume": 0.84
+                },
+                {
+                    "name": "sounds/mob/goat/idle6",
+                    "volume": 0.84
+                },
+                {
+                    "name": "sounds/mob/goat/idle7",
+                    "volume": 0.83
+                },
+                {
+                    "name": "sounds/mob/goat/idle8",
+                    "volume": 0.84
+                }
+            ]
+        },
+        "mob.goat.ambient.screamer": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/mob/goat/idle1",
+                    "volume": 0.82
+                },
+                {
+                    "name": "sounds/mob/goat/idle2",
+                    "volume": 0.82
+                },
+                {
+                    "name": "sounds/mob/goat/idle3",
+                    "volume": 0.84
+                },
+                {
+                    "name": "sounds/mob/goat/idle4",
+                    "volume": 0.84
+                },
+                {
+                    "name": "sounds/mob/goat/idle5",
+                    "volume": 0.84
+                },
+                {
+                    "name": "sounds/mob/goat/idle6",
+                    "volume": 0.84
+                },
+                {
+                    "name": "sounds/mob/goat/idle7",
+                    "volume": 0.83
+                },
+                {
+                    "name": "sounds/mob/goat/idle8",
+                    "volume": 0.84
+                },
+                {
+                    "name": "sounds/mob/goat/scream1",
+                    "volume": 0.9
+                },
+                {
+                    "name": "sounds/mob/goat/scream2",
+                    "volume": 0.9
+                },
+                {
+                    "name": "sounds/mob/goat/scream3",
+                    "volume": 0.9
+                },
+                {
+                    "name": "sounds/mob/goat/scream4",
+                    "volume": 0.9
+                },
+                {
+                    "name": "sounds/mob/goat/scream5",
+                    "volume": 0.9
+                },
+                {
+                    "name": "sounds/mob/goat/scream6",
+                    "volume": 0.9
+                },
+                {
+                    "name": "sounds/mob/goat/scream7",
+                    "volume": 0.9
+                },
+                {
+                    "name": "sounds/mob/goat/scream8",
+                    "volume": 0.9
+                },
+                {
+                    "name": "sounds/mob/goat/scream9",
+                    "volume": 0.9
+                }
+            ]
+        },
+        "mob.goat.death": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/mob/goat/death1",
+                    "volume": 0.65
+                },
+                {
+                    "name": "sounds/mob/goat/death2",
+                    "volume": 0.65
+                },
+                {
+                    "name": "sounds/mob/goat/death3",
+                    "volume": 0.65
+                },
+                {
+                    "name": "sounds/mob/goat/death4",
+                    "volume": 0.65
+                },
+                {
+                    "name": "sounds/mob/goat/death5",
+                    "volume": 0.65
+                }
+            ]
+        },
+        "mob.goat.death.screamer": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/mob/goat/screaming_death1",
+                    "volume": 0.65
+                },
+                {
+                    "name": "sounds/mob/goat/screaming_death2",
+                    "volume": 0.65
+                },
+                {
+                    "name": "sounds/mob/goat/screaming_death3",
+                    "volume": 0.65
+                }
+            ]
+        },
+        "mob.goat.eat": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/goat/eat1",
+                "sounds/mob/goat/eat2",
+                "sounds/mob/goat/eat3"
+            ]
+        },
+        "mob.goat.hurt": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/mob/goat/hurt1",
+                    "volume": 0.65
+                },
+                {
+                    "name": "sounds/mob/goat/hurt2",
+                    "volume": 0.65
+                },
+                {
+                    "name": "sounds/mob/goat/hurt3",
+                    "volume": 0.65
+                },
+                {
+                    "name": "sounds/mob/goat/hurt4",
+                    "volume": 0.65
+                }
+            ]
+        },
+        "mob.goat.hurt.screamer": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/mob/goat/screaming_hurt1",
+                    "volume": 0.65
+                },
+                {
+                    "name": "sounds/mob/goat/screaming_hurt2",
+                    "volume": 0.65
+                },
+                {
+                    "name": "sounds/mob/goat/screaming_hurt3",
+                    "volume": 0.65
+                }
+            ]
+        },
+        "mob.goat.milk.screamer": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/goat/screaming_milk1",
+                "sounds/mob/goat/screaming_milk2",
+                "sounds/mob/goat/screaming_milk3",
+                "sounds/mob/goat/screaming_milk4",
+                "sounds/mob/goat/screaming_milk5"
+            ]
+        },
+        "mob.goat.prepare_ram": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "name": "sounds/mob/goat/pre_ram1",
+                    "volume": 0.8
+                },
+                {
+                    "name": "sounds/mob/goat/pre_ram2",
+                    "volume": 0.8
+                },
+                {
+                    "name": "sounds/mob/goat/pre_ram3",
+                    "volume": 0.8
+                },
+                {
+                    "name": "sounds/mob/goat/pre_ram4",
+                    "volume": 0.8
+                }
+            ]
+        },
+        "mob.goat.prepare_ram.screamer": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "name": "sounds/mob/goat/screaming_pre_ram1",
+                    "volume": 0.8
+                },
+                {
+                    "name": "sounds/mob/goat/screaming_pre_ram2",
+                    "volume": 0.8
+                },
+                {
+                    "name": "sounds/mob/goat/screaming_pre_ram3",
+                    "volume": 0.8
+                },
+                {
+                    "name": "sounds/mob/goat/screaming_pre_ram4",
+                    "volume": 0.8
+                },
+                {
+                    "name": "sounds/mob/goat/screaming_pre_ram5",
+                    "volume": 0.8
+                }
+            ]
+        },
+        "mob.goat.ram_impact": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "name": "sounds/mob/goat/impact1",
+                    "volume": 0.8
+                },
+                {
+                    "name": "sounds/mob/goat/impact2",
+                    "volume": 0.8
+                },
+                {
+                    "name": "sounds/mob/goat/impact2",
+                    "volume": 0.8
+                }
+            ]
+        },
+        "mob.goat.ram_impact.screamer": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "name": "sounds/mob/goat/impact1",
+                    "volume": 0.8
+                },
+                {
+                    "name": "sounds/mob/goat/impact2",
+                    "volume": 0.8
+                },
+                {
+                    "name": "sounds/mob/goat/impact2",
+                    "volume": 0.8
+                }
+            ]
+        },
+        "mob.goat.step": {
+            "category": "neutral",
+            "sounds": [
+                {
+                    "name": "sounds/mob/goat/step1",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/mob/goat/step2",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/mob/goat/step3",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/mob/goat/step4",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/mob/goat/step5",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/mob/goat/step6",
+                    "volume": 1
+                }
+            ]
+        },
+        "mob.gungal.hurt": {
+            "category": "player",
+            "sounds": [
+                "sounds/entity/end_mobs/hurt1-2",
+                "sounds/entity/end_mobs/hurt-2",
+                "sounds/entity/end_mobs/hurt2-2"
+            ]
+        },
+        "mob.gungal.idle": {
+            "category": "player",
+            "sounds": [
+                "sounds/entity/end_mobs/idle1-2",
+                "sounds/entity/end_mobs/idle2-2"
+            ]
+        },
+        "mob.gungal.idle1": {
+            "category": "player",
+            "sounds": [
+                "sounds/entity/end_mobs/ilde_two",
+                "sounds/entity/end_mobs/ilde1_two",
+                "sounds/entity/end_mobs/ilde2_two"
+            ]
+        },
+        "mob.iceologer.attack": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/iceologer/attack1",
+                "sounds/mob/iceologer/attack2",
+                "sounds/mob/iceologer/attack3"
+            ]
+        },
+        "mob.iceologer.death": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/iceologer/death1",
+                "sounds/mob/iceologer/death2",
+                "sounds/mob/iceologer/death3"
+            ]
+        },
+        "mob.iceologer.hurt": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/iceologer/hurt1",
+                "sounds/mob/iceologer/hurt2",
+                "sounds/mob/iceologer/hurt3"
+            ]
+        },
+        "mob.iceologer.idle": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/mob/iceologer/idle1",
+                "sounds/mob/iceologer/idle2",
+                "sounds/mob/iceologer/idle3"
+            ]
+        },
+        "mob.infected.hurt": {
+            "category": "player",
+            "sounds": [
+                "sounds/entity/stuff/infected/scream1",
+                "sounds/entity/stuff/infected/scream2",
+                "sounds/entity/stuff/infected/scream3",
+                "sounds/entity/stuff/infected/scream4"
+            ]
+        },
+        "mob.infected.idle": {
+            "category": "player",
+            "sounds": [
+                "sounds/entity/stuff/infected/idle1",
+                "sounds/entity/stuff/infected/idle2",
+                "sounds/entity/stuff/infected/idle3",
+                "sounds/entity/stuff/infected/idle4"
+            ]
+        },
+        "mob.inferno.death": {
+            "category": "player",
+            "sounds": [
+                "sounds/inferno/hurt1",
+                "sounds/inferno/hurt2"
+            ]
+        },
+        "mob.inferno.hurt": {
+            "category": "player",
+            "sounds": [
+                "sounds/inferno/hurt1",
+                "sounds/inferno/hurt2"
+            ]
+        },
+        "mob.inferno.idle": {
+            "category": "player",
+            "sounds": [
+                "sounds/inferno/idle1",
+                "sounds/inferno/idle2"
+            ]
+        },
+        "mob.longleg.idle": {
+            "category": "player",
+            "sounds": [
+                "sounds/entity/stuff/spider/say1",
+                "sounds/entity/stuff/spider/say2",
+                "sounds/entity/stuff/spider/say3",
+                "sounds/entity/stuff/spider/say4"
+            ]
+        },
+        "mob.mooshroom.converts": {
+            "category": "record",
+            "sounds": [
+                "sounds/music/travelers"
+            ]
+        },
+        "mob.player.hurt_drown": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/player/hurt/drown1",
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/mob/player/hurt/drown2"
+                },
+                "sounds/mob/player/hurt/drown3",
+                "sounds/mob/player/hurt/drown4"
+            ]
+        },
+        "mob.player.hurt_freeze": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/player/hurt/freeze_hurt1",
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/mob/player/hurt/freeze_hurt2"
+                },
+                "sounds/mob/player/hurt/freeze_hurt3",
+                "sounds/mob/player/hurt/freeze_hurt4",
+                "sounds/mob/player/hurt/freeze_hurt5"
+            ]
+        },
+        "mob.player.hurt_on_fire": {
+            "category": "player",
+            "sounds": [
+                "sounds/mob/player/hurt/fire_hurt1",
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/mob/player/hurt/fire_hurt2"
+                },
+                "sounds/mob/player/hurt/fire_hurt3"
+            ]
+        },
+        "mob.quiet": {
+            "category": "player",
+            "sounds": [
+                "sounds/inferno/idlse1",
+                "sounds/inferno/idsle2"
+            ]
+        },
+        "mob.seeker.beam": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/entity/end_mobs/beam_attack",
+                "sounds/entity/end_mobs/beam_attack1",
+                "sounds/entity/end_mobs/beam_attack2"
+            ]
+        },
+        "mob.seeker.hurt": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/entity/end_mobs/seeker_damage",
+                "sounds/entity/end_mobs/seeker_damage1",
+                "sounds/entity/end_mobs/seeker_damage2"
+            ]
+        },
+        "mob.skeleton.convert_to_stray": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/stray/convert1",
+                "sounds/mob/stray/convert2",
+                "sounds/mob/stray/convert3"
+            ]
+        },
+        "mob.soot.hurt": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/entity/end_mobs/soot_damage",
+                "sounds/entity/end_mobs/soot_damage2",
+                "sounds/entity/end_mobs/soot_damage1"
+            ]
+        },
+        "mob.soot.idle": {
+            "category": "hostile",
+            "sounds": [
+                "sounds/entity/end_mobs/soot_idle",
+                "sounds/entity/end_mobs/soot_idle1",
+                "sounds/entity/end_mobs/soot_idle2"
+            ]
+        },
+        "mob.squid.ink_squirt": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/mob/squid/squirt1",
+                "sounds/mob/squid/squirt2",
+                "sounds/mob/squid/squirt3"
+            ]
+        },
+        "music.game.deep_dark": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/music/game/ancestry",
+                    "stream": true
+                }
+            ]
+        },
+        "music.game.dripstone_caves": {
+            "category": "music",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/wending",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/infinite_amethyst",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/an_ordinary_day",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/hal1",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/hal4",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/nuance1",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/nuance2",
+                    "stream": true,
+                    "weight": 1
+                }
+            ]
+        },
+        "music.game.end": {
+            "category": "music",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/end/end",
+                    "stream": true,
+                    "volume": 1.0,
+                    "weight": 2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/end/vacant_ways",
+                    "stream": true,
+                    "volume": 0.7,
+                    "weight": 2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/bloopers",
+                    "stream": true,
+                    "volume": 0.3,
+                    "weight": 5
+                }
+            ]
+        },
+        "music.game.endboss": {
+            "category": "music",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/end/boss",
+                    "stream": true,
+                    "volume": 0.3
+                }
+            ]
+        },
+        "music.game.frozen_peaks": {
+            "category": "music",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/stand_tall",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/one_more_day",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/piano1",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/piano2",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/piano3",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/hal1",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/hal2",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/hal3",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/hal4",
+                    "stream": true,
+                    "weight": 1
+                }
+            ]
+        },
+        "music.game.grove": {
+            "category": "music",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/comforting_memories",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/infinite_amethyst",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/wending",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/piano3",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/calm1",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/calm2",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/calm3",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/nuance1",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/nuance2",
+                    "stream": true,
+                    "weight": 1
+                }
+            ]
+        },
+        "music.game.jagged_peaks": {
+            "category": "music",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/floating_dream",
+                    "stream": true,
+                    "volume": 0.4
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/stand_tall",
+                    "stream": true,
+                    "volume": 0.4
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/wending",
+                    "stream": true,
+                    "volume": 0.4
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/piano1",
+                    "stream": true
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/piano2",
+                    "stream": true
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/piano3",
+                    "stream": true
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/nuance1",
+                    "stream": true
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/nuance2",
+                    "stream": true
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/hal1",
+                    "stream": true
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/hal2",
+                    "stream": true
+                }
+            ]
+        },
+        "music.game.lush_caves": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/music/game/an_ordinary_day",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 2
+                },
+                {
+                    "name": "sounds/music/game/left_to_bloom",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 4
+                },
+                {
+                    "name": "sounds/music/game/one_more_day",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 2
+                },
+                {
+                    "name": "sounds/music/game/floating_dream",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 2
+                },
+                {
+                    "name": "sounds/music/game/piano3",
+                    "stream": true,
+                    "weight": 2
+                },
+                {
+                    "name": "sounds/music/game/calm1",
+                    "stream": true,
+                    "weight": 2
+                },
+                {
+                    "name": "sounds/music/game/calm2",
+                    "stream": true,
+                    "weight": 2
+                },
+                {
+                    "name": "sounds/music/game/calm3",
+                    "stream": true,
+                    "weight": 2
+                },
+                {
+                    "name": "sounds/music/game/aerie",
+                    "stream": true,
+                    "volume": 0.4
+                },
+                {
+                    "name": "sounds/music/game/firebugs",
+                    "stream": true,
+                    "volume": 0.4
+                },
+                {
+                    "name": "sounds/music/game/labyrinthine",
+                    "stream": true,
+                    "volume": 0.4
+                }
+            ]
+        },
+        "music.game.meadow": {
+            "category": "music",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/one_more_day",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/left_to_bloom",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/hal1",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/hal2",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/hal3",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/hal4",
+                    "stream": true,
+                    "weight": 1
+                }
+            ]
+        },
+        "music.game.nether_wastes": {
+            "category": "music",
+            "max_distance": null,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/arise2",
+                    "stream": true,
+                    "volume": 0.5,
+                    "weight": 9
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/nether_melody",
+                    "stream": true,
+                    "volume": 0.5,
+                    "weight": 9
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/nether/rubedo",
+                    "stream": true,
+                    "volume": 0.5,
+                    "weight": 6
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/nether/nether1",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/nether/nether2",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/nether/nether3",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/nether/nether4",
+                    "stream": true,
+                    "weight": 1
+                }
+            ]
+        },
+        "music.game.netherwart_forest": {
+            "category": "music",
+            "max_distance": null,
+            "min_distance": null,
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/arise2",
+                    "stream": true,
+                    "volume": 0.5,
+                    "weight": 9
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/nether_melody",
+                    "stream": true,
+                    "volume": 0.5,
+                    "weight": 9
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/nether/chrysopoeia",
+                    "stream": true,
+                    "volume": 0.5,
+                    "weight": 7
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/nether/nether1",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/nether/nether2",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/nether/nether3",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/nether/nether4",
+                    "stream": true,
+                    "weight": 1
+                }
+            ]
+        },
+        "music.game.snowy_slopes": {
+            "category": "music",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/an_ordinary_day",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/stand_tall",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/one_more_day",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/hal1",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/hal2",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/hal3",
+                    "stream": true,
+                    "weight": 1
+                }
+            ]
+        },
+        "music.game.stony_peaks": {
+            "category": "music",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/stand_tall",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/wending",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/piano1",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/piano2",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/piano3",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/hal1",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/hal2",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/hal3",
+                    "stream": true,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/game/hal4",
+                    "stream": true,
+                    "weight": 1
+                }
+            ]
+        },
+        "music.game.swamp_music": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/music/game/aerie",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/firebugs",
+                    "stream": true
+                },
+                {
+                    "name": "sounds/music/game/labyrinthine",
+                    "stream": true
+                }
+            ]
+        },
+        "music.game_and_wild_equal_chance": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/music/game/calm1",
+                    "stream": true,
+                    "volume": 0.2
+                },
+                {
+                    "name": "sounds/music/game/calm2",
+                    "stream": true,
+                    "volume": 0.2
+                },
+                {
+                    "name": "sounds/music/game/calm3",
+                    "stream": true,
+                    "volume": 0.2
+                },
+                {
+                    "name": "sounds/music/game/hal1",
+                    "stream": true,
+                    "volume": 0.1
+                },
+                {
+                    "name": "sounds/music/game/hal2",
+                    "stream": true,
+                    "volume": 0.2
+                },
+                {
+                    "name": "sounds/music/game/hal3",
+                    "stream": true,
+                    "volume": 0.1
+                },
+                {
+                    "name": "sounds/music/game/hal4",
+                    "stream": true,
+                    "volume": 0.2
+                },
+                {
+                    "name": "sounds/music/game/nuance1",
+                    "stream": true,
+                    "volume": 0.3
+                },
+                {
+                    "name": "sounds/music/game/nuance2",
+                    "stream": true,
+                    "volume": 0.3
+                },
+                {
+                    "name": "sounds/music/game/piano1",
+                    "stream": true,
+                    "volume": 0.2
+                },
+                {
+                    "name": "sounds/music/game/piano2",
+                    "stream": true,
+                    "volume": 0.2
+                },
+                {
+                    "name": "sounds/music/game/piano3",
+                    "stream": true,
+                    "volume": 0.2
+                },
+                {
+                    "name": "sounds/music/game/one_more_day",
+                    "stream": true,
+                    "volume": 0.4
+                },
+                {
+                    "name": "sounds/music/game/floating_dream",
+                    "stream": true,
+                    "volume": 0.4
+                },
+                {
+                    "name": "sounds/music/game/left_to_bloom",
+                    "stream": true,
+                    "volume": 0.4
+                },
+                {
+                    "name": "sounds/music/game/comforting_memories",
+                    "stream": true,
+                    "volume": 0.4
+                },
+                {
+                    "name": "sounds/music/game/aerie",
+                    "stream": true,
+                    "volume": 0.4
+                },
+                {
+                    "name": "sounds/music/game/firebugs",
+                    "stream": true,
+                    "volume": 0.4
+                },
+                {
+                    "name": "sounds/music/game/labyrinthine",
+                    "stream": true,
+                    "volume": 0.4
+                }
+            ]
+        },
+        "music.game_and_wild_favor_game": {
+            "category": "music",
+            "sounds": [
+                {
+                    "name": "sounds/music/game/calm1",
+                    "stream": true,
+                    "volume": 0.2,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/calm2",
+                    "stream": true,
+                    "volume": 0.2,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/calm3",
+                    "stream": true,
+                    "volume": 0.2,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/hal1",
+                    "stream": true,
+                    "volume": 0.1,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/hal2",
+                    "stream": true,
+                    "volume": 0.2,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/hal3",
+                    "stream": true,
+                    "volume": 0.1,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/hal4",
+                    "stream": true,
+                    "volume": 0.2,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/nuance1",
+                    "stream": true,
+                    "volume": 0.3,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/nuance2",
+                    "stream": true,
+                    "volume": 0.3,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/piano1",
+                    "stream": true,
+                    "volume": 0.2,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/piano2",
+                    "stream": true,
+                    "volume": 0.2,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/piano3",
+                    "stream": true,
+                    "volume": 0.2,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/one_more_day",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/floating_dream",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/left_to_bloom",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/comforting_memories",
+                    "stream": true,
+                    "volume": 0.4,
+                    "weight": 1
+                },
+                {
+                    "name": "sounds/music/game/aerie",
+                    "stream": true,
+                    "volume": 0.4
+                },
+                {
+                    "name": "sounds/music/game/firebugs",
+                    "stream": true,
+                    "volume": 0.4
+                },
+                {
+                    "name": "sounds/music/game/labyrinthine",
+                    "stream": true,
+                    "volume": 0.4
+                }
+            ]
+        },
+        "music.menu": {
+            "category": "music",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/bloopers",
+                    "stream": true,
+                    "volume": 0.3,
+                    "weight": 8
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/nether_melody",
+                    "stream": true,
+                    "volume": 0.5,
+                    "weight": 5
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/cozy_palms",
+                    "volume": 0.3,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/reverie",
+                    "volume": 0.3,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/menu/menu1",
+                    "stream": true,
+                    "volume": 0.3,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/menu/menu2",
+                    "stream": true,
+                    "volume": 0.3,
+                    "weight": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/menu/menu3",
+                    "stream": true,
+                    "volume": 0.3,
+                    "weight": 2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/menu/menu4",
+                    "stream": true,
+                    "volume": 0.3,
+                    "weight": 5
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/confused",
+                    "volume": 0.2,
+                    "weight": 5
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/deeds",
+                    "volume": 0.3,
+                    "weight": 5
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/deeds_demo",
+                    "volume": 0.3,
+                    "weight": 5
+                }
+            ]
+        },
+        "normal_quest": {
+            "category": "music",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/normal_quest",
+                    "volume": 0.3
+                }
+            ]
+        },
+        "pick_berries.cave_vines": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/sweet_berry_bush/pick_from_bush1",
+                "sounds/block/sweet_berry_bush/pick_from_bush2"
+            ]
+        },
+        "place.amethyst_block": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/amethyst/place1",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/place2",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/place3",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/place4",
+                    "volume": 1
+                }
+            ]
+        },
+        "place.amethyst_cluster": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/amethyst_cluster/place1",
+                    "volume": 0.9
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/place2",
+                    "volume": 0.9
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/place3",
+                    "volume": 0.9
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/place4",
+                    "volume": 0.9
+                }
+            ]
+        },
+        "place.azalea": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/azalea/break1",
+                "sounds/block/azalea/break2",
+                "sounds/block/azalea/break3",
+                "sounds/block/azalea/break4",
+                "sounds/block/azalea/break5",
+                "sounds/block/azalea/break6"
+            ]
+        },
+        "place.azalea_leaves": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/azalea_leaves/break1",
+                "sounds/block/azalea_leaves/break2",
+                "sounds/block/azalea_leaves/break3",
+                "sounds/block/azalea_leaves/break4",
+                "sounds/block/azalea_leaves/break5",
+                "sounds/block/azalea_leaves/break6",
+                "sounds/block/azalea_leaves/break7"
+            ]
+        },
+        "place.big_dripleaf": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/big_dripleaf/break1",
+                "sounds/block/big_dripleaf/break2",
+                "sounds/block/big_dripleaf/break3",
+                "sounds/block/big_dripleaf/break4",
+                "sounds/block/big_dripleaf/break5",
+                "sounds/block/big_dripleaf/break6"
+            ]
+        },
+        "place.calcite": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/calcite/place1",
+                    "volume": 0.94
+                },
+                {
+                    "name": "sounds/block/calcite/place2",
+                    "volume": 0.94
+                },
+                {
+                    "name": "sounds/block/calcite/place3",
+                    "volume": 0.94
+                },
+                {
+                    "name": "sounds/block/calcite/place4",
+                    "volume": 0.94
+                }
+            ]
+        },
+        "place.copper": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/copper/break1",
+                "sounds/block/copper/break2",
+                "sounds/block/copper/break3",
+                "sounds/block/copper/break4"
+            ]
+        },
+        "place.deepslate": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/deepslate/place1",
+                "sounds/block/deepslate/place2",
+                "sounds/block/deepslate/place3",
+                "sounds/block/deepslate/place4",
+                "sounds/block/deepslate/place5",
+                "sounds/block/deepslate/place6"
+            ]
+        },
+        "place.deepslate_bricks": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/deepslate_bricks/place1",
+                "sounds/block/deepslate_bricks/place2",
+                "sounds/block/deepslate_bricks/place3",
+                "sounds/block/deepslate_bricks/place4",
+                "sounds/block/deepslate_bricks/place5",
+                "sounds/block/deepslate_bricks/place6"
+            ]
+        },
+        "place.dripstone_block": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/dripstone/break1",
+                "sounds/block/dripstone/break2",
+                "sounds/block/dripstone/break3",
+                "sounds/block/dripstone/break4",
+                "sounds/block/dripstone/break5"
+            ]
+        },
+        "place.hanging_roots": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/hanging_roots/break1",
+                "sounds/block/hanging_roots/break2",
+                "sounds/block/hanging_roots/break3",
+                "sounds/block/hanging_roots/break4"
+            ]
+        },
+        "place.large_amethyst_bud": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/amethyst_cluster/place1",
+                    "volume": 0.75
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/place2",
+                    "volume": 0.75
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/place3",
+                    "volume": 0.75
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/place4",
+                    "volume": 0.75
+                }
+            ]
+        },
+        "place.medium_amethyst_bud": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/amethyst_cluster/place1",
+                    "pitch:": 1.1,
+                    "volume": 0.5
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/place2",
+                    "pitch:": 1.1,
+                    "volume": 0.5
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/place3",
+                    "pitch:": 1.1,
+                    "volume": 0.5
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/place4",
+                    "pitch:": 1.1,
+                    "volume": 0.5
+                }
+            ]
+        },
+        "place.moss": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/moss/break1",
+                "sounds/block/moss/break2",
+                "sounds/block/moss/break3",
+                "sounds/block/moss/break4",
+                "sounds/block/moss/break5"
+            ]
+        },
+        "place.pointed_dripstone": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/dripstone/break1",
+                "sounds/block/dripstone/break2",
+                "sounds/block/dripstone/break3",
+                "sounds/block/dripstone/break4",
+                "sounds/block/dripstone/break5"
+            ]
+        },
+        "place.powder_snow": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/powder_snow/break1",
+                "sounds/block/powder_snow/break2",
+                "sounds/block/powder_snow/break3",
+                "sounds/block/powder_snow/break4",
+                "sounds/block/powder_snow/break5",
+                "sounds/block/powder_snow/break6",
+                "sounds/block/powder_snow/break7"
+            ]
+        },
+        "place.small_amethyst_bud": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/amethyst_cluster/place1",
+                    "pitch:": 1.2,
+                    "volume": 0.4
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/place2",
+                    "pitch:": 1.2,
+                    "volume": 0.4
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/place3",
+                    "pitch:": 1.2,
+                    "volume": 0.4
+                },
+                {
+                    "name": "sounds/block/amethyst_cluster/place4",
+                    "pitch:": 1.2,
+                    "volume": 0.4
+                }
+            ]
+        },
+        "place.spore_blossom": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/spore_blossom/break1",
+                "sounds/block/spore_blossom/break2",
+                "sounds/block/spore_blossom/break3",
+                "sounds/block/spore_blossom/break4",
+                "sounds/block/spore_blossom/break5"
+            ]
+        },
+        "place.tuff": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/tuff/break1",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/tuff/break2",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/tuff/break3",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/tuff/break4",
+                    "volume": 1
+                }
+            ]
+        },
+        "random.splash": {
+            "category": "player",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/liquid/splash"
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/liquid/splash2"
+                }
+            ]
+        },
+        "random.swim": {
+            "category": "player",
+            "sounds": [
+                "sounds/liquid/swim1",
+                "sounds/liquid/swim2",
+                "sounds/liquid/swim3",
+                "sounds/liquid/swim4"
+            ]
+        },
+        "record.9": {
+            "category": "player",
+            "sounds": [
+                "sounds/music/9"
+            ]
+        },
+        "reverie": {
+            "category": "music",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/reverie",
+                    "volume": 0.3
+                }
+            ]
+        },
+        "samurai.attack": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/samurai/fire_wisp_shoot",
+                    "volume": 1
+                }
+            ]
+        },
+        "samurai.death": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/samurai/withered_samurai_die",
+                    "volume": 1
+                }
+            ]
+        },
+        "samurai.hurt": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/samurai/withered_samurai_hurt3",
+                    "volume": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/samurai/withered_samurai_hurt2",
+                    "volume": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/samurai/withered_samurai_hurt1",
+                    "volume": 1
+                }
+            ]
+        },
+        "samurai.idle": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/samurai/withered_samurai_speak3",
+                    "volume": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/samurai/withered_samurai_speak2",
+                    "volume": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sound/entity/samurai/withered_samurai_speak1",
+                    "volume": 1
+                }
+            ]
+        },
+        "scrape": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/item/axe/scrape1",
+                "sounds/item/axe/scrape2",
+                "sounds/item/axe/scrape3"
+            ]
+        },
+        "sparkler.use": {
+            "category": "player",
+            "sounds": [
+                {
+                    "is3D": false,
+                    "name": "sounds/music/fox_disc",
+                    "volume": 1.7
+                }
+            ]
+        },
+        "squirrel.idle": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/squirrel/squirel_idle_1",
+                    "volume": 0.2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/squirrel/squirel_idle_2",
+                    "volume": 0.2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/squirrel/squirel_idle_3",
+                    "volume": 0.2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/squirrel/squirel_idle_4",
+                    "volume": 0.2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/squirrel/squirel_idle_5",
+                    "volume": 0.2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/squirrel/squirel_idle_6",
+                    "volume": 0.2
+                }
+            ]
+        },
+        "step.amethyst_block": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/amethyst/step1",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step2",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step3",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step4",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step5",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step6",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step7",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step8",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step9",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step10",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step11",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step12",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step13",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step14",
+                    "volume": 1
+                }
+            ]
+        },
+        "step.amethyst_cluster": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/amethyst/step1",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step2",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step3",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step4",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step5",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step6",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step7",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step8",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step9",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step10",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step11",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step12",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step13",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/amethyst/step14",
+                    "volume": 1
+                }
+            ]
+        },
+        "step.azalea": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/azalea/step1",
+                "sounds/block/azalea/step2",
+                "sounds/block/azalea/step3",
+                "sounds/block/azalea/step4",
+                "sounds/block/azalea/step5",
+                "sounds/block/azalea/step6"
+            ]
+        },
+        "step.azalea_leaves": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/azalea_leaves/step1",
+                "sounds/block/azalea_leaves/step2",
+                "sounds/block/azalea_leaves/step3",
+                "sounds/block/azalea_leaves/step4",
+                "sounds/block/azalea_leaves/step5"
+            ]
+        },
+        "step.big_dripleaf": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/big_dripleaf/step1",
+                "sounds/block/big_dripleaf/step2",
+                "sounds/block/big_dripleaf/step3",
+                "sounds/block/big_dripleaf/step4",
+                "sounds/block/big_dripleaf/step5",
+                "sounds/block/big_dripleaf/step6"
+            ]
+        },
+        "step.calcite": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/calcite/step1",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/calcite/step2",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/calcite/step3",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/calcite/step4",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/calcite/step5",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/calcite/step6",
+                    "volume": 1
+                }
+            ]
+        },
+        "step.cave_vines": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/step/vines1",
+                "sounds/step/vines2",
+                "sounds/step/vines3",
+                "sounds/step/vines4",
+                "sounds/step/vines5"
+            ]
+        },
+        "step.copper": {
+            "category": "player",
+            "sounds": [
+                "sounds/block/copper/step1",
+                "sounds/block/copper/step2",
+                "sounds/block/copper/step3",
+                "sounds/block/copper/step4",
+                "sounds/block/copper/step5",
+                "sounds/block/copper/step6"
+            ]
+        },
+        "step.deepslate": {
+            "category": "player",
+            "sounds": [
+                "sounds/block/deepslate/step1",
+                "sounds/block/deepslate/step2",
+                "sounds/block/deepslate/step3",
+                "sounds/block/deepslate/step4",
+                "sounds/block/deepslate/step5",
+                "sounds/block/deepslate/step6"
+            ]
+        },
+        "step.deepslate_bricks": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/deepslate_bricks/step1",
+                "sounds/block/deepslate_bricks/step2",
+                "sounds/block/deepslate_bricks/step3",
+                "sounds/block/deepslate_bricks/step4",
+                "sounds/block/deepslate_bricks/step5"
+            ]
+        },
+        "step.dripstone_block": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/dripstone/step1",
+                "sounds/block/dripstone/step2",
+                "sounds/block/dripstone/step3",
+                "sounds/block/dripstone/step4",
+                "sounds/block/dripstone/step5",
+                "sounds/block/dripstone/step6"
+            ]
+        },
+        "step.hanging_roots": {
+            "category": "player",
+            "sounds": [
+                "sounds/block/hanging_roots/step1",
+                "sounds/block/hanging_roots/step2",
+                "sounds/block/hanging_roots/step3",
+                "sounds/block/hanging_roots/step4",
+                "sounds/block/hanging_roots/step5",
+                "sounds/block/hanging_roots/step6"
+            ]
+        },
+        "step.moss": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/moss/step1",
+                "sounds/block/moss/step2",
+                "sounds/block/moss/step3",
+                "sounds/block/moss/step4",
+                "sounds/block/moss/step5",
+                "sounds/block/moss/step6"
+            ]
+        },
+        "step.pointed_dripstone": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/dripstone/step1",
+                "sounds/block/dripstone/step2",
+                "sounds/block/dripstone/step3",
+                "sounds/block/dripstone/step4",
+                "sounds/block/dripstone/step5",
+                "sounds/block/dripstone/step6"
+            ]
+        },
+        "step.powder_snow": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/powder_snow/step1",
+                "sounds/block/powder_snow/step2",
+                "sounds/block/powder_snow/step3",
+                "sounds/block/powder_snow/step4",
+                "sounds/block/powder_snow/step5",
+                "sounds/block/powder_snow/step6",
+                "sounds/block/powder_snow/step7",
+                "sounds/block/powder_snow/step8",
+                "sounds/block/powder_snow/step9",
+                "sounds/block/powder_snow/step10"
+            ]
+        },
+        "step.spore_blossom": {
+            "category": "neutral",
+            "sounds": [
+                "sounds/block/spore_blossom/step1",
+                "sounds/block/spore_blossom/step2",
+                "sounds/block/spore_blossom/step3",
+                "sounds/block/spore_blossom/step4",
+                "sounds/block/spore_blossom/step5",
+                "sounds/block/spore_blossom/step6"
+            ]
+        },
+        "step.tuff": {
+            "category": "block",
+            "sounds": [
+                {
+                    "name": "sounds/block/tuff/step1",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/tuff/step2",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/tuff/step3",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/tuff/step4",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/tuff/step5",
+                    "volume": 1
+                },
+                {
+                    "name": "sounds/block/tuff/step6",
+                    "volume": 1
+                }
+            ]
+        },
+        "tilt_down.big_dripleaf": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/big_dripleaf/tilt_down1",
+                "sounds/block/big_dripleaf/tilt_down2",
+                "sounds/block/big_dripleaf/tilt_down3",
+                "sounds/block/big_dripleaf/tilt_down4",
+                "sounds/block/big_dripleaf/tilt_down5"
+            ]
+        },
+        "tilt_up.big_dripleaf": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/big_dripleaf/tilt_down1",
+                "sounds/block/big_dripleaf/tilt_down2",
+                "sounds/block/big_dripleaf/tilt_down3",
+                "sounds/block/big_dripleaf/tilt_down4"
+            ]
+        },
+        "toucan.death": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/goblin/toucan_death",
+                    "volume": 0.4
+                }
+            ]
+        },
+        "toucan.hurt": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/goblin/toucan_hurt_1",
+                    "volume": 1.2
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/goblin/toucan_hurt_2",
+                    "volume": 1.2
+                }
+            ]
+        },
+        "toucan.idle": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/goblin/toucan_idle_1",
+                    "volume": 0.8
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/goblin/toucan_idle_1",
+                    "volume": 0.8
+                }
+            ]
+        },
+        "travels": {
+            "category": "music",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/travels",
+                    "volume": 0.2
+                }
+            ]
+        },
+        "ui.challenge_complete": {
+            "category": "ui",
+            "max_distance": 999,
+            "sounds": [
+                "sounds/ui/toast/challenge_complete"
+            ]
+        },
+        "undefined": {
+            "category": "music",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/music/prelude",
+                    "volume": 0.3
+                }
+            ]
+        },
+        "use.cave_vines": {
+            "category": "block",
+            "sounds": [
+                "sounds/step/vines1",
+                "sounds/step/vines2",
+                "sounds/step/vines3",
+                "sounds/step/vines4",
+                "sounds/step/vines5"
+            ]
+        },
+        "use.copper": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/copper/step1",
+                "sounds/block/copper/step2",
+                "sounds/block/copper/step3",
+                "sounds/block/copper/step4",
+                "sounds/block/copper/step5",
+                "sounds/block/copper/step6"
+            ]
+        },
+        "use.deepslate": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/deepslate/step1",
+                "sounds/block/deepslate/step2",
+                "sounds/block/deepslate/step3",
+                "sounds/block/deepslate/step4",
+                "sounds/block/deepslate/step5",
+                "sounds/block/deepslate/step6"
+            ]
+        },
+        "use.deepslate_bricks": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/deepslate_bricks/step1",
+                "sounds/block/deepslate_bricks/step2",
+                "sounds/block/deepslate_bricks/step3",
+                "sounds/block/deepslate_bricks/step4",
+                "sounds/block/deepslate_bricks/step5",
+                "sounds/block/deepslate_bricks/step6"
+            ]
+        },
+        "use.dripstone_block": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/dripstone/step1",
+                "sounds/block/dripstone/step2",
+                "sounds/block/dripstone/step3",
+                "sounds/block/dripstone/step4",
+                "sounds/block/dripstone/step5",
+                "sounds/block/dripstone/step6"
+            ]
+        },
+        "use.gravel.racoon": {
+            "category": "neutral",
+            "max_distance": 1,
+            "sounds": [
+                {
+                    "name": "sounds/step/gravel1",
+                    "volume": 0.2
+                },
+                {
+                    "name": "sounds/step/gravel2",
+                    "volume": 0.2
+                },
+                {
+                    "name": "sounds/step/gravel3",
+                    "volume": 0.2
+                },
+                {
+                    "name": "sounds/step/gravel4",
+                    "volume": 0.2
+                }
+            ]
+        },
+        "use.hanging_roots": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/hanging_roots/break1",
+                "sounds/block/hanging_roots/break2",
+                "sounds/block/hanging_roots/break3",
+                "sounds/block/hanging_roots/break4"
+            ]
+        },
+        "use.moss": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/moss/step1",
+                "sounds/block/moss/step2",
+                "sounds/block/moss/step3",
+                "sounds/block/moss/step4",
+                "sounds/block/moss/step5",
+                "sounds/block/moss/step6"
+            ]
+        },
+        "use.pointed_dripstone": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/dripstone/step1",
+                "sounds/block/dripstone/step2",
+                "sounds/block/dripstone/step3",
+                "sounds/block/dripstone/step4",
+                "sounds/block/dripstone/step5",
+                "sounds/block/dripstone/step6"
+            ]
+        },
+        "use.spore_blossom": {
+            "category": "block",
+            "sounds": [
+                "sounds/block/spore_blossom/step1",
+                "sounds/block/spore_blossom/step2",
+                "sounds/block/spore_blossom/step3",
+                "sounds/block/spore_blossom/step4",
+                "sounds/block/spore_blossom/step5",
+                "sounds/block/spore_blossom/step6"
+            ]
+        },
+        "wisp.attack": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/fire_wisp/fire_wisp_shoot",
+                    "volume": 1
+                }
+            ]
+        },
+        "wisp.death": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/fire_wisp/fire_wisp_die",
+                    "volume": 1
+                }
+            ]
+        },
+        "wisp.hurt": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/fire_wisp/fire_wisp_hurt1",
+                    "volume": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/fire_wisp/fire_wisp_hurt2",
+                    "volume": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/fire_wisp/fire_wisp_hurt3",
+                    "volume": 1
+                }
+            ]
+        },
+        "wisp.idle": {
+            "category": "hostile",
+            "sounds": [
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/fire_wisp/fire_wisp_speak1",
+                    "volume": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/fire_wisp/fire_wisp_speak2",
+                    "volume": 1
+                },
+                {
+                    "load_on_low_memory": true,
+                    "name": "sounds/entity/fire_wisp/fire_wisp_speak3",
+                    "volume": 1
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.axe"
+			},
+			"identifier": "hax:diamond_machete"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Diamond Machete"
+			},
+			"minecraft:icon": {
+				"texture": "hax:diamond_machete"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:transformable_items"
+				]
+			},
+			"minecraft:damage": 8,
+			"minecraft:enchantable": {
+				"value": 10,
+				"slot": "axe"
+			},
+			"minecraft:durability": {
+				"max_durability": 1717
+			},
+			"minecraft:repairable":{
+				"repair_items": [
+					{
+						"items": [
+							"hax:diamond_machete"
+						],
+						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+					},
+					{
+						"items": [
+							"minecraft:diamond"
+						],
+						"repair_amount": "context.other->query.max_durability * 0.25" //429
+					}
+				]
+			},
+			"minecraft:can_destroy_in_creative": false
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:cobalt_ingot_from_block"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "cobalt_ingot",
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "hax:cobalt_block"
+      }
+    },
+    
+    "unlock": [
+      {
+        "item": "hax:cobalt_block"
+      }
+    ],
+    "result": {
+      "item": "hax:cobalt_ingot",
+      "count": 9
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "hax:furnace_bronze_khopesh"
+    },
+
+
+    "tags": ["furnace", "blast_furnace"],
+    "input": "hax:bronze_khopesh",
+    "output": "hax:bronze_nugget"
+  }
+  
+}

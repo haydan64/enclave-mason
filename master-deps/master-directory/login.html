@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<base href="/" />
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer" />
+		<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+		<title>Enclave Kingdoms | Login</title>
+		  <link rel="icon" type="image/x-icon" href="favicon.png">
+	</head>
+	<body>
+		<nav class="bg-white shadow">
+			<div class="container mx-10px px-6 py-3">
+				<div class="flex justify-between items-center">
+					<a class="text-xl w-24 h-24 " href="#"><img src="images/logo.png" class="rounded-full" /></a>
+					<div class="hidden md:flex space-x-6 lg:space-x-12">
+						<a href="#" class="text-blue-800 hover:text-blue-600">Home</a>
+						<a href="#" class="text-blue-800 hover:text-blue-600">Dashboard</a>
+						<a href="#" class="text-blue-800 hover:text-blue-600">Factions..?</a>
+						<a href="#" class="text-blue-800 hover:text-blue-600">Login</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div class="flex justify-center bg-discord-gray text-white">
+			<a
+				id="login"
+				href="https://discord.com/oauth2/authorize?client_id=1267384889620303913&response_type=code&redirect_uri=https%3A%2F%2Fkingdoms.cloudcue.net%2Fdashboard.html&scope=identify"
+				class="bg-discord-blue text-xl px-5 py-3 rounded-md font-bold flex space-x-4 bg-gray-600 mt-32">
+				<i class="fa-dbrands fa-discord text-2xl"></i>
+				<span>Login with Discord</span>
+			</a>
+		</div>
+		<script>
+			window.onload = () => {
+				const fragment = new URLSearchParams(window.location.hash.slice(1));
+				const [accessToken, tokenType] = [fragment.get("access_token"), fragment.get("token_type")];
+
+				if (accessToken) {
+					window.location.href("/dashboard.html");
+				}
+			};
+		</script>
+	</body>
+</html>

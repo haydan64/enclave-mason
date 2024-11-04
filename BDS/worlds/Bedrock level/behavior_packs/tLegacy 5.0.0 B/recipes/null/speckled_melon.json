@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:speckled_melon"
+    },
+
+    
+    "tags": [ "null" ],
+    "pattern": [
+      "###",
+      "#X#",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:gold_nugget"
+      },
+      "X": {
+        "item": "minecraft:melon"
+      }
+    },
+    "unlock": [
+            {
+                "item": "minecraft:end_gateway",
+                "data": 4
+            }
+        ],
+    "result": {
+      "item": "minecraft:speckled_melon"
+    }
+  }
+}

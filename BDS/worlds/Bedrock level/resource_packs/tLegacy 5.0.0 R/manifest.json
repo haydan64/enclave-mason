@@ -1,0 +1,23 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§p§lTinker's §fLegacy: §sReforged §r§iR§r",
+		"description": "v5.0.0- created by HaxTheCharizard for MCPEDL, ModBay, and Curseforge",
+		"uuid": "7225afca-9c99-4647-ae76-f3f9e4b7fde3",
+		"version": [5, 0, 0],
+		"min_engine_version": [1, 21, 0]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "506ce5fd-29d4-4239-aa75-a35f141c93f5",
+			"version": [5, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "a8c3d7af-f1e9-4bab-8e66-7475d6863016",
+			"version": [5, 0, 0]
+		}
+	]
+}

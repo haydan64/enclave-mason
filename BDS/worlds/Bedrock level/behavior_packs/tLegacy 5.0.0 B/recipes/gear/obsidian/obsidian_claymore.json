@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:obsidian_claymore"
+		},
+
+    
+		"tags": [ "obsidian_blueprint" ],
+		"pattern": [
+			"  H",
+			"BP ",
+			"/B "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:obsidian_axehead"
+			},
+			"P": {
+				"item": "hax:obsidian_plating"
+			},
+			"B": {
+				"item": "hax:obsidian_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:obsidian_blueprint"
+			}
+		],
+		"result": { "item": "hax:obsidian_claymore" }
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:electrum_cutlass"
+		},
+
+    
+		"tags": [ "electrum_blueprint" ],
+		"pattern": [
+			" SS",
+			"NL ",
+			"/N "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:electrum_longblade"
+			},
+			"S": {
+				"item": "hax:electrum_shortblade"
+			},
+			"N": {
+				"item": "hax:electrum_nugget"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:electrum_blueprint"
+			}
+		],
+		"result": { "item": "hax:electrum_cutlass" }
+	}
+}

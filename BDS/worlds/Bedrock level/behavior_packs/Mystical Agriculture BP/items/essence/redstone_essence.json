@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:redstone_essence",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "redstone_essence"
+			},
+			"minecraft:display_name": {
+				"value": "Redstone Essence"
+			}
+		}
+	}
+}

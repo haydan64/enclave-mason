@@ -1,0 +1,78 @@
+{
+    "format_version": "1.20.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "mystic:terraforge_axe",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.axe"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "terraforge_axe"
+            },
+            "minecraft:display_name": {
+                "value": "Terraforge Axe\n§6Earth§r"
+            },
+            "minecraft:tags": {
+                "tags": [ "battleaxe", "earth" ]
+            },
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "block": {
+                            "tags": "q.any_tag('wood','pumpkin','plant')"
+                        },
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:crafting_table",
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:chest",
+                        "speed": 8
+                    },
+                    {
+                        "block": "minecraft:melon_block",
+                        "speed": 8
+                    }
+                ]
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:allow_off_hand": false,
+            "minecraft:damage": 10,
+            "minecraft:durability": {
+                "max_durability": 350,
+                "damage_chance": {
+                    "min": 1,
+                    "max": 2
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [ "item:earth_stone_shard" ],
+                        "repair_amount": "q.max_durability * 0.15"
+                    },
+                    {
+                        "items": [ "item:earth_stone" ],
+                        "repair_amount": "q.max_durability * 0.7"
+                    },
+                    {
+                        "items": [ "mystic:terraforge_axe" ],
+                        "repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
+                    }
+                ]
+            },
+            "minecraft:enchantable": {
+                "value": 10,
+                "slot": "axe"
+            },
+            "minecraft:can_destroy_in_creative": false
+        }
+    }
+}

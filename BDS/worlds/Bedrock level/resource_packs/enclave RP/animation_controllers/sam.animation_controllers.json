@@ -1,0 +1,54 @@
+{
+	"format_version": "1.19.0",
+	"animation_controllers": {
+		"controller.animation.sam.new": {
+			"initial_state": "attack",
+			"states": {
+				"idle": {
+					"animations": ["idle"],
+					"transitions": [
+						{"walking": "q.ground_speed > 1.0"},
+						{"falling": "!q.is_on_ground"},
+						{"attack": "q.is_delayed_attacking"}
+					],
+					"blend_transition": {
+						"0.0": 1,
+						"0.2224": 0.6,
+						"0.3": 0
+					}
+				},
+				"walking": {
+					"animations": ["idk"],
+					"transitions": [
+						{"idle": "q.ground_speed < 0.5"},
+						{"attack": "q.is_delayed_attacking"},
+						{"falling": "!q.is_on_ground"}
+					],
+					"blend_transition": 0.2
+				},
+				"attack": {
+					"animations": ["attack"],
+					"transitions": [
+						{"walking": "q.all_animations_finished && q.ground_speed > 1.0"},
+						{"idle": "q.all_animations_finished && q.ground_speed < 0.5"}
+					],
+					"blend_transition": 0.25
+				},
+				"falling": {
+					"animations": ["sway"],
+					"transitions": [
+						{"idle": "q.ground_speed < 0.5"},
+						{"walking": "q.ground_speed > 1"},
+						{"attack": "q.is_delayed_attacking"}
+					],
+					"blend_transition": 0.3
+				},
+				"default": {
+					"transitions": [
+						{"idle": "true"}
+					]
+				}
+			}
+		}
+	}
+}

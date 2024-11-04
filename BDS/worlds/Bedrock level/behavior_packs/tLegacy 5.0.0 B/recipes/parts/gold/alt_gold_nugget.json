@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+      "description": {
+          "identifier": "hax:alt_gold_nugget"
+      },
+      
+      "tags": [ "gold_blueprint" ],
+      "pattern": [
+          "#"
+      ],
+      "key": {
+          "#": {
+              "item": "minecraft:gold_ingot"
+          }
+      },
+      "unlock": [
+        {
+            "item": "hax:gold_blueprint"
+        }
+    ],
+      "result": {
+          "item": "minecraft:gold_nugget",
+          "count": 4
+      }
+  }
+}

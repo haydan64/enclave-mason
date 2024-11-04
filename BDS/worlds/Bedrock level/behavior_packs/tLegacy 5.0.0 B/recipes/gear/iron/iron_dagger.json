@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:iron_dagger"
+		},
+
+    
+		"tags": [ "iron_blueprint" ],
+		"pattern": [
+			"S ",
+			"B ",
+			"/ "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:iron_shortblade"
+			},
+			"B": {
+				"item": "hax:iron_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:iron_blueprint"
+			}
+		],
+		"result": { "item": "hax:iron_dagger" }
+	}
+}

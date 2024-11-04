@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "better_on_bedrock:bellflower",
+			"menu_category": {
+				"group": "itemGroup.name.flower",
+				"category": "nature"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 64,
+			"minecraft:hand_equipped": false,
+			"minecraft:block_placer": {
+				"block": "better_on_bedrock:bellflower"
+			},
+			"minecraft:icon": {
+				"textures": {
+					"default": "bellflower"
+				}
+			}
+		}
+	}
+}

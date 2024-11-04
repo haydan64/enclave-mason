@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "fantasy:burning_stone",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": "fantasy:burning_stone",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

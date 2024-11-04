@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:copper_khopesh"
+		},
+
+    
+		"tags": [ "copper_blueprint" ],
+		"pattern": [
+			" SL",
+			" L ",
+			"/  "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:copper_longblade"
+			},
+			"S": {
+				"item": "hax:copper_shortblade"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:copper_blueprint"
+			}
+		],
+		"result": { "item": "hax:copper_khopesh" }
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:brimstone_nunchaku"
+		},
+
+    
+		"tags": [ "brimstone_blueprint" ],
+		"pattern": [
+			"/B",
+			"BI",
+			"/ "
+		],
+
+		"key": {
+			"B": {
+				"item": "hax:brimstone_bar"
+			},
+			"I": {
+				"item": "hax:brimstone_chunk"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:brimstone_blueprint"
+			}
+		],
+		"result": { "item": "hax:brimstone_nunchaku" }
+	}
+}

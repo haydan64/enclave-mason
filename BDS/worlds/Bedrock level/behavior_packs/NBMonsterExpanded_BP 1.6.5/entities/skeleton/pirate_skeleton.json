@@ -1,0 +1,371 @@
+{
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "nba:pirate_skeleton",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"component_groups": {
+			"nba:skeleton": {
+				
+				"minecraft:variant": {
+				  "value": 0
+				},
+				"minecraft:on_death": {
+					"event": "zombie_corpse1",
+					"target": "self"
+				}
+			},
+			"nba:skeleton2": {
+
+				"minecraft:variant": {
+				  "value": 1
+				},
+				"minecraft:on_death": {
+					"event": "zombie_corpse2",
+					"target": "self"
+				}
+			},
+			"nba:skeleton3": {
+
+				"minecraft:variant": {
+				  "value": 2
+				},
+				"minecraft:on_death": {
+					"event": "zombie_corpse3",
+					"target": "self"
+				}
+			},
+			"nbadead1": {
+				"minecraft:transformation": {
+				  "delay": 0,
+				  "into": "nba:pirate_skeleton_corpse<nba:corpse1>",
+				  "preserve_equipment": true
+				}
+			},
+			"nbadead2": {
+				"minecraft:transformation": {
+				  "delay": 0,
+				  "into": "nba:pirate_skeleton_corpse<nba:corpse2>",
+				  "preserve_equipment": true
+				}
+			},
+			"nbadead3": {
+				"minecraft:transformation": {
+				  "delay": 0,
+				  "into": "nba:pirate_skeleton_corpse<nba:corpse3>",
+				  "preserve_equipment": true
+				}
+			},
+
+
+
+			"minecraft:lightning_immune": {
+				"minecraft:damage_sensor": {
+					"triggers": {
+						"on_damage": {
+							"filters": {
+								"other_with_families": "lightning"
+							}
+						},
+						"deals_damage": false
+					}
+				}
+			},
+			"nba:stunned":{
+				"minecraft:is_stunned":{},
+				"minecraft:timer": {
+				  "looping": false,
+				  "time": 0.5,
+				  "time_down_event": {
+					"event": "notstunned"
+				  }
+				}
+			}
+			
+		},
+		"components": {
+			"minecraft:behavior.delayed_attack": {
+				"priority": 3,
+				"track_target": false,
+				"speed_multiplier": 1.1,
+				"attack_duration": 0.8,
+				"reach_multiplier": 3.2
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+				  {
+					"on_damage": {
+					  "filters": {
+						"all_of": [
+						  { "test": "has_damage", "value": "attack" },
+						  { "test": "has_component", "subject": "self", "operator": "!=", "value": "minecraft:is_stunned" }
+						]
+					  },
+					  "event": "stunned"
+					},
+					"deals_damage": true
+				  }
+				]
+			},
+			"minecraft:is_hidden_when_invisible": {
+			},
+			"minecraft:experience_reward": {
+				"on_death": "query.last_hit_by_player ? 8 + (query.equipment_count * Math.Random(1,3)) : 0"
+			},
+			"minecraft:behavior.melee_attack": {
+				"priority": 4,
+				"track_target": true,
+				"speed_multiplier": 1.25
+			},
+			"minecraft:attack": {
+				"damage": 3
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.9
+			},
+			"minecraft:behavior.mount_pathing": {
+				"priority": 2,
+				"speed_multiplier": 1.25,
+				"target_dist": 0.0,
+				"track_target": true
+			},
+			"minecraft:type_family": {
+				"family": ["skeleton", "undead", "monster", "mob"]
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0,
+				"breathes_water": true
+			},
+			"minecraft:burns_in_daylight": {},
+			"minecraft:health": {
+				"value": 30,
+				"max": 30
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/drop_entities/pirate_skeleton.json"
+			},
+			"minecraft:movement": {
+				"value": 0.25
+			},
+			"minecraft:navigation.walk": {
+				"is_amphibious": true,
+				"avoid_sun": true,
+				"avoid_water": true
+			},
+			"minecraft:scale": {
+				"value":  0.95
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:nameable": {},
+			"minecraft:equipment": {
+				"table": "loot_tables/gears/pirate_skeleton.json"
+			},
+			"minecraft:despawn": {
+				"despawn_from_distance": {}
+			},
+			
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 2,
+				"must_see": true,
+				"reselect_targets": true,
+				"entity_types": [
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						},
+						"max_dist": 16
+					},
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "irongolem"
+						},
+						"max_dist": 16
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "baby_turtle"
+								},
+								{
+									"test": "in_water",
+									"subject": "other",
+									"operator": "!=",
+									"value": true
+								}
+							]
+						},
+						"max_dist": 16
+					}
+				]
+			},
+			"minecraft:behavior.flee_sun": {
+				"priority": 2,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.avoid_mob_type": {
+				"priority": 4,
+				"entity_types": [
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "wolf"
+						},
+						"max_dist": 6,
+						"walk_speed_multiplier": 1.2,
+						"sprint_speed_multiplier": 1.2
+					}
+				]
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 6,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 7,
+				"look_distance": 8
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 8
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {}
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"randomize": [
+					{
+						"weight": 200,
+						"remove": {},
+						"add": {
+							"component_groups": ["nba:skeleton","nba:ranged_equipment","nba:swap"]
+						}
+					},
+					{
+						"weight": 200,
+						"remove": {},
+						"add": {
+							"component_groups": ["nba:skeleton2","nba:ranged_equipment","nba:swap"]
+						}
+					},
+					{
+						"weight": 200,
+						"remove": {},
+						"add": {
+							"component_groups": ["nba:skeleton3","nba:ranged_equipment","nba:swap"]
+						}
+					}
+					
+				],
+				"add": {
+					"component_groups": ["minecraft:ranged_attack"]
+				}
+			},
+			"minecraft:spring_trap": {
+				"add": {
+					"component_groups": ["minecraft:lightning_immune"]
+				}
+			},
+			"notstunned": {
+				"remove": {
+				  "component_groups": [
+					"nba:stunned"
+				  ]
+				}
+			},
+			"stunned": {
+				"add": {
+				  "component_groups": [
+					"nba:stunned"
+				  ]
+				}
+			},
+			"zombie_corpse1": {
+				"queue_command": {
+					"command": [
+						"particle nba:cloud_red_explosion ~~1~",
+						"summon xp_orb ~ ~0.2 ~",
+						"summon xp_orb ~ ~0.2 ~",
+						"summon xp_orb ~ ~0.2 ~",
+						"event entity @s zombie_corpseeffect1"
+					]
+				}
+			},
+			"zombie_corpseeffect1":{
+				"add": {
+					"component_groups": [
+					  "nbadead1"
+					]
+				  }
+			},
+			"zombie_corpse2": {
+				"queue_command": {
+					"command": [
+						"particle nba:cloud_red_explosion ~~1~",
+						"summon xp_orb ~ ~0.2 ~",
+						"summon xp_orb ~ ~0.2 ~",
+						"summon xp_orb ~ ~0.2 ~",
+						"event entity @s zombie_corpseeffect2"
+					]
+				}
+			},
+			"zombie_corpseeffect2":{
+				"add": {
+					"component_groups": [
+					  "nbadead2"
+					]
+				  }
+			},
+			"zombie_corpse3": {
+				"queue_command": {
+					"command": [
+						"particle nba:cloud_red_explosion ~~1~",
+						"summon xp_orb ~ ~0.2 ~",
+						"summon xp_orb ~ ~0.2 ~",
+						"summon xp_orb ~ ~0.2 ~",
+						"event entity @s zombie_corpseeffect3"
+					]
+				}
+			},
+			"zombie_corpseeffect3":{
+				"add": {
+					"component_groups": [
+					  "nbadead3"
+					]
+				  }
+			}
+		}
+	}
+}

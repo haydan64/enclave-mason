@@ -1,0 +1,83 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.zombie.giant": {
+			"initial_state": "idle",
+			"states": {
+				"idle": {
+					"animations": ["idle"],
+					"transitions": [
+						{"walk": "query.ground_speed >= 0.6"},
+						{"attack": "query.is_delayed_attacking"},
+						{"roarattack": "query.is_roaring"}
+					],
+					"blend_transition": 0.3
+				},
+				"walk": {
+					"animations": ["walk"],
+					"transitions": [
+						{"idle": "query.ground_speed < 0.5"},
+						{"attack": "query.is_delayed_attacking"},
+						{"roarattack": "query.is_roaring"}
+					],
+					"blend_transition": 0.3
+				},
+				"attack": {
+					"animations": [
+						{"attack1": "variable.animation.attack == 1"},
+						{"attack2": "variable.animation.attack == 2"}
+					],
+					"on_entry": ["variable.animation.attack = math.random_integer(1, 2);"],
+					"transitions": [
+						{"idle": "!query.is_delayed_attacking && query.ground_speed < 0.6"},
+						{"walk": "!query.is_delayed_attacking && query.ground_speed >= 0.6"},
+						{"roarattack": "query.is_roaring"}
+					],
+					"blend_transition": 0.3
+				},
+				"roarattack": {
+					"animations": ["specialattack"],
+					"transitions": [
+						{"idle": "!query.is_roaring"}
+					],
+					"blend_transition": 0.3
+				},
+				"dead": {
+					"animations": ["death_rot", "dead"]
+				}
+				
+			}
+		},
+		"controller.animation.giant.zombie.death": {
+			"initial_state": "dead",
+			"states": {
+				"default": {
+					"transitions": [
+						{"dead": "!q.is_alive"}
+					]
+				},
+				"dead": {
+					"animations": ["death_rot", "dead"],
+					"transitions": [
+						{"default": "q.is_alive"}
+					]
+				}
+			}
+		},
+
+		"controller.animation.giantzombie.corpse" : {
+			"initial_state" : "dead",
+			"states" : {
+				"dead": {
+					"animations": [
+						{"dead": "variable.animation.mdead == 1"},
+						{"dead2": "variable.animation.mdead == 2"}
+					],
+					"on_entry": ["variable.animation.mdead = math.random_integer(1, 2);"],
+					"blend_transition":0.1,
+					"blend_via_shortest_path": true
+                }
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Auto-Reattach Debugger",
+            "type": "shell",
+            "command": "sleep 2 && code --reuse-window --new-window --wait", 
+            "isBackground": true,
+            "problemMatcher": [],
+            "runOptions": {
+                "reevaluateOnRerun": true
+            }
+        }
+    ]
+}

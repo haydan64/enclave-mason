@@ -1,0 +1,1 @@
+v.origin.x && v.origin.z < 500 ? 0;

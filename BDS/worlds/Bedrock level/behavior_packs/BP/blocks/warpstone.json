@@ -1,0 +1,78 @@
+{
+	"format_version": "1.20.60",
+	"minecraft:block": {
+		"description": {
+			"identifier": "enclave:warpstone",
+			"menu_category": {
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 6
+			},
+			"minecraft:geometry": {
+				"identifier": "geometry.slab",
+				"culling": "enclave:slab"
+			},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "stripped_spruce_log_side",
+					"render_method": "opaque"
+				},
+				"down": {
+					"texture": "stripped_spruce_log_top",
+					"render_method": "opaque"
+				},
+				"up": {
+					"texture": "stripped_spruce_log_top",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					8,
+					16
+				]
+			},
+			"minecraft:selection_box": {
+				"origin": [
+					-8,
+					0,
+					-8
+				],
+				"size": [
+					16,
+					8,
+					16
+				]
+			},
+			"minecraft:on_interact": {
+				"event": "enclave:create_double_slab",
+				"condition": "query.is_item_name_any('slot.weapon.mainhand', 'enclave:stripped_spruce_slab') && ((query.block_face == 0.0 && query.block_state('minecraft:vertical_half') == 'top') || (query.block_face == 1.0 && query.block_state('minecraft:vertical_half') == 'bottom'))"
+			},
+			"minecraft:map_color": "#707070"
+		},
+		"events": {
+			"enclave:create_double_slab": {
+				"set_block": {
+					"block_type": "enclave:double_stripped_spruce_slab"
+				},
+				"run_command": {
+					"command": "playsound dig.wood @a ~ ~ ~",
+					"target": "self"
+				},
+				"decrement_stack": {}
+			}
+		}
+	}
+}

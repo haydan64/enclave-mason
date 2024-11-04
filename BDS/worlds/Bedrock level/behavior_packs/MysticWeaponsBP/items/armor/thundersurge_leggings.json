@@ -1,0 +1,58 @@
+{
+    "format_version": "1.20.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "mystic:thundersurge_leggings",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.leggings"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "thundersurge_leggings"
+            },
+            "minecraft:display_name": {
+                "value": "Thundersurge Leggings\n§5Lightning§r"
+            },
+            "minecraft:tags": {
+                "tags": [ "thundersurge", "lightning" ]
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:enchantable": {
+                "value": 10,
+                "slot": "armor_legs"
+            },
+            "minecraft:durability": {
+                "max_durability": 700,
+                "damage_chance": {
+                    "min": 5,
+                    "max": 10
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [ "item:lightning_stone_shard" ],
+                        "repair_amount": "100 + (q.max_durability - q.remaining_durability) * 0.15"
+                    },
+                    {
+                        "items": [ "item:lightning_stone" ],
+                        "repair_amount":"100 + (q.max_durability - q.remaining_durability) * 0.7"
+                    },
+                    {
+                        "items": [ "mystic:thundersurge_leggings" ],
+                        "repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
+                    }
+                ]
+            },
+            "minecraft:wearable": {
+                "protection": 6,
+                "slot": "slot.armor.legs"
+            },
+            "minecraft:knockback_resistance": {
+                "protection": 1
+            }
+        }
+    }
+}

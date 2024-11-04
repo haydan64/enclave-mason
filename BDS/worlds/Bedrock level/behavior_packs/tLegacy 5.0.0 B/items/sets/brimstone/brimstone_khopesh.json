@@ -1,0 +1,52 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			},
+			"identifier": "hax:brimstone_khopesh"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Brimstone Khopesh"
+			},
+			"minecraft:icon": {
+				"texture": "hax:brimstone_khopesh"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:transformable_items"
+				]
+			},
+			"minecraft:damage": 10,
+			"minecraft:enchantable": {
+				"value": 13,
+				"slot": "sword"
+			},
+			"minecraft:durability": {
+				"max_durability": 710
+			},
+			"minecraft:repairable":{
+				"repair_items": [
+					{
+						"items": [
+							"hax:brimstone_khopesh"
+						],
+						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+					},
+					{
+						"items": [
+							"hax:brimstone_chunk"
+						],
+						"repair_amount": "context.other->query.max_durability * 0.25" //312
+					}
+				]
+			},
+			"minecraft:can_destroy_in_creative": false
+		}
+	}
+}

@@ -1,0 +1,66 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "minecraft:item",
+            "is_spawnable": false,
+            "is_summonable": false,
+            "is_experimental": false,
+            "scripts": {
+                "animate": [
+                    "tag"
+                ]
+            },
+            "animations": {
+                "tag": "controller.animation.tag"
+            }
+        },
+        "component_groups": {
+            "tag": {
+                "minecraft:damage_sensor": {
+                    "triggers": [
+                        {
+                            "cause": "fire",
+                            "deals_damage": false
+                        },
+                        {
+                            "cause": "fire_tick",
+                            "deals_damage": false
+                        },
+                        {
+                            "cause": "lava",
+                            "deals_damage": false
+                        }
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:environment_sensor": {
+                "triggers": [
+                    {
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "test": "has_tag",
+                                    "operator": "==",
+                                    "value": "netheroom_fire"
+                                }
+                            ]
+                        },
+                        "event": "fantasy:tag"
+                    }
+                ]
+            }
+        },
+        "events": {
+            "fantasy:tag": {
+                "add": {
+                    "component_groups": [
+                        "tag"
+                    ]
+                }
+            }
+        }
+    }
+}

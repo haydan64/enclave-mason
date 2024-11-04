@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:iron_shovel"
+    },
+
+    
+    "tags": [ "null" ],
+    "pattern": [
+      "X",
+      "#",
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "X": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "unlock": [
+            {
+                "item": "minecraft:end_gateway",
+                "data": 4
+            }
+        ],
+    "result": {
+      "item": "minecraft:iron_shovel"
+    }
+  }
+}

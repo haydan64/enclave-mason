@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "fantasy:solarstone",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": "fantasy:solarstone",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

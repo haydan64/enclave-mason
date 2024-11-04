@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:small_blast_bottle",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/items/blast_bottle_small"
+			},
+			"geometry": {
+				"default": "geometry.blast.bottle"
+			},
+			"render_controllers": ["controller.render.onevariant"]
+
+			
+			
+		}
+	}
+}

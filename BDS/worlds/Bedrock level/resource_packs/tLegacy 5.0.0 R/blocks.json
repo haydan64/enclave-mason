@@ -1,0 +1,230 @@
+{
+
+"format_version" : [ 1, 1, 0 ],
+
+   //"hax:tiered_table" : {
+      //"sound" : "metal",
+      //"textures" : {
+      //   "down" : "tiered_table_bottom",
+      //   "side" : "tiered_table_side",
+      //   "up" : "tiered_table_top"
+      //}
+      //"textures" : "legacy_workstation"
+   //},
+
+   "hax:brimstone_blueprint_craft" : {
+      "sound" : "sand",
+      "textures" : "brimstone_blueprint"
+   },
+   "hax:basic_blueprint_craft" : {
+      "sound" : "sand",
+      "textures" : "basic_blueprint"
+   },
+   "hax:bronze_blueprint_craft" : {
+      "sound" : "sand",
+      "textures" : "bronze_blueprint"
+   },
+   "hax:cobalt_blueprint_craft" : {
+      "sound" : "sand",
+      "textures" : "cobalt_blueprint"
+   },
+   "hax:copper_blueprint_craft" : {
+      "sound" : "sand",
+      "textures" : "copper_blueprint"
+   },
+   "hax:diamond_blueprint_craft" : {
+      "sound" : "sand",
+      "textures" : "diamond_blueprint"
+   },
+   "hax:dragonscale_blueprint_craft" : {
+      "sound" : "sand",
+      "textures" : "dragonscale_blueprint"
+   },
+   "hax:electrum_blueprint_craft" : {
+      "sound" : "sand",
+      "textures" : "electrum_blueprint"
+   },
+   "hax:emerald_blueprint_craft" : {
+      "sound" : "sand",
+      "textures" : "emerald_blueprint"
+   },
+   "hax:enderium_blueprint_craft" : {
+      "sound" : "sand",
+      "textures" : "enderium_blueprint"
+   },
+   "hax:gold_blueprint_craft" : {
+      "sound" : "sand",
+      "textures" : "gold_blueprint"
+   },
+   "hax:iron_blueprint_craft" : {
+      "sound" : "sand",
+      "textures" : "iron_blueprint"
+   },
+   "hax:lead_blueprint_craft" : {
+      "sound" : "sand",
+      "textures" : "lead_blueprint"
+   },
+   "hax:obsidian_blueprint_craft" : {
+      "sound" : "sand",
+      "textures" : "obsidian_blueprint"
+   },
+   "hax:ruby_blueprint_craft" : {
+      "sound" : "sand",
+      "textures" : "ruby_blueprint"
+   },
+   "hax:silver_blueprint_craft" : {
+      "sound" : "sand",
+      "textures" : "silver_blueprint"
+   },
+   "hax:slime_blueprint_craft" : {
+      "sound" : "sand",
+      "textures" : "slime_blueprint"
+   },
+   "hax:steel_blueprint_craft" : {
+      "sound" : "sand",
+      "textures" : "steel_blueprint"
+   },
+   "hax:stone_blueprint_craft" : {
+      "sound" : "sand",
+      "textures" : "stone_blueprint"
+   },
+   "hax:tin_blueprint_craft" : {
+      "sound" : "sand",
+      "textures" : "tin_blueprint"
+   },
+
+   "hax:dragonscale_block" : {
+      "sound" : "basalt",
+      "textures" : "dragonscale_block"
+   },
+   "hax:abyssal_eye" : {
+      "sound" : "shroomlight",
+      "textures" : "abyssal_eye"
+   },
+
+   "hax:brimstone_ore" : {
+      "sound" : "netherrack",
+      "textures" : "brimstone_ore"
+   },
+
+   "hax:nether_cobalt_ore" : {
+      "sound" : "netherrack",
+      "textures" : "nether_cobalt_ore"
+   },
+   "hax:deepslate_cobalt_ore" : {
+      "isotropic" : false,
+      "sound" : "deepslate",
+      "textures" : "deepslate_cobalt_ore"
+   },
+   "hax:raw_cobalt_block" : {
+      "isotropic" : false,
+      "sound" : "stone",
+      "textures" : "raw_cobalt_block"
+   },
+   "hax:cobalt_block" : {
+      "sound" : "copper",
+      "textures" : "cobalt_block"
+   },
+
+   "hax:lead_ore" : {
+      "sound" : "stone",
+      "textures" : "lead_ore"
+   },
+   "hax:deepslate_lead_ore" : {
+      "isotropic" : false,
+      "sound" : "deepslate",
+      "textures" : "deepslate_lead_ore"
+   },
+   "hax:raw_lead_block" : {
+      "isotropic" : false,
+      "sound" : "stone",
+      "textures" : "raw_lead_block"
+   },
+   "hax:lead_block" : {
+      "sound" : "netherite",
+      "textures" : "lead_block"
+   },
+
+   "hax:ruby_ore" : {
+      "sound" : "stone",
+      "textures" : "ruby_ore"
+   },
+   "hax:deepslate_ruby_ore" : {
+      "isotropic" : false,
+      "sound" : "deepslate",
+      "textures" : "deepslate_ruby_ore"
+   },
+   "hax:jeweled_blackstone" : {
+      "sound" : "stone",
+      "textures" : "jeweled_blackstone"
+   },
+
+   "hax:silver_ore" : {
+      "sound" : "stone",
+      "textures" : "silver_ore"
+   },
+   "hax:deepslate_silver_ore" : {
+      "isotropic" : false,
+      "sound" : "deepslate",
+      "textures" : "deepslate_silver_ore"
+   },
+   "hax:raw_silver_block" : {
+      "isotropic" : false,
+      "sound" : "stone",
+      "textures" : "raw_silver_block"
+   },
+   "hax:silver_block" : {
+      "sound" : "metal",
+      "textures" : "silver_block"
+   },
+
+   "hax:tin_ore" : {
+      "sound" : "stone",
+      "textures" : "tin_ore"
+   },
+   "hax:deepslate_tin_ore" : {
+      "isotropic" : false,
+      "sound" : "deepslate",
+      "textures" : "deepslate_tin_ore"
+   },
+   "hax:raw_tin_block" : {
+      "isotropic" : false,
+      "sound" : "stone",
+      "textures" : "raw_tin_block"
+   },
+   "hax:tin_block" : {
+      "sound" : "copper",
+      "textures" : "tin_block"
+   },
+
+   "hax:bronze_block" : {
+      "sound" : "copper",
+      "textures" : "bronze_block"
+   },
+
+   "hax:electrum_block" : {
+      "sound" : "lantern",
+      "textures" : "electrum_block"
+   },
+
+   "hax:enderium_block" : {
+      "sound" : "netherite",
+      "textures" : "enderium_block"
+   },
+
+   "hax:radiant_block" : {
+      "sound" : "amethyst_cluster",
+      "textures" : "radiant_block"
+   },
+
+   "hax:ruby_block" : {
+      "sound" : "metal",
+      "textures" : "ruby_block"
+   },
+
+   "hax:steel_block" : {
+      "sound" : "metal",
+      "textures" : "steel_block"
+   }
+
+}

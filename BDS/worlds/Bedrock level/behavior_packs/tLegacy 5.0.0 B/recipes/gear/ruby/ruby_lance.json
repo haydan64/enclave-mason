@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:ruby_lance"
+		},
+
+    
+		"tags": [ "ruby_blueprint" ],
+		"pattern": [
+			" SH",
+			"INS",
+			"/I "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:ruby_spadehead"
+			},
+			"S": {
+				"item": "hax:ruby_shortblade"
+			},
+			"I": {
+				"item": "hax:ruby"
+			},
+			"N": {
+				"item": "hax:ruby_shard"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:ruby_blueprint"
+			}
+		],
+		"result": { "item": "hax:ruby_lance" }
+	}
+}

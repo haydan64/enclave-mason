@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:ruby_spade"
+		},
+
+    
+		"tags": [ "ruby_blueprint" ],
+		"pattern": [
+			" IH",
+			" /I",
+			"/  "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:ruby_spadehead"
+			},
+			"I": {
+				"item": "hax:ruby"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:ruby_blueprint"
+			}
+		],
+		"result": { "item": "hax:ruby_spade" }
+	}
+}

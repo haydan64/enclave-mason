@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:electrum_plating"
+		},
+
+    
+		"tags": [ "electrum_blueprint" ],
+		"pattern": [
+			"II",
+			"II",
+			" "
+		],
+
+		"key": {
+			"I": {
+				"item": "hax:electrum_ingot"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:electrum_blueprint"
+			}
+		],
+		"result": { "item": "hax:electrum_plating" }
+	}
+}

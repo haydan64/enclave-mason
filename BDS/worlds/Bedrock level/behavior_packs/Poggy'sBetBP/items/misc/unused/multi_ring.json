@@ -1,0 +1,15 @@
+{
+    "format_version": "1.21.10",
+    "minecraft:item": {
+        "description": {
+            "identifier": "better_on_bedrock:multi_ring"
+        },
+        "components": {
+            "minecraft:glint": true,
+            "minecraft:icon": "multi_ring",
+            "minecraft:display_name": {
+                "value": "%item.better_on_bedrock.multi_ring.name\n%item.better_on_bedrock.rings"
+            }
+        }
+    }
+}

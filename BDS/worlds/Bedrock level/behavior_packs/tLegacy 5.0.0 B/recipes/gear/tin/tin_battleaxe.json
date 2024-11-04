@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:tin_battleaxe"
+		},
+
+    
+		"tags": [ "tin_blueprint" ],
+		"pattern": [
+			"HPH",
+			" / ",
+			" / "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:tin_axehead"
+			},
+			"P": {
+				"item": "hax:tin_plating"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:tin_blueprint"
+			}
+		],
+		"result": { "item": "hax:tin_battleaxe" }
+	}
+}

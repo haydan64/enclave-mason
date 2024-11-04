@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:dragonscale_block"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "##",
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "hax:dragonscale"
+      }
+    },
+    
+    "unlock": [
+      {
+        "item": "hax:dragonscale"
+      }
+    ],
+    "result": {
+      "item": "hax:dragonscale_block"
+    }
+  }
+}

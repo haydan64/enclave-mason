@@ -1,0 +1,43 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:snow_zombie_corpse",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/entity/zombie/snow_zombie/zombie",
+				"default2": "textures/entity/zombie/snow_zombie/zombie2",
+				"default3": "textures/entity/zombie/snow_zombie/zombie3",
+				"default4": "textures/entity/zombie/snow_zombie/zombie4",
+				"default5": "textures/entity/zombie/snow_zombie/zombie5",
+				"default6": "textures/entity/zombie/snow_zombie/zzombie",
+				"default7": "textures/entity/zombie/snow_zombie/zzombie2",
+				"default8": "textures/entity/zombie/snow_zombie/zzombie3",
+				"default9": "textures/entity/zombie/snow_zombie/zzombie4",
+				"default10": "textures/entity/zombie/snow_zombie/zzombie5"
+			},
+			"hide_armor": false,
+			"geometry": {
+				"default": "geometry.zombiev2"
+			},
+			"scripts": {
+				"animate": [
+					"controller"
+				  ]
+			},
+			"animations": {
+				"controller" : "controller.animation.plainzombie.corpse",
+				"dead": "animation.zombiev2.dead",
+				"deadfalling": "animation.zombiev2.deadfalling",
+				"deadground": "animation.zombiev2.deadgroundv2",
+				"deadground2": "animation.zombiev2.deadgroundv22",
+				"deadground3": "animation.zombiev2.deadgroundv23"
+			},
+			"render_controllers": ["controller.render.tenvariant"],
+			"enable_attachables": true
+		}
+	}
+}

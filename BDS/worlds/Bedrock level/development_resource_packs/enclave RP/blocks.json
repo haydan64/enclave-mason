@@ -1,0 +1,238 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"enclave:kam_maprock": {
+		"sound": "stone",
+		"textures": "enclave_kam_maprock"
+	},
+	"enclave:war_maprock": {
+		"sound": "stone",
+		"textures": "enclave_war_maprock"
+	},
+	"enclave:leg_maprock": {
+		"sound": "stone",
+		"textures": "enclave_leg_maprock"
+	},
+	"enclave:poop_block": {
+		"sound": "froglight",
+		"textures": "enclave_poop_block"
+	},
+	"enclave:mer_maprock": {
+		"sound": "stone",
+		"textures": "enclave_mer_maprock"
+	},
+	"enclave:agricultural_tnt": {
+		"sound": "gravel",
+		"textures": {
+			"down": "enclave_agricultural_tnt_bottom",
+			"up": "enclave_agricultural_tnt_top",
+			"side": "enclave_agricultural_tnt_sides"
+		}
+	},
+	"enclave:blue_brick": {
+		"sound": "stone",
+		"textures": "enclave_blue_brick"
+	},
+	"enclave:burning_obsidian": {
+		"sound": "stone",
+		"textures": "enclave_burning_obsidian"
+	},
+	"enclave:drowning_obsidian": {
+		"sound": "stone",
+		"textures": "enclave_drowning_obsidian"
+	},
+	"enclave:green_brick": {
+		"sound": "stone",
+		"textures": "enclave_green_brick"
+	},
+	"enclave:guilded_obsidian": {
+		"sound": "stone",
+		"textures": "enclave_guilded_obsidian"
+	},
+	"enclave:light_blue_brick": {
+		"sound": "stone",
+		"textures": "enclave_light_blue_brick"
+	},
+	"enclave:lime_green_brick": {
+		"sound": "stone",
+		"textures": "enclave_lime_green_brick"
+	},
+	"enclave:magenta_brick": {
+		"sound": "stone",
+		"textures": "enclave_magenta_brick"
+	},
+	"enclave:mushroom_block_skin_blue": {
+		"sound": "stone",
+		"textures": "enclave_mushroom_block_skin_blue"
+	},
+	"enclave:mushroom_block_skin_green": {
+		"sound": "stone",
+		"textures": "enclave_mushroom_block_skin_green"
+	},
+	"enclave:pink_brick": {
+		"sound": "stone",
+		"textures": "enclave_pink_brick"
+	},
+	"enclave:purple_brick": {
+		"sound": "stone",
+		"textures": "enclave_purple_brick"
+	},
+	"enclave:radio_brick": {
+		"sound": "stone",
+		"textures": "enclave_radio_brick"
+	},
+	"enclave:souled_chiseled_polished_blackstone": {
+		"sound": "stone",
+		"textures": "enclave_souled_chiseled_polished_blackstone"
+	},
+	"enclave:souled_nether_bricks": {
+		"sound": "stone",
+		"textures": "enclave_souled_nether_bricks"
+	},
+	"enclave:souled_chiseled_deepslate": {
+		"sound": "stone",
+		"textures": "enclave_souled_chiseled_deepslate"
+	},
+	"enclave:underwater_tnt": {
+		"sound": "cloth",
+		"textures": "enclave_underwater_tnt"
+	},
+	"enclave:yellow_brick": {
+		"sound": "stone",
+		"textures": "enclave_yellow_brick"
+	},
+	"enclave:deepslate_magnetite_ore": {
+		"sound": "stone",
+		"textures": "enclave_deepslate_magnetite_ore"
+	},
+	"enclave:magnetite_ore": {
+		"sound": "stone",
+		"textures": "enclave_magnetite_ore"
+	},
+	"enclave:black_purpur": {
+		"sound": "stone",
+		"textures": "enclave_black_purpur"
+	},
+	"enclave:blue_purpur": {
+		"sound": "stone",
+		"textures": "enclave_blue_purpur"
+	},
+	"enclave:blueish_purpur": {
+		"sound": "stone",
+		"textures": "enclave_blueish_purpur"
+	},
+	"enclave:child_red_purpur": {
+		"sound": "stone",
+		"textures": "enclave_child_red_purpur"
+	},
+	"enclave:copper_purpur": {
+		"sound": "stone",
+		"textures": "enclave_copper_purpur"
+	},
+	"enclave:cyan_purpur": {
+		"sound": "stone",
+		"textures": "enclave_cyan_purpur"
+	},
+	"enclave:dark_purple_purpur": {
+		"sound": "stone",
+		"textures": "enclave_dark_purple_purpur"
+	},
+	"enclave:deep_blue_purpur": {
+		"sound": "stone",
+		"textures": "enclave_deep_blue_purpur"
+	},
+	"enclave:green_purpur": {
+		"sound": "stone",
+		"textures": "enclave_green_purpur"
+	},
+	"enclave:grey_purpur": {
+		"sound": "stone",
+		"textures": "enclave_grey_purpur"
+	},
+	"enclave:lapis_blue_purpur": {
+		"sound": "stone",
+		"textures": "enclave_lapis_blue_purpur"
+	},
+	"enclave:light_blue_purpur": {
+		"sound": "stone",
+		"textures": "enclave_light_blue_purpur"
+	},
+	"enclave:light_green_purpur": {
+		"sound": "stone",
+		"textures": "enclave_light_green_purpur"
+	},
+	"enclave:light_grey_purpur": {
+		"sound": "stone",
+		"textures": "enclave_light_grey_purpur"
+	},
+	"enclave:light_purple_purpur": {
+		"sound": "stone",
+		"textures": "enclave_light_purple_purpur"
+	},
+	"enclave:light_red_purpur": {
+		"sound": "stone",
+		"textures": "enclave_light_red_purpur"
+	},
+	"enclave:light_tea_purpur": {
+		"sound": "stone",
+		"textures": "enclave_light_tea_purpur"
+	},
+	"enclave:lime_green_purpur": {
+		"sound": "stone",
+		"textures": "enclave_lime_green_purpur"
+	},
+	"enclave:love_pink_purpur": {
+		"sound": "stone",
+		"textures": "enclave_love_pink_purpur"
+	},
+	"enclave:magenta_purpur": {
+		"sound": "stone",
+		"textures": "enclave_magenta_purpur"
+	},
+	"enclave:orange_purpur": {
+		"sound": "stone",
+		"textures": "enclave_orange_purpur"
+	},
+	"enclave:pink_purpur": {
+		"sound": "stone",
+		"textures": "enclave_pink_purpur"
+	},
+	"enclave:purple_purpur": {
+		"sound": "stone",
+		"textures": "enclave_purple_purpur"
+	},
+	"enclave:radio_purpur": {
+		"sound": "stone",
+		"textures": "enclave_radio_purpur"
+	},
+	"enclave:red_purpur": {
+		"sound": "stone",
+		"textures": "enclave_red_purpur"
+	},
+	"enclave:stone_purpur": {
+		"sound": "stone",
+		"textures": "enclave_stone_purpur"
+	},
+	"enclave:terquoise_purpur": {
+		"sound": "stone",
+		"textures": "enclave_terquoise_purpur"
+	},
+	"enclave:white_purpur": {
+		"sound": "stone",
+		"textures": "enclave_white_purpur"
+	},
+	"enclave:growing_obsidian": {
+		"sound": "stone",
+		"textures": "enclave_growing_obsidian"
+	},
+	"enclave:netherrack_stairs": {
+		"sound": "stone"
+	},
+	"enclave:magnetite_block": {
+		"sound": "stone",
+		"textures": "enclave_magnetite_block"
+	}
+}

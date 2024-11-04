@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:limestone_seeds",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.seed"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "limestone_seeds"
+			},
+			"minecraft:display_name": {
+				"value": "Limestone Seeds\n§7Tier: §e1§r"
+			},
+			"minecraft:block_placer": {
+				"block": "strat:limestone_crop"
+			}
+		}
+	}
+}

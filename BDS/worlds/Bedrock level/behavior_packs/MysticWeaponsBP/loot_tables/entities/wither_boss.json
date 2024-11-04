@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:nether_star",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "item:earth_stone",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "item:water_stone",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "item:ice_stone",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "item:wind_stone",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "item:fire_stone",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "item:lightning_stone",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "item:light_stone",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "item:dark_stone",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
+                    

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "hax:furnace_lead_cutlass"
+    },
+
+
+    "tags": ["furnace", "blast_furnace"],
+    "input": "hax:lead_cutlass",
+    "output": "hax:lead_nugget"
+  }
+  
+}

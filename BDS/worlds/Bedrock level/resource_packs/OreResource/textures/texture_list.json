@@ -1,0 +1,266 @@
+[
+  "textures/items/ruby/ruby",
+  "textures/items/ruby/weapons/ruby_sword",
+  "textures/items/ruby/weapons/ruby_labrys",
+  "textures/items/ruby/armor/ruby_helmet",
+  "textures/items/ruby/armor/ruby_chestplate",
+  "textures/items/ruby/armor/ruby_leggings",
+  "textures/items/ruby/armor/ruby_boots",
+  "textures/items/ruby/tools/ruby_shovel",
+  "textures/items/ruby/tools/ruby_hoe",
+  "textures/items/ruby/tools/ruby_axe",
+  "textures/items/ruby/tools/ruby_pickaxe",
+
+  "textures/items/sapphire/sapphire",
+  "textures/items/sapphire/weapons/sapphire_sword",
+  "textures/items/sapphire/weapons/sapphire_labrys",
+  "textures/items/sapphire/armor/sapphire_helmet",
+  "textures/items/sapphire/armor/sapphire_chestplate",
+  "textures/items/sapphire/armor/sapphire_leggings",
+  "textures/items/sapphire/armor/sapphire_boots",
+  "textures/items/sapphire/tools/sapphire_shovel",
+  "textures/items/sapphire/tools/sapphire_hoe",
+  "textures/items/sapphire/tools/sapphire_axe",
+  "textures/items/sapphire/tools/sapphire_pickaxe",
+
+  "textures/items/jade/jade",
+  "textures/items/jade/weapons/jade_sword",
+  "textures/items/jade/weapons/jade_labrys",
+  "textures/items/jade/armor/jade_helmet",
+  "textures/items/jade/armor/jade_chestplate",
+  "textures/items/jade/armor/jade_leggings",
+  "textures/items/jade/armor/jade_boots",
+  "textures/items/jade/tools/jade_shovel",
+  "textures/items/jade/tools/jade_hoe",
+  "textures/items/jade/tools/jade_axe",
+  "textures/items/jade/tools/jade_pickaxe",
+
+  "textures/items/spinel/spinel",
+  "textures/items/spinel/weapons/spinel_labrys",
+  "textures/items/spinel/armor/spinel_helmet",
+  "textures/items/spinel/armor/spinel_chestplate",
+  "textures/items/spinel/armor/spinel_leggings",
+  "textures/items/spinel/armor/spinel_boots",
+  "textures/items/spinel/tools/spinel_hoe",
+  "textures/items/spinel/tools/spinel_pickaxe",
+
+  "textures/items/peridot/peridot",
+  "textures/items/peridot/weapons/peridot_sword",
+  "textures/items/peridot/weapons/peridot_labrys",
+  "textures/items/peridot/armor/peridot_helmet",
+  "textures/items/peridot/armor/peridot_chestplate",
+  "textures/items/peridot/armor/peridot_leggings",
+  "textures/items/peridot/armor/peridot_boots",
+  "textures/items/peridot/tools/peridot_pickaxe",
+
+  "textures/items/aquamarine/aquamarine",
+  "textures/items/aquamarine/weapons/aquamarine_sword",
+  "textures/items/aquamarine/weapons/aquamarine_labrys",
+  "textures/items/aquamarine/armor/aquamarine_helmet",
+  "textures/items/aquamarine/armor/aquamarine_chestplate",
+  "textures/items/aquamarine/armor/aquamarine_leggings",
+  "textures/items/aquamarine/armor/aquamarine_boots",
+  "textures/items/aquamarine/tools/aquamarine_pickaxe",
+
+  "textures/items/bismuth/bismuth",
+  "textures/items/bismuth/weapons/bismuth_sword",
+  "textures/items/bismuth/weapons/bismuth_labrys",
+  "textures/items/bismuth/armor/bismuth_helmet",
+  "textures/items/bismuth/armor/bismuth_chestplate",
+  "textures/items/bismuth/armor/bismuth_leggings",
+  "textures/items/bismuth/armor/bismuth_boots",
+  "textures/items/bismuth/tools/bismuth_pickaxe",
+
+  "textures/items/onyx/onyx",
+  "textures/items/onyx/weapons/onyx_katana",
+  "textures/items/onyx/weapons/onyx_dagger",
+  "textures/items/onyx/armor/onyx_helmet",
+  "textures/items/onyx/armor/onyx_chestplate",
+  "textures/items/onyx/armor/onyx_leggings",
+  "textures/items/onyx/armor/onyx_boots",
+  "textures/items/onyx/tools/onyx_pickaxe",
+
+  "textures/items/opal/opal",
+  "textures/items/opal/armor/opal_helmet",
+  "textures/items/opal/armor/opal_chestplate",
+  "textures/items/opal/armor/opal_leggings",
+  "textures/items/opal/armor/opal_boots",
+
+  "textures/items/sulfur/sulfur",
+  "textures/items/sulfur/sulfur_dust",
+  "textures/items/sulfur/potions/sulfur_potion",
+  "textures/items/sulfur/potions/sulfur_potion_splash",
+
+  "textures/items/sulfuric_acid/sulfuric_acid",
+  "textures/items/sulfuric_acid/sulfuric_acid_concentration",
+
+  "textures/items/sulfate/sulfate",
+  "textures/items/sulfate/sulfate_dust",
+
+  "textures/items/steel/steel",
+  "textures/items/steel/weapons/steel_sword",
+  "textures/items/steel/armor/steel_helmet",
+  "textures/items/steel/armor/steel_chestplate",
+  "textures/items/steel/armor/steel_leggings",
+  "textures/items/steel/armor/steel_boots",
+  "textures/items/steel/tools/steel_pickaxe",
+
+  "textures/items/steel/blue/blue_steel",
+  "textures/items/steel/blue/armor/water_dragon_samurai_helmet",
+  "textures/items/steel/blue/armor/water_dragon_samurai_chestplate",
+  "textures/items/steel/blue/armor/water_dragon_samurai_leggings",
+  "textures/items/steel/blue/armor/water_dragon_samurai_boots",
+
+  "textures/items/steel/red/red_steel",
+  "textures/items/steel/red/armor/fire_dragon_samurai_helmet",
+  "textures/items/steel/red/armor/fire_dragon_samurai_chestplate",
+  "textures/items/steel/red/armor/fire_dragon_samurai_leggings",
+  "textures/items/steel/red/armor/fire_dragon_samurai_boots",
+
+  "textures/items/steel/white/white_steel",
+  "textures/items/steel/white/armor/paladin_helmet",
+  "textures/items/steel/white/armor/paladin_chestplate",
+  "textures/items/steel/white/armor/paladin_leggings",
+  "textures/items/steel/white/armor/paladin_boots",
+
+  "textures/items/tungsten/tungsten",
+  "textures/items/tungsten/weapons/tungsten_durandal",
+  "textures/items/tungsten/armor/tungsten_helmet",
+  "textures/items/tungsten/armor/tungsten_chestplate",
+  "textures/items/tungsten/armor/tungsten_leggings",
+  "textures/items/tungsten/armor/tungsten_boots",
+
+  "textures/items/platinum/platinum",
+  "textures/items/platinum/platinum_ingot",
+  "textures/items/platinum/weapons/platinum_sword",
+  "textures/items/platinum/armor/platinum_helmet",
+  "textures/items/platinum/armor/platinum_chestplate",
+  "textures/items/platinum/armor/platinum_leggings",
+  "textures/items/platinum/armor/platinum_boots",
+
+  "textures/items/netheroom/netheroom",
+  "textures/items/netheroom/armor/netheroom_helmet",
+  "textures/items/netheroom/armor/netheroom_chestplate",
+  "textures/items/netheroom/armor/netheroom_leggings",
+  "textures/items/netheroom/armor/netheroom_boots",
+
+  "textures/items/garnet/garnet",
+  "textures/items/garnet/tools/garnet_axe",
+  "textures/items/garnet/armor/garnet_helmet",
+  "textures/items/garnet/armor/garnet_chestplate",
+  "textures/items/garnet/armor/garnet_leggings",
+  "textures/items/garnet/armor/garnet_boots",
+
+  "textures/items/topaz/topaz",
+  "textures/items/topaz/weapons/topaz_spear",
+  "textures/items/topaz/tools/topaz_shovel",
+  "textures/items/topaz/tools/topaz_axe",
+  "textures/items/topaz/tools/topaz_pickaxe",
+  "textures/items/topaz/armor/topaz_helmet",
+  "textures/items/topaz/armor/topaz_chestplate",
+  "textures/items/topaz/armor/topaz_leggings",
+  "textures/items/topaz/armor/topaz_boots",
+
+  "textures/items/alexandrite/alexandrite",
+  "textures/items/alexandrite/weapons/alexandrite_sword",
+  "textures/items/alexandrite/tools/alexandrite_shovel",
+  "textures/items/alexandrite/tools/alexandrite_axe",
+  "textures/items/alexandrite/tools/alexandrite_pickaxe",
+  "textures/items/alexandrite/armor/alexandrite_helmet",
+  "textures/items/alexandrite/armor/alexandrite_chestplate",
+  "textures/items/alexandrite/armor/alexandrite_leggings",
+  "textures/items/alexandrite/armor/alexandrite_boots",
+
+  "textures/items/malachite/malachite",
+  "textures/items/malachite/weapons/malachite_sword",
+  "textures/items/malachite/weapons/malachite_labrys",
+  "textures/items/malachite/armor/malachite_helmet",
+  "textures/items/malachite/armor/malachite_chestplate",
+  "textures/items/malachite/armor/malachite_leggings",
+  "textures/items/malachite/armor/malachite_boots",
+
+  "textures/items/jasper/jasper",
+  "textures/items/jasper/armor/jasper_helmet",
+
+  "textures/items/watermelon_tourmaline/watermelon_tourmaline",
+  "textures/items/watermelon_tourmaline/armor/watermelon_tourmaline_helmet",
+  "textures/items/watermelon_tourmaline/armor/watermelon_tourmaline_chestplate",
+  "textures/items/watermelon_tourmaline/armor/watermelon_tourmaline_leggings",
+  "textures/items/watermelon_tourmaline/armor/watermelon_tourmaline_boots",
+
+  "textures/items/clothing/steampunk/black_hat",
+  "textures/items/clothing/steampunk/steampunk_glasses",
+  "textures/items/clothing/steampunk/steampunk_hat",
+
+  "textures/items/clothing/tiki_mask",
+
+  "textures/items/medicine/analgesic",
+
+  "textures/items/beetles/jade_beetle",
+
+  "textures/items/staffs/escabirus_staff",
+  "textures/items/staffs/opal_staff",
+  "textures/items/staffs/platinum_staff",
+
+  "textures/blocks/ruby/ruby_ore",
+  "textures/blocks/ruby/ruby_block",
+
+  "textures/blocks/sapphire/sapphire_ore",
+  "textures/blocks/sapphire/sapphire_block",
+
+  "textures/blocks/jade/jade_ore",
+  "textures/blocks/jade/jade_block",
+  "textures/blocks/jade/jade_dirt",
+
+  "textures/blocks/spinel/spinel_ore",
+  "textures/blocks/spinel/spinel_block",
+
+  "textures/blocks/peridot/peridot_ore",
+  "textures/blocks/peridot/peridot_block",
+
+  "textures/blocks/aquamarine/aquamarine_ore",
+  "textures/blocks/aquamarine/aquamarine_block",
+
+  "textures/blocks/bismuth/bismuth_ore",
+  "textures/blocks/bismuth/bismuth_block",
+
+  "textures/blocks/onyx/onyx_ore",
+  "textures/blocks/onyx/onyx_block",
+
+  "textures/blocks/opal/opal_ore",
+  "textures/blocks/opal/opal_block",
+
+  "textures/blocks/sulfur/sulfur_ore",
+
+  "textures/blocks/steel/steel_ore",
+  "textures/blocks/steel/steel_block",
+
+  "textures/blocks/tungsten/tungsten_ore",
+  "textures/blocks/tungsten/tungsten_block",
+
+  "textures/blocks/platinum/platinum_ore",
+  "textures/blocks/platinum/platinum_block",
+
+  "textures/blocks/netheroom/netheroom_ore",
+  "textures/blocks/netheroom/netheroom_block",
+
+  "textures/blocks/garnet/garnet_ore",
+  "textures/blocks/garnet/garnet_block",
+
+  "textures/blocks/topaz/topaz_ore",
+  "textures/blocks/topaz/topaz_block",
+
+  "textures/blocks/alexandrite/alexandrite_ore",
+  "textures/blocks/alexandrite/alexandrite_block",
+
+  "textures/blocks/malachite/malachite_block",
+  "textures/blocks/malachite/malachite_ore",
+
+  "textures/blocks/jasper/jasper_block",
+  "textures/blocks/jasper/jasper_ore",
+
+  "textures/blocks/watermelon_tourmaline/watermelon_tourmaline_block",
+  "textures/blocks/watermelon_tourmaline/watermelon_tourmaline_ore",
+
+  "textures/blocks/tailors_table"
+]

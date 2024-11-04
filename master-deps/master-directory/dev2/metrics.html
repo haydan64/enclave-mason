@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="output.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+            integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Enclave Kingdoms | Metrics</title>
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+        <link rel="icon" type="image/x-icon" href="images/logo-removebg-preview.png">
+    </head>
+
+    <body class="bg-blue-100 h-screen">
+
+        <div class="container mx-auto mt-5 p-6 bg-blue-400 rounded-lg shadow h-max-content flex-row"
+            id="processContainer">
+            <!-- Empty div where process data will be inserted -->
+            <div id="statusContent"></div>
+        </div>
+
+    </body>
+
+    <script>
+        setInterval(refresh, 5000);
+        const currentTime = Date.now();
+
+        // Function to create a new status element
+        function createStatusElement(text) {
+            const wrapper = document.createElement('div');
+            const statusText = document.createTextNode(text);
+            wrapper.appendChild(statusText);
+            return wrapper;
+        }
+
+        const processContainer = document.getElementById('processContainer');
+        const title = document.getElementById('title');
+        const statusContent = document.getElementById('statusContent');
+
+        function fetchServerData() {
+            fetch("/dev2/api/process")
+                .then((res) => {
+                    if (!res.ok) {
+                        throw new Error(`HTTP error: status: ${res.status} `)
+                    }
+                    return res.json();
+                })
+                .then((data) => {
+                    // Clear previous status content without affecting the header/title
+                    statusContent.innerHTML = '';
+                    for (var i = 0; i < data.length; i++) {
+                        // Create elements for each process
+
+                        const onlineElement = createStatusElement("Online Status: " + data[i].pm2_env.status);
+                        const memoryElement = createStatusElement("Memory: " + (data[i].monit.memory / 1048576).toFixed(2) + "MB");
+                        const cpuElement = createStatusElement("CPU: " + data[i].monit.cpu);
+                        const PIDElement = createStatusElement("PID: " + data[i].pid);
+                        const uptimeElement = createStatusElement(data[i].pm2_env.status === 'stopped' ? "Process is offline" : "Total Uptime (hours): " + ((currentTime - data[i].pm2_env.pm_uptime) / 3600000).toFixed(2));
+                        const titleElement = createStatusElement(data[i].name);
+                        titleElement.setAttribute('class', 'text-center text-2xl');
+
+
+                        statusContent.appendChild(titleElement);
+                        statusContent.appendChild(onlineElement);
+                        statusContent.appendChild(memoryElement);
+                        statusContent.appendChild(cpuElement);
+                        statusContent.appendChild(PIDElement);
+                        statusContent.appendChild(uptimeElement);
+
+                    }
+                })
+                .catch((error) =>
+                    console.error("Unable to fetch data: ", error));
+        }
+
+        // Fetch data on load
+        fetchServerData();
+
+        // Refresh data every 5 seconds
+        function refresh() {
+            fetchServerData();
+        }
+    </script>
+
+</html>

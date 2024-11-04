@@ -1,0 +1,48 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:tree_spirit2",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/tree_spirit/tree_spirit",
+				"default2": "textures/entity/tree_spirit/happy",
+				"default3": "textures/entity/tree_spirit/angry"
+			},
+			"spawn_egg": {
+				"base_color": "#099425",
+				"overlay_color": "#7e6d25"
+			},
+			"geometry": {
+				"default": "geometry.nbaTree.spirit"
+			},
+			"scripts": {
+				"animate":[
+					"general"
+				]
+				
+			},
+			"animations": {
+				"general": "controller.animation.tree.spirit",
+				"idle": "animation.nbaTree.spirit.idle",
+				"idleangry": "animation.nbaTree.spirit.idleangry",
+				"idlehappy": "animation.nbaTree.spirit.idlehappy",
+				"walk": "animation.nbaTree.spirit.walk",
+				"admiring": "animation.nbaTree.spirit.admiring",
+				"casting" : "animation.nbaTree.spirit.casting"
+				
+			},
+			"particle_effects": {
+                "particle": "nba:green_spell",
+				"particle2": "nba:spread_angry",
+				"particle4": "nba:green_portal_particle2",
+				"particle3": "nba:green_portal_particle"
+            },
+			"render_controllers": ["controller.render.threevariant"]
+			
+		}
+	}
+}

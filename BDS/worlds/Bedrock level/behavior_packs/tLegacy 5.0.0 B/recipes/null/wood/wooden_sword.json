@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:wooden_sword"
+    },
+  
+    "tags": [ "null" ],
+    "pattern": [
+      "X",
+      "X",
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "X": {
+        "tag": "minecraft:planks"
+      }
+    },
+    "unlock": [
+            {
+                "item": "minecraft:end_gateway",
+                "data": 4
+            }
+        ],
+    "result": {
+      "item": "minecraft:wooden_sword"
+    },
+    "priority": -1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_smithing_transform": {
+    "description": {
+      "identifier": "hax:smithing_netherite_gladius"
+    },
+    "tags": [ "smithing_table" ],
+    "template": "minecraft:netherite_upgrade_smithing_template",
+    "base": "hax:diamond_gladius",
+    "addition": "minecraft:netherite_ingot",
+    "result": "hax:netherite_gladius"
+  }
+}

@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:prosperity_gemstone",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "prosperity_gemstone"
+			},
+			"minecraft:display_name": {
+				"value": "Prosperity Gemstone"
+			}
+		}
+	}
+}

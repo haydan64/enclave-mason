@@ -1,0 +1,67 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.tiered_table",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "workstation",
+					"pivot": [0, 0, 0],
+					"rotation": [0, 90, 0]
+				},
+				{
+					"name": "front",
+					"parent": "workstation",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 0, 4], "size": [12, 12, 4], "uv": [29, 55]},
+						{"origin": [-8, 0, -8], "size": [4, 12, 16], "uv": [0, 21]}
+					]
+				},
+				{
+					"name": "base",
+					"parent": "front",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 0, -8], "size": [12, 2, 12], "uv": [25, 21]}
+					]
+				},
+				{
+					"name": "shelf",
+					"parent": "base",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 2, -4], "size": [8, 10, 8], "uv": [41, 36]},
+						{"origin": [5, 2, -7], "size": [2, 10, 2], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "counter",
+					"parent": "shelf",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-8, 12, -8], "size": [16, 4, 16], "uv": [0, 0]},
+						{"origin": [-6, 16, -7], "size": [0, 7, 14], "uv": [0, 50]}
+					]
+				},
+				{
+					"name": "hammer",
+					"parent": "counter",
+					"pivot": [2.51308, 17.6371, 3.5],
+					"rotation": [7.97105, 29.01717, 16.10184],
+					"cubes": [
+						{"origin": [0.26308, 16.1371, 1], "size": [3, 3, 5], "uv": [50, 2]},
+						{"origin": [-0.73692, 17.1371, 3], "size": [8, 1, 1], "uv": [50, 12]}
+					]
+				}
+			]
+		}
+	]
+}

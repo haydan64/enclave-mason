@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:brimstone_lance"
+		},
+
+    
+		"tags": [ "brimstone_blueprint" ],
+		"pattern": [
+			" SH",
+			"INS",
+			"/I "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:brimstone_spadehead"
+			},
+			"S": {
+				"item": "hax:brimstone_shortblade"
+			},
+			"I": {
+				"item": "hax:brimstone_chunk"
+			},
+			"N": {
+				"item": "hax:brimstone_shard"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:brimstone_blueprint"
+			}
+		],
+		"result": { "item": "hax:brimstone_lance" }
+	}
+}

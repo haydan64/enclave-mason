@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "pog:iceologer_towr_features"
+    },
+    "structure_name": "mystructure:iceologer_tower",
+    "adjustment_radius": 15,
+    "facing_direction": "random",
+    "constraints": {
+      "grounded": {},
+      "block_intersection": {
+        "block_allowlist": [
+          "minecraft:air"
+        ]
+      }
+    }
+  }
+}

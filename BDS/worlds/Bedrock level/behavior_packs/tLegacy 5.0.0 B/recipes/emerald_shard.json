@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:emerald_shard"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:emerald"
+      }
+    },
+    
+    "unlock": [
+      {
+        "item": "minecraft:emerald"
+      }
+    ],
+    "result": {
+      "item": "hax:emerald_shard",
+      "count": 4
+    }
+  }
+}

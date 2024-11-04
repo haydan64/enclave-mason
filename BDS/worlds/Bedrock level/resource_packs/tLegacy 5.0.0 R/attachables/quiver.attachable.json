@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "hax:quiver",
+			"materials": {
+				"default": "armor",
+				"enchanted": "armor_enchanted"
+			},
+			"textures": {
+				"default": "textures/models/gear/quiver_model",
+				"enchanted": "textures/misc/enchanted_item_glint",
+				"half": "textures/models/gear/quiver_half",
+				"empty": "textures/models/gear/quiver_empty"
+			},
+			"geometry": {
+				"default": "geometry.quiver"
+			},
+			"scripts": {
+				"parent_setup": "variable.chestplate_layer_visible = 0.0;"
+			},
+			//"render_controllers": [
+			//	{
+			//		"controller.render.quiver_full": "query.scoreboard('ex') == 2"
+			//	},
+			//	{
+			//		"controller.render.quiver_half": "query.scoreboard('ex') == 1"
+			//	},
+			//	{
+			//		"controller.render.quiver_empty": "query.scoreboard('ex') == 0"
+			//	}
+			//]
+			"render_controllers": ["controller.render.armor"]
+		}
+	}
+}

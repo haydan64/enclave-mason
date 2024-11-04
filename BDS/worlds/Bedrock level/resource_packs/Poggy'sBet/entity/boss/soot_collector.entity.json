@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "better_on_bedrock:soot_collector",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/bosses/soot/soot_collector"
+			},
+			"geometry": {
+				"default": "geometry.soot_collector"
+			},
+			"animations": {
+				"basic": "animation.the_soot_collector.new",
+				"throw": "animation.soot_collector.throw",
+				"controller": "controller.animation.soot_collector.base"
+			},
+			"particle_effects": {
+				"dirt": "pog:dirt"
+			},
+			"scripts": {
+				"animate": [
+					"controller"
+				]
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"base_color": "#0b963d",
+				"overlay_color": "#7a5df8"
+			}
+		}
+	}
+}

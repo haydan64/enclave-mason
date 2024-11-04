@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:stone_hammer"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"PIP",
+			" / ",
+			" / "
+		],
+
+		"key": {
+			"P": {
+				"item": "hax:stone_plating"
+			},
+			"I": {
+				"item": "minecraft:cobblestone"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:stone_pebble"
+			}
+		],
+		"result": { "item": "hax:stone_hammer" }
+	}
+}

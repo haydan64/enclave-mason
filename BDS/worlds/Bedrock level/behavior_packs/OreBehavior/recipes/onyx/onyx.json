@@ -1,0 +1,21 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:onyx"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "A"
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:onyx_block"
+            }
+        },
+        "result": {
+            "item": "fantasy:onyx",
+            "count": 9
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:prosperity_ingot",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "prosperity_ingot"
+			},
+			"minecraft:display_name": {
+				"value": "Prosperity Ingot"
+			}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:lead_claymore"
+		},
+
+    
+		"tags": [ "lead_blueprint" ],
+		"pattern": [
+			"  H",
+			"BP ",
+			"/B "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:lead_axehead"
+			},
+			"P": {
+				"item": "hax:lead_plating"
+			},
+			"B": {
+				"item": "hax:lead_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:lead_blueprint"
+			}
+		],
+		"result": { "item": "hax:lead_claymore" }
+	}
+}

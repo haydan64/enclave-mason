@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:steel_nunchaku"
+		},
+
+    
+		"tags": [ "steel_blueprint" ],
+		"pattern": [
+			"/B",
+			"BI",
+			"/ "
+		],
+
+		"key": {
+			"B": {
+				"item": "hax:steel_bar"
+			},
+			"I": {
+				"item": "hax:steel_ingot"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:steel_blueprint"
+			}
+		],
+		"result": { "item": "hax:steel_nunchaku" }
+	}
+}

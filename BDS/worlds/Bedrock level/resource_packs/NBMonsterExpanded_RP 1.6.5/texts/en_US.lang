@@ -1,0 +1,152 @@
+entity.nba:skeleton.name=test
+item.spawn_egg.entity.nba:skeleton.name=Spawn test
+entity.nba:zombie.name=zombie
+entity.nba:creeper.name=creeper
+entity.nba:zombie_giant.name=Zombie Giant
+item.spawn_egg.entity.nba:zombie_giant.name=Spawn Zombie Giant
+item.spawn_egg.entity.nba:oak_tree_guardian.name=Spawn Oak Tree Guardian
+item.spawn_egg.entity.nba:amethyst_mineral_zombie.name=Spawn Amethyst Mineral Zombie
+item.spawn_egg.entity.nba:diamond_mineral_zombie.name=Spawn Diamond Mineral Zombie
+item.spawn_egg.entity.nba:gold_mineral_zombie.name=Spawn Gold Mineral Zombie
+item.spawn_egg.entity.nba:iron_mineral_zombie.name=Spawn Iron Mineral Zombie
+item.spawn_egg.entity.nba:redstone_mineral_zombie.name=Spawn Redstone Mineral Zombie
+item.spawn_egg.entity.nba:emerald_mineral_zombie.name=Spawn Emerald Mineral Zombie
+entity.nba:oak_tree_guardian.name=Tree Guardian
+entity.nba:amethyst_mineral_zombie.name=Amethyst Mineral Zombie
+entity.nba:diamond_mineral_zombie.name=Diamond Mineral Zombie
+entity.nba:gold_mineral_zombie.name=Gold Mineral Zombie
+entity.nba:iron_mineral_zombie.name=Iron Mineral Zombie
+entity.nba:redstone_mineral_zombie.name=Redstone Mineral Zombie
+entity.nba:emerald_mineral_zombie.name=Emerald Mineral Zombie
+
+entity.nba:jungle_spider.name=Jungle Spider
+entity.nba:snow_spider.name=Snow Spider
+entity.nba:desert_spider.name=Desert Spider
+entity.nba:mesa_spider.name=Mesa Spider
+entity.nba:swamp_spider.name=Swamp Spider
+item.spawn_egg.entity.nba:jungle_spider.name=Spawn Jungle Spider
+item.spawn_egg.entity.nba:snow_spider.name=Spawn Snow Spider
+item.spawn_egg.entity.nba:desert_spider.name=Spawn Desert Spider
+item.spawn_egg.entity.nba:swamp_spider.name=Spawn Swamp Spider
+item.spawn_egg.entity.nba:mesa_spider.name=Spawn Mesa Spider
+
+item.spawn_egg.entity.nba:jungle_creeper.name=Spawn Jungle Creeper
+item.spawn_egg.entity.nba:snow_creeper.name=Spawn Snow Creeper
+item.spawn_egg.entity.nba:desert_creeper.name=Spawn Desert Creeper
+item.spawn_egg.entity.nba:mesa_creeper.name=Spawn Mesa Creeper
+entity.nba:jungle_creeper.name=Jungle Creeper
+entity.nba:snow_creeper.name=Snow Creeper
+entity.nba:desert_creeper.name=Desert Creeper
+entity.nba:mesa_creeper.name=Mesa Creeper
+
+entity.nba:jungle_skeleton.name=Jungle Skeleton
+entity.nba:desert_skeleton.name=Desert Skeleton
+entity.nba:swamp_creeper.name=Swamp Skeleton
+item.spawn_egg.entity.nba:jungle_skeleton.name=Spawn Jungle Skeleton
+item.spawn_egg.entity.nba:desert_skeleton.name=Spawn Desert Skeleton
+item.spawn_egg.entity.nba:swamp_skeleton.name=Spawn Swamp Skeleton
+
+entity.nba:jungle_zombie.name=Jungle Zombie
+entity.nba:snow_zombie.name=Snow Zombie
+entity.nba:swamp_zombie.name=Swamp Zombie
+item.spawn_egg.entity.nba:jungle_zombie.name=Spawn Jungle Zombie
+item.spawn_egg.entity.nba:snow_zombie.name=Spawn Snow Zombie
+item.spawn_egg.entity.nba:swamp_zombie.name=Spawn Swamp Zombie
+
+
+entity.nba:blast_termite.name=Blast Termite
+item.spawn_egg.entity.nba:blast_termite.name=Blast Termite
+
+entity.nba:lush_bat.name=Lush bat
+item.spawn_egg.entity.nba:lush_bat.name=Spawn Lush Bat
+
+entity.nba:lush_creeper.name=Lush Creeper
+item.spawn_egg.entity.nba:lush_creeper.name=Spawn Lush Creeper
+
+entity.nba:stone_creeper.name=Stone Creeper
+item.spawn_egg.entity.nba:stone_creeper.name=Spawn Stone Creeper
+
+entity.nba:deepslate_creeper.name=Deepslate Creeper
+item.spawn_egg.entity.nba:deepslate_creeper.name=Spawn Deepslate Creeper
+
+entity.nba:dripstone_creeper.name=Dripstone Creeper
+item.spawn_egg.entity.nba:dripstone_creeper.name=Spawn Dripstone Creeper
+
+entity.nba:ghost.name=Ghost
+item.spawn_egg.entity.nba:ghost.name=Spawn Ghost
+entity.nba:ghost_graveyard.name=Ghost
+item.spawn_egg.entity.nba:ghost_graveyard.name=Spawn Ghost
+
+entity.nba:skeleton_warrior.name=Skeleton Warrior
+item.spawn_egg.entity.nba:skeleton_warrior.name=Spawn Skeleton Warrior
+
+entity.nba:skeleton_warrior_archer.name=Skeleton Warrior Archer
+item.spawn_egg.entity.nba:skeleton_warrior_archer.name=Spawn Skeleton Warrior Archer
+
+entity.nba:tree_guardian.name=Tree Guardian
+item.spawn_egg.entity.nba:tree_guardian.name=Spawn Tree Guardian
+
+entity.nba:miner_zombie.name=Miner Zombie
+item.spawn_egg.entity.nba:miner_zombie.name=Spawn Miner Zombie
+entity.nba:Lush_zombie.name=Lush Zombie
+item.spawn_egg.entity.nba:lush_zombie.name=Spawn Lush Zombie
+entity.nba:Dripstone_zombie.name=Dripstone Zombie
+item.spawn_egg.entity.nba:dripstone_zombie.name=Spawn Dripstone Zombie
+
+entity.nba:pirate_skeleton.name=Pirate Skeleton
+item.spawn_egg.entity.nba:pirate_skeleton.name=Spawn Pirate Skeleton
+
+entity.nba:tree_spirit2.name=Tree Spirit
+item.spawn_egg.entity.nba:tree_spirit2.name=Spawn Tree Spirit
+
+entity.nba:beach_creeper.name=Beach Creeper
+item.spawn_egg.entity.nba:beach_creeper.name=Spawn Beach Creeper
+
+entity.nba:mangrove_creeper.name=Mangrove Creeper
+item.spawn_egg.entity.nba:mangrove_creeper.name=Spawn Mangrove Creeper
+
+entity.nba:sculk_spider.name=Sculk Spider
+item.spawn_egg.entity.nba:sculk_spider.name=Spawn Sculk Spider
+
+entity.nba:sculk_zombie.name=Sculk Zombie
+item.spawn_egg.entity.nba:sculk_zombie.name=Spawn Sculk Zombie
+
+entity.nba:infected_zombie.name=Infected Zombie
+entity.nba:infected_snow_zombie.name=Infected Zombie
+entity.nba:infected_miner_zombie.name=Infected Zombie
+entity.nba:infected_jungle_zombie.name=Infected Zombie
+entity.nba:infected_swamp_zombie.name=Infected Zombie
+entity.nba:infected_dripstone_zombie.name=Infected Zombie
+
+entity.nba:sculk_creeper.name=Sculk Creeper
+item.spawn_egg.entity.nba:sculk_Creeper.name=Spawn Sculk Creeper
+
+entity.nba:sculk_explosive.name=Sculk Explosive
+item.spawn_egg.entity.nba:sculk_explosive.name=Spawn Sculk Explosive
+
+entity.nba:evil_ghost.name=Evil Ghost
+item.spawn_egg.entity.nba:evil_ghost.name=Spawn Evil Ghost
+
+entity.nba:deepslate_spider.name=Deepslate Spider
+item.spawn_egg.entity.nba:deepslate_spider.name=Spawn Deepslate Spider
+
+entity.nba:plain_spider.name=Plain Spider
+item.spawn_egg.entity.nba:plain_spider.name=Spawn Plain Spider
+
+entity.nba:darkness_stalker.name=Darkness Stalker
+item.spawn_egg.entity.nba:darkness_stalker.name=Spawn Darkness Stalker
+
+entity.nba:frost_imp.name=Frost Imp
+item.spawn_egg.entity.nba:frost_imp.name=Spawn Frost Imp
+
+entity.nba:frost_ghost.name=Frost Ghost
+item.spawn_egg.entity.nba:frost_ghost.name=Spawn Frost Ghost
+
+entity.nba:frost_stalker.name=Frost Stalker
+item.spawn_egg.entity.nba:frost_stalker.name=Spawn Frost Stalker
+
+entity.nba:plain_zombie.name=Plain Zombie
+item.spawn_egg.entity.nba:plain_zombie.name=Spawn Plain Zombie
+
+entity.nba:drowned_skeleton.name=Drowned Skeleton
+item.spawn_egg.entity.nba:drowned_skeleton.name=Spawn Drowned Skeleton

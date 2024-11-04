@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:cobalt_machete"
+		},
+
+    
+		"tags": [ "cobalt_blueprint" ],
+		"pattern": [
+			" SS",
+			"SL ",
+			"/  "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:cobalt_longblade"
+			},
+			"S": {
+				"item": "hax:cobalt_shortblade"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:cobalt_blueprint"
+			}
+		],
+		"result": { "item": "hax:cobalt_machete" }
+	}
+}

@@ -1,0 +1,270 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "spawn_undead": {
+            "textures": "textures/items/spawn_undead"
+        },
+
+        //Element Stone
+
+        "earth_stone": {
+            "textures": "textures/items/element_stone/earth_stone"
+        },
+        "fire_stone": {
+            "textures": "textures/items/element_stone/fire_stone"
+        },
+        "water_stone": {
+            "textures": "textures/items/element_stone/water_stone"
+        },
+        "wind_stone": {
+            "textures": "textures/items/element_stone/wind_stone"
+        },
+        "ice_stone": {
+            "textures": "textures/items/element_stone/ice_stone"
+        },
+        "lightning_stone": {
+            "textures": "textures/items/element_stone/lightning_stone"
+        },
+        "light_stone": {
+            "textures": "textures/items/element_stone/light_stone"
+        },
+        "dark_stone": {
+            "textures": "textures/items/element_stone/dark_stone"
+        },
+
+        //Element Stone Shard
+
+        "earth_stone_shard": {
+            "textures": "textures/items/element_stone/earth_stone_shard"
+        },
+        "fire_stone_shard": {
+            "textures": "textures/items/element_stone/fire_stone_shard"
+        },
+        "water_stone_shard": {
+            "textures": "textures/items/element_stone/water_stone_shard"
+        },
+        "wind_stone_shard": {
+            "textures": "textures/items/element_stone/wind_stone_shard"
+        },
+        "ice_stone_shard": {
+            "textures": "textures/items/element_stone/ice_stone_shard"
+        },
+        "lightning_stone_shard": {
+            "textures": "textures/items/element_stone/lightning_stone_shard"
+        },
+        "light_stone_shard": {
+            "textures": "textures/items/element_stone/light_stone_shard"
+        },
+        "dark_stone_shard": {
+            "textures": "textures/items/element_stone/dark_stone_shard"
+        },
+
+        //Scepter
+
+        "evocation_staff": {
+            "textures": "textures/items/scepter/evocation_staff"
+        },
+        "pyrelight_scepter": {
+            "textures": "textures/items/scepter/pyrelight_scepter"
+        },
+        "hydroburst_scepter": {
+            "textures": "textures/items/scepter/hydroburst_scepter"
+        },
+        "tempest_staff": {
+            "textures": "textures/items/scepter/tempest_staff"
+        },
+        "thawed_scepter": {
+            "textures": "textures/items/scepter/thawed_scepter"
+        },
+        "lightning_scepter": {
+            "textures": "textures/items/scepter/lightning_scepter"
+        },
+        "solarflare_scepter": {
+            "textures": "textures/items/scepter/solarflare_scepter"
+        },
+        "necromancy_staff": {
+            "textures": "textures/items/scepter/necromancy_staff"
+        },
+
+        //Sword
+
+        "evocation_blade": {
+            "textures": "textures/items/sword/evocation_blade"
+        },
+        "blazing_sword": {
+            "textures": "textures/items/sword/blazing_sword"
+        },
+        "aqueous_blade": {
+            "textures": "textures/items/sword/aqueous_blade"
+        },
+        "galeforce_blade": {
+            "textures": "textures/items/sword/galeforce_blade"
+        },
+        "shattered_blade": {
+            "textures": "textures/items/sword/shattered_blade"
+        },
+        "lightning_sword": {
+            "textures": "textures/items/sword/lightning_sword"
+        },
+        "sunflicker_sword": {
+            "textures": "textures/items/sword/sunflicker_sword"
+        },
+        "cataclysm_blade": {
+            "textures": "textures/items/sword/cataclysm_blade"
+        },
+
+        //Battleaxe
+
+        "terraforge_axe": {
+            "textures": "textures/items/battleaxe/terraforge_axe"
+        },
+        "incinerator_axe": {
+            "textures": "textures/items/battleaxe/incinerator_axe"
+        },
+        "cerulean_edge": {
+            "textures": "textures/items/battleaxe/cerulean_edge"
+        },
+        "galeshatter_axe": {
+            "textures": "textures/items/battleaxe/galeshatter_axe"
+        },
+        "frozen_axe": {
+            "textures": "textures/items/battleaxe/frozen_axe"
+        },
+        "electrosurge_axe": {
+            "textures": "textures/items/battleaxe/electrosurge_axe"
+        },
+        "luminarax_edge": {
+            "textures": "textures/items/battleaxe/luminarax_edge"
+        },
+        "abyssal_axe": {
+            "textures": "textures/items/battleaxe/abyssal_axe"
+        },
+
+        //Armor
+
+        "obstruction_helmet": {
+            "textures": "textures/items/armor/obstruction_helmet"
+        },
+        "obstruction_chestplate": {
+            "textures": "textures/items/armor/obstruction_chestplate"
+        },
+        "obstruction_leggings": {
+            "textures": "textures/items/armor/obstruction_leggings"
+        },
+        "obstruction_boots": {
+            "textures": "textures/items/armor/obstruction_boots"
+        },
+        "firaga_helmet": {
+            "textures": "textures/items/armor/firaga_helmet"
+        },
+        "firaga_chestplate": {
+            "textures": "textures/items/armor/firaga_chestplate"
+        },
+        "firaga_leggings": {
+            "textures": "textures/items/armor/firaga_leggings"
+        },
+        "firaga_boots": {
+            "textures": "textures/items/armor/firaga_boots"
+        },
+        "azurelean_helmet": {
+            "textures": "textures/items/armor/azurelean_helmet"
+        },
+        "azurelean_chestplate": {
+            "textures": "textures/items/armor/azurelean_chestplate"
+        },
+        "azurelean_leggings": {
+            "textures": "textures/items/armor/azurelean_leggings"
+        },
+        "azurelean_boots": {
+            "textures": "textures/items/armor/azurelean_boots"
+        },
+        "viridescent_helmet": {
+            "textures": "textures/items/armor/viridescent_helmet"
+        },
+        "viridescent_chestplate": {
+            "textures": "textures/items/armor/viridescent_chestplate"
+        },
+        "viridescent_leggings": {
+            "textures": "textures/items/armor/viridescent_leggings"
+        },
+        "viridescent_boots": {
+            "textures": "textures/items/armor/viridescent_boots"
+        },
+        "glacial_helmet": {
+            "textures": "textures/items/armor/glacial_helmet"
+        },
+        "glacial_chestplate": {
+            "textures": "textures/items/armor/glacial_chestplate"
+        },
+        "glacial_leggings": {
+            "textures": "textures/items/armor/glacial_leggings"
+        },
+        "glacial_boots": {
+            "textures": "textures/items/armor/glacial_boots"
+        },
+        "thundersurge_helmet": {
+            "textures": "textures/items/armor/thundersurge_helmet"
+        },
+        "thundersurge_chestplate": {
+            "textures": "textures/items/armor/thundersurge_chestplate"
+        },
+        "thundersurge_leggings": {
+            "textures": "textures/items/armor/thundersurge_leggings"
+        },
+        "thundersurge_boots": {
+            "textures": "textures/items/armor/thundersurge_boots"
+        },
+        "divine_helmet": {
+            "textures": "textures/items/armor/divine_helmet"
+        },
+        "divine_chestplate": {
+            "textures": "textures/items/armor/divine_chestplate"
+        },
+        "divine_leggings": {
+            "textures": "textures/items/armor/divine_leggings"
+        },
+        "divine_boots": {
+            "textures": "textures/items/armor/divine_boots"
+        },
+        "shadow_helmet": {
+            "textures": "textures/items/armor/shadow_helmet"
+        },
+        "shadow_chestplate": {
+            "textures": "textures/items/armor/shadow_chestplate"
+        },
+        "shadow_leggings": {
+            "textures": "textures/items/armor/shadow_leggings"
+        },
+        "shadow_boots": {
+            "textures": "textures/items/armor/shadow_boots"
+        },
+
+        //Bow
+
+        "ensnarlance_bow": {
+            "textures": "textures/items/bow/ensnarlance_bow"
+        },
+        "hydrocurrent_bow": {
+            "textures": "textures/items/bow/hydrocurrent_bow"
+        },
+        "spiraltide_bow": {
+            "textures": "textures/items/bow/spiraltide_bow"
+        },
+        "infernoflare_bow": {
+            "textures": "textures/items/bow/infernoflare_bow"
+        },
+        "stormstriker_bow": {
+            "textures": "textures/items/bow/stormstriker_bow"
+        },
+        "luminary_bow": {
+            "textures": "textures/items/bow/luminary_bow"
+        },
+        "frostbite_frost_bow": {
+            "textures": "textures/items/bow/frostbite_frost_bow"
+        },
+        "catastrophic_bow": {
+            "textures": "textures/items/bow/catastrophic_bow"
+        }
+    }
+}

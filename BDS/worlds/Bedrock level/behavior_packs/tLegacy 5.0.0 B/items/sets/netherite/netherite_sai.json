@@ -1,0 +1,52 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			},
+			"identifier": "hax:netherite_sai"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Netherite Sai"
+			},
+			"minecraft:icon": {
+				"texture": "hax:netherite_sai"
+			},
+			"minecraft:tags": {
+				"tags": [
+					"nsb:fireproof"
+				]
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 7,
+			"minecraft:enchantable": {
+				"value": 15,
+				"slot": "sword"
+			},
+			"minecraft:durability": {
+				"max_durability": 1015
+			},
+			"minecraft:repairable":{
+				"repair_items": [
+					{
+						"items": [
+							"hax:netherite_sai"
+						],
+						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+					},
+					{
+						"items": [
+							"minecraft:netherite_ingot"
+						],
+						"repair_amount": "context.other->query.max_durability * 0.25" //254
+					}
+				]
+			},
+			"minecraft:can_destroy_in_creative": false
+		}
+	}
+}

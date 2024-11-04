@@ -1,0 +1,20 @@
+{
+    "resource_pack_name": "mystic_weapon",
+    "texture_name": "atlas.terrain",
+    "padding": 8,
+    "num_mip_levels": 4,
+    "texture_data": {
+        "frosted_ice_0": {
+            "textures": "textures/blocks/frosted_ice_0"
+        },
+        "frosted_ice_1": {
+            "textures": "textures/blocks/frosted_ice_1"
+        },
+        "frosted_ice_2": {
+            "textures": "textures/blocks/frosted_ice_2"
+        },
+        "frosted_ice_3": {
+            "textures": "textures/blocks/frosted_ice_3"
+        }
+    }
+}

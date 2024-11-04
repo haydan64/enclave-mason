@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:tin_cleaver"
+		},
+
+    
+		"tags": [ "tin_blueprint" ],
+		"pattern": [
+			" SS",
+			"BP ",
+			"/  "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:tin_shortblade"
+			},
+			"B": {
+				"item": "hax:tin_bar"
+			},
+			"P": {
+				"item": "hax:tin_plating"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:tin_blueprint"
+			}
+		],
+		"result": { "item": "hax:tin_cleaver" }
+	}
+}

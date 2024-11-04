@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:steel_lance"
+		},
+
+    
+		"tags": [ "steel_blueprint" ],
+		"pattern": [
+			" SH",
+			"INS",
+			"/I "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:steel_spadehead"
+			},
+			"S": {
+				"item": "hax:steel_shortblade"
+			},
+			"I": {
+				"item": "hax:steel_ingot"
+			},
+			"N": {
+				"item": "hax:steel_nugget"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:steel_blueprint"
+			}
+		],
+		"result": { "item": "hax:steel_lance" }
+	}
+}

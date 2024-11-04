@@ -1,0 +1,50 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:sculk_spider_mini",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "spider",
+				"invisible": "spider_invisible"
+			},
+			"textures": {
+				"default": "textures/entity/spider/sculk_spider/spider"
+			},
+			"geometry": {
+				"default": "geometry.sculkspider.mini"
+			},
+			"spawn_egg": {
+				"base_color": "#292423",
+				"overlay_color": "#1f89df"
+			},
+			"scripts": {
+				"animate": [
+					 "look_at_target",
+					  "move2",
+					  "stand",
+					  "controllerdead"
+				]
+			  },
+			  "animations": {
+				"move2": "controller.animation.spidermanjat.general.sculk",
+				"stand": "controller.animation.spider.stand.sculk",
+				"controllerdead": "controller.animation.spider.death",
+				"look_at_target": "animation.spider.look_at_target",
+				"walk": "animation.spider.walk",
+				"idle": "animation.spider.idle",
+				"biasa": "animation.spider.biasa",
+				"atap": "animation.spider.atas",
+				"samping": "animation.spider.samping",
+				"attack": "animation.spider.attack",
+				"stunned": "animation.spider.stunned",
+				"stunned2": "animation.spider.stunned2",
+				"stunned3": "animation.spider.stunned3",
+				"dead": "animation.spider.deadv2",
+				"death_rot": "animation.spider.deathrot",
+				"casting": "animation.sculkspider.casting"
+			},
+			"render_controllers": ["controller.render.onevariant"]
+		}
+	}
+}

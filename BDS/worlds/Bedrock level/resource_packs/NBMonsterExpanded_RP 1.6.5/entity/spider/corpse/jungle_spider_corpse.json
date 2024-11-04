@@ -1,0 +1,39 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:jungle_spider_corpse",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "spider",
+				"invisible": "spider_invisible"
+			},
+			"textures": {
+				"default": "textures/entity/spider/jungle_spider/spider",
+				"default2": "textures/entity/spider/jungle_spider/spider2",
+				"default3": "textures/entity/spider/jungle_spider/spider3",
+				"default4": "textures/entity/spider/jungle_spider/spider4",
+				"default5": "textures/entity/spider/jungle_spider/spider5",
+				"default6": "textures/entity/spider/jungle_spider/spider6",
+				"default7": "textures/entity/spider/jungle_spider/spider7"
+			},
+			"geometry": {
+				"default": "geometry.jspider"
+			},
+			"spawn_egg": {
+				"base_color": "#174d1c",
+				"overlay_color": "#3ca53b"
+			},
+			"scripts": {
+				"animate": [
+					"controller"
+				  ]
+			},
+			"animations": {
+				"controller" : "controller.animation.spider.corpse",
+				"dead": "animation.spider.deadv2"
+			},
+			"render_controllers": ["controller.render.sevenvariant"]
+		}
+	}
+}

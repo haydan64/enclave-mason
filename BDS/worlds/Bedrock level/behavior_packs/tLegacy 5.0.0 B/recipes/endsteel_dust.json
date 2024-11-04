@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "hax:endsteel_dust"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "priority": 4,
+    "ingredients": [
+      {
+        "item": "hax:endsteel_ingot"
+      }
+    ],
+    
+    "unlock": [
+      {
+        "item": "hax:endsteel_ingot"
+      }
+    ],
+    "result": {
+      "item": "hax:endsteel_dust",
+      "count": 1
+    }
+  }
+  
+}

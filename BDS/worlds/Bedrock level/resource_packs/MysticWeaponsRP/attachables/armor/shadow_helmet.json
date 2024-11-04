@@ -1,0 +1,27 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "mystic:shadow_helmet",
+			"materials": {
+				"default": "armor",
+				"enchanted": "armor_enchanted"
+			},
+			"textures": {
+				"default": "textures/models/armor/shadow_helmet",
+				"enchanted": "textures/misc/enchanted_item_glint"
+			},
+			"geometry": {
+				"default": "geometry.shadow_helmet"
+			},
+			"scripts": {
+				"parent_setup": "variable.helmet_layer_visible = 0.0;"
+			},
+			"render_controllers": [ 
+            	{
+					"controller.render.armor": "q.any(0, q.is_invisible, q.equipped_item_any_tag('slot.armor.head','dark'), q.equipped_item_any_tag('slot.armor.chest','dark'), q.equipped_item_any_tag('slot.armor.legs','dark'), q.equipped_item_any_tag('slot.armor.feet','dark'))"
+				}
+			]
+		}
+	}
+}

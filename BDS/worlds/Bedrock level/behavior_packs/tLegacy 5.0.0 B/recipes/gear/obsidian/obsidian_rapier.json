@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:obsidian_rapier"
+		},
+
+    
+		"tags": [ "obsidian_blueprint" ],
+		"pattern": [
+			"  S",
+			"BS ",
+			"/  "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:obsidian_shortblade"
+			},
+			"B": {
+				"item": "hax:obsidian_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:obsidian_blueprint"
+			}
+		],
+		"result": { "item": "hax:obsidian_rapier" }
+	}
+}

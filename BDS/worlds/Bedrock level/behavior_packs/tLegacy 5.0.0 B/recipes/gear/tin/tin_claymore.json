@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:tin_claymore"
+		},
+
+    
+		"tags": [ "tin_blueprint" ],
+		"pattern": [
+			"  H",
+			"BP ",
+			"/B "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:tin_axehead"
+			},
+			"P": {
+				"item": "hax:tin_plating"
+			},
+			"B": {
+				"item": "hax:tin_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:tin_blueprint"
+			}
+		],
+		"result": { "item": "hax:tin_claymore" }
+	}
+}

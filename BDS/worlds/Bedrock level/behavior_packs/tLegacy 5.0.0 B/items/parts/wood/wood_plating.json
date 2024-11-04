@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.pickaxe"
+			},
+			"identifier": "hax:wood_plating"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Wooden Plating"
+			},
+			"minecraft:icon": {
+				"texture": "hax:wood_plating"
+			},
+			"tag:minecraft:transform_materials": {},
+			"minecraft:max_stack_size": 16,
+			"minecraft:hand_equipped": true
+		}
+	}
+}

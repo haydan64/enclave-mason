@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:silver_nunchaku"
+		},
+
+    
+		"tags": [ "silver_blueprint" ],
+		"pattern": [
+			"/B",
+			"BI",
+			"/ "
+		],
+
+		"key": {
+			"B": {
+				"item": "hax:silver_bar"
+			},
+			"I": {
+				"item": "hax:silver_ingot"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:silver_blueprint"
+			}
+		],
+		"result": { "item": "hax:silver_nunchaku" }
+	}
+}

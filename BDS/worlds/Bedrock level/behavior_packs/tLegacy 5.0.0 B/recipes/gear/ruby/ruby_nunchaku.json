@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:ruby_nunchaku"
+		},
+
+    
+		"tags": [ "ruby_blueprint" ],
+		"pattern": [
+			"/B",
+			"BI",
+			"/ "
+		],
+
+		"key": {
+			"B": {
+				"item": "hax:ruby_bar"
+			},
+			"I": {
+				"item": "hax:ruby"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:ruby_blueprint"
+			}
+		],
+		"result": { "item": "hax:ruby_nunchaku" }
+	}
+}

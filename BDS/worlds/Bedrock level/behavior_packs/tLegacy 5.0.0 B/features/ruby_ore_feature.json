@@ -1,0 +1,23 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:ore_feature": {
+        "description": {
+            "identifier": "hax:ruby_ore_feature"
+        },
+        "count": 4,
+        "replace_rules": [
+            {
+                "places_block": "hax:ruby_ore",
+                "may_replace": [
+                    "minecraft:stone"
+                ]
+            },
+            {
+                "places_block": "hax:deepslate_ruby_ore",
+                "may_replace": [
+                    "minecraft:deepslate"
+                ]
+            }
+        ]
+    }
+}

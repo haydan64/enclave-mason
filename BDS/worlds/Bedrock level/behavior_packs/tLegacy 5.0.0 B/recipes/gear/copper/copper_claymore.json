@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:copper_claymore"
+		},
+
+    
+		"tags": [ "copper_blueprint" ],
+		"pattern": [
+			"  H",
+			"BP ",
+			"/B "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:copper_axehead"
+			},
+			"P": {
+				"item": "hax:copper_plating"
+			},
+			"B": {
+				"item": "hax:copper_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:copper_blueprint"
+			}
+		],
+		"result": { "item": "hax:copper_claymore" }
+	}
+}

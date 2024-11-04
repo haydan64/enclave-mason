@@ -1,0 +1,52 @@
+{
+    "format_version": "1.20.60",
+    "minecraft:block": {
+        "description": {
+            "identifier": "mystic:temporary_ice",
+            "states": {
+                "ice:has_water": [false, true]
+            },
+            "menu_category": {
+                "category": "none",
+                "group": "none"
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "ice",
+                    "render_method": "blend"
+                }
+            },
+            "minecraft:queued_ticking": {
+                "looping": true,
+                "interval_range": [ 160, 160 ],
+                "on_tick": {
+                    "event": "destroy_ice"
+                 }
+            },
+            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 3
+            }
+        },
+        "events": {
+            "destroy_ice": {
+                "sequence": [
+                    {
+                        "condition": "q.block_state('ice:has_water') == false",
+                        "run_command": {
+                            "command": "setblock ~ ~ ~ air [] destroy"
+                        }
+                    },
+                    {
+                        "condition": "q.block_state('ice:has_water') == true",
+                        "run_command": {
+                            "command": "setblock ~ ~ ~ water [] destroy"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

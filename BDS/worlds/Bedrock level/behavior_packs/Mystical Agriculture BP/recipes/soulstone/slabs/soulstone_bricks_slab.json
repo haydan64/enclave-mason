@@ -1,0 +1,26 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:soulstone_bricks_slab"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "strat:soulstone_bricks"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:soulstone_bricks_slab",
+				"count": 6
+			}
+		],
+		"priority": 1
+	}
+}

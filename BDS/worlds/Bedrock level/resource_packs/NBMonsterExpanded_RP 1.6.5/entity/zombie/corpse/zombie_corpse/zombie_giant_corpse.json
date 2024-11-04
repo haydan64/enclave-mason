@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:zombie_giant_corpse",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "spider"
+			},
+			
+			"hide_armor": false,
+			
+			"textures": {
+				"default": "textures/entity/zombie/zombie_giant"
+			},
+			"geometry": {
+				"default": "geometry.zombie.giant"
+			},
+			"scripts": {
+				"animate": [
+					"controller"
+				  ]
+			},
+			"animations": {
+				"controller" : "controller.animation.giantzombie.corpse",
+				"dead" : "animation.zombie.giant.dead",
+				"dead2" : "animation.zombie.giant.dead2"
+			},
+			"render_controllers": ["controller.render.onevariant"],
+			"enable_attachables": true
+		}
+	}
+}

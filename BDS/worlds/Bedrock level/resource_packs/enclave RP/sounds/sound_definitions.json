@@ -1,0 +1,42 @@
+{
+	"format_version": "1.14.0",
+	"sound_definitions": {
+		"mob.blue_cow.hurt": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/cow/hurt1",
+				"sounds/mob/cow/hurt2",
+				"sounds/mob/cow/hurt3"
+			]
+		},
+		"mob.blue_cow.say": {
+			"category": "neutral",
+			"sounds": [
+				{
+					"name": "sounds/mob/cow/say1",
+					"load_on_low_memory": true
+				},
+				"sounds/mob/cow/say2",
+				"sounds/mob/cow/say3",
+				"sounds/mob/cow/say4"
+			]
+		},
+		"mob.blue_cow.step": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/cow/step1",
+				"sounds/mob/cow/step2",
+				"sounds/mob/cow/step3",
+				"sounds/mob/cow/step4"
+			]
+		},
+		"mob.blue_cow.milk": {
+			"category": "neutral",
+			"sounds": [
+				"sounds/mob/cow/milk1",
+				"sounds/mob/cow/milk2",
+				"sounds/mob/cow/milk3"
+			]
+		}
+	}
+}

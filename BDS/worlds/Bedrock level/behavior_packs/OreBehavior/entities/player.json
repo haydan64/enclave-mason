@@ -1,0 +1,402 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:player",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false
+    },
+
+    "component_groups": {
+      "opal_armor_function": {
+        "minecraft:health": {
+          "value": 28,
+          "max": 28
+        }
+      },
+      "opal_armor_function_remove": {
+        "minecraft:health": {
+          "value": 20,
+          "max": 20
+        }
+      },
+      "minecraft:add_bad_omen": {
+        "minecraft:spell_effects": {
+          "add_effects": [
+            {
+              "effect": "bad_omen",
+              "duration": 6000,
+              "display_on_screen_animation": true
+            }
+          ]
+        },
+        "minecraft:timer": {
+          "time": [ 0.0, 0.0 ],
+          "looping": false,
+          "time_down_event": {
+            "event": "minecraft:clear_add_bad_omen",
+            "target": "self"
+          }
+        }
+      },
+      "minecraft:clear_bad_omen_spell_effect": {
+        "minecraft:spell_effects": {
+        }
+      },
+      "minecraft:raid_trigger": {
+        "minecraft:raid_trigger": {
+          "triggered_event": {
+            "event": "minecraft:remove_raid_trigger",
+            "target": "self"
+          }
+        },
+        "minecraft:spell_effects": {
+          "remove_effects": "bad_omen"
+        }
+      }
+    },
+
+    "components": {
+      "minecraft:experience_reward": {
+        "on_death": "Math.Min(query.player_level * 7, 100)"
+      },
+      "minecraft:type_family": {
+        "family": [ "player" ]
+      },
+      "minecraft:is_hidden_when_invisible": {
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/empty.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.8
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:movement": {
+        "value": 0.1
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:attack": {
+        "damage": 1
+      },
+      "minecraft:player.saturation": {
+        "value": 20
+      },
+      "minecraft:player.exhaustion": {
+        "value": 0,
+        "max": 4
+      },
+      "minecraft:player.level": {
+        "value": 0,
+        "max": 24791
+      },
+      "minecraft:player.experience": {
+        "value": 0,
+        "max": 1
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": -1,
+        "inhale_time": 3.75,
+        "generates_bubbles": false
+      },
+      "minecraft:nameable": {
+        "always_show": true,
+        "allow_name_tag_renaming": false
+      },
+      "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": false,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:insomnia": {
+        "days_until_insomnia": 3
+      },
+      "minecraft:rideable": {
+        "seat_count": 2,
+        "family_types": [
+          "parrot_tame"
+        ],
+        "pull_in_entities": true,
+        "seats": [
+          {
+            "position": [ 0.4, -0.2, -0.1 ],
+            "min_rider_count": 0,
+            "max_rider_count": 0,
+            "lock_rider_rotation": 0
+          },
+          {
+            "position": [ -0.4, -0.2, -0.1 ],
+            "min_rider_count": 1,
+            "max_rider_count": 2,
+            "lock_rider_rotation": 0
+          }
+        ]
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+      },
+      "minecraft:scaffolding_climber": {},
+      "minecraft:environment_sensor": {
+        "triggers": [
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_mob_effect",
+                  "subject": "self",
+                  "value": "bad_omen"
+                },
+                {
+                  "test": "is_in_village",
+                  "subject": "self",
+                  "value": true
+                }
+              ]
+            },
+            "event": "minecraft:trigger_raid"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "is_family",
+                  "subject": "self",
+                  "value": "player"
+                }
+              ]
+            },
+            "event": "fantasy:restart_player"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "operator": "==",
+                  "domain": "head",
+                  "value": "fantasy:aquamarine_helmet"
+                }
+              ]
+            },
+            "event": "fantasy:aquamarine_armor"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "operator": "==",
+                  "domain": "head",
+                  "value": "fantasy:bismuth_helmet"
+                }
+              ]
+            },
+            "event": "fantasy:bismuth_armor"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "operator": "==",
+                  "domain": "head",
+                  "value": "fantasy:onyx_helmet"
+                }
+              ]
+            },
+            "event": "fantasy:onyx_armor"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "operator": "==",
+                  "domain": "head",
+                  "value": "fantasy:opal_helmet"
+                }
+              ]
+            },
+            "event": "fantasy:opal_armor"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "operator": "==",
+                  "domain": "head",
+                  "value": "fantasy:netheroom_helmet"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "operator": "==",
+                  "domain": "torso",
+                  "value": "fantasy:netheroom_chestplate"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "operator": "==",
+                  "domain": "leg",
+                  "value": "fantasy:netheroom_leggings"
+                },
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "operator": "==",
+                  "domain": "feet",
+                  "value": "fantasy:netheroom_boots"
+                }
+              ]
+            },
+            "event": "fantasy:netheroom_armor"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "operator": "==",
+                  "domain": "head",
+                  "value": "fantasy:steampunk_hat"
+                }
+              ]
+            },
+            "event": "fantasy:steampunk_armor"
+          },
+          {
+            "filters": {
+              "all_of": [
+                {
+                  "test": "has_equipment",
+                  "subject": "self",
+                  "operator": "==",
+                  "domain": "head",
+                  "value": "fantasy:jasper_helmet"
+                }
+              ]
+            },
+            "event": "fantasy:jasper_armor"
+          }
+        ]
+      }
+    },
+
+    "events": {
+      "fantasy:restart_player": {
+        "add": {
+          "component_groups": [
+            "opal_armor_function_remove"
+          ]
+        },
+        "remove": {
+          "component_groups": [
+            "opal_armor_function"
+          ]
+        }
+      },
+      "fantasy:aquamarine_armor": {
+        "run_command": {
+          "command": [
+            "effect @s water_breathing 1 0 true"
+          ]
+        }
+      },
+      "fantasy:bismuth_armor": {
+        "run_command": {
+          "command": [
+            "effect @s strength 1 0 true"
+          ]
+        }
+      },
+      "fantasy:onyx_armor": {
+        "run_command": {
+          "command": [
+            "effect @s night_vision 1 0 true"
+          ]
+        }
+      },
+      "fantasy:opal_armor": {
+        "add": {
+          "component_groups": [
+            "opal_armor_function"
+          ]
+        }
+      },
+      "fantasy:netheroom_armor": {
+        "run_command": {
+          "command": [
+            "effect @s fire_resistance 1 0 true"
+          ]
+        }
+      },
+      "fantasy:steampunk_armor": {
+        "run_command": {
+          "command": [
+            "effect @s speed 1 0 true"
+          ]
+        }
+      },
+      "fantasy:jasper_armor": {
+        "run_command": {
+          "command": [
+            "effect @s haste 1 0 true"
+          ]
+        }
+      },
+      "minecraft:gain_bad_omen": {
+        "add": {
+          "component_groups": [
+            "minecraft:add_bad_omen"
+          ]
+        }
+      },
+      "minecraft:clear_add_bad_omen": {
+        "remove": {
+          "component_groups": [
+            "minecraft:add_bad_omen"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "minecraft:clear_bad_omen_spell_effect"
+          ]
+        }
+      },
+      "minecraft:trigger_raid": {
+        "add": {
+          "component_groups": [ "minecraft:raid_trigger" ]
+        }
+      },
+      "minecraft:remove_raid_trigger": {
+        "remove": {
+          "component_groups": [ "minecraft:raid_trigger" ]
+        }
+      }
+    }
+  }
+}
+
+
+
+

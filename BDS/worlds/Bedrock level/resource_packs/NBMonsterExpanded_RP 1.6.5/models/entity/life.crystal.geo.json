@@ -1,0 +1,47 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.nba.heal_crystal",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "waist",
+					"pivot": [0, 4, 0]
+				},
+				{
+					"name": "locator2",
+					"parent": "waist",
+					"pivot": [0, 13, 0],
+					"locators": {
+						"locator2": [0, 13, 0]
+					}
+				},
+				{
+					"name": "crystal",
+					"parent": "waist",
+					"pivot": [0, 14.2, 0],
+					"rotation": [-0.86577, 20.54395, 53.47883],
+					"cubes": [
+						{"origin": [-1, 13.2, -1], "size": [2, 2, 2], "pivot": [0, 14.2, 0], "rotation": [0, 0, -125], "uv": [56, 0]},
+						{"origin": [-1, 13.2, -1], "size": [2, 2, 2], "pivot": [0, 14.2, 0], "rotation": [-3.06818, 49.83008, 15.55563], "uv": [56, 0]}
+					]
+				},
+				{
+					"name": "locator",
+					"parent": "waist",
+					"pivot": [-4, 8, -3],
+					"locators": {
+						"locator": [-4, 8, -3]
+					}
+				}
+			]
+		}
+	]
+}

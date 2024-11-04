@@ -1,0 +1,41 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "nba:xp_orb_1",
+      "materials": {
+        "default": "experience_orb"
+      },
+      "textures": {
+        "default": "textures/misc/xp_orb/value_2",
+        "default2": "textures/misc/xp_orb/value_3-6",
+        "default3": "textures/misc/xp_orb/value_7-16",
+        "default4": "textures/misc/xp_orb/value_17-36",
+        "default5": "textures/misc/xp_orb/value_37-72",
+        "default6": "textures/misc/xp_orb/value_73-148",
+        "default7": "textures/misc/xp_orb/value_149-306",
+        "default8": "textures/misc/xp_orb/value_307-616",
+        "default9": "textures/misc/xp_orb/value_617-1236",
+        "default10": "textures/misc/xp_orb/value_1237-2476",
+        "default11": "textures/misc/xp_orb/value_2477-32767"
+      },
+      "geometry": {
+        "default": "geometry.nba.experience_orb.1"
+      },
+      "animations": {
+        "face_player": "animation.actor.billboard"
+      },
+      "scripts": {
+        "scale": "0.3",
+        "pre_animation": [
+          "variable.u = Math.mod(query.texture_frame_index, 4) * 16.0 / 64.0;",
+          "variable.v = math.round(query.texture_frame_index / 4) * 16.0 / 64.0;"
+        ],
+        "animate": [
+          "face_player"
+        ]
+      },
+      "render_controllers": [ "controller.render.experienceorb" ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "fantasy:solar_stone_leggings",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "solar_stone_leggins.png"
+            },
+            "minecraft:display_name": {},
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.leggings"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": true,
+            "minecraft:render_offsets": "leggings",
+            "minecraft:enchantable": {
+                "value": 6,
+                "slot": "armor_legs"
+            },
+            "minecraft:armor": {
+                "protection": 10
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.legs"
+            },
+            "minecraft:durability": {
+                "max_durability": 875,
+                "damage_chance": {
+                    "min": 90,
+                    "max": 100
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "fantasy:solar_stone_leggings",
+                            "fantasy:solar_stone"
+                            ],
+                            "repair_amount": 427
+                    }
+                ]
+            }
+        }
+    }
+}

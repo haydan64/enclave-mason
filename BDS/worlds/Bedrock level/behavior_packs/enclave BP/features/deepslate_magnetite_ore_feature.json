@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "enclave:deepslate_magnetite_ore_feature"
+		},
+		"count": 9,
+		"replace_rules": [
+			{
+				"places_block": {
+					"name": "enclave:deepslate_magnetite_ore",
+					"states": {}
+				},
+				"may_replace": [
+					{
+						"name": "minecraft:deepslate"
+					}
+				]
+			}
+		]
+	}
+}

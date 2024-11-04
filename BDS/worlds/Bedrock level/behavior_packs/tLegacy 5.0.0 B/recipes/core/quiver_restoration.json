@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:quiver_restoration"
+		},
+
+    
+		"tags": [ "tiered_table" ],
+		"pattern": [
+			"SL",
+			"LA"
+		],
+
+		"key": {
+			"L": {
+				"item": "minecraft:leather"
+			},
+			"A": {
+				"item": "hax:faded_quiver"
+			},
+			"S": {
+				"item": "minecraft:string"
+			}
+		},
+
+		"unlock": [
+			{
+			  "item": "minecraft:arrow"
+			}
+		  ],
+		"result": { "item": "hax:quiver" },
+	"priority": 2
+	}
+}

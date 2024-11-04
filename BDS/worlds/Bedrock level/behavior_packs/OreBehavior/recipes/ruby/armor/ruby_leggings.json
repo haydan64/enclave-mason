@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:ruby_leggings"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "AAA",
+            "A A",
+            "A A"
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:ruby"
+            }
+        },
+        "result": {
+            "item": "fantasy:ruby_leggings"
+        }
+    }
+}

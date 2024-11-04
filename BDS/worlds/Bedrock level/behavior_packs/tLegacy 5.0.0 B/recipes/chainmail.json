@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:chainmail"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "CN",
+      "NC"
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:chain"
+      },
+      "N": {
+        "item": "minecraft:iron_nugget"
+      }
+    },
+    
+    "unlock": [
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "result": {
+      "item": "hax:chainmail",
+      "count": 6
+    }
+  }
+}

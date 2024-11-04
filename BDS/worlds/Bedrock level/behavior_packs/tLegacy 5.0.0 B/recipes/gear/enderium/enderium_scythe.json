@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:enderium_scythe"
+		},
+
+    
+		"tags": [ "enderium_blueprint" ],
+		"pattern": [
+			"SLP",
+			" //",
+			"/  "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:enderium_longblade"
+			},
+			"S": {
+				"item": "hax:enderium_shortblade"
+			},
+			"P": {
+				"item": "hax:enderium_plating"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:enderium_blueprint"
+			}
+		],
+		"result": { "item": "hax:enderium_scythe" }
+	}
+}

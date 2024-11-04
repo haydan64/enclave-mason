@@ -1,0 +1,75 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "strat:cobbled_soulstone_stairs",
+			"traits": {
+				"minecraft:placement_position": {
+					"enabled_states": ["minecraft:vertical_half"]
+				},
+				"minecraft:placement_direction": {
+					"enabled_states": ["minecraft:cardinal_direction"],
+					"y_rotation_offset": 180
+				}
+			},
+			"menu_category": {
+				"group": "itemGroup.name.stairs",
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 5.0
+			},
+			"minecraft:map_color": "#664C33",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cobbled_soulstone",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:geometry": {
+				"identifier": "geometry.strat_stairs_template",
+				"bone_visibility": {
+					"north": "query.block_state('minecraft:vertical_half') == 'bottom' && query.block_state('minecraft:cardinal_direction') == 'south'",
+					"south": "query.block_state('minecraft:vertical_half') == 'bottom' && query.block_state('minecraft:cardinal_direction') == 'north'",
+					"west": "query.block_state('minecraft:vertical_half') == 'bottom' && query.block_state('minecraft:cardinal_direction') == 'east'",
+					"east": "query.block_state('minecraft:vertical_half') == 'bottom' && query.block_state('minecraft:cardinal_direction') == 'west'",
+					"north_top": "query.block_state('minecraft:vertical_half') == 'top' && query.block_state('minecraft:cardinal_direction') == 'south'",
+					"south_top": "query.block_state('minecraft:vertical_half') == 'top' && query.block_state('minecraft:cardinal_direction') == 'north'",
+					"west_top": "query.block_state('minecraft:vertical_half') == 'top' && query.block_state('minecraft:cardinal_direction') == 'east'",
+					"east_top": "query.block_state('minecraft:vertical_half') == 'top' && query.block_state('minecraft:cardinal_direction') == 'west'"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [-8,0,-8],
+				"size": [16,8,16]
+			},
+			"minecraft:light_dampening": 0,
+			"tag:stone_level": {}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:vertical_half') == 'bottom'",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-8,0,-8],
+						"size": [16,8,16]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:vertical_half') == 'top'",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-8,8,-8],
+						"size": [16,16,16]
+					}
+				}
+			}
+		]
+	}
+}

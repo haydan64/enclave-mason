@@ -1,0 +1,44 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:electrum_blueprint"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"XP",
+			"PI"
+		],
+
+		"key": {
+			"I": {
+				"item": "hax:gold_blueprint"
+			},
+			"X": {
+				"item": "hax:silver_blueprint"
+			},
+			"P": {
+				"item": "minecraft:paper"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:gold_blueprint"
+			},
+			{
+				"item": "hax:silver_blueprint"
+			},
+			{
+				"item": "minecraft:blast_furnace"
+			}
+		  ],
+		"result": [ 
+			{ "item": "hax:electrum_blueprint" },
+			{ "item": "hax:gold_blueprint", "count": 1, "data": 0 },
+			{ "item": "hax:silver_blueprint", "count": 1, "data": 0 }
+		]
+	}
+}

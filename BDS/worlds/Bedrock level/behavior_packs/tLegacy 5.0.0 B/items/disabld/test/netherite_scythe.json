@@ -1,0 +1,53 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "none",
+				"group": "itemGroup.name.hoe",
+				"is_hidden_in_commands": true
+			},
+			"identifier": "hax:_netherite_brimstone_scythe"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Netherite Scythe"
+			},
+			"minecraft:icon": {
+				"texture": "hax:_netherite_scythe"
+			},
+			"minecraft:tags": {
+				"tags": [
+					"nsb:fireproof"
+				]
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 12,
+			"minecraft:enchantable": {
+				"value": 18,
+				"slot": "axe"
+			},
+			"minecraft:durability": {
+				"max_durability": 1065
+			},
+			"minecraft:repairable":{
+				"repair_items": [
+					{
+						"items": [
+							"hax:_netherite_scythe"
+						],
+						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+					},
+					{
+						"items": [
+							"minecraft:netherite_ingot"
+						],
+						"repair_amount": "context.other->query.max_durability * 0.25" //390
+					}
+				]
+			},
+			"minecraft:can_destroy_in_creative": false
+		}
+	}
+}

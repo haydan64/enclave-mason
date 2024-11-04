@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:wood_kama"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"SS",
+			" /",
+			"/ "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:wood_shortblade"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:wooden_shavings"
+			}
+		],
+		"result": { "item": "hax:wood_kama" }
+	}
+}

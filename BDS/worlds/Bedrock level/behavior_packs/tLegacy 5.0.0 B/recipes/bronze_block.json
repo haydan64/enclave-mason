@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:bronze_block"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "hax:bronze_ingot"
+      }
+    },
+    
+    "unlock": [
+      {
+        "item": "hax:bronze_ingot"
+      }
+    ],
+    "result": {
+      "item": "hax:bronze_block"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:diamond_battleaxe"
+		},
+
+    
+		"tags": [ "diamond_blueprint" ],
+		"pattern": [
+			"HPH",
+			" / ",
+			" / "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:diamond_axehead"
+			},
+			"P": {
+				"item": "hax:diamond_plating"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:diamond_blueprint"
+			}
+		],
+		"result": { "item": "hax:diamond_battleaxe" }
+	}
+}

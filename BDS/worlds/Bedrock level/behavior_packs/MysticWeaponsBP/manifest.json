@@ -1,0 +1,30 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "§6Mystic §bWeapons§r",
+        "description": "A formidable magical weapons, each endowed with elemental abilities. \nBy: Vechrozilator | Pack Version: 1.1.3 | Minecraft Version Compatability: 1.20.60+",
+        "uuid": "d2f50432-256a-4c4c-9c20-1d64220f9825",
+        "version": [1, 1, 3],
+        "min_engine_version": [ 1, 20, 20 ]
+    },
+    "modules": [
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "6ad54635-a65a-45c2-a6f2-ad0a10f6ce8b",
+            "entry": "scripts/index.js",
+            "version": [1, 1, 3]
+        }
+    ],
+    "capabilities": [ "script_eval" ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.12.0-beta"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0-beta"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "hax:electrum_alloy"
+    },
+
+    
+    "tags": ["blast_furnace"],
+    "input": "hax:electrum_blend",
+    "output": "hax:electrum_ingot"
+  }
+  
+}

@@ -1,0 +1,21 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:bismuth"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "A"
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:bismuth_block"
+            }
+        },
+        "result": {
+            "item": "fantasy:bismuth",
+            "count": 9
+        }
+    }
+}

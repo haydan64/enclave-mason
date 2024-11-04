@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:gold_hammer"
+		},
+
+    
+		"tags": [ "gold_blueprint" ],
+		"pattern": [
+			"PIP",
+			" / ",
+			" / "
+		],
+
+		"key": {
+			"P": {
+				"item": "hax:gold_plating"
+			},
+			"I": {
+				"item": "minecraft:gold_ingot"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:gold_blueprint"
+			}
+		],
+		"result": { "item": "hax:gold_hammer" }
+	}
+}

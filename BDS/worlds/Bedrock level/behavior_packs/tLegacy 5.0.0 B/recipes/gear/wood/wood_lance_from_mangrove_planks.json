@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:wood_lance_from_mangrove_planks"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" SH",
+			"INS",
+			"/I "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:wood_spadehead"
+			},
+			"S": {
+				"item": "hax:wood_shortblade"
+			},
+			"I": {
+				"item": "minecraft:mangrove_planks"
+			},
+			"N": {
+				"item": "hax:wooden_shavings"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:wooden_shavings"
+			}
+		],
+		"result": { "item": "hax:wood_lance" }
+	}
+}

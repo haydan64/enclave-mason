@@ -1,0 +1,55 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:pirate_skeleton",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"default": "textures/entity/skeleton/pirate_skeleton/pirate_skeleton",
+				"default2": "textures/entity/skeleton/pirate_skeleton/pirate_skeleton2",
+				"default3": "textures/entity/skeleton/pirate_skeleton/pirate_skeleton3"
+			},
+			"geometry": {
+				"default": "geometry.pirate.skeleton"
+			},
+			"spawn_egg": {
+				"base_color": "#d3d2db",
+				"overlay_color": "#804d13"
+			},
+			"hide_armor": false,
+			"scripts": {
+				"animate": [
+					"controller",
+					"look_at_target",
+					"controllerdead"
+				  ]
+			},
+			"animations": {
+				"controller" : "controller.animation.skeletonv2",
+				"controllerdead": "controller.animation.skeletonv2.death",
+				"look_at_target": "animation.common.look_at_target",
+				"idle" : "animation.skeletonv2.idle",
+				"walk" : "animation.skeletonv2.walk",
+				"walkwatermelee" : "animation.skeletonv2.walkwatermelee",
+				"walkwaterrange" : "animation.skeletonv2.walkwaterranged",
+				"rangeattackmove": "animation.skeletonv2.longrangeattackmove",
+				"meleeattack": "animation.skeletonv2.meleeattack",
+				"meleeattack2": "animation.skeletonv2.meleeattack2",
+				"meleeattack3": "animation.skeletonv2.meleeattack3",
+				"rangeattack": "animation.skeletonv2.longrangeattack",
+				"meleeattackstun1": "animation.skeletonv2.meleeattackstun",
+				"rangeattackstun1": "animation.skeletonv2.longrangestun",
+				"deathrot": "animation.skeletonv2.deathrot",
+				"dead": "animation.skeletonv2.dead",
+				"riding": "animation.skeletonv2.riding",
+				"ridingstun": "animation.skeletonv2.ridingstun"
+
+			},
+			"render_controllers": ["controller.render.threevariant"],
+			"enable_attachables": true
+		}
+	}
+}

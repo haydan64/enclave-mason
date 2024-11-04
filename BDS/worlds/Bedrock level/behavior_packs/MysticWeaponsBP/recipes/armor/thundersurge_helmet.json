@@ -1,0 +1,21 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mystic:thundersurge_helmet"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "###",
+            "# #"
+        ],
+        "key": {
+            "#": {
+                "item": "item:lightning_stone_shard"
+            }
+        },
+        "result": {
+            "item": "mystic:thundersurge_helmet"
+        }
+    }
+}

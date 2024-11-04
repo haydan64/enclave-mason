@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "enclave:ghost",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/enclave/entity/ghost"
+			},
+			"geometry": {
+				"default": "geometry.kamghost"
+			},
+			"render_controllers": [
+				"controller.render.kamghost"
+			],
+			"animations": {
+				"idle": "animation.kamghost.idle",
+				"walk": "animation.kamghost.walk",
+				"attack": "animation.kamghost.attack",
+				"death": "animation.kamghost.death"
+			},
+			"scripts": {
+				"animate": [
+					"idle",
+					{
+						"walk": "query.modified_move_speed"
+					}
+				]
+			},
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
+}

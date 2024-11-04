@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:bronze_broadsword"
+		},
+
+    
+		"tags": [ "bronze_blueprint" ],
+		"pattern": [
+			"  L",
+			" B ",
+			"/  "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:bronze_longblade"
+			},
+			"B": {
+				"item": "hax:bronze_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:bronze_blueprint"
+			}
+		],
+		"result": { "item": "hax:bronze_broadsword" }
+	}
+}

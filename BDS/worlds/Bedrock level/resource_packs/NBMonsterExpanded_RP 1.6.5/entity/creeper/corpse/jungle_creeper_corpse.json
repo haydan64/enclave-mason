@@ -1,0 +1,51 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:jungle_creeper_corpse",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "spider",
+				"charged": "charged_creeper"
+			},
+			"textures": {
+				"default": "textures/entity/creeper/jungle_creeper/creeper1",
+				"default2": "textures/entity/creeper/jungle_creeper/creeper1a",
+				"default3": "textures/entity/creeper/jungle_creeper/creeper2",
+				"default4": "textures/entity/creeper/jungle_creeper/creeper2a",
+				"default5": "textures/entity/creeper/jungle_creeper/creeper3",
+				"default6": "textures/entity/creeper/jungle_creeper/creeper3a",
+				"default7": "textures/entity/creeper/jungle_creeper/creeper4",
+				"default8": "textures/entity/creeper/jungle_creeper/creeper4a",
+				"charged": "textures/entity/creeper/creeper_armor"
+			},
+			"geometry": {
+				"default": "geometry.jungle.creeper",
+				"charged": "geometry.creeper.charged"
+			},
+			"spawn_egg": {
+				"base_color": "#133116",
+				"overlay_color": "#856427"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.wobble = Math.sin(query.swell_amount * 5730) * query.swell_amount * 0.01 + 1.0;",
+					"variable.swelling_scale1 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.4 + 1.0) * variable.wobble;",
+					"variable.swelling_scale2 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.1 + 1.0) / variable.wobble;",
+					"variable.leg_rot = Math.cos(query.modified_distance_moved * 38.17326) * 80.22 * query.modified_move_speed;",
+					"variable.flash = Math.mod(Math.Round(query.swell_amount * 10.0), 2.0);"
+				],
+				"animate":[
+					"general"
+				]
+			},
+			"animations": {
+				"general": "controller.animation.creeper.corpse",
+				"dead" : "animation.jungle.creeper.dead",
+				"dead2" : "animation.jungle.creeper.dead2"
+
+			},
+			"render_controllers": ["controller.render.eightvariant","controller.render.creeper_armor"]
+		}
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:enderium_broadsword"
+		},
+
+    
+		"tags": [ "enderium_blueprint" ],
+		"pattern": [
+			"  L",
+			" B ",
+			"/  "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:enderium_longblade"
+			},
+			"B": {
+				"item": "hax:enderium_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:enderium_blueprint"
+			}
+		],
+		"result": { "item": "hax:enderium_broadsword" }
+	}
+}

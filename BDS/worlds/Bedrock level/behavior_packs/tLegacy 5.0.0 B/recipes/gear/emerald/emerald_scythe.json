@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:emerald_scythe"
+		},
+
+    
+		"tags": [ "emerald_blueprint" ],
+		"pattern": [
+			"SLP",
+			" //",
+			"/  "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:emerald_longblade"
+			},
+			"S": {
+				"item": "hax:emerald_shortblade"
+			},
+			"P": {
+				"item": "hax:emerald_plating"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:emerald_blueprint"
+			}
+		],
+		"result": { "item": "hax:emerald_scythe" }
+	}
+}

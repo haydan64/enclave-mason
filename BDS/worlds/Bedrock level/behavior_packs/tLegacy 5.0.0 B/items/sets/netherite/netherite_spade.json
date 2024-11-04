@@ -1,0 +1,90 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.shovel"
+			},
+			"identifier": "hax:netherite_spade"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Netherite Spade"
+			},
+			"minecraft:icon": {
+				"texture": "hax:netherite_spade"
+			},
+			"minecraft:tags": {
+				"tags": [
+					"nsb:fireproof"
+				]
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 6,
+			"minecraft:enchantable": {
+				"value": 15,
+				"slot": "shovel"
+			},
+			"minecraft:durability": {
+				"max_durability": 2437
+			},
+			"minecraft:repairable":{
+				"repair_items": [
+					{
+						"items": [
+							"hax:netherite_spade"
+						],
+						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+					},
+					{
+						"items": [
+							"minecraft:netherite_ingot"
+						],
+						"repair_amount": "context.other->query.max_durability * 0.25" //609
+					}
+				]
+			},
+			"minecraft:can_destroy_in_creative": true,
+			"minecraft:digger": {
+				"destroy_speeds": [
+					{ "block": "minecraft:clay", "speed": 8 },
+					{ "block": "minecraft:white_concrete_powder", "speed": 8 },
+					{ "block": "minecraft:orange_concrete_powder", "speed": 8 },
+					{ "block": "minecraft:magenta_concrete_powder", "speed": 8 },
+					{ "block": "minecraft:light_blue_concrete_powder", "speed": 8 },
+					{ "block": "minecraft:yellow_concrete_powder", "speed": 8 },
+					{ "block": "minecraft:lime_concrete_powder", "speed": 8 },
+					{ "block": "minecraft:pink_concrete_powder", "speed": 8 },
+					{ "block": "minecraft:gray_concrete_powder", "speed": 8 },
+					{ "block": "minecraft:light_gray_concrete_powder", "speed": 8 },
+					{ "block": "minecraft:cyan_concrete_powder", "speed": 8 },
+					{ "block": "minecraft:purple_concrete_powder", "speed": 8 },
+					{ "block": "minecraft:blue_concrete_powder", "speed": 8 },
+					{ "block": "minecraft:brown_concrete_powder", "speed": 8 },
+					{ "block": "minecraft:green_concrete_powder", "speed": 8 },
+					{ "block": "minecraft:red_concrete_powder", "speed": 8 },
+					{ "block": "minecraft:black_concrete_powder", "speed": 8 },
+					{ "block": "minecraft:dirt", "speed": 8 },
+					{ "block": "minecraft:grass_path", "speed": 8 },
+					{ "block": "minecraft:grass_block", "speed": 8 },
+					{ "block": "minecraft:gravel", "speed": 8 },
+					{ "block": "minecraft:mud", "speed": 8 },
+					{ "block": "minecraft:muddy_mangrove_roots", "speed": 8 },
+					{ "block": "minecraft:mycelium", "speed": 8 },
+					{ "block": "minecraft:podzol", "speed": 8 },
+					{ "block": "minecraft:dirt_with_roots", "speed": 8 },
+					{ "block": "minecraft:sand", "speed": 8 },
+					{ "block": "minecraft:snow_layer", "speed": 8 },
+					{ "block": "minecraft:snow", "speed": 8 },
+					{ "block": "minecraft:soul_sand", "speed": 8 },
+					{ "block": "minecraft:soul_soil", "speed": 8 },
+					{ "block": "minecraft:suspicious_gravel", "speed": 8 },
+					{ "block": "minecraft:suspicious_sand", "speed": 8 }
+				],
+				"use_efficiency": true
+			}
+		}
+	}
+}

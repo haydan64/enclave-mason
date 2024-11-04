@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "moonstone_block_37a55465"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "fantasy:moonstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "fantasy:moonstone_block",
+      "count": 1
+    }
+  }
+}

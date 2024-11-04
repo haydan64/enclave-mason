@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "hax:furnace_copper_spear"
+    },
+
+
+    "tags": ["furnace", "blast_furnace"],
+    "input": "hax:copper_spear",
+    "output": "hax:copper_nugget"
+  }
+  
+}

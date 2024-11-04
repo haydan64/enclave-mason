@@ -1,0 +1,1 @@
+particle minecraft:cauldron_explosion_emitter ^ ^0.1 ^-1

@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:cobalt_spade"
+		},
+
+    
+		"tags": [ "cobalt_blueprint" ],
+		"pattern": [
+			" IH",
+			" /I",
+			"/  "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:cobalt_spadehead"
+			},
+			"I": {
+				"item": "hax:cobalt_ingot"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:cobalt_blueprint"
+			}
+		],
+		"result": { "item": "hax:cobalt_spade" }
+	}
+}

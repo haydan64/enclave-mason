@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:topaz_block"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "AAA",
+            "AAA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:topaz"
+            }
+        },
+        "result": {
+            "item": "fantasy:topaz_block"
+        }
+    }
+}

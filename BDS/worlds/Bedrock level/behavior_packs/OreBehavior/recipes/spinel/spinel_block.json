@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:spinel_block"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "AAA",
+            "AAA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:spinel"
+            }
+        },
+        "result": {
+            "item": "fantasy:spinel_block"
+        }
+    }
+}

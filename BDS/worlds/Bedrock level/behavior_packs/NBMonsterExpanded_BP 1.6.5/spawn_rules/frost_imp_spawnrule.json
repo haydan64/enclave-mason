@@ -1,0 +1,48 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "nba:frost_imp",
+      "population_control": "monster"
+    },
+    "conditions": [
+      {
+        "minecraft:spawns_on_surface": {
+        },
+
+        "minecraft:brightness_filter": {
+          "min": 4,
+          "max": 16,
+          "adjust_for_weather": true
+        },
+
+        "minecraft:difficulty_filter": {
+          "min": "easy",
+          "max": "hard"
+        },
+         "minecraft:herd": {
+          "min_size": 3,
+          "max_size": 5
+        },
+        "minecraft:density_limit": {
+          "surface": 8
+      },
+        "minecraft:spawns_on_block_filter": [
+          "minecraft:ice",
+          "minecraft:packed_ice",
+          "minecraft:blue_ice",
+          "minecraft:frosted_ice"
+      ],
+        "minecraft:weight": {
+          "default": 100
+        },
+        
+        "minecraft:biome_filter": {
+          "test": "has_biome_tag",
+          "operator":"==",
+          "value": "frozen"
+        }
+      }
+    ]
+  }
+}

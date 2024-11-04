@@ -1,0 +1,52 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "fantasy:jade_chestplate",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "jade_chestplate"
+            },
+            "minecraft:display_name": {},
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.chestplate"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": true,
+            "minecraft:render_offsets": "chestplate",
+            "minecraft:enchantable": {
+                "value": 8,
+                "slot": "armor_torso"
+            },
+            "minecraft:armor": {
+                "protection": 10
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.chest"
+            },
+            "minecraft:knockback_resistance": {
+                "protection": 0.1
+            },
+            "minecraft:durability": {
+                "max_durability": 708,
+                "damage_chance": {
+                    "min": 90,
+                    "max": 100
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "fantasy:jade_chestplate",
+                            "fantasy:jade"
+                            ],
+                            "repair_amount": 426
+                    }
+                ]
+            }
+        }
+    }
+}

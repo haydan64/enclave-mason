@@ -1,0 +1,12 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_brewing_mix": {
+        "description": {
+            "identifier": "fantasy:sulfur_potion_splash_brewing_stand"
+        },
+        "tags": [ "brewing_stand" ],
+        "input": "fantasy:sulfur_potion",
+        "reagent": "minecraft:gunpowder",
+        "output": "fantasy:sulfur_potion_splash"
+    }
+}

@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:tin_gladius"
+		},
+
+    
+		"tags": [ "tin_blueprint" ],
+		"pattern": [
+			" L",
+			"/ "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:tin_longblade"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:tin_blueprint"
+			}
+		],
+		"result": { "item": "hax:tin_gladius" }
+	}
+}

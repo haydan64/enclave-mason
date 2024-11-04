@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:obsidian_axehead"
+		},
+
+    
+		"tags": [ "obsidian_blueprint" ],
+		"pattern": [
+			"IN",
+			"I "
+		],
+
+		"key": {
+			"I": {
+				"item": "minecraft:obsidian"
+			},
+			"N": {
+				"item": "hax:obsidian_shard"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:obsidian_blueprint"
+			}
+		],
+		"result": { "item": "hax:obsidian_axehead" }
+	}
+}

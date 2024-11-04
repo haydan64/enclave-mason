@@ -1,0 +1,96 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:block": {
+		"description": {
+			"identifier": "strat:cobbled_soulstone_slab",
+			"traits": {
+				"minecraft:placement_position": {
+					"enabled_states": ["minecraft:vertical_half"]
+				}
+			},
+			"states": {
+				"strat:block": [0,1]
+			},
+			"menu_category": {
+				"group": "itemGroup.name.slab",
+				"category": "construction"
+			}
+		},
+		"components": {
+			"minecraft:custom_components": ["strat:slab"],
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 5.0
+			},
+			"minecraft:map_color": "#664C33",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "cobbled_soulstone",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:geometry": {
+				"identifier": "geometry.strat_slab_template",
+				"bone_visibility": {
+					"bottom": "query.block_state('minecraft:vertical_half') == 'bottom' || query.block_state('strat:block') == 1",
+					"top": "query.block_state('minecraft:vertical_half') == 'top' || query.block_state('strat:block') == 1"
+				}
+			},
+			"minecraft:collision_box": {
+				"origin": [-8,0,-8],
+				"size": [16,8,16]
+			},
+			"minecraft:selection_box": {
+				"origin": [-8,0,-8],
+				"size": [16,8,16]
+			},
+			"minecraft:light_dampening": 0,
+			"tag:stone_level": {},
+			"tag:stone_sound": {}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_state('minecraft:vertical_half') == 'top' && query.block_state('strat:block') == 0",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-8,8,-8],
+						"size": [16,16,16]
+					},
+					"minecraft:selection_box": {
+						"origin": [-8,8,-8],
+						"size": [16,16,16]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('minecraft:vertical_half') == 'bottom' && query.block_state('strat:block') == 0",
+				"components": {
+					"minecraft:collision_box": {
+						"origin": [-8,0,-8],
+						"size": [16,8,16]
+					},
+					"minecraft:selection_box": {
+						"origin": [-8,0,-8],
+						"size": [16,8,16]
+					}
+				}
+			},
+			{
+				"condition": "query.block_state('strat:block') == 1",
+				"components": {
+					"minecraft:light_dampening": 15,
+					"minecraft:collision_box": {
+						"origin": [-8,0,-8],
+						"size": [16,16,16]
+					},
+					"minecraft:selection_box": {
+						"origin": [-8,0,-8],
+						"size": [16,16,16]
+					}
+				}
+			}
+		]
+	}
+}

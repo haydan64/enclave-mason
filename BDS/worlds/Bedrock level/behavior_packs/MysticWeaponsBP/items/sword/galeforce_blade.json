@@ -1,0 +1,71 @@
+{
+    "format_version": "1.20.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "mystic:galeforce_blade",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.sword"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "galeforce_blade"
+            },
+            "minecraft:display_name": {
+                "value": "Galeforce Blade\n§aWind§r"
+            },
+            "minecraft:tags": {
+                "tags": [ "sword", "wind" ]
+            },
+            "minecraft:cooldown": {
+                "category": "galeforce_blade",
+                "duration": 20
+            },
+            "minecraft:digger": {
+                "use_efficiency": false,
+                "destroy_speeds": [
+                    {
+                        "block": "minecraft:web",
+                        "speed": 4
+                    },
+                    {
+                        "block": "minecraft:bamboo",
+                        "speed": 3
+                    }
+                ]
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false,
+            "minecraft:damage": 8,
+            "minecraft:durability": {
+                "max_durability": 200,
+                "damage_chance": {
+                    "min": 5,
+                    "max": 10
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [ "item:wind_stone_shard" ],
+                        "repair_amount": "q.max_durability * 0.15"
+                    },
+                    {
+                        "items": [ "item:wind_stone" ],
+                        "repair_amount": "q.max_durability * 0.7"
+                    },
+                    {
+                        "items": [ "mystic:galeforce_blade" ],
+                        "repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
+                    }
+                ]
+            },
+            "minecraft:enchantable": {
+                "value": 10,
+                "slot": "sword"
+            },
+            "minecraft:can_destroy_in_creative": false
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "solarstone_block_ce328f67"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "AAA",
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "fantasy:solarstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "fantasy:solarstone_block",
+      "count": 1
+    }
+  }
+}

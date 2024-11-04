@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:alt_obsidian_from_shards"
+    },
+
+    
+    "tags": [ "obsidian_blueprint" ],
+    "group": "obsidian",
+    "pattern": [
+      "##",
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "hax:obsidian_shard"
+      }
+    },
+    "unlock": [
+			{
+				"item": "hax:_blueprint"
+			}
+		],
+    "result": {
+      "item": "minecraft:obsidian"
+    }
+  }
+}

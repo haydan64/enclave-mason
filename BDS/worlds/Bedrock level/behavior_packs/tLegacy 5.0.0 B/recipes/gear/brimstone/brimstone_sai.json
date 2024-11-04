@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:brimstone_sai"
+		},
+
+    
+		"tags": [ "brimstone_blueprint" ],
+		"pattern": [
+			" S ",
+			"NBN",
+			" / "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:brimstone_shortblade"
+			},
+			"B": {
+				"item": "hax:brimstone_bar"
+			},
+			"N": {
+				"item": "hax:brimstone_shard"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:brimstone_blueprint"
+			}
+		],
+		"result": { "item": "hax:brimstone_sai" }
+	}
+}

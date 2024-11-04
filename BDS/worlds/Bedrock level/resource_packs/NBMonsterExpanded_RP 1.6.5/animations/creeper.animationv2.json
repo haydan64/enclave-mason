@@ -1,0 +1,248 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.jungle.creeper.idlev2": {
+			"loop": true,
+			"animation_length": 7,
+			"bones": {
+				"spine": {
+					"rotation": {
+						"0.0": [12.5, 0, 0],
+						"2.75": {
+							"pre": [-2.5, 0, 0],
+							"post": [-2.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"5.7083": {
+							"post": [7.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"7.0": [12.5, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": [10, 0, 0],
+						"2.75": {
+							"pre": [-7.5, 0, 0],
+							"post": [-7.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"5.7083": {
+							"post": [2.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"7.0": [10, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.jungle.creeper.stunned": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 0.5,
+			"bones": {
+				"spine": {
+					"rotation": {
+						"0.0": {
+							"post": [2.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.1667": {
+							"post": [-12.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.375": {
+							"post": [-7.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.5": [2.5, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": {
+							"post": [-7.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.1667": {
+							"post": [-20, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.375": {
+							"post": [10, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.5": [-7.5, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.jungle.creeper.dead": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1.04167,
+			"bones": {
+				"spine": {
+					"rotation": {
+						"0.0": {
+							"post": [2.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.1667": {
+							"post": [-12.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.625": {
+							"post": [10, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.75": {
+							"post": [-20, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.8333": {
+							"post": [-17.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.9167": [-20, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": {
+							"post": [-7.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.1667": {
+							"post": [-20, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.625": [32.5, 0, 0]
+					}
+				},
+				"root": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.4583": [-30, 0, 0],
+						"0.625": [-87.5, 0, 0],
+						"0.7917": [-85, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.4583": [0, 3, 1],
+						"0.625": [0, 7, 1]
+					}
+				},
+				"leg0": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.75": [0, 0, 5]
+					}
+				},
+				"leg1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.75": [0, 0, -10]
+					}
+				},
+				"leg2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.75": [39.75778, -4.81281, 5.7589]
+					}
+				},
+				"leg3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.75": [34.76905, 4.29357, -6.15518]
+					}
+				}
+			}
+		},
+		"animation.jungle.creeper.dead2": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 1.04167,
+			"bones": {
+				"spine": {
+					"rotation": {
+						"0.0": [2.5, 0, 0],
+						"0.4167": [-35, 0, 0]
+					}
+				},
+				"head": {
+					"rotation": {
+						"0.0": {
+							"post": [-7.5, 0, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.4167": {
+							"post": [-199.0234, -10.42624, -2.47202],
+							"lerp_mode": "catmullrom"
+						},
+						"0.5833": {
+							"post": [-288.86855, -3.19594, -8.26556],
+							"lerp_mode": "catmullrom"
+						},
+						"0.75": {
+							"post": [-322.57993, 15.06897, 11.10984],
+							"lerp_mode": "catmullrom"
+						},
+						"0.875": [-321.07284, 21.0419, 15.88355]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.4167": [0, 1.68176, 6.24588],
+						"0.5833": [0, -8.12049, 14.54419],
+						"0.75": [0, -8.93915, 15.11358],
+						"0.875": [0, -7.21927, 17.56746]
+					}
+				},
+				"root": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2083": [-42.5, 0, 0],
+						"0.625": [0, 0, 0]
+					},
+					"position": [0, 0, 0]
+				},
+				"leg0": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0]
+				},
+				"leg1": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2083": [17.5, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.2083": [0, 1.90743, -0.60141],
+						"0.4167": [0, -0.09, -0.6]
+					}
+				},
+				"leg2": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2083": [17.5, 0, 0]
+					}
+				},
+				"leg3": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.2083": [20, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.jungle.creeper.death_rot": {
+			"loop": true,
+			"bones": {
+				"root": {
+					"rotation": [0, 0, "Math.min(Math.sqrt(Math.max(0, query.anim_time * 20 - 0.5) / 20 * 1.6), 1) * -90"]
+				},
+				"head": {
+					"rotation": [0, 0, "Math.min(Math.sqrt(Math.max(0, query.anim_time * 10 - 0.5) / 10 * 0.9), 1) * -90"]
+				}
+			}
+		}
+	}
+}

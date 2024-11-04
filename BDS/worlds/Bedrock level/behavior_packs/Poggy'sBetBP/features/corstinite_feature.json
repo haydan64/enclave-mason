@@ -1,0 +1,16 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:ore_feature": {
+		"description": {
+			"identifier": "better_on_bedrock:corstinite_feature"
+		},
+		"count": 8, // Placement attempts
+		"replace_rules": [
+			{
+				// Replace all stone variants (andesite, granite, and diorite) with titanite ore
+				"places_block": "better_on_bedrock:corstinite_ore",
+				"may_replace": ["minecraft:netherrack"]
+			}
+		]
+	}
+}

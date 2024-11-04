@@ -1,0 +1,40 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:blast_termite",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/blast_termite"
+			},
+			"geometry": {
+				"default": "geometry.blast_termites"
+			},
+			"render_controllers": ["controller.render.default"],
+			"spawn_egg": {
+				"base_color": "#c29d23",
+				"overlay_color": "#9b5d16"
+			},
+			
+			"animations": {
+				"general": "controller.animation.blast_termite",
+				"look_at_target": "animation.common.look_at_target",
+				"walk": "animation.blast.termite.walk",
+				"angry": "animation.blast.termite.angry",
+				"idle": "animation.blast.termite.idle"
+			},
+			"scripts": {
+				"animate":[
+					"general",
+					"look_at_target"
+				]
+				
+			}
+			
+			
+		}
+	}
+}

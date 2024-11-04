@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:slime_plating"
+		},
+
+    
+		"tags": [ "slime_blueprint" ],
+		"pattern": [
+			"II",
+			"II",
+			" "
+		],
+
+		"key": {
+			"I": {
+				"item": "minecraft:slime"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:slime_blueprint"
+			}
+		],
+		"result": { "item": "hax:slime_plating" }
+	}
+}

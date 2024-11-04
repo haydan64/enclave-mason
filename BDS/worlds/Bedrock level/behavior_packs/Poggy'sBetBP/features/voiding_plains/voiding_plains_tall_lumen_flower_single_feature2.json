@@ -1,0 +1,17 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "better_on_bedrock:voiding_plains/voiding_plains_tall_lumen_flower_single_feature2"
+		},
+		"places_block": {
+			//Coarse dirt shares same identifier as dirt, set it using name and states
+			"name": "better_on_bedrock:tall_vacant_lumen_flower"
+		},
+		"enforce_survivability_rules": true,
+		"enforce_placement_rules": true,
+		"may_replace": [
+			"minecraft:air" //The block can only replace grass
+		]
+	}
+}

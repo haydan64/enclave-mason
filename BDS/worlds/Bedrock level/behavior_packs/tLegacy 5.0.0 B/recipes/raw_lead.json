@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:raw_lead"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "hax:raw_lead_block"
+      }
+    },
+    
+    "unlock": [
+      {
+        "item": "hax:raw_lead_block"
+      }
+    ],
+    "result": {
+      "item": "hax:raw_lead",
+      "count": 9
+    }
+  }
+}

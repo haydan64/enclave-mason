@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:gold_axehead"
+		},
+
+    
+		"tags": [ "gold_blueprint" ],
+		"pattern": [
+			"IN",
+			"I "
+		],
+
+		"key": {
+			"I": {
+				"item": "minecraft:gold_ingot"
+			},
+			"N": {
+				"item": "minecraft:gold_nugget"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:gold_blueprint"
+			}
+		],
+		"result": { "item": "hax:gold_axehead" }
+	}
+}

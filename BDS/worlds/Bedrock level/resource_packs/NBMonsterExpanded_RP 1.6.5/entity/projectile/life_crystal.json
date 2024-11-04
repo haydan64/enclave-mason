@@ -1,0 +1,38 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:life_crystal",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/tree_spirit/tree_spirit"
+			},
+			"geometry": {
+				"default": "geometry.nba.heal_crystal"
+			},
+			"scripts": {
+				"animate":[
+					"default",
+					"arc"
+				]
+				
+			},
+			"animations": {
+				"default": "animation.nba.heal_crystal.casting",
+				"arc": "controller.animation.life.crystal"
+				
+			},
+			"particle_effects": {
+                "particle": "nba:green_portal_particle2",
+				"particle2": "nba:green_spell"
+            },
+			"render_controllers": ["controller.render.onevariant"]
+
+			
+			
+		}
+	}
+}

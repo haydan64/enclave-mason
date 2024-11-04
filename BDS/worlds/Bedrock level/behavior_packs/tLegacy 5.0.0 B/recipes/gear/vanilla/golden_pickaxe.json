@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:golden_pickaxe"
+		},
+
+    
+		"tags": [ "gold_blueprint" ],
+		"pattern": [
+			"SI ",
+			" /I",
+			"/ S"
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:gold_shortblade"
+			},
+			"I": {
+				"item": "minecraft:gold_ingot"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:gold_blueprint"
+			}
+		],
+		"result": { "item": "minecraft:golden_pickaxe" }
+	}
+}

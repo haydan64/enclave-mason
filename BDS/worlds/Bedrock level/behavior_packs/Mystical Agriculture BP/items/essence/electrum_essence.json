@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:electrum_essence",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "electrum_essence"
+			},
+			"minecraft:display_name": {
+				"value": "Electrum Essence"
+			}
+		}
+	}
+}

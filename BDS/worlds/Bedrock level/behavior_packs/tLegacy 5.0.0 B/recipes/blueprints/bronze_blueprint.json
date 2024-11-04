@@ -1,0 +1,44 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:bronze_blueprint"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"XP",
+			"PI"
+		],
+
+		"key": {
+			"I": {
+				"item": "hax:copper_blueprint"
+			},
+			"X": {
+				"item": "hax:tin_blueprint"
+			},
+			"P": {
+				"item": "minecraft:paper"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:copper_blueprint"
+			},
+			{
+				"item": "hax:tin_blueprint"
+			},
+			{
+				"item": "minecraft:blast_furnace"
+			}
+		  ],
+		"result": [ 
+			{ "item": "hax:bronze_blueprint" },
+			{ "item": "hax:copper_blueprint", "count": 1, "data": 0 },
+			{ "item": "hax:tin_blueprint", "count": 1, "data": 0 }
+		]
+	}
+}

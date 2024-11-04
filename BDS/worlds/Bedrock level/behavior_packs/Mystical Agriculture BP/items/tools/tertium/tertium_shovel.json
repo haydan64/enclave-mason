@@ -1,0 +1,122 @@
+{
+	"format_version": "1.20.81",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:tertium_shovel",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.shovel"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:custom_components": ["strat:shovel"],
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 4000,
+				"damage_chance": {
+					"min": 1,
+					"max": 1
+				}
+			},
+			"minecraft:damage": {
+				"value": 9
+			},
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('dirt', 'sand', 'gravel', 'grass', 'snow')"
+						},
+						"speed": 11
+					},
+					{
+						"block": "strat:nether_grout",
+						"speed": 11
+					},
+					{
+						"block": "strat:grout",
+						"speed": 11
+					},
+					{
+						"block": "minecraft:farmland",
+						"speed": 11
+					},
+					{
+						"block": "minecraft:grass",
+						"speed": 11
+					},
+					{
+						"block": "minecraft:grass_path",
+						"speed": 11
+					},
+					{
+						"block": "minecraft:gravel",
+						"speed": 11
+					},
+					{
+						"block": "minecraft:podzol",
+						"speed": 11
+					},
+					{
+						"block": "minecraft:dirt",
+						"speed": 11
+					},
+					{
+						"block": "minecraft:sand",
+						"speed": 11
+					},
+					{
+						"block": "minecraft:concrete_powder",
+						"speed": 11
+					},
+					{
+						"block": "minecraft:snow_layer",
+						"speed": 11
+					},
+					{
+						"block": "minecraft:clay",
+						"speed": 11
+					},
+					{
+						"block": "minecraft:snow",
+						"speed": 11
+					},
+					{
+						"block": "minecraft:mycelium",
+						"speed": 11
+					},
+					{
+						"block": "minecraft:soul_sand",
+						"speed": 11
+					},
+					{
+						"block": "minecraft:soul_soil",
+						"speed": 11
+					}
+				]
+			},
+			"minecraft:icon": "tertium_shovel",
+			"minecraft:display_name": {
+				"value": "Tertium Shovel\n§7Tier: §63§r"
+			},
+			"minecraft:enchantable": {
+				"slot": "shovel",
+				"value": 10
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"strat:tertium_ingot",
+							"strat:tertium_gemstone"
+						],
+						"repair_amount": "query.max_durability / 5"
+					}
+				]
+			},
+			"tag:minecraft:is_shovel": {}
+		}
+	}
+}

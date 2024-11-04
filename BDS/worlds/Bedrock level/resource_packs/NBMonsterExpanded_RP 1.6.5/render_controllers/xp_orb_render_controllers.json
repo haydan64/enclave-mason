@@ -1,0 +1,39 @@
+{
+    "format_version": "1.10.0",
+    "render_controllers": {
+      "controller.render.experienceorb": {
+          "geometry": "Geometry.default",
+          "materials": [ { "*": "Material.default" } ],
+          "arrays": {
+            "textures": {
+              "Array.textures": [
+                "Texture.default",
+                "Texture.default2",
+                "Texture.default3",
+                "Texture.default4",
+                "Texture.default5",
+                "Texture.default6",
+                "Texture.default7",
+                "Texture.default8",
+                "Texture.default9",
+                "Texture.default10",
+                "Texture.default11"
+              ]
+            }
+          },
+        "textures": ["Array.textures[query.variant]"],
+        
+          "overlay_color": {
+              "r": "(Math.sin(query.life_time * 500.0) + 1.0) * 0.5",
+              "g": "1.0",
+              "b": "(Math.sin(query.life_time * 500.0 + 240.0) + 1.0) * 0.1",
+              "a": "0.5"
+          },
+          "ignore_lighting": true,
+          "uv_anim": {
+              "offset": [ "variable.u", "variable.v" ],
+              "scale": [ 1.0, 1.0 ]
+          }
+      }
+    }
+  }

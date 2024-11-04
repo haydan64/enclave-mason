@@ -1,0 +1,25 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.potterySherds"
+			},
+			"identifier": "htc:blank_pottery_sherd"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Blank Pottery Sherd"
+			},
+			"minecraft:icon": {
+				"texture": "htc:blank_pottery_sherd"
+			},
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:decorated_pot_sherds"
+				]
+			}
+		}
+	}
+}

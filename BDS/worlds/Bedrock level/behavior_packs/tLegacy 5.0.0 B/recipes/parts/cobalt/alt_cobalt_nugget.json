@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:alt_cobalt_nugget"
+    },
+
+    
+    "tags": [ "cobalt_blueprint" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "hax:cobalt_ingot"
+      }
+    },
+    "unlock": [
+			{
+				"item": "hax:cobalt_blueprint"
+			}
+		],
+    "result": {
+      "item": "hax:cobalt_nugget",
+      "count": 4
+    }
+  }
+}

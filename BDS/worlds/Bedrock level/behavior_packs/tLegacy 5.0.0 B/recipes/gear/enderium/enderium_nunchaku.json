@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:enderium_nunchaku"
+		},
+
+    
+		"tags": [ "enderium_blueprint" ],
+		"pattern": [
+			"/B",
+			"BI",
+			"/ "
+		],
+
+		"key": {
+			"B": {
+				"item": "hax:enderium_bar"
+			},
+			"I": {
+				"item": "hax:enderium_ingot"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:enderium_blueprint"
+			}
+		],
+		"result": { "item": "hax:enderium_nunchaku" }
+	}
+}

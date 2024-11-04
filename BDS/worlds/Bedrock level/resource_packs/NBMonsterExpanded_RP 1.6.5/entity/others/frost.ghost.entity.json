@@ -1,0 +1,38 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:frost_ghost",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "slime_outer"
+			},
+			"textures": {
+				"default": "textures/entity/frost_ghost"
+			},
+			"geometry": {
+				"default": "geometry.frost.ghost"
+			},
+			"scripts": {
+				"animate":[
+					"general",
+					"look_at_target"
+				]
+				
+			},
+			"spawn_egg": {
+				"base_color": "#1a7cbe",
+				"overlay_color": "#49e4b8"
+			},
+			"animations": {
+				"general": "controller.animation.ghost",
+				"default": "animation.ghost.idle",
+				"angry": "animation.ghost.angry",
+				"look_at_target": "animation.common.look_at_target"
+				
+			},
+			"render_controllers": ["controller.render.onevariant"]
+			
+		}
+	}
+}

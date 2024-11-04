@@ -1,0 +1,34 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:lantern"
+    },
+
+    
+    "tags": [ "null" ],
+    "pattern": [
+      "###",
+      "#x#",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:iron_nugget"
+      },
+      "x": {
+        "item": "minecraft:torch"
+      }
+    },
+    "unlock": [
+            {
+                "item": "minecraft:end_gateway",
+                "data": 4
+            }
+        ],
+    "result": {
+      "item": "minecraft:lantern",
+      "count": 1
+    }
+  }
+}

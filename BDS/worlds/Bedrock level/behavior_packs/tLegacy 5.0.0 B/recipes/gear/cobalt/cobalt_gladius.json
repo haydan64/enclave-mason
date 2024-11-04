@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:cobalt_gladius"
+		},
+
+    
+		"tags": [ "cobalt_blueprint" ],
+		"pattern": [
+			" L",
+			"/ "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:cobalt_longblade"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:cobalt_blueprint"
+			}
+		],
+		"result": { "item": "hax:cobalt_gladius" }
+	}
+}

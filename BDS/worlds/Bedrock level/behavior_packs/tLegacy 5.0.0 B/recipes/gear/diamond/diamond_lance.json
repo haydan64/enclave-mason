@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:diamond_lance"
+		},
+
+    
+		"tags": [ "diamond_blueprint" ],
+		"pattern": [
+			" SH",
+			"INS",
+			"/I "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:diamond_spadehead"
+			},
+			"S": {
+				"item": "hax:diamond_shortblade"
+			},
+			"I": {
+				"item": "minecraft:diamond"
+			},
+			"N": {
+				"item": "hax:diamond_shard"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:diamond_blueprint"
+			}
+		],
+		"result": { "item": "hax:diamond_lance" }
+	}
+}

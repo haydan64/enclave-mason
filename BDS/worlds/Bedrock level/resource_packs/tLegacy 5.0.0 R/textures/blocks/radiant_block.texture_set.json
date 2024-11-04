@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "radiant_block",
+		"metalness_emissive_roughness": "radiant_block_mer",
+		"heightmap": "radiant_block_heightmap"
+	}
+}

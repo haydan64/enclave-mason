@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:soulium_from_essence"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"~ ~",
+			"~~~"
+		],
+		"key": {
+			"~": {
+				"item": "strat:soulium_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:soulium_dust",
+				"count": 4
+			}
+		],
+		"priority": 0
+	}
+}

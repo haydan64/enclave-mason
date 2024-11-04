@@ -1,0 +1,48 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "minecraft:plains_surface_tall_grass_feature",
+      "places_feature": "minecraft:scatter_tall_grass_feature"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        // (overworld || overworld_generation) && !(taiga || jungle || mooshroom_island || savanna || swamp || ((forest || forest_generation) && !extreme_hills))     ->
+        // (overworld || overworld_generation) && !taiga && !jungle && !mooshroom_island && !savanna && !swamp && !((forest || forest_generation) && !extreme_hills)) ->
+        // (overworld || overworld_generation) && !taiga && !jungle && !mooshroom_island && !savanna && !swamp && (!(forest || forest_generation) || extreme_hills)   ->
+        // (overworld || overworld_generation) && !taiga && !jungle && !mooshroom_island && !savanna && !swamp && ((!forest && !forest_generation) || extreme_hills)
+        {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "forest"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1.3,
+      "scatter_chance": "variable.is_legacy ? 0.0 : 100.0",
+      "x": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          16
+        ]
+      },
+      "y": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          "query.heightmap(variable.worldx, variable.worldz) * 2"
+        ]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [
+          0,
+          16
+        ]
+      }
+    }
+  }
+}

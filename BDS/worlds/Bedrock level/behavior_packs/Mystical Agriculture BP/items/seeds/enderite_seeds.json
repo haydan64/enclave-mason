@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:enderite_seeds",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.seed"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "enderite_seeds"
+			},
+			"minecraft:display_name": {
+				"value": "Enderite Seeds\n§7Tier: §45§r"
+			},
+			"minecraft:block_placer": {
+				"block": "strat:enderite_crop"
+			}
+		}
+	}
+}

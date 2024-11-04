@@ -1,0 +1,41 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:slime_cutlass"
+		},
+
+    
+		"tags": [ "slime_blueprint" ],
+		"pattern": [
+			" SS",
+			"NL ",
+			"/N "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:slime_longblade"
+			},
+			"S": {
+				"item": "hax:slime_shortblade"
+			},
+			"N": {
+				"item": "minecraft:slime_ball"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+		"unlock": {
+			"context": "AlwaysUnlocked"
+		},
+		"unlock": [
+			{
+				"item": "hax:slime_blueprint"
+			}
+		],
+		"result": { "item": "hax:slime_cutlass" }
+	}
+}

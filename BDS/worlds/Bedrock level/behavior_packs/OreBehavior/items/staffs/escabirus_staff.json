@@ -1,0 +1,101 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "fantasy:escabirus_staff",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:display_name": {},
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:allow_off_hand": true,
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.staff"
+            },
+            "minecraft:icon": {
+                "texture": "escabirus_staff"
+            },
+            "minecraft:enchantable": {
+                "value": 8,
+                "slot": "elytra"
+            },
+            "minecraft:durability": {
+                "max_durability": 1210,
+                "damage_chance": {
+                    "min": 90,
+                    "max": 100
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "fantasy:escabirus_staff",
+                            "fantasy:jade_beetle"
+                        ],
+                        "repair_amount": 120
+                    }
+                ]
+            },
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "fantasy:damage_event",
+                    "target": "self"
+                }
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "fantasy:projectile",
+                    "target": "self"
+                }
+            },
+            "minecraft:cooldown": {
+                "category": "escabirus_staff",
+                "duration": 2
+            },
+            "minecraft:mining_speed": 1,
+            "minecraft:damage": 5,
+            "minecraft:can_destroy_in_creative": false,
+            "minecraft:digger": {
+                "on_dig": {
+                    "event": "fantasy:damage_event",
+                    "target": "self"
+                },
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "block": "minecraft:web",
+                        "speed": 5,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    }
+                ]
+            }
+        },
+        "events": {
+            "fantasy:damage_event": {
+                "damage": {
+                    "type": "durability",
+                    "amount": 1
+                }
+            },
+            "fantasy:projectile": {
+                "swing": {
+                },
+                "shoot": {
+                    "projectile": "fantasy:jade_projectile",
+                    "launch_power": 0.9,
+                    "angle_offset": "query.cardinal_facing"
+                },
+                "damage": {
+                    "type": "none",
+                    "amount": 6,
+                    "target": "self"
+                }
+            }
+        }
+    }
+}

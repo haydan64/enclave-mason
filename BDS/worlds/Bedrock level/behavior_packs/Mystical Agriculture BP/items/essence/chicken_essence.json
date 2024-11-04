@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:chicken_essence",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "chicken_essence"
+			},
+			"minecraft:display_name": {
+				"value": "Chicken Essence"
+			}
+		}
+	}
+}

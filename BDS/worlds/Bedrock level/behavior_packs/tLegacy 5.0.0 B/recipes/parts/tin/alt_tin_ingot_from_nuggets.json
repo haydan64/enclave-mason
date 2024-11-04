@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:alt_tin_ingot_from_nuggets"
+    },
+
+    
+    "tags": [ "tin_blueprint" ],
+    "group": "tin_ingot",
+    "pattern": [
+      "##",
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "hax:tin_nugget"
+      }
+    },
+    "unlock": [
+			{
+				"item": "hax:tin_blueprint"
+			}
+		],
+    "result": {
+      "item": "hax:tin_ingot"
+    }
+  }
+}

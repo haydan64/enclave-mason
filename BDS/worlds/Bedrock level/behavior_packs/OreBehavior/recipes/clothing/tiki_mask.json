@@ -1,0 +1,46 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:tiki_mask"
+        },
+        "tags": [ "tailors_table" ],
+        "pattern": [
+            "ABC",
+            "DEF",
+            "GGG"
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:wool",
+                "data": 11
+            },
+            "B": {
+                "item": "minecraft:wool",
+                "data": 14
+            },
+            "C": {
+                "item": "minecraft:wool",
+                "data": 4
+            },
+            "D": {
+                "item": "minecraft:wool",
+                "data": 1
+            },
+            "E": {
+                "item": "minecraft:planks",
+                "data": 0
+            },
+            "F": {
+                "item": "minecraft:wool",
+                "data": 10
+            },
+            "G": {
+                "item": "minecraft:feather"
+            }
+        },
+        "result": {
+            "item": "fantasy:tiki_mask"
+        }
+    }
+}

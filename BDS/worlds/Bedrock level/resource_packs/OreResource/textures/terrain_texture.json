@@ -1,0 +1,166 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.terrain",
+    "padding": 8,
+    "num_mip_levels": 4,
+    "texture_data": {
+        "fantasy_moonstone_block": {
+            "textures": [
+                "textures/blocks/fantasy_moonstone_block"
+            ]
+        },
+        "fantasy_solarstone_ore": {
+            "textures": [
+                "textures/blocks/fantasy_solarstone_ore"
+            ]
+        },
+        "fantasy_ospherestone_block": {
+            "textures": [
+                "textures/blocks/fantasy_ospherestone_block"
+            ]
+        },
+        "fantasy_solarstone_block": {
+            "textures": [
+                "textures/blocks/fantasy_solarstone_block"
+            ]
+        },
+        "fantasy_moonstone_ore": {
+            "textures": [
+                "textures/blocks/fantasy_moonstone_ore"
+            ]
+        },
+        "fantasy_ospherestone_ore": {
+            "textures": [
+                "textures/blocks/fantasy_ospherestone_ore"
+            ]
+        },
+        "fantasy_burningstone_ore": {
+            "textures": [
+                "textures/blocks/fantasy_burningstone_ore"
+            ]
+        },
+        "ruby_ore": {
+            "textures": "textures/blocks/ruby/ruby_ore"
+        },
+        "ruby_block": {
+            "textures": "textures/blocks/ruby/ruby_block"
+        },
+        "sapphire_ore": {
+            "textures": "textures/blocks/sapphire/sapphire_ore"
+        },
+        "sapphire_block": {
+            "textures": "textures/blocks/sapphire/sapphire_block"
+        },
+        "jade_ore": {
+            "textures": "textures/blocks/jade/jade_ore"
+        },
+        "jade_block": {
+            "textures": "textures/blocks/jade/jade_block"
+        },
+        "jade_dirt": {
+            "textures": "textures/blocks/jade/jade_dirt"
+        },
+        "spinel_ore": {
+            "textures": "textures/blocks/spinel/spinel_ore"
+        },
+        "spinel_block": {
+            "textures": "textures/blocks/spinel/spinel_block"
+        },
+        "peridot_ore": {
+            "textures": "textures/blocks/peridot/peridot_ore"
+        },
+        "peridot_block": {
+            "textures": "textures/blocks/peridot/peridot_block"
+        },
+        "aquamarine_ore": {
+            "textures": "textures/blocks/aquamarine/aquamarine_ore"
+        },
+        "aquamarine_block": {
+            "textures": "textures/blocks/aquamarine/aquamarine_block"
+        },
+        "bismuth_ore": {
+            "textures": "textures/blocks/bismuth/bismuth_ore"
+        },
+        "bismuth_block": {
+            "textures": "textures/blocks/bismuth/bismuth_block"
+        },
+        "onyx_ore": {
+            "textures": "textures/blocks/onyx/onyx_ore"
+        },
+        "onyx_block": {
+            "textures": "textures/blocks/onyx/onyx_block"
+        },
+        "opal_ore": {
+            "textures": "textures/blocks/opal/opal_ore"
+        },
+        "opal_block": {
+            "textures": "textures/blocks/opal/opal_block"
+        },
+        "sulfur_ore": {
+            "textures": "textures/blocks/sulfur/sulfur_ore"
+        },
+        "steel_block": {
+            "textures": "textures/blocks/steel/steel_block"
+        },
+        "steel_ore": {
+            "textures": "textures/blocks/steel/steel_ore"
+        },
+        "tungsten_block": {
+            "textures": "textures/blocks/tungsten/tungsten_block"
+        },
+        "tungsten_ore": {
+            "textures": "textures/blocks/tungsten/tungsten_ore"
+        },
+        "platinum_block": {
+            "textures": "textures/blocks/platinum/platinum_block"
+        },
+        "platinum_ore": {
+            "textures": "textures/blocks/platinum/platinum_ore"
+        },
+        "netheroom_block": {
+            "textures": "textures/blocks/netheroom/netheroom_block"
+        },
+        "netheroom_ore": {
+            "textures": "textures/blocks/netheroom/netheroom_ore"
+        },
+        "garnet_block": {
+            "textures": "textures/blocks/garnet/garnet_block"
+        },
+        "garnet_ore": {
+            "textures": "textures/blocks/garnet/garnet_ore"
+        },
+        "topaz_block": {
+            "textures": "textures/blocks/topaz/topaz_block"
+        },
+        "topaz_ore": {
+            "textures": "textures/blocks/topaz/topaz_ore"
+        },
+        "alexandrite_block": {
+            "textures": "textures/blocks/alexandrite/alexandrite_block"
+        },
+        "alexandrite_ore": {
+            "textures": "textures/blocks/alexandrite/alexandrite_ore"
+        },
+        "malachite_block": {
+            "textures": "textures/blocks/malachite/malachite_block"
+        },
+        "malachite_ore": {
+            "textures": "textures/blocks/malachite/malachite_ore"
+        },
+        "jasper_block": {
+            "textures": "textures/blocks/jasper/jasper_block"
+        },
+        "jasper_ore": {
+            "textures": "textures/blocks/jasper/jasper_ore"
+        },
+        "watermelon_tourmaline_block": {
+            "textures": "textures/blocks/watermelon_tourmaline/watermelon_tourmaline_block"
+        },
+        "watermelon_tourmaline_ore": {
+            "textures": "textures/blocks/watermelon_tourmaline/watermelon_tourmaline_ore"
+        },
+        "tailors_table": {
+            "textures": "textures/blocks/tailors_table"
+        }
+    }
+}

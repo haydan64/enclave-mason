@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:bronze_rapier"
+		},
+
+    
+		"tags": [ "bronze_blueprint" ],
+		"pattern": [
+			"  S",
+			"BS ",
+			"/  "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:bronze_shortblade"
+			},
+			"B": {
+				"item": "hax:bronze_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:bronze_blueprint"
+			}
+		],
+		"result": { "item": "hax:bronze_rapier" }
+	}
+}

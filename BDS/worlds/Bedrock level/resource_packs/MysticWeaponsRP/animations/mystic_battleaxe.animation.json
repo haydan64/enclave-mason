@@ -1,0 +1,23 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mystic_battleaxe.first_person": {
+			"loop": true,
+			"bones": {
+				"axe": {
+					"rotation": [34, -4.5, -155],
+					"position": [-4, -8, 0]
+				}
+			}
+		},
+		"animation.mystic_battleaxe.third_person": {
+			"loop": true,
+			"bones": {
+				"axe": {
+					"rotation": [95, -6, -92],
+					"position": [1, -0.5, -16]
+				}
+			}
+		}
+	}
+}

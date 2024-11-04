@@ -1,0 +1,11 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:aggregate_feature": {
+        "description": {
+            "identifier": "minecraft:swamp_surface_mushrooms_feature_aggregate"
+        },
+        "features": [
+            "minecraft:legacy:small_mushrooms_feature"
+        ]
+    }
+}

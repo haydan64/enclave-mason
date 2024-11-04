@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:slime_claymore"
+		},
+
+    
+		"tags": [ "slime_blueprint" ],
+		"pattern": [
+			"  H",
+			"BP ",
+			"/B "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:slime_axehead"
+			},
+			"P": {
+				"item": "hax:slime_plating"
+			},
+			"B": {
+				"item": "minecraft:slime_ball"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:slime_blueprint"
+			}
+		],
+		"result": { "item": "hax:slime_claymore" }
+	}
+}

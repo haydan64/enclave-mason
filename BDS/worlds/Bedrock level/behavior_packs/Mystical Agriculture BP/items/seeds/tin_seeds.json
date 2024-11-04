@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:tin_seeds",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.seed"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "tin_seeds"
+			},
+			"minecraft:display_name": {
+				"value": "Tin Seeds\n§7Tier: §63§r"
+			},
+			"minecraft:block_placer": {
+				"block": "strat:tin_crop"
+			}
+		}
+	}
+}

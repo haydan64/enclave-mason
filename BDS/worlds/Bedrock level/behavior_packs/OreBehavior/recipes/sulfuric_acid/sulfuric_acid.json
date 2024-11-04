@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:sulfuric_acid"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "AB"
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:sulfur_potion"
+            },
+            "B": {
+                "item": "minecraft:blaze_rod"
+            }
+        },
+        "result": {
+            "item": "fantasy:sulfuric_acid"
+        }
+    }
+}

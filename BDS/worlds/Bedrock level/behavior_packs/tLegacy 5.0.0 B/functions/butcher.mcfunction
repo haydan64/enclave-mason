@@ -1,0 +1,1 @@
+execute as HaxTheCharizard run kill @e[type=!item,type=!player,type=!armor_stand,family=!hax:effect,family=!hax:throwable]

@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:diamond_claymore"
+		},
+
+    
+		"tags": [ "diamond_blueprint" ],
+		"pattern": [
+			"  H",
+			"BP ",
+			"/B "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:diamond_axehead"
+			},
+			"P": {
+				"item": "hax:diamond_plating"
+			},
+			"B": {
+				"item": "hax:diamond_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:diamond_blueprint"
+			}
+		],
+		"result": { "item": "hax:diamond_claymore" }
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:lead_longblade"
+		},
+
+    
+		"tags": [ "lead_blueprint" ],
+		"pattern": [
+			"  I",
+			" N ",
+			"N  "
+		],
+
+		"key": {
+			"I": {
+				"item": "hax:lead_ingot"
+			},
+			"N": {
+				"item": "hax:lead_nugget"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:lead_blueprint"
+			}
+		],
+		"result": { "item": "hax:lead_longblade" }
+	}
+}

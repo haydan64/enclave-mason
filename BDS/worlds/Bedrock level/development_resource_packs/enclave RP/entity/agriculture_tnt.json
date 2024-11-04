@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "enclave:agriculture_tnt",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"animations": {
+				"setup": "animation.agriculture_tnt.new"
+			},
+			"textures": {
+				"default": "textures/entity/agriculture_tnt"
+			},
+			"geometry": {
+				"default": "geometry.agriculture_tnt"
+			},
+			"render_controllers": [
+				"controller.render.agriculture_tnt"
+			],
+			"spawn_egg": {
+				"texture": "enclave_agriculture_tnt_egg",
+				"texture_index": 0
+			},
+			"scripts": {
+				"animate": [
+					"setup"
+				]
+			}
+		}
+	}
+}

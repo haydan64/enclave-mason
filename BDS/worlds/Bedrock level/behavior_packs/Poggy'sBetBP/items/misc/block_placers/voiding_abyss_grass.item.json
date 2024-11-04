@@ -1,0 +1,19 @@
+{
+
+	"format_version": "1.20.80",
+	"minecraft:item": {
+		"description": {
+			"identifier": "better_on_bedrock:vvoiding_abyss_grass_item",
+            "menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.grass"
+			}
+		},
+		"components": {
+            "minecraft:block_placer": {
+				"block": "better_on_bedrock:voiding_abyss_grass"
+			},
+			"minecraft:icon": "voiding_abyss_grass"
+		}
+	}
+}

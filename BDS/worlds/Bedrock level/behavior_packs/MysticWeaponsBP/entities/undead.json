@@ -1,0 +1,398 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "mystic:undead",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "component_groups": {
+            "mystic:start_exploding": {
+                "minecraft:explode": {
+                    "breaks_blocks": false,
+                    "causes_fire": true,
+                    "fuse_length": 1.5,
+                    "fuse_lit": true,
+                    "power": 3
+                },
+                "minecraft:movement": {
+                    "value": 0.5
+                }
+            },
+            "mystic:target_all": {
+                "minecraft:behavior.nearest_attackable_target": {
+                    "priority": 2,
+                    "reselect_targets": true,
+                    "must_see": false,
+                    "within_radius": 12,
+                    "must_see_forget_duration": 17,
+                    "persist_time": 0.5,
+                    "entity_types": [
+                        {
+                            "filters": {
+                                "none_of": [
+                                    {
+                                        "test": "has_nametag",
+                                        "subject": "other",
+                                        "operator": "==",
+                                        "value": true
+                                    }
+                                ]
+                            },
+                            "max_dist": 35,
+                            "must_see": false
+                        },
+                        {
+                            "filters": {
+                                "all_of": [
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "player"
+                                    },
+                                    {
+                                        "test": "has_equipment",
+                                        "subject": "other",
+                                        "domain": "hand",
+                                        "operator": "!=",
+                                        "value": "mystic:necromancy_staff"
+                                    },
+                                    {
+                                        "any_of": [
+                                            {
+                                                "test": "has_equipment",
+                                                "subject": "other",
+                                                "domain": "head",
+                                                "operator": "!=",
+                                                "value": "mystic:shadow_helmet"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "subject": "other",
+                                                "domain": "torso",
+                                                "operator": "!=",
+                                                "value": "mystic:shadow_chestplate"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "subject": "other",
+                                                "domain": "leg",
+                                                "operator": "!=",
+                                                "value": "mystic:shadow_leggings"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "subject": "other",
+                                                "domain": "feet",
+                                                "operator": "!=",
+                                                "value": "mystic:shadow_boots"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "max_dist": 16,
+                            "must_see": false
+                        }
+                    ]
+                }
+            },
+            "mystic:target_player_and_monster": {
+                "minecraft:behavior.nearest_attackable_target": {
+                    "priority": 2,
+                    "must_see": false,
+                    "reselect_targets": true,
+                    "within_radius": 25,
+                    "must_see_forget_duration": 17,
+                    "entity_types": [
+                        {
+                            "filters": {
+                                "all_of": [
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "monster"
+                                    },
+                                    {
+                                        "test": "has_nametag",
+                                        "subject": "other",
+                                        "operator": "!=",
+                                        "value": true
+                                    }
+                                ]
+                            },
+                            "max_dist": 35,
+                            "must_see": false
+                        },
+                        {
+                            "filters": {
+                                "all_of": [
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "player"
+                                    },
+                                    {
+                                        "test": "has_equipment",
+                                        "subject": "other",
+                                        "domain": "hand",
+                                        "operator": "!=",
+                                        "value": "mystic:necromancy_staff"
+                                    },
+                                    {
+                                        "any_of": [
+                                            {
+                                                "test": "has_equipment",
+                                                "subject": "other",
+                                                "domain": "head",
+                                                "operator": "!=",
+                                                "value": "mystic:shadow_helmet"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "subject": "other",
+                                                "domain": "torso",
+                                                "operator": "!=",
+                                                "value": "mystic:shadow_chestplate"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "subject": "other",
+                                                "domain": "leg",
+                                                "operator": "!=",
+                                                "value": "mystic:shadow_leggings"
+                                            },
+                                            {
+                                                "test": "has_equipment",
+                                                "subject": "other",
+                                                "domain": "feet",
+                                                "operator": "!=",
+                                                "value": "mystic:shadow_boots"
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "max_dist": 16,
+                            "must_see": false
+                        }
+                    ]
+                }
+            },
+            "mystic:target_monster": {
+                "minecraft:behavior.nearest_attackable_target": {
+                    "priority": 2,
+                    "must_see": false,
+                    "reselect_targets": true,
+                    "within_radius": 25,
+                    "must_see_forget_duration": 17,
+                    "entity_types": [
+                        {
+                            "filters": {
+                                "all_of": [
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "value": "monster"
+                                    },
+                                    {
+                                        "test": "has_nametag",
+                                        "subject": "other",
+                                        "operator": "!=",
+                                        "value": true
+                                    }
+                                ]
+                            },
+                            "max_dist": 35,
+                            "must_see": false
+                        }
+                    ]
+                }
+            },
+            "mystic:target_exclude_player": {
+                "minecraft:behavior.nearest_attackable_target": {
+                    "priority": 2,
+                    "must_see": false,
+                    "reselect_targets": true,
+                    "within_radius": 25,
+                    "must_see_forget_duration": 17,
+                    "entity_types": [
+                        {
+                            "filters": {
+                                "none_of": [
+                                    {
+                                        "test": "has_nametag",
+                                        "subject": "other",
+                                        "operator": "==",
+                                        "value": true
+                                    },
+                                    {
+                                        "test": "is_family",
+                                        "subject": "other",
+                                        "operator": "==",
+                                        "value": "player"
+                                    }
+                                ]
+                            },
+                            "max_dist": 35,
+                            "must_see": false
+                        }
+                    ]
+                }
+            }
+        },
+        "components": {
+            "minecraft:attack": {
+                "damage": 4,
+                "effect_name": "blindness",
+                "effect_duration": 2
+            },
+            "minecraft:attack_cooldown": {
+                "attack_cooldown_time": [0.5, 1]
+            },
+            "minecraft:breathable": {
+                "breathes_air": true,
+                "breathes_water": true,
+                "generates_bubbles": true
+            },
+            "minecraft:can_climb": {},
+            "minecraft:collision_box": {
+                "height": 1.8,
+                "width": 0.5
+            },
+            "minecraft:conditional_bandwidth_optimization": {},
+            "minecraft:floats_in_liquid": {},
+            "minecraft:experience_reward": {
+                "on_bred": 0,
+                "on_death": 0
+            },
+            "minecraft:health": {
+                "value": 30,
+                "max": 30
+            },
+            "minecraft:hurt_on_condition": {
+                "damage_conditions": [
+                    {
+                        "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+                        "cause": "lava",
+                        "damage_per_tick": 5
+                    }
+                ]
+            },
+            "minecraft:is_hidden_when_invisible": {},
+            "minecraft:jump.static": {},
+            "minecraft:loot": {
+                "table": "loot_tables/empty.json"
+            },
+            "minecraft:movement.basic": {},
+            "minecraft:movement": {
+                "value": 0.3
+            },
+            "minecraft:nameable": {
+                "allow_name_tag_renaming": false,
+                "always_show": true
+            },
+            "minecraft:navigation.generic": {
+                "avoid_damage_blocks": true,
+                "avoid_portals": true,
+                "can_breach": true,
+                "can_break_doors": true,
+                "can_jump": true,
+                "can_sink": true,
+                "can_walk": true,
+                "is_amphibious": true
+            },
+            "minecraft:physics": {},
+            "minecraft:pushable": {
+                "is_pushable": true,
+                "is_pushable_by_piston": true
+            },
+            "minecraft:timer": {
+                "looping": false,
+                "time": 8.5,
+                "time_down_event": {
+                    "event": "mystic:start_exploding"
+                }
+            },
+            "minecraft:type_family": {
+                "family": [ "monster" ]
+            },
+            "minecraft:behavior.hurt_by_target": {
+                "priority": 1
+            },
+            "minecraft:behavior.look_at_player": {
+                "priority": 8,
+                "look_distance": 6,
+                "probability": 0.02
+            },
+            "minecraft:behavior.melee_attack": {
+                "priority": 3
+            },
+            "minecraft:behavior.random_look_around": {
+                "priority": 9
+            },
+            "minecraft:behavior.random_stroll": {
+                "priority": 7
+            }
+        },
+        "events": {
+            "minecraft:entity_spawned": {
+                "trigger": "mystic:target_player_and_monster"
+            },
+            "mystic:start_exploding": {
+                "add": {
+                    "component_groups": [ "mystic:start_exploding" ]
+                }
+            },
+            "mystic:target_all": {
+                "add": {
+                    "component_groups": [ "mystic:target_all" ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "mystic:target_player_and_monster",
+                        "mystic:target_monster",
+                        "mystic:target_exclude_player"
+                    ]
+                }
+            },
+            "mystic:target_player_and_monster": {
+                "add": {
+                    "component_groups": [ "mystic:target_player_and_monster" ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "mystic:target_all",
+                        "mystic:target_monster",
+                        "mystic:target_exclude_player"
+                    ]
+                }
+            },
+            "mystic:target_monster": {
+                "add": {
+                    "component_groups": [ "mystic:target_monster" ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "mystic:target_all",
+                        "mystic:target_player_and_monster",
+                        "mystic:target_exclude_player"
+                    ]
+                }
+            },
+            "mystic:target_exclude_player": {
+                "add": {
+                    "component_groups": [ "mystic:target_exclude_player" ]
+                },
+                "remove": {
+                    "component_groups": [
+                        "mystic:target_all",
+                        "mystic:target_player_and_monster",
+                        "mystic:target_monster"
+                    ]
+                }
+            }
+        }
+    }
+}

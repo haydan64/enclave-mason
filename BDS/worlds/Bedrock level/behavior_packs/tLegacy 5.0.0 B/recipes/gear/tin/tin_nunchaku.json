@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:tin_nunchaku"
+		},
+
+    
+		"tags": [ "tin_blueprint" ],
+		"pattern": [
+			"/B",
+			"BI",
+			"/ "
+		],
+
+		"key": {
+			"B": {
+				"item": "hax:tin_bar"
+			},
+			"I": {
+				"item": "hax:tin_ingot"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:tin_blueprint"
+			}
+		],
+		"result": { "item": "hax:tin_nunchaku" }
+	}
+}

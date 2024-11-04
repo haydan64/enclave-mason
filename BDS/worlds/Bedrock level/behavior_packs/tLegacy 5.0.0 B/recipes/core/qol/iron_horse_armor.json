@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:iron_horse_armor"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "# #",
+      "#LP",
+      "P P"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:iron_ingot"
+      },
+      "L": {
+        "item": "minecraft:leather"
+      },
+      "P": {
+        "item": "hax:iron_plating"
+      }
+    },
+	"unlock": [
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "result": {
+      "item": "minecraft:horsearmoriron"
+    }
+  }
+}

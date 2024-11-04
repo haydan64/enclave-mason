@@ -1,0 +1,37 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:wood_nunchaku_from_bamboo_planks"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"/B",
+			"BI",
+			"/ "
+		],
+
+		"key": {
+			"B": {
+				"item": "hax:wood_bar"
+			},
+			"I": {
+				"item": "minecraft:bamboo_planks"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:wooden_shavings"
+			}
+		],
+		"result": { "item": "hax:wood_nunchaku" },
+    "priority": 2
+	}
+}

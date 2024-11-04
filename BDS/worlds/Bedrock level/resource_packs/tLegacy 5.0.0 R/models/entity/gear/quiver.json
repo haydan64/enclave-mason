@@ -1,0 +1,84 @@
+{
+	"format_version": "1.10.0",
+	"geometry.quiver": {
+		"texturewidth": 64,
+		"textureheight": 32,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 3,
+		"visible_bounds_offset": [0, 1.5, 0],
+		"bones": [
+			{
+				"name": "root",
+				"pivot": [0, 0, 0]
+			},
+			{
+				"name": "waist",
+				"parent": "root",
+				"pivot": [0, 12, 0]
+			},
+			{
+				"name": "body",
+				"parent": "waist",
+				"pivot": [0, 24, 0]
+			},
+			{
+				"name": "quiver",
+				"parent": "body",
+				"pivot": [-3.4, 25, 1],
+				"rotation": [0, 0, -30],
+				"cubes": [
+					{"origin": [-5.4, 14, 3], "size": [4, 8, 3], "uv": [0, 0]},
+					{"origin": [-5.4, 21.2625, 3], "size": [4, 1, 3], "uv": [7, 12], "inflate": 0.25},
+					{"origin": [-5.4, 14, 3], "size": [4, 8, 3], "uv": [14, 0], "inflate": 0.25},
+					{"origin": [-4.4, 20, 2], "size": [2, 1, 1], "uv": [0, 11]},
+					{"origin": [-4.4, 15, 2], "size": [2, 1, 1], "uv": [0, 11]}
+				]
+			},
+			{
+				"name": "strap",
+				"parent": "quiver",
+				"pivot": [-3.4, 25, 1],
+				"cubes": [
+					{"origin": [-3.9, 10.5, -2.5], "size": [1, 13, 5], "uv": [0, 14], "inflate": -0.001}
+				]
+			},
+			{
+				"name": "strap2",
+				"parent": "strap",
+				"pivot": [-3.4, 25, 1],
+				"rotation": [0, 0, 30],
+				"cubes": [
+					{"origin": [3.41699, 12.19263, -2.5], "size": [1, 1, 5], "uv": [21, 10], "inflate": -0.001}
+				]
+			},
+			{
+				"name": "strap3",
+				"parent": "strap2",
+				"pivot": [-1.4, 25, 1],
+				"rotation": [0, 0, 90],
+				"cubes": [
+					{"origin": [-0.85096, 23.31699, -2.5], "size": [1, 1, 5], "uv": [21, 10], "inflate": -0.001, "mirror": true}
+				]
+			},
+			{
+				"name": "arrow",
+				"parent": "quiver",
+				"pivot": [-3.9, 23, 1.5],
+				"cubes": [
+					{"origin": [-5.9, 21, 4.5], "size": [3, 4, 0], "uv": [18, 11]},
+					{"origin": [-4.4, 21, 3], "size": [0, 4, 3], "uv": [18, 8]}
+				]
+			},
+			{
+				"name": "arrow2",
+				"parent": "arrow",
+				"pivot": [-1.475, 22, 1.675],
+				"rotation": [0, -45, 0],
+				"cubes": [
+					{"origin": [-1.975, 20, 4.675], "size": [3, 4, 0], "uv": [0, 15]},
+					{"origin": [-0.475, 20, 3.175], "size": [0, 4, 3], "uv": [0, 12]}
+				]
+			}
+		]
+	}
+}

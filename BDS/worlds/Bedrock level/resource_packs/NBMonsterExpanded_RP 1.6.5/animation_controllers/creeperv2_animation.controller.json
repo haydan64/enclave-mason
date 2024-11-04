@@ -1,0 +1,57 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.creeperv2" : {
+			"initial_state" : "idle",
+			"states" : {
+				"idle": {
+					"animations": ["idle", "look_at_target"],
+                    "transitions" : [
+						{"stunned" : "query.is_stunned"}
+					],
+					"blend_transition":0.1
+                },
+				"stunned": {
+					"animations": ["stunned", "look_at_target"],
+                    "transitions" : [
+						{"idle" : "!query.is_stunned"}
+					],
+					"blend_transition":0.1
+                }
+			}
+		},
+		"controller.animation.creeperv2.death": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"transitions": [
+						{"dead": "!q.is_alive"}
+						
+					],
+					"blend_transition": 0.0
+				},
+				"dead": {
+					"animations": ["deathrot",
+					{"dead": "variable.animation.creeperv2Dead == 1"},
+					{"dead2": "variable.animation.creeperv2Dead == 2"} ],
+					"on_entry": ["variable.animation.creeperv2Dead = math.random_integer(1, 1);"],
+					"transitions": [
+						{"default": "q.is_alive"}
+					]
+				}
+			}
+		},
+		"controller.animation.creeper.corpse" : {
+			"initial_state" : "dead",
+			"states" : {
+				"dead": {
+					"animations": [
+					{"dead": "variable.animation.creeperv2Dead == 1"},
+					{"dead2": "variable.animation.creeperv2Dead == 2"} ],
+					"on_entry": ["variable.animation.creeperv2Dead = math.random_integer(1, 2);"]
+					
+                }
+			}
+		}
+	}
+}

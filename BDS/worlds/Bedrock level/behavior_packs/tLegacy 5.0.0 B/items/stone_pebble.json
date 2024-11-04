@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.permission"
+			},
+			"identifier": "hax:stone_pebble"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Stone Pebble"
+			},
+			"minecraft:icon": {
+				"texture": "hax:stone_pebble"
+			},
+			"minecraft:max_stack_size": 64,
+			"minecraft:stacked_by_data": false,
+			"minecraft:hand_equipped": false,
+			"minecraft:can_destroy_in_creative": true
+		}
+	}
+}

@@ -1,0 +1,47 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			},
+			"identifier": "hax:tin_lance"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Tin Lance"
+			},
+			"minecraft:icon": {
+				"texture": "hax:tin_lance"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 4,
+			"minecraft:enchantable": {
+				"value": 15,
+				"slot": "sword"
+			},
+			"minecraft:durability": {
+				"max_durability": 195
+			},
+			"minecraft:repairable":{
+				"repair_items": [
+					{
+						"items": [
+							"hax:tin_lance"
+						],
+						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+					},
+					{
+						"items": [
+							"hax:tin_ingot"
+						],
+						"repair_amount": "context.other->query.max_durability * 0.25" //49
+					}
+				]
+			},
+			"minecraft:can_destroy_in_creative": false
+		}
+	}
+}

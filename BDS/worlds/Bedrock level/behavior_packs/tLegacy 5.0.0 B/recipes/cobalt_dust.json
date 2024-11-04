@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "hax:cobalt_dust"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "priority": 4,
+    "ingredients": [
+      {
+        "item": "hax:cobalt_ingot"
+      }
+    ],
+    
+    "unlock": [
+      {
+        "item": "hax:cobalt_ingot"
+      }
+    ],
+    "result": {
+      "item": "hax:cobalt_dust",
+      "count": 1
+    }
+  }
+  
+}

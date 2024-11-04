@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:tin_sai"
+		},
+
+    
+		"tags": [ "tin_blueprint" ],
+		"pattern": [
+			" S ",
+			"NBN",
+			" / "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:tin_shortblade"
+			},
+			"B": {
+				"item": "hax:tin_bar"
+			},
+			"N": {
+				"item": "hax:tin_nugget"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:tin_blueprint"
+			}
+		],
+		"result": { "item": "hax:tin_sai" }
+	}
+}

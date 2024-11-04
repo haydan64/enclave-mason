@@ -1,0 +1,214 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.spider.stand" : {
+			"initial_state" : "idle",
+			"states" : {
+				"idle": {
+					"animations": ["idle"],
+                    "transitions": [
+                        {"walk": "query.ground_speed >= 0.6"},
+                        {"attack": "query.is_delayed_attacking"},
+                        {"stunned": "query.is_stunned"}
+
+                    ],
+                    "blend_transition": 0.3
+                    
+                },
+                "walk": {
+					"animations": ["walk"],
+                    "transitions": [
+                        {"idle": "query.ground_speed < 0.6"},
+                        {"stunned": "query.is_stunned"},
+                        {"attack": "query.is_delayed_attacking"}
+                    ],
+                    "blend_transition": 0.3
+                    
+                },
+                "attack": {
+					"animations": ["attack"],
+                    "transitions": [
+                        {"idle": "query.ground_speed < 0.6 && !query.is_delayed_attacking"},
+                        {"walk": "query.ground_speed >= 0.6 && !query.is_delayed_attacking"},
+                        {"stunned": "query.is_stunned"}
+                    ],
+                    "blend_transition": 0.3
+                    
+                },
+				"stunned": {
+					"animations": [
+						{"stunned": "variable.animation.stunneds == 1"},
+						{"stunned2": "variable.animation.stunneds == 2"},
+						{"stunned3": "variable.animation.stunneds == 3"}
+					],
+					"on_entry": ["variable.animation.stunneds = math.random_integer(1, 3);"],
+                    "transitions": [
+                        {"walk": "query.ground_speed >= 0.6 && !query.is_stunned"},
+                        {"idle": "query.ground_speed < 0.6 && !query.is_stunned"}
+                    ],
+                    "blend_transition": 0.3
+                    
+                }
+			}
+		},
+		"controller.animation.spidermanjat.general": {
+            "initial_state": "biasa",
+            "states": {
+                "biasa": {
+                    "animations": ["biasa"],
+                    "transitions": [
+                        {
+                            "samping": "query.is_wall_climbing && query.ground_speed >= 0.7"
+                        }
+                    ],
+                    "blend_transition": 0.3
+                },
+                
+                "samping": {
+                    "animations": ["samping"],
+                    "transitions": [
+                        {"biasa": "!query.is_wall_climbing"}
+                    ],
+                    "blend_transition": 0.3
+                }
+            }
+		},
+
+        "controller.animation.spider.death": {
+			"initial_state": "dead",
+			"states": {
+				"default": {
+					"transitions": [
+						{"dead": "!q.is_alive"}
+						
+					]
+				},
+				"dead": {
+					"animations": ["death_rot"],
+					"on_entry": [
+						"/particle nba:cloud_red_explosion ~~1~",
+						"/summon xp_orb ~ ~0.2 ~",
+						"/summon xp_orb ~ ~0.2 ~",
+						"/summon xp_orb ~ ~0.2 ~"
+					],
+					"transitions": [
+						{"default": "q.is_alive"}
+					]
+				}
+			}
+		},
+
+        "controller.animation.spider.corpse" : {
+			"initial_state" : "dead",
+			"states" : {
+				"dead": {
+					"animations": ["dead"]
+					
+                }
+			}
+		},
+        
+		"controller.animation.spider.stand.sculk" : {
+			"initial_state" : "idle",
+			"states" : {
+				"idle": {
+					"animations": ["idle"],
+                    "transitions": [
+                        {"walk": "query.ground_speed >= 0.6"},
+                        {"attack": "query.is_delayed_attacking"},
+                        {"stunned": "query.is_stunned"},
+						{"casting": "query.is_casting"}
+
+                    ],
+                    "blend_transition": 0.3
+                    
+                },
+                "walk": {
+					"animations": ["walk"],
+                    "transitions": [
+                        {"idle": "query.ground_speed < 0.6"},
+                        {"stunned": "query.is_stunned"},
+                        {"attack": "query.is_delayed_attacking"},
+						{"casting": "query.is_casting"}
+                    ],
+                    "blend_transition": 0.3
+                    
+                },
+                "attack": {
+					"animations": ["attack"],
+                    "transitions": [
+                        {"idle": "query.ground_speed < 0.6 && !query.is_delayed_attacking"},
+                        {"walk": "query.ground_speed >= 0.6 && !query.is_delayed_attacking"},
+                        {"stunned": "query.is_stunned"}
+                    ],
+                    "blend_transition": 0.3
+                    
+                },
+				"stunned": {
+					"animations": [
+						{"stunned": "variable.animation.stunneds == 1"},
+						{"stunned2": "variable.animation.stunneds == 2"},
+						{"stunned3": "variable.animation.stunneds == 3"}
+					],
+					"on_entry": ["variable.animation.stunneds = math.random_integer(1, 3);"],
+                    "transitions": [
+                        {"walk": "query.ground_speed >= 0.6 && !query.is_stunned"},
+                        {"idle": "query.ground_speed < 0.6 && !query.is_stunned"}
+                    ],
+                    "blend_transition": 0.3
+                    
+                },
+				"casting": {
+					"animations": ["casting"],
+                    "transitions": [
+                        {"idle": "!query.is_casting"}
+                    ],
+                    "blend_transition": 0.3
+                    
+                }
+			}
+		},
+		"controller.animation.spidermanjat.general.sculk": {
+            "initial_state": "biasa",
+            "states": {
+                "biasa": {
+                    "animations": ["biasa"],
+                    "transitions": [
+                        {
+                            "samping": "query.is_wall_climbing && query.ground_speed >= 0.7"
+                        }
+                    ],
+                    "blend_transition": 0.3
+                },
+                
+                "samping": {
+                    "animations": ["samping"],
+                    "transitions": [
+                        {"biasa": "!query.is_wall_climbing"}
+                    ],
+                    "blend_transition": 0.3
+                }
+            }
+		},
+
+        "controller.animation.spider.death.sculk": {
+			"initial_state": "dead",
+			"states": {
+				"default": {
+					"transitions": [
+						{"dead": "!q.is_alive"}
+						
+					]
+				},
+				"dead": {
+					"animations": ["death_rot"],
+					
+					"transitions": [
+						{"default": "q.is_alive"}
+					]
+				}
+			}
+		}
+
+}
+}

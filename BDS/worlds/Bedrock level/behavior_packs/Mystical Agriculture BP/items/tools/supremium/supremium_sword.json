@@ -1,0 +1,52 @@
+{
+	"format_version": "1.20.81",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:supremium_sword",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": {
+				"value": 24
+			},
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": "minecraft:web",
+						"speed": 13
+					},
+					{
+						"block": "minecraft:bamboo",
+						"speed": 10
+					}
+				]
+			},
+			"minecraft:display_name": {
+				"value": "Supremium Sword\n§7Tier: §45§r"
+			},
+			"minecraft:icon": "supremium_sword",
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 10
+			},
+			"minecraft:repairable": {
+				"repair_items": [
+					{
+						"items": [
+							"strat:supremium_ingot",
+							"strat:supremium_gemstone"
+						],
+						"repair_amount": "query.max_durability / 5"
+					}
+				]
+			}
+		}
+	}
+}

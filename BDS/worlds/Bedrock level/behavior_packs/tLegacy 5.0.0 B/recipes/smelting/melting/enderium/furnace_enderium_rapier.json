@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "hax:furnace_enderium_rapier"
+    },
+
+
+    "tags": ["furnace", "blast_furnace"],
+    "input": "hax:enderium_rapier",
+    "output": "hax:enderium_nugget"
+  }
+  
+}

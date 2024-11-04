@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:dragonscale_claymore"
+		},
+
+    
+		"tags": [ "dragonscale_blueprint" ],
+		"pattern": [
+			"  H",
+			"BP ",
+			"/B "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:dragonscale_axehead"
+			},
+			"P": {
+				"item": "hax:dragonscale_plating"
+			},
+			"B": {
+				"item": "hax:dragonscale_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:dragonscale_blueprint"
+			}
+		],
+		"result": { "item": "hax:dragonscale_claymore" }
+	}
+}

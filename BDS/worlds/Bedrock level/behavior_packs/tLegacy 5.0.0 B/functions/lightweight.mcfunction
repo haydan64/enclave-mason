@@ -1,0 +1,1 @@
+effect @s speed 5 0 true

@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.ore"
+			},
+			"identifier": "hax:electrum_nugget"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Electrum Nugget"
+			},
+			"minecraft:icon": {
+				"texture": "hax:electrum_nugget"
+			},
+			"minecraft:max_stack_size": 64,
+			"minecraft:stacked_by_data": false,
+			"minecraft:hand_equipped": false,
+			"minecraft:can_destroy_in_creative": true
+		}
+	}
+}

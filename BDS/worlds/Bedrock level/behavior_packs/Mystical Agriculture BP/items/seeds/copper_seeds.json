@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:copper_seeds",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.seed"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "copper_seeds"
+			},
+			"minecraft:display_name": {
+				"value": "Copper Seeds\n§7Tier: §63§r"
+			},
+			"minecraft:block_placer": {
+				"block": "strat:copper_crop"
+			}
+		}
+	}
+}

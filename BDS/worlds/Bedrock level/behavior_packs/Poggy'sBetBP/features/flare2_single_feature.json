@@ -1,0 +1,17 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "better_on_bedrock:flare2_single_feature"
+		},
+		"places_block": {
+			//Coarse dirt shares same identifier as dirt, set it using name and states
+			"name": "better_on_bedrock:flare4"
+		},
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": false,
+		"may_replace": [
+			"minecraft:air" //The block can only replace grass
+		]
+	}
+}

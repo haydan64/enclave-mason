@@ -1,0 +1,18 @@
+{
+	"format_version": "1.20.81",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:mystical_fertilizer",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:custom_components": ["strat:super_fertilizer"],
+			"minecraft:icon": "mystical_fertilizer",
+			"minecraft:display_name": {
+				"value": "Mystical Fertilizer\n§7Instantly grows a crop.§r"
+			}
+		}
+	}
+}

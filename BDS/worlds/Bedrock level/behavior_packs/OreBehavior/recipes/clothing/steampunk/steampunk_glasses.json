@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:steampunk_glasses"
+        },
+        "tags": [ "tailors_table" ],
+        "pattern": [
+            "AAA",
+            "BCB",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:gold_ingot"
+            },
+            "B": {
+                "item": "fantasy:jade"
+            },
+            "C": {
+                "item": "minecraft:leather"
+            }
+        },
+        "result": {
+            "item": "fantasy:steampunk_glasses"
+        }
+    }
+}

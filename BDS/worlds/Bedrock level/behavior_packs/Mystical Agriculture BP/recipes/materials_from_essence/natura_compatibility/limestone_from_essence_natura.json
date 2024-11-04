@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:limestone_from_essence_natura"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"###",
+			"#X#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "strat:limestone_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:limestone",
+				"count": 24
+			}
+		],
+		"priority": 0
+	}
+}

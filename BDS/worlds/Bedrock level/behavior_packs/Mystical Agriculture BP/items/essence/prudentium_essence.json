@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:prudentium_essence",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "prudentium_essence"
+			},
+			"minecraft:display_name": {
+				"value": "Prudentium Essence"
+			}
+		}
+	}
+}

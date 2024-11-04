@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:brimstone_cutlass"
+		},
+
+    
+		"tags": [ "brimstone_blueprint" ],
+		"pattern": [
+			" SS",
+			"NL ",
+			"/N "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:brimstone_longblade"
+			},
+			"S": {
+				"item": "hax:brimstone_shortblade"
+			},
+			"N": {
+				"item": "hax:brimstone_shard"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:brimstone_blueprint"
+			}
+		],
+		"result": { "item": "hax:brimstone_cutlass" }
+	}
+}

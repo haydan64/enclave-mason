@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:enderium_claymore"
+		},
+
+    
+		"tags": [ "enderium_blueprint" ],
+		"pattern": [
+			"  H",
+			"BP ",
+			"/B "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:enderium_axehead"
+			},
+			"P": {
+				"item": "hax:enderium_plating"
+			},
+			"B": {
+				"item": "hax:enderium_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:enderium_blueprint"
+			}
+		],
+		"result": { "item": "hax:enderium_claymore" }
+	}
+}

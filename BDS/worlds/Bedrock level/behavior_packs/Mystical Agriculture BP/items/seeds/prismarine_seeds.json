@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:prismarine_seeds",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.seed"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "prismarine_seeds"
+			},
+			"minecraft:display_name": {
+				"value": "Prismarine Seeds\n§7Tier: §63§r"
+			},
+			"minecraft:block_placer": {
+				"block": "strat:prismarine_crop"
+			}
+		}
+	}
+}

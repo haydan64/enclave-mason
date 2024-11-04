@@ -1,0 +1,21 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:jade_boots"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "A A",
+            "A A"
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:jade"
+            }
+        },
+        "result": {
+            "item": "fantasy:jade_boots"
+        }
+    }
+}

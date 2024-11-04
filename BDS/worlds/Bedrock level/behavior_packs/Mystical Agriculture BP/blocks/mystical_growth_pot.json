@@ -1,0 +1,3584 @@
+{
+    "format_version": "1.20.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "strat:mystical_growth_pot",
+            "states": {
+                "strat:crop_category": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ],
+                "strat:crop_type": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                ],
+                "strat:growth_stage": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ],
+                "strat:automatic": [
+                    false,
+                    true
+                ]
+            },
+            "menu_category": {
+                "category": "items"
+            }
+        },
+        "components": {
+            "minecraft:light_dampening": 0,
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.6
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "hardened_clay",
+                    "render_method": "alpha_test"
+                },
+                "soil": {
+                    "texture": "farmland",
+                    "render_method": "alpha_test"
+                },
+                "hopper": {
+                    "texture": "hopper_inside",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.strat_growth_pot",
+                "bone_visibility": {
+                    "crop": "query.block_state('strat:crop_type') > 0",
+                    "hopper_indicator": "query.block_state('strat:automatic') == true"
+                }
+            },
+            "minecraft:collision_box": {
+                "origin": [
+                    -7,
+                    0,
+                    -7
+                ],
+                "size": [
+                    14,
+                    8,
+                    14
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -7,
+                    0,
+                    -7
+                ],
+                "size": [
+                    14,
+                    8,
+                    14
+                ]
+            },
+            "minecraft:custom_components": [
+                "strat:growth_pot"
+            ]
+        },
+        "permutations": [
+            {
+                "condition": "query.block_state('strat:crop_type') > 0",
+                "components": {
+                    "minecraft:custom_components": [
+                        "strat:growth_pot",
+                        "strat:growth_pot_tick"
+                    ]
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') < 5 && query.block_state('strat:crop_type') > 0 && query.block_state('strat:growth_stage') == 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_resource_crop_0",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') < 5 && query.block_state('strat:crop_type') > 0 && query.block_state('strat:growth_stage') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_resource_crop_1",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') < 5 && query.block_state('strat:crop_type') > 0 && query.block_state('strat:growth_stage') == 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_resource_crop_2",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') < 5 && query.block_state('strat:crop_type') > 0 && query.block_state('strat:growth_stage') == 3",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_resource_crop_3",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') < 5 && query.block_state('strat:crop_type') > 0 && query.block_state('strat:growth_stage') == 4",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_resource_crop_4",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') < 5 && query.block_state('strat:crop_type') > 0 && query.block_state('strat:growth_stage') == 5",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_resource_crop_5",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') < 5 && query.block_state('strat:crop_type') > 0 && query.block_state('strat:growth_stage') > 5 && query.block_state('strat:growth_stage') < 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_resource_crop_6",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') > 4 && query.block_state('strat:crop_type') > 0 && query.block_state('strat:growth_stage') == 0",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_mob_crop_0",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') > 4 && query.block_state('strat:crop_type') > 0 && query.block_state('strat:growth_stage') == 1",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_mob_crop_1",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') > 4 && query.block_state('strat:crop_type') > 0 && query.block_state('strat:growth_stage') == 2",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_mob_crop_2",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') > 4 && query.block_state('strat:crop_type') > 0 && query.block_state('strat:growth_stage') == 3",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_mob_crop_3",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') > 4 && query.block_state('strat:crop_type') > 0 && query.block_state('strat:growth_stage') == 4",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_mob_crop_4",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') > 4 && query.block_state('strat:crop_type') > 0 && query.block_state('strat:growth_stage') == 5",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_mob_crop_5",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') > 4 && query.block_state('strat:crop_type') > 0 && query.block_state('strat:growth_stage') > 5 && query.block_state('strat:growth_stage') < 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_mob_crop_6",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:growth_stage') == 7 && query.block_state('strat:automatic') == false",
+                "components": {
+                    "minecraft:tick": {
+                        "interval_range": [
+                            20,
+                            20
+                        ],
+                        "looping": true
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 1 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_air_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 2 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_earth_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 3 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_fire_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 4 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_water_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 5 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_inferium_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 6 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_wood_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 7 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_dirt_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 8 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_stone_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 9 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_deepslate_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 10 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_ice_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 11 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_marble_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 12 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_flarestone_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 13 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_limestone_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 1 && query.block_state('strat:crop_type') == 1 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_coal_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 1 && query.block_state('strat:crop_type') == 2 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_amethyst_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 1 && query.block_state('strat:crop_type') == 3 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_nature_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 1 && query.block_state('strat:crop_type') == 4 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_nether_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 1 && query.block_state('strat:crop_type') == 5 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_honey_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 2 && query.block_state('strat:crop_type') == 1 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_iron_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 2 && query.block_state('strat:crop_type') == 2 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_copper_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 2 && query.block_state('strat:crop_type') == 3 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_redstone_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 2 && query.block_state('strat:crop_type') == 4 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_obsidian_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 2 && query.block_state('strat:crop_type') == 5 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_nether_quartz_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 2 && query.block_state('strat:crop_type') == 6 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_glowstone_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 2 && query.block_state('strat:crop_type') == 7 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_prismarine_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 2 && query.block_state('strat:crop_type') == 8 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_pig_iron_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 2 && query.block_state('strat:crop_type') == 9 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_tin_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 2 && query.block_state('strat:crop_type') == 10 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_bronze_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 2 && query.block_state('strat:crop_type') == 11 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_aluminium_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 1 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_gold_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 2 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_lapis_lazuli_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 3 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_electrum_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 4 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_lead_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 5 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_steel_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 6 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_silver_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 7 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_ruby_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 8 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_cobalt_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 9 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_ardite_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 10 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_end_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 11 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_alumite_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 12 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_soulium_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 13 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_rose_gold_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 14 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_titanium_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 15 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_sapphire_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 4 && query.block_state('strat:crop_type') == 1 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_diamond_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 4 && query.block_state('strat:crop_type') == 2 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_emerald_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 4 && query.block_state('strat:crop_type') == 3 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_netherite_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 4 && query.block_state('strat:crop_type') == 4 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_manyullyn_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 4 && query.block_state('strat:crop_type') == 5 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_enderium_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 4 && query.block_state('strat:crop_type') == 6 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_platinum_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 4 && query.block_state('strat:crop_type') == 7 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_enderite_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 5 && query.block_state('strat:crop_type') == 1 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_cow_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 5 && query.block_state('strat:crop_type') == 2 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_pig_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 5 && query.block_state('strat:crop_type') == 3 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_chicken_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 5 && query.block_state('strat:crop_type') == 4 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_sheep_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 5 && query.block_state('strat:crop_type') == 5 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_fish_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 5 && query.block_state('strat:crop_type') == 6 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_squid_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 5 && query.block_state('strat:crop_type') == 7 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_turtle_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 5 && query.block_state('strat:crop_type') == 8 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_slime_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 6 && query.block_state('strat:crop_type') == 1 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_creeper_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 6 && query.block_state('strat:crop_type') == 2 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_zombie_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 6 && query.block_state('strat:crop_type') == 3 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_skeleton_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 6 && query.block_state('strat:crop_type') == 4 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_spider_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 6 && query.block_state('strat:crop_type') == 5 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_rabbit_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 7 && query.block_state('strat:crop_type') == 1 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_blaze_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 7 && query.block_state('strat:crop_type') == 2 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_enderman_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 7 && query.block_state('strat:crop_type') == 3 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_ghast_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 8 && query.block_state('strat:crop_type') == 1 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_wither_skeleton_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 1 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_air_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 2 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_earth_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 3 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_fire_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 4 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_water_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 5 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_inferium_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 6 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_wood_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 7 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_dirt_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 8 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_stone_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 9 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_deepslate_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 10 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_ice_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 11 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_marble_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 12 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_flarestone_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 0 && query.block_state('strat:crop_type') == 13 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_limestone_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 1 && query.block_state('strat:crop_type') == 1 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_coal_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 1 && query.block_state('strat:crop_type') == 2 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_amethyst_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 1 && query.block_state('strat:crop_type') == 3 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_nature_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 1 && query.block_state('strat:crop_type') == 4 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_nether_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 1 && query.block_state('strat:crop_type') == 5 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_honey_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 2 && query.block_state('strat:crop_type') == 1 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_iron_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 2 && query.block_state('strat:crop_type') == 2 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_copper_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 2 && query.block_state('strat:crop_type') == 3 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_redstone_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 2 && query.block_state('strat:crop_type') == 4 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_obsidian_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 2 && query.block_state('strat:crop_type') == 5 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_nether_quartz_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 2 && query.block_state('strat:crop_type') == 6 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_glowstone_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 2 && query.block_state('strat:crop_type') == 7 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_prismarine_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 2 && query.block_state('strat:crop_type') == 8 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_pig_iron_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 2 && query.block_state('strat:crop_type') == 9 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_tin_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 2 && query.block_state('strat:crop_type') == 10 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_bronze_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 2 && query.block_state('strat:crop_type') == 11 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_aluminium_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 1 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_gold_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 2 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_lapis_lazuli_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 3 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_electrum_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 4 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_lead_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 5 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_steel_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 6 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_silver_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 7 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_ruby_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 8 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_cobalt_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 9 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_ardite_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 10 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_end_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 11 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_alumite_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 12 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_soulium_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 13 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_rose_gold_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 14 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_titanium_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 3 && query.block_state('strat:crop_type') == 15 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_sapphire_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 4 && query.block_state('strat:crop_type') == 1 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_diamond_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 4 && query.block_state('strat:crop_type') == 2 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_emerald_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 4 && query.block_state('strat:crop_type') == 3 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_netherite_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 4 && query.block_state('strat:crop_type') == 4 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_manyullyn_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 4 && query.block_state('strat:crop_type') == 5 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_enderium_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 4 && query.block_state('strat:crop_type') == 6 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_platinum_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 4 && query.block_state('strat:crop_type') == 7 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_enderite_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 5 && query.block_state('strat:crop_type') == 1 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_cow_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 5 && query.block_state('strat:crop_type') == 2 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_pig_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 5 && query.block_state('strat:crop_type') == 3 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_chicken_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 5 && query.block_state('strat:crop_type') == 4 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_sheep_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 5 && query.block_state('strat:crop_type') == 5 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_fish_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 5 && query.block_state('strat:crop_type') == 6 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_squid_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 5 && query.block_state('strat:crop_type') == 7 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_turtle_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 5 && query.block_state('strat:crop_type') == 8 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_slime_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 6 && query.block_state('strat:crop_type') == 1 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_creeper_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 6 && query.block_state('strat:crop_type') == 2 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_zombie_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 6 && query.block_state('strat:crop_type') == 3 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_skeleton_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 6 && query.block_state('strat:crop_type') == 4 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_spider_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 6 && query.block_state('strat:crop_type') == 5 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_rabbit_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 7 && query.block_state('strat:crop_type') == 1 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_blaze_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 7 && query.block_state('strat:crop_type') == 2 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_enderman_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 7 && query.block_state('strat:crop_type') == 3 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_ghast_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "query.block_state('strat:crop_category') == 8 && query.block_state('strat:crop_type') == 1 && query.block_state('strat:growth_stage') == 7",
+                "components": {
+                    "minecraft:material_instances": {
+                        "*": {
+                            "texture": "hardened_clay",
+                            "render_method": "alpha_test"
+                        },
+                        "soil": {
+                            "texture": "farmland",
+                            "render_method": "alpha_test"
+                        },
+                        "hopper": {
+                            "texture": "hopper_inside",
+                            "render_method": "alpha_test"
+                        },
+                        "crop": {
+                            "texture": "mystical_wither_skeleton_crop_7",
+                            "render_method": "alpha_test"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

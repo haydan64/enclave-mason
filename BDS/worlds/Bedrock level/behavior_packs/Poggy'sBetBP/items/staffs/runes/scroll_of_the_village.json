@@ -1,0 +1,20 @@
+{
+
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "better_on_bedrock:scroll_of_the_village",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": "scroll_of_the_nether",
+			"minecraft:display_name": {
+                "value": "%item.better_on_bedrock.scroll_of_the_village.name\n%item.better_on_bedrock.staffs"
+            },
+
+			"minecraft:max_stack_size": 1
+		}
+	}
+}

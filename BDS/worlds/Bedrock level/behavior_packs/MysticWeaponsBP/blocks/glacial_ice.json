@@ -1,0 +1,113 @@
+{
+    "format_version": "1.20.60",
+    "minecraft:block": {
+        "description": {
+            "identifier": "mystic:glacial_ice",
+            "states": {
+                "block:destroy_time": {
+                    "values": { "min": 0, "max": 4 }
+                }
+            },
+            "menu_category": {
+                "category": "none",
+                "group": "none"
+            }
+        },
+        "components": {
+            "minecraft:queued_ticking": {
+                "looping": true,
+                "interval_range": [ 20, 20 ],
+                "on_tick": {
+                    "event": "destroy_ice"
+                }
+            },
+            "minecraft:geometry": {
+                "identifier": "minecraft:geometry.full_block"
+            },
+            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 3
+            },
+            "minecraft:light_dampening": 0
+        },
+        "events": {
+            "destroy_ice": {
+                "sequence": [
+                    {
+                        "condition": "q.block_state('block:destroy_time') < 4",
+                        "set_block_state": {
+                            "block:destroy_time": "q.block_state('block:destroy_time') + 1"
+                        }
+                    },
+                    {
+                        "condition": "q.block_state('block:destroy_time') == 4",
+                        "run_command": {
+                            "command": ["setblock ~ ~ ~ water [] destroy"]
+                        }
+                    },
+                    {
+                        "run_command": {
+                            "command": [
+                                "damage @e[x=~,y=~1,z=~,r=1,hasitem={item=mystic:glacial_helmet,location=slot.armor.head,quantity=0}] 3 freezing",
+                                "damage @e[x=~,y=~1,z=~,r=1,hasitem={item=mystic:glacial_chestplate,location=slot.armor.chest,quantity=0}] 3 freezing",
+                                "damage @e[x=~,y=~1,z=~,r=1,hasitem={item=mystic:glacial_leggings,location=slot.armor.legs,quantity=0}] 3 freezing",
+                                "damage @e[x=~,y=~1,z=~,r=1,hasitem={item=mystic:glacial_boots,location=slot.armor.feet,quantity=0}] 3 freezing",
+
+                                "effect @e[x=~,y=~1,z=~,r=1,hasitem={item=mystic:glacial_helmet,location=slot.armor.head,quantity=0}] slowness 3 1",
+                                "effect @e[x=~,y=~1,z=~,r=1,hasitem={item=mystic:glacial_chestplate,location=slot.armor.chest,quantity=0}] slowness 3 1",
+                                "effect @e[x=~,y=~1,z=~,r=1,hasitem={item=mystic:glacial_leggings,location=slot.armor.legs,quantity=0}] slowness 3 1",
+                                "effect @e[x=~,y=~1,z=~,r=1,hasitem={item=mystic:glacial_boots,location=slot.armor.feet,quantity=0}] slowness 3 1"
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('block:destroy_time') <= 1",
+                "components": {
+                    "minecraft:material_instances": {
+                       "*": {
+                          "texture": "frosted_ice_0",
+                          "render_method": "alpha_test"
+                       }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('block:destroy_time') == 2",
+                "components": {
+                    "minecraft:material_instances": {
+                       "*": {
+                          "texture": "frosted_ice_1",
+                          "render_method": "alpha_test"
+                       }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('block:destroy_time') == 3",
+                "components": {
+                    "minecraft:material_instances": {
+                       "*": {
+                          "texture": "frosted_ice_2",
+                          "render_method": "alpha_test"
+                       }
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('block:destroy_time') == 4",
+                "components": {
+                    "minecraft:material_instances": {
+                       "*": {
+                          "texture": "frosted_ice_3",
+                          "render_method": "alpha_test"
+                       }
+                    }
+                }
+            }
+        ]
+    }
+}

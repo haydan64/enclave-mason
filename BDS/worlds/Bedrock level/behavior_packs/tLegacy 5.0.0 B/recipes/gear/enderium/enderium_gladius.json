@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:enderium_gladius"
+		},
+
+    
+		"tags": [ "enderium_blueprint" ],
+		"pattern": [
+			" L",
+			"/ "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:enderium_longblade"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:enderium_blueprint"
+			}
+		],
+		"result": { "item": "hax:enderium_gladius" }
+	}
+}

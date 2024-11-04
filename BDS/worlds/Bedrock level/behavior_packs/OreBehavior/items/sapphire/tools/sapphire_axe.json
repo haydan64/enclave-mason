@@ -1,0 +1,875 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "fantasy:sapphire_axe",
+            "category": "equipment"   
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "sapphire_axe"
+            },
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.axe"
+            },
+			       "tag:minecraft:is_axe": {},
+            "minecraft:display_name": {},
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:allow_off_hand": true,
+            "minecraft:render_offsets": "tools",
+            "minecraft:enchantable": {
+                "value": 8,
+                "slot": "axe"
+            },
+            "minecraft:durability": {
+                "max_durability": 1571,
+                "damage_chance": {
+                    "min": 90,
+                    "max": 100
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "fantasy:sapphire_axe",
+                            "fantasy:sapphire"
+                        ],
+                        "repair_amount": 821
+                    }
+                ]
+            },
+            "minecraft:weapon": {
+                "on_hurt_entity": {
+                    "event": "fantasy:damage_event",
+                    "target": "self"
+                },
+                "on_hit_block": {
+                    "event": "fantasy:damage_event",
+                    "target": "self"
+                }
+            },
+            "minecraft:mining_speed": 1.5,
+            "minecraft:damage": 6,
+            "minecraft:can_destroy_in_creative": false,
+            "minecraft:digger": {
+                "on_dig": {
+                    "event": "fantasy:damage_event",
+                    "target": "self"
+                },
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "block": "minecraft:acacia_button",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:acacia_door",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:dirt",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "minecraft:acacia_fence_gate",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:acacia_pressure_plate",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:acacia_sign",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:acacia_stairs",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:acacia_trapdoor",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:barrel",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:bee_nest",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:beehive",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:birch_button",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:birch_door",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:birch_fence_gate",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:birch_pressure_plate",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:birch_sign",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:birch_stairs",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:birch_trapdoor",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:bookshelf",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:cartography_table",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:carved_pumpkin",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:chest",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:composter",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:crafting_table",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:crimson_button",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:crimson_door",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:crimson_fence",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:crimson_fence_gate",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:crimson_hyphae",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:crimson_planks",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:crimson_pressure_plate",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:crimson_sign",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:crimson_slab",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:crimson_stairs",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:crimson_stem",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:crimson_trapdoor",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:dark_oak_button",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:dark_oak_door",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:dark_oak_fence_gate",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:dark_oak_pressure_plate",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:dark_oak_stairs",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:dark_oak_trapdoor",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:darkoak_sign",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:fence",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:fence_gate",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:jukebox",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:jungle_button",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:jungle_door",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:jungle_fence_gate",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:jungle_pressure_plate",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:jungle_sign",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:jungle_stairs",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:jungle_trapdoor",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:ladder",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:lectern",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:lit_pumpkin",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:log",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:log2",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:loom",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:melon_block",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:noteblock",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:oak_stairs",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:planks",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:pumpkin",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:spruce_button",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:spruce_door",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:spruce_fence_gate",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:spruce_pressure_plate",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:spruce_sign",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:spruce_stairs",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:spruce_trapdoor",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:stripped_acacia_log",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:stripped_birch_log",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:stripped_crimson_hyphae",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:stripped_crimson_stem",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:stripped_dark_oak_log",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:stripped_jungle_log",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:stripped_oak_log",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:stripped_spruce_log",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:stripped_warped_hyphae",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:stripped_warped_stem",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:target",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:trapped_chest",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:warped_button",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:warped_door",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:warped_fence",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:warped_fence_gate",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:warped_hyphae",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:warped_nylium",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:warped_planks",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:warped_pressure_plate",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:warped_sign",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:warped_slab",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:warped_stairs",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:warped_stem",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:warped_trapdoor",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:wood",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:wooden_button",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:wooden_door",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:wooden_pressure_plate",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    },
+                    {
+                        "block": "minecraft:wooden_slab",
+                        "speed": 9,
+                        "on_dig": {
+                            "event": "fantasy:damage_event",
+                            "target": "self"
+                        }
+                    }
+                ]
+            }
+        },
+        "events": {
+            "fantasy:damage_event": {
+                "damage": {
+                    "type": "durability",
+                    "amount": 1
+                }
+            }
+        }
+    }
+}

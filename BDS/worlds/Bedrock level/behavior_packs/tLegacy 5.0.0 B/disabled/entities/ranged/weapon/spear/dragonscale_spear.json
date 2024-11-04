@@ -1,0 +1,97 @@
+{
+	"format_version": "1.19.50",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "hax:dragonscale_spear",
+			"runtime_identifier": "minecraft:snowball",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+	"component_groups": {
+		"entity:despawn": {
+			"minecraft:instant_despawn": {}
+		}
+	},
+	"components": {
+
+		"minecraft:type_family": {
+			"family": [ "hax:throwable" ]
+		},
+
+		"minecraft:timer": {
+			"time": [ 20.0, 20.0 ],
+			"time_down_event": {
+				"event": "entity:despawn",
+				"target": "self"
+			}
+		},
+
+		"minecraft:projectile": {
+			"on_hit": {
+				"definition_event": {
+					"affect_projectile": true,
+					"event_trigger": {
+						"event": "hax:dbreath_aoe_scaling",
+						"filters": {
+							"test": "on_ground",
+							"operator": "!=",
+							"value": true
+						}
+					}
+				},
+				"impact_damage": {
+					"damage": [ 5, 5 ],
+					"knockback": true,
+					"destroy_on_hit": false,
+					"destroy_on_hit_requires_damage": false
+				},
+				"stick_in_ground": {
+					"shake_time": 2.5
+				}
+			},
+			"hit_sound": "item.trident.hit",
+
+			"power": 1.4,
+			"gravity": 0.05,
+			"angle_offset": -2,
+			"inertia": 0.99,
+			"should_bounce": true,
+			"catch_fire": false,
+
+			"uncertainty_base": 9.00,
+			"uncertainty_multiplier": 8,
+
+			"anchor": 1,
+			"offset": [ 0, 0, 0 ]
+		},
+
+		"minecraft:scale": {
+			"value": 1.0
+		},
+		"minecraft:collision_box": {
+			"width": 0.3,
+			"height": 0.3
+		},
+		"minecraft:is_stackable": {
+		},
+		"minecraft:physics": {}
+		},
+		"events": {
+			"entity:despawn": {
+				"add": {
+					"component_groups": [ "entity:despawn" ]
+				}
+			},
+			"hax:dbreath_aoe_scaling": {	
+				"sequence": [
+					{
+						"run_command": {
+							"command": ["execute as @e[c=1, r=3.2, family=!hax:throwable, family=!inanimate] run summon hax:scaling_dragon_fireball"]
+						}
+					}
+				]
+			}
+		}
+	}
+}

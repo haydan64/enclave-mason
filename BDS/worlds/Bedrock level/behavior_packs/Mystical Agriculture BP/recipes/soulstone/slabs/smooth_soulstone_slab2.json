@@ -1,0 +1,23 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "strat:smooth_soulstone_slab2"
+		},
+		"tags": [
+			"stonecutter"
+		],
+		"ingredients": [
+			{
+				"item": "strat:smooth_soulstone",
+				"count": 1
+			}
+		],
+		"result": [
+			{
+				"item": "strat:smooth_soulstone_slab",
+				"count": 2
+			}
+		]
+	}
+}

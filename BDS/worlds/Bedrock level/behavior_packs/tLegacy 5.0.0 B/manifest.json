@@ -1,0 +1,35 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§p§lTinker's §fLegacy: §sReforged §r§iB§r",
+		"description": "v5.0.0- created by HaxTheCharizard for MCPEDL, ModBay, and Curseforge",
+		"uuid": "a8c3d7af-f1e9-4bab-8e66-7475d6863016",
+		"version": [5, 0, 0],
+		"min_engine_version": [1, 21, 20]
+	},
+	"modules": [
+		{
+			"description": "tLegacy Script Setup",
+			"type": "script",
+			"language": "javascript",
+			"uuid": "245b2c08-240c-4024-9163-c30a106883da",
+			"version": [1, 0, 0],
+			"entry": "scripts/gametests/import.js"
+		},
+		{
+			"type": "data",
+			"uuid": "2a89767a-1e04-4622-948b-5751849fd975",
+			"version": [5, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "7225afca-9c99-4647-ae76-f3f9e4b7fde3",
+			"version": [5, 0, 0]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.13.0"
+		}
+	]
+}

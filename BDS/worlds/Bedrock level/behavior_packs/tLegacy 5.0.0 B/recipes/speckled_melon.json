@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:speckled_melon"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " # ",
+      "#X#",
+      " # "
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:gold_nugget"
+      },
+      "X": {
+        "item": "minecraft:melon"
+      }
+    },
+    
+    "unlock": [
+      {
+        "item": "minecraft:melon"
+      }
+    ],
+    "result": {
+      "item": "minecraft:speckled_melon"
+    }
+  }
+}

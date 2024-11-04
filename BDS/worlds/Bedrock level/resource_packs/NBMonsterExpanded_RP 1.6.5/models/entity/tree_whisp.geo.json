@@ -1,0 +1,31 @@
+{
+	"format_version": "1.8.0",
+	"geometry.tree.whisp": {
+		"texturewidth": 96,
+		"textureheight": 64,
+		"visible_bounds_width": 6,
+		"visible_bounds_height": 10,
+		"visible_bounds_offset": [0, 4, 0],
+		"bones": [
+			{
+				"name": "body",
+				"pivot": [0, 1.5, 0],
+				"cubes": [
+					{"origin": [-8, 0, -8], "size": [16, 16, 16], "uv": [0, 0]},
+					{"origin": [-6, 2, -6], "size": [12, 12, 10], "uv": [0, 32]}
+				],
+				"locators": {
+					"locator": [0, -3, 0]
+				}
+			},
+			{
+				"name": "head",
+				"parent": "body",
+				"pivot": [0.1, 8, -1],
+				"cubes": [
+					{"origin": [-2.9, 5, -5], "size": [6, 6, 6], "uv": [55, 34]}
+				]
+			}
+		]
+	}
+}

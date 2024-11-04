@@ -1,0 +1,47 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			},
+			"identifier": "hax:bronze_katana"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Bronze Katana"
+			},
+			"minecraft:icon": {
+				"texture": "hax:bronze_katana"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 5,
+			"minecraft:enchantable": {
+				"value": 5,
+				"slot": "sword"
+			},
+			"minecraft:durability": {
+				"max_durability": 211
+			},
+			"minecraft:repairable":{
+				"repair_items": [
+					{
+						"items": [
+							"hax:bronze_katana"
+						],
+						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+					},
+					{
+						"items": [
+							"hax:bronze_ingot"
+						],
+						"repair_amount": "context.other->query.max_durability * 0.25" //53
+					}
+				]
+			},
+			"minecraft:can_destroy_in_creative": false
+		}
+	}
+}

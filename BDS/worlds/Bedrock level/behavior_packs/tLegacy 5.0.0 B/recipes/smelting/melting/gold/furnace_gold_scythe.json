@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "hax:furnace_gold_scythe"
+    },
+
+
+    "tags": ["furnace", "blast_furnace"],
+    "input": "hax:gold_scythe",
+    "output": "minecraft:gold_ingot"
+  }
+  
+}

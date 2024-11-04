@@ -1,0 +1,32 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.htc_temp_blueprint",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 2.5,
+				"visible_bounds_offset": [0, 0.75, 0]
+			},
+			"bones": [
+				{
+					"name": "blueprint",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "side",
+					"parent": "blueprint",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-6, 1, 7.9], "size": [12, 14, 0], "uv": [14, 0]},
+						{"origin": [-7, 14, 6], "size": [14, 2, 2], "pivot": [0, 15, 7], "rotation": [90, 0, 0], "uv": [19, 15]},
+						{"origin": [-7, 0, 6], "size": [14, 2, 2], "pivot": [0, 1, 7], "rotation": [90, 0, 0], "uv": [25, 20]},
+						{"origin": [-1, 8.1, 5.9], "size": [6, 8, 1], "uv": [50, 40]}
+					]
+				}
+			]
+		}
+	]
+}

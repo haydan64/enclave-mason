@@ -1,0 +1,26 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:geometry": [
+        {
+            "description": {
+                "identifier": "geometry.mystic_item",
+                "texture_width": 16,
+                "texture_height": 16
+            },
+            "bones": [
+                {
+                    "name": "mystic_item",
+                    "binding": "q.item_slot_to_bone_name(c.item_slot)",
+                    "texture_meshes": [
+                        {
+                            "local_pivot": [ 6, 0, 6 ],
+                            "position": [ 2, 1, -2 ],
+                            "rotation": [ 0, -135, 90 ],
+                            "texture": "default"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

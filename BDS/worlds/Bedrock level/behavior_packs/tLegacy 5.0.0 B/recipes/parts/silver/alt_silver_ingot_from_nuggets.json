@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:alt_silver_ingot_from_nuggets"
+    },
+
+    
+    "tags": [ "silver_blueprint" ],
+    "group": "silver_ingot",
+    "pattern": [
+      "##",
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "hax:silver_nugget"
+      }
+    },
+    "unlock": [
+			{
+				"item": "hax:silver_blueprint"
+			}
+		],
+    "result": {
+      "item": "hax:silver_ingot"
+    }
+  }
+}

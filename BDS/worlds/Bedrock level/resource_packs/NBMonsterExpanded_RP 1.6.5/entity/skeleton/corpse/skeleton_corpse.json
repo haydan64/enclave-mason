@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:skeleton_corpse",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "skeleton"
+			},
+			"textures": {
+				"default": "textures/entity/skeleton/skeleton",
+				"default2": "textures/entity/skeleton/skeleton2",
+				"default3": "textures/entity/skeleton/skeleton3"
+			},
+			"hide_armor": false,
+			"geometry": {
+				"default": "geometry.skeletonv2"
+			},
+			"scripts": {
+				"animate": [
+					"controller"
+				  ]
+			},
+			"animations": {
+				"controller" : "controller.animation.skeletonv2.corpse",
+				"dead": "animation.skeletonv2.dead",
+				"deadfall": "animation.skeletonv2.deadfalling",
+				"deadground": "animation.skeletonv2.deathground1",
+				"deadground2": "animation.skeletonv2.deathground2",
+				"deadground3": "animation.skeletonv2.deathground3"
+			},
+			"render_controllers": ["controller.render.threevariant"],
+			"enable_attachables": true
+		}
+	}
+}

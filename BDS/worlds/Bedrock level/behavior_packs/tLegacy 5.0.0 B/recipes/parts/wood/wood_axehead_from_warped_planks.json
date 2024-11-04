@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:wood_axehead_from_warped_planks"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"IN",
+			"I "
+		],
+
+		"key": {
+			"I": {
+				"item": "minecraft:warped_planks"
+			},
+			"N": {
+				"item": "hax:wooden_shavings"
+			}
+		},
+
+		"unlock": [
+			{
+			  "item": "minecraft:warped_planks"
+			}
+		  ],
+		"result":  { "item": "hax:wood_axehead" },
+    "priority": 2
+	}
+}

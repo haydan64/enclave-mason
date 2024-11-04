@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:tin_axehead"
+		},
+
+    
+		"tags": [ "tin_blueprint" ],
+		"pattern": [
+			"IN",
+			"I "
+		],
+
+		"key": {
+			"I": {
+				"item": "hax:tin_ingot"
+			},
+			"N": {
+				"item": "hax:tin_nugget"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:tin_blueprint"
+			}
+		],
+		"result": { "item": "hax:tin_axehead" }
+	}
+}

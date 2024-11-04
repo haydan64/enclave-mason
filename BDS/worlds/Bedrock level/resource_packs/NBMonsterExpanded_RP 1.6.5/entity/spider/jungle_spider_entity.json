@@ -1,0 +1,56 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:jungle_spider",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "spider",
+				"invisible": "spider_invisible"
+			},
+			"textures": {
+				"default": "textures/entity/spider/jungle_spider/spider",
+				"default2": "textures/entity/spider/jungle_spider/spider2",
+				"default3": "textures/entity/spider/jungle_spider/spider3",
+				"default4": "textures/entity/spider/jungle_spider/spider4",
+				"default5": "textures/entity/spider/jungle_spider/spider5",
+				"default6": "textures/entity/spider/jungle_spider/spider6",
+				"default7": "textures/entity/spider/jungle_spider/spider7"
+			},
+			"geometry": {
+				"default": "geometry.jspider"
+			},
+			"spawn_egg": {
+				"base_color": "#174d1c",
+				"overlay_color": "#3ca53b"
+			},
+			"scripts": {
+				"animate": [
+					 "look_at_target",
+					  "move2",
+					  "stand",
+					  "controllerdead"
+				]
+			  },
+			"animations": {
+			
+				"move2": "controller.animation.spidermanjat.general",
+				"stand": "controller.animation.spider.stand",
+				"controllerdead": "controller.animation.spider.death",
+				"look_at_target": "animation.spider.look_at_target",
+				"walk": "animation.spider.walk",
+				"idle": "animation.spider.idle",
+				"biasa": "animation.spider.biasa",
+				"atap": "animation.spider.atas",
+				"samping": "animation.spider.samping",
+				"attack": "animation.spider.attack",
+				"stunned": "animation.spider.stunned",
+				"stunned2": "animation.spider.stunned2",
+				"stunned3": "animation.spider.stunned3",
+				"dead": "animation.spider.deadv2",
+				"death_rot": "animation.spider.deathrot"
+			},
+			"render_controllers": ["controller.render.sevenvariant"]
+		}
+	}
+}

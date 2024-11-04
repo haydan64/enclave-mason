@@ -1,0 +1,21 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:ruby"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "A"
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:ruby_block"
+            }
+        },
+        "result": {
+            "item": "fantasy:ruby",
+            "count": 9
+        }
+    }
+}

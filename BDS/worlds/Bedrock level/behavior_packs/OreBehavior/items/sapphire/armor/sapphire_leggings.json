@@ -1,0 +1,49 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "fantasy:sapphire_leggings",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "sapphire_leggings"
+            },
+            "minecraft:display_name": {},
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.leggings"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": true,
+            "minecraft:render_offsets": "leggings",
+            "minecraft:enchantable": {
+                "value": 8,
+                "slot": "armor_legs"
+            },
+            "minecraft:armor": {
+                "protection": 7
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.legs"
+            },
+            "minecraft:durability": {
+                "max_durability": 515,
+                "damage_chance": {
+                    "min": 90,
+                    "max": 100
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "fantasy:sapphire_leggings",
+                            "fantasy:sapphire"
+                            ],
+                            "repair_amount": 305
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mystic:hydroburst_scepter"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            " X#",
+            " SX",
+            "S  "
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:stick"
+            },
+            "#": {
+                "item": "item:water_stone"
+            },
+            "X": {
+                "item": "minecraft:dye",
+                "data": 4
+            }
+        },
+        "result": {
+            "item": "mystic:hydroburst_scepter"
+        }
+    }
+}

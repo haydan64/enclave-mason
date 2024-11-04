@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:brimstone_machete"
+		},
+
+    
+		"tags": [ "brimstone_blueprint" ],
+		"pattern": [
+			" SS",
+			"SL ",
+			"/  "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:brimstone_longblade"
+			},
+			"S": {
+				"item": "hax:brimstone_shortblade"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:brimstone_blueprint"
+			}
+		],
+		"result": { "item": "hax:brimstone_machete" }
+	}
+}

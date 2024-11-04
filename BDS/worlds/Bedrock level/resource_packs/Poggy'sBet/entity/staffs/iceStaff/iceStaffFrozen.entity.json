@@ -1,0 +1,31 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "better_on_bedrock:icestaffsrozen",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "geometry": {
+                "default": "geometry.fireball"
+            },
+            "animations": {
+                "basic": "animation.iceStaff.frozen"
+            },
+            "textures": {
+                "default": "textures/entity/empty"
+            },
+            "scripts": {
+                "animate": [ "basic" ]
+            },
+            "particle_effects": {
+                "ice_sparkle": "pog:ice_sparkle"
+            },
+            "render_controllers": [ "controller.render.default" ],
+            "spawn_egg": {
+                "base_color": "#28136d",
+                "overlay_color": "#ee33d5"
+            }
+        }
+    }
+}

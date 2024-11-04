@@ -1,0 +1,1111 @@
+{
+	"format_version": "1.16.10",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "better_on_bedrock:poggy",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": [
+						"phase_1_health",
+						"phase_1_attack_cooldown"
+					]
+				}
+			},
+			"phase_1_cooldown": {
+				"add": {
+					"component_groups": [
+						"phase_1_attack_cooldown"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"willager_attack",
+						"enchanter_attack",
+						"flender_fireball_attack"
+					]
+				}
+			},
+			"flender_attack": {
+				"add": {
+					"component_groups": [
+						"flender_fireball_attack"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"willager_attack",
+						"enchanter_attack",
+						"flender_fireball_attack_levitate"
+					]
+				}
+			},
+			"phase_1_random_attack": {
+				"randomize": [
+					{
+						"add": {
+							"component_groups": [
+								"willager_attack"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"enchanter_attack",
+								"flender_fireball_attack",
+								"phase_1_attack_cooldown",
+								"flender_fireball_attack_levitate"
+							]
+						},
+						"weight": 5
+					},
+					{
+						"add": {
+							"component_groups": [
+								"enchanter_attack"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"willager_attack",
+								"phase_1_attack_cooldown",
+								"flender_fireball_attack",
+								"flender_fireball_attack_levitate"
+							]
+						},
+						"weight": 5
+					},
+					{
+						"add": {
+							"component_groups": [
+								"flender_fireball_attack_levitate"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"willager_attack",
+								"phase_1_attack_cooldown",
+								"flender_fireball_attack"
+							]
+						},
+						"weight": 3
+					}
+				]
+			},
+			"phase_1_fail": {
+				"add": {
+					"component_groups": [
+						"phase_1_fail_anim"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"willager_attack",
+						"levitation_attack",
+						"enchanter_attack",
+						"flender_fireball_attack",
+						"flender_fireball_attack_levitate"
+					]
+				}
+			},
+			"phase_2_start": {
+				"add": {
+					"component_groups": [
+						"phase_2_health"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"phase_1_fail_anim"
+					]
+				},
+				"queue_command": {
+					"command": [
+						"effect @e[type=better_on_bedrock:poggy] regeneration 16 60 true"
+					]
+				}
+			},
+			"phase_2_cooldown": {
+				"add": {
+					"component_groups": [
+						"phase_2_attack_cooldown"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"phase_2_move_up",
+						"stomp_attack_initiate",
+						"levitation_attack",
+						"pyroclast_shield_attack"
+					]
+				}
+			},
+			"phase_2_move_up": {
+				"add": {
+					"component_groups": [
+						"phase_2_move_up"
+					]
+				}
+			},
+			"phase_2_random_attack": {
+				"randomize": [
+					{
+						"add": {
+							"component_groups": [
+								"levitation_attack"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"phase_2_move_up",
+								"stomp_attack_initiate",
+								"pyroclast_shield_attack"
+							]
+						},
+						"weight": 4
+					},
+					{
+						"add": {
+							"component_groups": [
+								"pyroclast_shield_attack"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"phase_2_move_up",
+								"stomp_attack_initiate",
+								"levitation_attack"
+							]
+						},
+						"weight": 5
+					},
+					{
+						"add": {
+							"component_groups": [
+								"stomp_attack_initiate"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"phase_2_move_up",
+								"levitation_attack",
+								"pyroclast_shield_attack"
+							]
+						},
+						"weight": 6
+					}
+				]
+			},
+			"stomp": {
+				"add": {
+					"component_groups": [
+						"stomp_attack"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"stomp_attack_initiate"
+					]
+				}
+			},
+			"shoot_beam": {
+				"add": {
+					"component_groups": [
+						"beam_attack"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"levitation_attack"
+					]
+				}
+			},
+			"shoot_beam2": {
+				"add": {
+					"component_groups": [
+						"beam_attack2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"charge_beam_attack"
+					]
+				}
+			},
+			"phase_2_fail": {
+				"add": {
+					"component_groups": [
+						"phase_2_fail_anim"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"phase_2_move_up",
+						"stomp_attack_initiate",
+						"pyroclast_shield_attack",
+						"levitation_attack"
+					]
+				}
+			},
+			"phase_3_start": {
+				"add": {
+					"component_groups": [
+						"phase_3_health"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"phase_2_fail_anim"
+					]
+				},
+				"queue_command": {
+					"command": [
+						"effect @e[type=better_on_bedrock:poggy] regeneration 16 60 true"
+					]
+				}
+			},
+			"phase_3_move_up": {
+				"add": {
+					"component_groups": [
+						"phase_3_move_up"
+					]
+				}
+			},
+			"phase_3_random_attack": {
+				"randomize": [
+					{
+						"add": {
+							"component_groups": [
+								"charge_beam_attack"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"laser_attack",
+								"regen_once_pulse_beam_attack",
+								"stomp_attack_initiate2"
+							]
+						},
+						"weight": 3
+					},
+					{
+						"add": {
+							"component_groups": [
+								"laser_attack"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"charge_beam_attack",
+								"regen_once_pulse_beam_attack",
+								"stomp_attack_initiate2"
+							]
+						},
+						"weight": 5
+					},
+					{
+						"add": {
+							"component_groups": [
+								"stomp_attack_initiate2"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"charge_beam_attack",
+								"regen_once_pulse_beam_attack",
+								"laser_attack"
+							]
+						},
+						"weight": 4
+					},
+					{
+						"add": {
+							"component_groups": [
+								"regen_once_pulse_beam_attack"
+							]
+						},
+						"remove": {
+							"component_groups": [
+								"charge_beam_attack",
+								"stomp_attack_initiate2",
+								"laser_attack"
+							]
+						},
+						"weight": 4
+					}
+				]
+			},
+			"stomp2": {
+				"add": {
+					"component_groups": [
+						"stomp_attack2"
+					]
+				},
+				"remove": {
+					"component_groups": [
+						"stomp_attack_initiate2"
+					]
+				}
+			}
+		},
+		"component_groups": {
+			"despawn": {
+				"minecraft:instant_despawn": {
+					"remove_child_entities": false
+				}
+			},
+			"spawn_particle": {
+				"minecraft:timer": {
+					"time": 4.5,
+					"looping": false,
+					"time_down_event": {
+						"event": "summon_poggy",
+						"target": "self"
+					}
+				}
+			},
+			"phase_1_fail_anim": {
+				"minecraft:variant": {
+					"value": 4
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "all",
+							"deals_damage": false
+						}
+					]
+				},
+				"minecraft:physics": {
+					"has_collision": true,
+					"has_gravity": true
+				},
+				"minecraft:knockback_resistance": {
+					"value": 0
+				},
+				"minecraft:mark_variant": {
+					"value": 0
+				},
+				"minecraft:timer": {
+					"time": 5,
+					"looping": false,
+					"time_down_event": {
+						"event": "phase_2_start",
+						"target": "self"
+					}
+				}
+			}, //phase 1 stuff
+			"phase_1_health": {
+				"minecraft:health": {
+					"value": 570,
+					"max": 570
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "all",
+							"deals_damage": true
+						}
+					]
+				},
+				"minecraft:mark_variant": {
+					"value": 100
+				},
+				"minecraft:timer": {
+					"time": 10,
+					"looping": true,
+					"time_down_event": {
+						"event": "phase_2_start",
+						"target": "self"
+					}
+				},
+				"minecraft:physics": {
+					"has_collision": true,
+					"has_gravity": true
+				}
+			},
+			"phase_1_attack_cooldown": {
+				"minecraft:variant": {
+					"value": 0
+				},
+				"minecraft:timer": {
+					"time": 0.7,
+					"looping": true,
+					"time_down_event": {
+						"event": "phase_1_random_attack",
+						"target": "self"
+					}
+				}
+			},
+			"willager_attack": {
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "fall",
+							"deals_damage": false
+						}
+					]
+				},
+				"minecraft:behavior.summon_entity": {
+					"priority": 2,
+					"summon_choices": [
+						{
+							"min_activation_range": 0,
+							"max_activation_range": 64,
+							"cooldown_time": 0.2,
+							"weight": 8,
+							"cast_duration": 1,
+							"particle_color": "#FF664D59",
+							"start_sound_event": "cast.spell",
+							"sequence": [
+								{
+									"shape": "circle",
+									"target": "target",
+									"base_delay": 0,
+									"num_entities_spawned": 1,
+									"entity_type": "minecraft:evocation_fang",
+									"summon_cap": 5,
+									"summon_cap_radius": 128,
+									"size": 1,
+									"sound_event": "prepare.summon"
+								}
+							]
+						}
+					]
+				},
+				"minecraft:variant": {
+					"value": 2
+				},
+				"minecraft:timer": {
+					"time": 2,
+					"looping": true,
+					"time_down_event": {
+						"event": "phase_1_random_attack",
+						"target": "self"
+					}
+				}
+			},
+			"enchanter_attack": {
+				"minecraft:behavior.summon_entity": {
+					"priority": 1,
+					"summon_choices": [
+						{
+							"weight": 1,
+							"min_activation_range": 1,
+							"max_activation_range": 64,
+							"cooldown_time": 0.2,
+							"cast_duration": 3,
+							"particle_color": "#FF664D59",
+							"start_sound_event": "cast.spell",
+							"sequence": [
+								{
+									"shape": "circle",
+									"target": "target",
+									"base_delay": 0.2,
+									"entity_lifespan": 4,
+									"num_entities_spawned": 1,
+									"entity_type": "better_on_bedrock:enchanter_beam",
+									"summon_cap": 1,
+									"summon_cap_radius": 128,
+									"size": 1,
+									"sound_event": "prepare.summon"
+								}
+							]
+						}
+					]
+				},
+				"minecraft:variant": {
+					"value": 1 //summon_attack
+				},
+				"minecraft:timer": {
+					"time": 4,
+					"looping": false,
+					"time_down_event": {
+						"event": "phase_1_cooldown",
+						"target": "self"
+					}
+				}
+			},
+			"flender_fireball_attack_levitate": {
+				"minecraft:variant": {
+					"value": 3
+				},
+				"minecraft:timer": {
+					"time": 2,
+					"looping": true,
+					"time_down_event": {
+						"event": "flender_attack",
+						"target": "self"
+					}
+				},
+				"minecraft:knockback_resistance": {
+					"value": 0
+				}
+			},
+			"flender_fireball_attack": {
+				"minecraft:shooter": {
+					"def": "better_on_bedrock:flame_projectile"
+				},
+				"minecraft:variant": {
+					"value": 2 //fireball or beam charge attack
+				},
+				"minecraft:knockback_resistance": {
+					"value": 100,
+					"maximum": 100
+				},
+				"minecraft:behavior.ranged_attack": {
+					"attack_interval_min": 1.2,
+					"burst_shots": 1,
+					"attack_interval_max": 2.5,
+					"attack_radius": 128,
+					"attack_radius_min": 1
+				},
+				"minecraft:timer": {
+					"time": 3,
+					"looping": false,
+					"time_down_event": {
+						"event": "phase_1_random_attack",
+						"target": "self"
+					}
+				}
+			},
+			//phase 2 stuff
+			"phase_2_health": {
+				"minecraft:health": {
+					"value": 1325,
+					"max": 1325
+				},
+				"minecraft:knockback_resistance": {
+					"value": 0
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "all",
+							"deals_damage": true
+						}
+					]
+				},
+				"minecraft:spell_effects": {
+					"add_effects": [
+						{
+							"effect": "regeneration",
+							"ambient": false,
+							"amplifier": 255,
+							"duration": 60,
+							"visible": true
+						},
+						{
+							"effect": "instant_health",
+							"ambient": false,
+							"amplifier": 64,
+							"duration": 1,
+							"visible": true
+						}
+					]
+				},
+				"minecraft:timer": {
+					"time": 12,
+					"looping": false,
+					"time_down_event": {
+						"event": "phase_2_move_up",
+						"target": "self"
+					}
+				},
+				"minecraft:physics": {
+					"has_collision": true,
+					"has_gravity": true
+				}
+			},
+			"phase_2_move_up": {
+				"minecraft:variant": {
+					"value": 3
+				},
+				"minecraft:mark_variant": {
+					"value": 10
+				},
+				"minecraft:physics": {
+					"has_collision": true,
+					"has_gravity": false
+				},
+				"minecraft:timer": {
+					"time": 2.2,
+					"looping": true,
+					"time_down_event": {
+						"event": "phase_2_random_attack",
+						"target": "self"
+					}
+				}
+			},
+			"phase_2_attack_cooldown": {
+				"minecraft:variant": {
+					"value": 0
+				},
+				"minecraft:timer": {
+					"time": 0.5,
+					"looping": false,
+					"time_down_event": {
+						"event": "phase_2_random_attack",
+						"target": "self"
+					}
+				}
+			},
+			"beam_attack": {
+				"minecraft:variant": {
+					"value": 11 //shoots the beam
+				},
+				"minecraft:shooter": {
+					"def": "better_on_bedrock:projectile"
+				},
+				"minecraft:behavior.ranged_attack": {
+					"priority": 1,
+					"attack_radius": 128,
+					"attack_radius_min": 1,
+					"charge_shoot_trigger": 0.2,
+					"charge_charged_trigger": 0.1
+				},
+				"minecraft:timer": {
+					"time": 0.3,
+					"looping": false,
+					"time_down_event": {
+						"event": "phase_2_cooldown",
+						"target": "self"
+					}
+				}
+			},
+			"levitation_attack": {
+				"minecraft:variant": {
+					"value": 2 //this levetates you
+				},
+				"minecraft:shooter": {
+					"def": "better_on_bedrock:projectile"
+				},
+				"minecraft:behavior.ranged_attack": {
+					"priority": 1,
+					"attack_radius": 128,
+					"attack_radius_min": 1,
+					"charge_shoot_trigger": 2.2,
+					"charge_charged_trigger": 0.1
+				},
+				"minecraft:knockback_resistance": {
+					"value": 100,
+					"maximum": 100
+				},
+				"minecraft:timer": {
+					"time": 0.4, //shoots the beam and disables your levitation
+					"looping": true,
+					"time_down_event": {
+						"event": "shoot_beam",
+						"target": "self"
+					}
+				},
+				"minecraft:physics": {
+					"has_collision": true,
+					"has_gravity": false
+				}
+			},
+			"stomp_attack": {
+				"minecraft:variant": {
+					"value": 12
+				},
+				"minecraft:physics": {
+					"has_collision": true,
+					"has_gravity": true
+				},
+				"minecraft:knockback_resistance": {
+					"value": 0
+				}
+			},
+			"stomp_attack_initiate": {
+				"minecraft:variant": {
+					"value": 13
+				},
+				"minecraft:timer": {
+					"time": 1,
+					"looping": true,
+					"time_down_event": {
+						"event": "stomp",
+						"target": "self"
+					}
+				},
+				"minecraft:physics": {
+					"has_collision": true,
+					"has_gravity": true
+				}
+			},
+			"pyroclast_shield_attack": {
+				"minecraft:variant": {
+					"value": 2 //this levetates you
+				},
+				"minecraft:shooter": {
+					"def": "better_on_bedrock:inferno_shield_poggy"
+				},
+				"minecraft:behavior.ranged_attack": {
+					"priority": 1,
+					"attack_radius": 128,
+					"burst_shots": 3,
+					"burst_interval": 1,
+					"attack_radius_min": 1,
+					"charge_shoot_trigger": 2.2,
+					"charge_charged_trigger": 0.1
+				},
+				"minecraft:knockback_resistance": {
+					"value": 100,
+					"maximum": 100
+				},
+				"minecraft:timer": {
+					"time": 2.4, //shoots the beam and disables your levitation
+					"looping": true,
+					"time_down_event": {
+						"event": "phase_2_cooldown",
+						"target": "self"
+					}
+				}
+			},
+			"phase_2_fail_anim": {
+				"minecraft:variant": {
+					"value": 4
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "all",
+							"deals_damage": false
+						}
+					]
+				},
+				"minecraft:physics": {
+					"has_collision": true,
+					"has_gravity": true
+				},
+				"minecraft:knockback_resistance": {
+					"value": 0
+				},
+				"minecraft:timer": {
+					"time": 8,
+					"looping": false,
+					"time_down_event": {
+						"event": "phase_3_start",
+						"target": "self"
+					}
+				}
+			},
+			//phase 3 stuff
+			"phase_3_health": {
+				"minecraft:health": {
+					"value": 1725,
+					"max": 1725
+				},
+				"minecraft:spell_effects": {
+					"add_effects": [
+						{
+							"effect": "regeneration",
+							"ambient": false,
+							"amplifier": 225,
+							"duration": 60,
+							"visible": true
+						},
+						{
+							"effect": "instant_health",
+							"ambient": false,
+							"amplifier": 124,
+							"duration": 1,
+							"visible": true
+						}
+					]
+				},
+				"minecraft:damage_sensor": {
+					"triggers": [
+						{
+							"cause": "all",
+							"deals_damage": true
+						}
+					]
+				},
+				"minecraft:knockback_resistance": {
+					"value": 0
+				},
+				"minecraft:timer": {
+					"time": 12,
+					"looping": false,
+					"time_down_event": {
+						"event": "phase_3_move_up",
+						"target": "self"
+					}
+				},
+				"minecraft:physics": {
+					"has_collision": true,
+					"has_gravity": true
+				}
+			},
+			"phase_3_move_up": {
+				"minecraft:variant": {
+					"value": 3
+				},
+				"minecraft:physics": {
+					"has_collision": true,
+					"has_gravity": false
+				},
+				"minecraft:timer": {
+					"time": 2.2,
+					"looping": false,
+					"time_down_event": {
+						"event": "phase_3_random_attack",
+						"target": "self"
+					}
+				}
+			},
+			"phase_3_attack_cooldown": {
+				"minecraft:variant": {
+					"value": 0
+				},
+				"minecraft:timer": {
+					"time": 0.4,
+					"looping": false,
+					"time_down_event": {
+						"event": "phase_3_random_attack",
+						"target": "self"
+					}
+				}
+			},
+			"beam_attack2": {
+				"minecraft:variant": {
+					"value": 11 //shoots the beam
+				},
+				"minecraft:shooter": {
+					"def": "better_on_bedrock:projectile"
+				},
+				"minecraft:behavior.ranged_attack": {
+					"priority": 1,
+					"attack_radius": 128,
+					"attack_radius_min": 1,
+					"charge_shoot_trigger": 0.2,
+					"charge_charged_trigger": 0.1
+				},
+				"minecraft:timer": {
+					"time": 0.3,
+					"looping": false,
+					"time_down_event": {
+						"event": "phase_3_random_attack",
+						"target": "self"
+					}
+				}
+			},
+			"charge_beam_attack": {
+				"minecraft:variant": {
+					"value": 2 //this levetates you
+				},
+				"minecraft:shooter": {
+					"def": "better_on_bedrock:projectile"
+				},
+				"minecraft:behavior.ranged_attack": {
+					"priority": 1,
+					"attack_radius": 128,
+					"attack_radius_min": 1,
+					"charge_shoot_trigger": 2.2,
+					"charge_charged_trigger": 0.1
+				},
+				"minecraft:knockback_resistance": {
+					"value": 100,
+					"maximum": 100
+				},
+				"minecraft:timer": {
+					"time": 2.4, //shoots the beam and disables your levitation
+					"looping": true,
+					"time_down_event": {
+						"event": "shoot_beam2",
+						"target": "self"
+					}
+				},
+				"minecraft:physics": {
+					"has_collision": true,
+					"has_gravity": false
+				}
+			},
+			"summon_minions": {
+				"minecraft:behavior.summon_entity": {
+					"priority": 1,
+					"summon_choices": [
+						{
+							"weight": 1,
+							"min_activation_range": 1,
+							"max_activation_range": 64,
+							"cooldown_time": 0.2,
+							"cast_duration": 3,
+							"particle_color": "#FF664D59",
+							"start_sound_event": "cast.spell",
+							"sequence": [
+								{
+									"shape": "circle",
+									"target": "self",
+									"base_delay": 0.2,
+									"num_entities_spawned": 4,
+									"entity_type": "minecraft:cow",
+									"summon_cap": 1,
+									"summon_cap_radius": 128,
+									"size": 16,
+									"sound_event": "prepare.summon"
+								}
+							]
+						}
+					]
+				},
+				"minecraft:variant": {
+					"value": 1 //summon animation
+				},
+				"minecraft:timer": {
+					"time": 4,
+					"looping": false,
+					"time_down_event": {
+						"event": "phase_3_random_attack",
+						"target": "self"
+					}
+				}
+			},
+			"laser_attack": {
+				"minecraft:variant": {
+					"value": 15 //shoots the beam
+				},
+				"minecraft:shooter": {
+					"def": "better_on_bedrock:projectile"
+				},
+				"minecraft:behavior.ranged_attack": {
+					"priority": 1,
+					"attack_radius": 128,
+					"charge_shoot_trigger": 2.5,
+					"charge_charged_trigger": 0.1
+				},
+				"minecraft:timer": {
+					"time": 1.8,
+					"looping": false,
+					"time_down_event": {
+						"event": "phase_3_random_attack",
+						"target": "self"
+					}
+				}
+			},
+			"stomp_attack2": {
+				"minecraft:variant": {
+					"value": 12
+				},
+				"minecraft:mark_variant": {
+					"value": 1
+				},
+				"minecraft:physics": {
+					"has_collision": true,
+					"has_gravity": true
+				},
+				"minecraft:knockback_resistance": {
+					"value": 0
+				}
+			},
+			"stomp_attack_initiate2": {
+				"minecraft:variant": {
+					"value": 13
+				},
+				"minecraft:timer": {
+					"time": 1,
+					"looping": true,
+					"time_down_event": {
+						"event": "stomp2",
+						"target": "self"
+					}
+				},
+				"minecraft:physics": {
+					"has_collision": true,
+					"has_gravity": true
+				}
+			},
+			"regen_once_pulse_beam_attack": {
+				"minecraft:variant": {
+					"value": 1 //summon animation
+				},
+				"minecraft:timer": {
+					"time": 4,
+					"looping": false,
+					"time_down_event": {
+						"event": "phase_3_random_attack",
+						"target": "self"
+					}
+				},
+				"minecraft:behavior.summon_entity": {
+					"priority": 1,
+					"summon_choices": [
+						{
+							"weight": 1,
+							"min_activation_range": 1,
+							"max_activation_range": 64,
+							"cooldown_time": 0.2,
+							"cast_duration": 3,
+							"particle_color": "#FF664D59",
+							"start_sound_event": "cast.spell",
+							"sequence": [
+								{
+									"shape": "circle",
+									"target": "target",
+									"base_delay": 0.2,
+									"num_entities_spawned": 4,
+									"entity_type": "minecraft:evocation_fang",
+									"summon_cap": 1,
+									"summon_cap_radius": 128,
+									"size": 16,
+									"sound_event": "prepare.summon"
+								}
+							]
+						}
+					]
+				}
+			},
+			"death_anim": {}
+		},
+		"components": {
+			"minecraft:physics": {
+				"has_gravity": true,
+				"has_collision": true
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 2,
+				"must_see": true,
+				"entity_types": [
+					{
+						"filters": {
+							"test": "is_family",
+							"subject": "other",
+							"value": "player"
+						},
+						"max_dist": 128
+					}
+				]
+			},
+			"minecraft:navigation.float": {
+				"can_path_over_water": true
+			},
+			"minecraft:experience_reward": {
+				"on_death": 555
+			},
+			"minecraft:loot": {
+				"table": "loot_tables/chests/end_city_treasure_all_poggy.json"
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"cause": "fall",
+						"deals_damage": false
+					}
+				]
+			},
+			"minecraft:boss": {
+				"hud_range": 64,
+				"name": "???",
+				"should_darken_sky": true
+			},
+			"minecraft:collision_box": {
+				"height": 3,
+				"width": 1.3
+			}
+		}
+	}
+}

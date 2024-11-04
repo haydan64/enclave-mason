@@ -1,0 +1,39 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Mystical Agriculture [RP]",
+		"description": "A faithful recreation of a popular magical crops mod (v1.4). Created by §lStratospheer§r. Original Java mod by §lBlakeBr0§r.",
+		"uuid": "5b184ab0-d0fe-44c6-8b89-a4eb3bc128f1",
+		"version": [
+			1,
+			4,
+			0
+		],
+		"min_engine_version": [
+			1,
+			16,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "e2e68490-7efe-4f35-b996-54106ba17f96",
+			"version": [
+				1,
+				4,
+				0
+			]
+		}
+	],
+	"metadata": {
+		"generated_with": {
+			"bridge": [
+				"2.7.19"
+			],
+			"dash": [
+				"github:bridge-core/dash-compiler#8fa35c73292f6382747d0f411fca26431a6d2c8e"
+			]
+		}
+	}
+}

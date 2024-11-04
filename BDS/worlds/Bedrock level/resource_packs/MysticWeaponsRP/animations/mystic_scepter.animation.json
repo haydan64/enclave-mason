@@ -1,0 +1,37 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mystic_scepter.first_person": {
+			"loop": true,
+			"animation_length": 1.5,
+			"bones": {
+				"pole": {
+					"rotation": [149, 13, 40],
+					"position": [-7, -7, -2]
+				},
+				"core": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.5": [0, 360, 0]
+					}
+				}
+			}
+		},
+		"animation.mystic_scepter.third_person": {
+			"loop": true,
+			"animation_length": 1.5,
+			"bones": {
+				"pole": {
+					"rotation": [90, 2.5, 90],
+					"position": [0, -1, -17]
+				},
+				"core": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"1.5": [0, 360, 0]
+					}
+				}
+			}
+		}
+	}
+}

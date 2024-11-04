@@ -1,0 +1,38 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:ghost_graveyard",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "slime_outer"
+			},
+			"textures": {
+				"default": "textures/entity/ghost"
+			},
+			"geometry": {
+				"default": "geometry.ghost"
+			},
+			"spawn_egg": {
+				"base_color": "#d0dfd3",
+				"overlay_color": "#c0c0c0"
+			},
+			"scripts": {
+				"animate":[
+					"general",
+					"look_at_target"
+				]
+				
+			},
+			"animations": {
+				"general": "controller.animation.ghost",
+				"default": "animation.ghost.idle",
+				"angry": "animation.ghost.angry",
+				"look_at_target": "animation.common.look_at_target"
+				
+			},
+			"render_controllers": ["controller.render.onevariant"]
+			
+		}
+	}
+}

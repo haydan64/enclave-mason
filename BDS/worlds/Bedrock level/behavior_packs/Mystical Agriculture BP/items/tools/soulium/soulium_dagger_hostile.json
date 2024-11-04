@@ -1,0 +1,49 @@
+{
+	"format_version": "1.20.81",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:soulium_dagger_hostile",
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			}
+		},
+		"components": {
+			"minecraft:custom_components": ["strat:dagger"],
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 800,
+				"damage_chance": {
+					"min": 1,
+					"max": 1
+				}
+			},
+			"minecraft:damage": {
+				"value": 2
+			},
+			"minecraft:can_destroy_in_creative": false,
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": "minecraft:web",
+						"speed": 15
+					},
+					{
+						"block": "minecraft:bamboo",
+						"speed": 10
+					}
+				]
+			},
+			"minecraft:enchantable": {
+				"slot": "sword",
+				"value": 10
+			},
+			"minecraft:display_name": {
+				"value": "Soulium Dagger\n§cHostile Attuned§r"
+			},
+			"minecraft:icon": "soulium_dagger_hostile"
+		}
+	}
+}

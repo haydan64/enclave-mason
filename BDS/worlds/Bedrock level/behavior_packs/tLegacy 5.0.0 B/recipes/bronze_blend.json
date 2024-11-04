@@ -1,0 +1,41 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "hax:bronze_blend"
+    },
+
+    
+    "tags": [ "tiered_table" ],
+    "ingredients": [
+      {
+        "item": "hax:copper_dust"
+      },
+      {
+        "item": "hax:copper_dust"
+      },
+      {
+        "item": "hax:copper_dust"
+      },
+      {
+        "item": "hax:tin_dust"
+      }
+    ],
+    
+    "unlock": [
+      {
+        "item": "minecraft:blast_furnace"
+      },
+      {
+        "item": "minecraft:copper_ingot"
+      },
+      {
+        "item": "hax:tin_ingot"
+      }
+    ],
+    "result": {
+      "item": "hax:bronze_blend",
+      "count": 2
+    }
+  }
+}

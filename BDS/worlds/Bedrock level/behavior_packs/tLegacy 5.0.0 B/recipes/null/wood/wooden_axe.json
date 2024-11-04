@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:wooden_axe"
+    },
+    
+    "tags": [ "null" ],
+    "pattern": [
+      "XX",
+      "X#",
+      " #"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:stick"
+      },
+      "X": {
+        "tag": "minecraft:planks"
+      }
+    },
+    "unlock": [
+            {
+                "item": "minecraft:end_gateway",
+                "data": 4
+            }
+        ],
+    "result": {
+      "item": "minecraft:wooden_axe"
+    },
+    "priority": -1
+  }
+}

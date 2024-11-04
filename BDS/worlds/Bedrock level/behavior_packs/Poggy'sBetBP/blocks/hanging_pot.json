@@ -1,0 +1,188 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:block": {
+        "description": {
+            "identifier": "better_on_bedrock:hanging_pot_base",
+            "menu_category": {
+                "category": "none"
+            },
+            "states": {
+                "wiki:axis": [ "x", "z" ],
+                "wiki:pot_0_plant": [
+                    "none",
+                    "allium",
+                    "flower_blue",
+                    "blue_rose",
+                    "cornflower",
+                    "houstonia",
+                    "lilly",
+                    "orange_tulip",
+                    "oxeye",
+                    "paeonia",
+                    "pink_tulip",
+                    "red_tulip",
+                    "rose_bush",
+                    "sunflower",
+                    "syringa",
+                    "white_tulip"
+                ],
+                "wiki:grounded": [ true, false ]
+            }
+        },
+        "components": {
+            "minecraft:custom_components": [ "pog:interact_placeholder" ],
+            "minecraft:collision_box": {
+                "origin": [ -4.5, 0, -4.5 ],
+                "size": [ 9, 16, 9 ]
+            },
+            "minecraft:selection_box": {
+                "origin": [ -4.5, 0, -4.5 ],
+                "size": [ 9, 16, 9 ]
+            },
+            "minecraft:loot": "loot_tables/blocks/hanging_pot.json",
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 30
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.deco_pot",
+                "bone_visibility": {
+                    "bb_main": "q.block_state('wiki:pot_0_plant') == 'sweet_berries'",
+                    "allium": "q.block_state('wiki:pot_0_plant') == 'allium'",
+                    "blue_flower": "q.block_state('wiki:pot_0_plant') == 'flower_blue'",
+                    "blue_rose": "q.block_state('wiki:pot_0_plant') == 'blue_rose'",
+                    "cornflower": "q.block_state('wiki:pot_0_plant') == 'cornflower'",
+                    "houstonia": "q.block_state('wiki:pot_0_plant') == 'houstonia'",
+                    "lilly": "q.block_state('wiki:pot_0_plant') == 'lilly'",
+                    "orange_tulip": "q.block_state('wiki:pot_0_plant') == 'orange_tulip'",
+                    "oxeye": "q.block_state('wiki:pot_0_plant') == 'oxeye'",
+                    "piony": "q.block_state('wiki:pot_0_plant') == 'paeonia'",
+                    "pink_tulip": "q.block_state('wiki:pot_0_plant') == 'pink_tulip'",
+                    "red_tulip": "q.block_state('wiki:pot_0_plant') == 'red_tulip'",
+                    "rose_bush": "q.block_state('wiki:pot_0_plant') == 'rose_bush'",
+                    "sunflower": "q.block_state('wiki:pot_0_plant') == 'sunflower'",
+                    "syringa": "q.block_state('wiki:pot_0_plant') == 'syringa'",
+                    "white_tulip": "q.block_state('wiki:pot_0_plant') == 'white_tulip'"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "rose_pote",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "large_flower_plane": {
+                    "texture": "sweet_berry_large",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "rose_bush": {
+                    "texture": "rose_pot",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "glow_pot": {
+                    "texture": "glow_pot",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "piony": {
+                    "texture": "lilac_pot",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "syringa": {
+                    "texture": "syringa",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "allium": {
+                    "texture": "allium_pot",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "blue_flower": {
+                    "texture": "cornflower_pot",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "blue_rose": {
+                    "texture": "blue_rose_pot",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "cornflower": {
+                    "texture": "cornflower_pot",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "houstonia": {
+                    "texture": "houstonia",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "lilly": {
+                    "texture": "lilly_of_the_valley_pot",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "orange_tulip": {
+                    "texture": "orange_pink_tulip_pot",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "oxeye": {
+                    "texture": "oxeye_pot",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "paeonia": {
+                    "texture": "lilac_pot",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "pink_tulip": {
+                    "texture": "pink_tulip_pot",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "red_tulip": {
+                    "texture": "red_tulip_pot",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "sunflower": {
+                    "texture": "glow_pot",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                },
+                "white_tulip": {
+                    "texture": "white_tulip_pot",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                }
+            }
+        }
+    }
+}

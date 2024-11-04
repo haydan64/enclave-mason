@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:black_hat"
+        },
+        "tags": [ "tailors_table" ],
+        "pattern": [
+            " AA",
+            " AA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:leather"
+            }
+        },
+        "result": {
+            "item": "fantasy:black_hat"
+        }
+    }
+}

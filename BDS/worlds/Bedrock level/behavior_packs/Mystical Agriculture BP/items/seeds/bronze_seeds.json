@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:bronze_seeds",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.seed"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "bronze_seeds"
+			},
+			"minecraft:display_name": {
+				"value": "Bronze Seeds\n§7Tier: §63§r"
+			},
+			"minecraft:block_placer": {
+				"block": "strat:bronze_crop"
+			}
+		}
+	}
+}

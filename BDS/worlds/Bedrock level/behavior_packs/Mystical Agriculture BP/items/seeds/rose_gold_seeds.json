@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:rose_gold_seeds",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.seed"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "rose_gold_seeds"
+			},
+			"minecraft:display_name": {
+				"value": "Rose Gold Seeds\n§7Tier: §b4§r"
+			},
+			"minecraft:block_placer": {
+				"block": "strat:rose_gold_crop"
+			}
+		}
+	}
+}

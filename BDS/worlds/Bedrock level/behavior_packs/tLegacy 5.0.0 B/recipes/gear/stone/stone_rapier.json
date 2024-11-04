@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:stone_rapier"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"  S",
+			"BS ",
+			"/  "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:stone_shortblade"
+			},
+			"B": {
+				"item": "hax:stone_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:stone_pebble"
+			}
+		],
+		"result": { "item": "hax:stone_rapier" }
+	}
+}

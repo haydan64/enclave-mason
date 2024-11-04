@@ -1,0 +1,38 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+      "controller.render.tenvariant": {
+        "geometry": "Geometry.default",
+        "materials": [
+          {
+            "*": "Material.default"
+          }
+        ],
+        
+        "arrays": {
+          "textures": {
+            "Array.textures": [
+              "Texture.default",
+              "Texture.default2",
+              "Texture.default3",
+              "Texture.default4",
+              "Texture.default5",
+              "Texture.default6",
+              "Texture.default7",
+              "Texture.default8",
+              "Texture.default9",
+              "Texture.default10"
+              
+            ]
+          }
+        },
+        "textures": ["Array.textures[query.variant]"],
+        "is_hurt_color": {
+          "r": 1.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": "q.is_alive ? 0.4 : 0"
+        }
+      }
+    }
+  }

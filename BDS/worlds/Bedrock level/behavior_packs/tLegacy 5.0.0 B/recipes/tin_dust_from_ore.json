@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "hax:tin_dust_from_ore"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "priority": 4,
+    "ingredients": [
+      {
+        "item": "hax:tin_ore"
+      }
+    ],
+    
+    "unlock": [
+      {
+        "item": "minecraft:stonecutter"
+      }
+    ],
+    "result": {
+      "item": "hax:tin_dust",
+      "count": 4
+    }
+  }
+  
+}

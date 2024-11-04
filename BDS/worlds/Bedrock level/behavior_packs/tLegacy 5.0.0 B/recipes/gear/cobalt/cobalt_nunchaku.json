@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:cobalt_nunchaku"
+		},
+
+    
+		"tags": [ "cobalt_blueprint" ],
+		"pattern": [
+			"/B",
+			"BI",
+			"/ "
+		],
+
+		"key": {
+			"B": {
+				"item": "hax:cobalt_bar"
+			},
+			"I": {
+				"item": "hax:cobalt_ingot"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:cobalt_blueprint"
+			}
+		],
+		"result": { "item": "hax:cobalt_nunchaku" }
+	}
+}

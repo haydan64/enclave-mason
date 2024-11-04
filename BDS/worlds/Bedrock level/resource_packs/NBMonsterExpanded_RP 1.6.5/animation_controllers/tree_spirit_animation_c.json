@@ -1,0 +1,109 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.tree.spirit" : {
+			"initial_state" : "happy",
+			"states" : {
+				"idle": {
+					"animations": ["idle"],
+                    "transitions":[
+						{"walk": "query.ground_speed"},
+						{"angry": "query.is_angry"}
+                    ],
+					"particle_effects" : [
+						{
+							"effect" : "particle4",
+							"locator" : "locator"
+						}
+					],
+					"blend_transition":0.4
+                },
+				"walk": {
+					"animations": ["walk","idle"],
+                    "transitions":[
+						{"happy": "!query.ground_speed"}
+                    ],
+					"blend_transition":0.4
+                },
+				"happywalk": {
+					"animations": ["walk","idlehappy"],
+					"particle_effects" : [
+						{
+							"effect" : "particle",
+							"locator" : "locator"
+						}
+					],
+                    "transitions":[
+						{"happy": "!query.ground_speed"}
+                    ],
+					"blend_transition":0.4
+                },
+				"angrywalk": {
+					"animations": ["walk","idleangry"],
+					"particle_effects" : [
+						{
+							"effect" : "particle2",
+							"locator" : "locator"
+						}
+					],
+                    "transitions":[
+						{"angry": "!query.ground_speed"}
+                    ],
+					"blend_transition":0.4
+                },
+				"angry": {
+					"animations":["idleangry"],
+                    "particle_effects" : [
+						{
+							"effect" : "particle2",
+							"locator" : "locator"
+						}
+					],
+					"transitions":[
+                        {"idle": "!query.is_angry"},
+						{"angrywalk": "query.ground_speed"},
+						{"casting": "query.is_casting"}
+                    ]
+                },
+				"happy": {
+					"animations":["idlehappy" ],
+                    "particle_effects" : [
+						{
+							"effect" : "particle",
+							"locator" : "locator"
+						}
+					],
+					"transitions":[
+                        {"angry": "query.is_angry"},
+						{"happywalk": "query.ground_speed"}
+                    ]
+                },
+				"casting": {
+					"animations":["idleangry","casting" ],
+                    "particle_effects" : [
+						{
+							"effect" : "particle3",
+							"locator" : "rightarm"
+						},
+						{
+							"effect" : "particle3",
+							"locator" : "leftarm"
+						}
+					],
+					"transitions":[
+                        {"angry": "!query.is_casting"}
+                    ],
+					"blend_transition":0.6
+                },
+				
+				"admiring": {
+					"animations":["admiring","idle" ],
+                    "transitions":[
+                        {"idle": "!query.is_admiring"}
+                    ],
+					"blend_transition":0.2
+                }
+			}
+		}
+	}
+}

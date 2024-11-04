@@ -1,0 +1,31 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.frost.imp" : {
+			"initial_state" : "idle",
+			"states" : {
+				"walk": {
+					"animations": ["walk"],
+                    "transitions":[
+						{"idle": "!query.ground_speed"},
+						{"angry": "query.is_angry"}
+                    ],
+					"blend_transition":0.2
+                },
+				"idle": {
+					"animations":[ "idle" ],
+                    "transitions":[
+                        {"walk": "query.ground_speed"}
+                    ],
+					"blend_transition":0.2
+                },
+				"angry": {
+					"animations": ["angry"],
+                    "transitions":[
+                        {"idle": "!query.is_angry"}
+                    ]
+                }
+			}
+		}
+	}
+}

@@ -1,0 +1,57 @@
+{
+    "format_version": "1.20.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "mystic:necromancy_staff",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.scepter"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "necromancy_staff"
+            },
+            "minecraft:display_name": {
+                "value": "Necromancy Staff\n§8Dark§r"
+            },
+            "minecraft:tags": {
+                "tags": [ "scepter", "dark" ]
+            },
+            "minecraft:cooldown": {
+                "category": "necromancy_staff",
+                "duration": 20
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": true,
+            "minecraft:durability": {
+                "max_durability": 60,
+                "damage_chance": {
+                    "min": 1,
+                    "max": 2
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [ "item:dark_stone_shard" ],
+                        "repair_amount": "q.max_durability * 0.15"
+                    },
+                    {
+                        "items": [ "item:dark_stone" ],
+                        "repair_amount": "q.max_durability * 0.7"
+                    },
+                    {
+                        "items": [ "mystic:necromancy_staff" ],
+                        "repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
+                    }
+                ]
+            },
+            "minecraft:enchantable": {
+                "value": 10,
+                "slot": "elytra"
+            },
+            "minecraft:can_destroy_in_creative": false
+        }
+    }
+}

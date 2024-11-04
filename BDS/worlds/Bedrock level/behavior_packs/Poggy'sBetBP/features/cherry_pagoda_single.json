@@ -1,0 +1,16 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "better_on_bedrock:cherry_pagoda_single"
+    },
+    "places_block": "minecraft:dirt",
+    "enforce_placement_rules": false,
+    "enforce_survivability_rules": false,
+    "may_replace": [
+      "minecraft:dirt",
+      "minecraft:grass_block",
+      "minecraft:pink_petals"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "better_on_bedrock:v_abyss_large1"
+    },
+    "structure_name": "mystructure:V_abyss_large1",
+    "adjustment_radius": 8,
+    "facing_direction": "random",
+    "constraints": {
+      "grounded": {},
+      "block_intersection": {
+        "block_allowlist": [
+          "better_on_bedrock:chorus_grass"
+        ]
+      }
+    }
+  }
+}

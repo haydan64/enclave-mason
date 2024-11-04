@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:ruby_from_block"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "ruby",
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "hax:ruby_block"
+      }
+    },
+    
+    "unlock": [
+      {
+        "item": "hax:ruby_block"
+      }
+    ],
+    "result": {
+      "item": "hax:ruby",
+      "count": 9
+    }
+  }
+}

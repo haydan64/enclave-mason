@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:alt_tin_nugget"
+    },
+
+    
+    "tags": [ "tin_blueprint" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "hax:tin_ingot"
+      }
+    },
+    "unlock": [
+			{
+				"item": "hax:tin_blueprint"
+			}
+		],
+    "result": {
+      "item": "hax:tin_nugget",
+      "count": 4
+    }
+  }
+}

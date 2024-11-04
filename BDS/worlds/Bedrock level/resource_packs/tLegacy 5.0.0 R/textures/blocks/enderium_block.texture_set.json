@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "enderium_block",
+		"metalness_emissive_roughness": "enderium_block_mer",
+		"heightmap": "enderium_block_heightmap"
+	}
+}

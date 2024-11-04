@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:alt_ruby_shard"
+    },
+
+    
+    "tags": [ "ruby_blueprint" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "hax:ruby"
+      }
+    },
+    "unlock": [
+			{
+				"item": "hax:ruby_blueprint"
+			}
+		],
+    "result": {
+      "item": "hax:ruby_shard",
+      "count": 4
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:silver_kama"
+		},
+
+    
+		"tags": [ "silver_blueprint" ],
+		"pattern": [
+			"SS",
+			" /",
+			"/ "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:silver_shortblade"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:silver_blueprint"
+			}
+		],
+		"result": { "item": "hax:silver_kama" }
+	}
+}

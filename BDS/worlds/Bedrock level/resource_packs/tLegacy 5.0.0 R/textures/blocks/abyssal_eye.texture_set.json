@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "abyssal_eye",
+		"metalness_emissive_roughness": "abyssal_eye_mer",
+		"heightmap": "abyssal_eye_heightmap"
+	}
+}

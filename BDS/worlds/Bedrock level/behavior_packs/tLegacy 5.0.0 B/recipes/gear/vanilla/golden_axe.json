@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:golden_axe"
+		},
+
+    
+		"tags": [ "gold_blueprint" ],
+		"pattern": [
+			" HB",
+			" /N",
+			"/  "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:gold_axehead"
+			},
+			"B": {
+				"item": "hax:gold_bar"
+			},
+			"N": {
+				"item": "minecraft:gold_nugget"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:gold_blueprint"
+			}
+		],
+		"result": { "item": "minecraft:golden_axe" }
+	}
+}

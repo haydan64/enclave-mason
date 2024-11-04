@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:stone_kama"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"SS",
+			" /",
+			"/ "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:stone_shortblade"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:stone_pebble"
+			}
+		],
+		"result": { "item": "hax:stone_kama" }
+	}
+}

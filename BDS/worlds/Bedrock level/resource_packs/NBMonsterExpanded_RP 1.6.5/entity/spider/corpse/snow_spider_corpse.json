@@ -1,0 +1,37 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:snow_spider_corpse",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "spider",
+				"invisible": "spider_invisible"
+			},
+			"textures": {
+				"default": "textures/entity/spider/snow_spider/spider",
+				"default2": "textures/entity/spider/snow_spider/spider2",
+				"default3": "textures/entity/spider/snow_spider/spider3",
+				"default4": "textures/entity/spider/snow_spider/spider4",
+				"default5": "textures/entity/spider/snow_spider/sspider",
+				"default6": "textures/entity/spider/snow_spider/sspider2",
+				"default7": "textures/entity/spider/snow_spider/sspider3",
+				"default8": "textures/entity/spider/snow_spider/sspider4"
+			},
+			"geometry": {
+				"default": "geometry.spiderv2"
+			},
+			"scripts": {
+				"animate": [
+					"controller"
+				  ]
+			},
+			"animations": {
+				"controller" : "controller.animation.spider.corpse",
+				"dead": "animation.spider.deadv2"
+			},
+			"render_controllers": ["controller.render.eightvariant"],
+			"enable_attachables": true
+		}
+	}
+}

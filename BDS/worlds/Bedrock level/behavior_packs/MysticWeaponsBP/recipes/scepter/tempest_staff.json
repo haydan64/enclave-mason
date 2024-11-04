@@ -1,0 +1,28 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mystic:tempest_staff"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            " X#",
+            " SX",
+            "S  "
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:stick"
+            },
+            "#": {
+                "item": "item:wind_stone"
+            },
+            "X": {
+                "item": "minecraft:feather"
+            }
+        },
+        "result": {
+            "item": "mystic:tempest_staff"
+        }
+    }
+}

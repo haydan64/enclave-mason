@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:tin_dagger"
+		},
+
+    
+		"tags": [ "tin_blueprint" ],
+		"pattern": [
+			"S ",
+			"B ",
+			"/ "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:tin_shortblade"
+			},
+			"B": {
+				"item": "hax:tin_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:tin_blueprint"
+			}
+		],
+		"result": { "item": "hax:tin_dagger" }
+	}
+}

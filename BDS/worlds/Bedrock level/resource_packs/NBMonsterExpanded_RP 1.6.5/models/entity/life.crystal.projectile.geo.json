@@ -1,0 +1,26 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.nba.life_crystal_projectile",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "crystal",
+					"pivot": [0, 0.2, 0],
+					"rotation": [-0.86577, 20.54395, 53.47883],
+					"cubes": [
+						{"origin": [-1, -0.8, -1], "size": [2, 2, 2], "pivot": [0, 0.2, 0], "rotation": [0, 0, -125], "uv": [56, 0]},
+						{"origin": [-1, -0.8, -1], "size": [2, 2, 2], "pivot": [0, 0.2, 0], "rotation": [-3.06818, 49.83008, 15.55563], "uv": [56, 0]}
+					]
+				}
+			]
+		}
+	]
+}

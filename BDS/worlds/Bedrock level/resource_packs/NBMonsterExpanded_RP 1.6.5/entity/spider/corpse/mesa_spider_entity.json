@@ -1,0 +1,34 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:mesa_spider_corpse",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "spider",
+				"invisible": "spider_invisible"
+			},
+			"textures": {
+				"default": "textures/entity/spider/mesa_spider/spider"
+			},
+			"geometry": {
+				"default": "geometry.desertspider"
+			},
+			"spawn_egg": {
+				"base_color": "#d85939",
+				"overlay_color": "#c93333"
+			},
+			
+			"scripts": {
+				"animate": [
+					"controller"
+				  ]
+			},
+			"animations": {
+				"controller" : "controller.animation.spider.corpse",
+				"dead": "animation.spider.deadv2"
+			},
+			"render_controllers": ["controller.render.onevariant"]
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:solar_stone_chestplate"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "A A",
+            "AAA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:solarstone"
+            }
+        },
+        "result": {
+            "item": "fantasy:solar_stone_chestplate"
+        }
+    }
+}

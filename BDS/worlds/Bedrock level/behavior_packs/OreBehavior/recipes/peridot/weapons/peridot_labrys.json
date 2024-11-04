@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:peridot_labrys"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "AAA",
+            "ABA",
+            " B "
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:peridot_block"
+            },
+            "B": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "fantasy:peridot_labrys"
+        }
+    }
+}

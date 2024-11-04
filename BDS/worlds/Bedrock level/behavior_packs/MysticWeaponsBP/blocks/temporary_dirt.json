@@ -1,0 +1,38 @@
+{
+    "format_version": "1.20.60",
+    "minecraft:block": {
+        "description": {
+            "identifier": "mystic:temporary_dirt",
+            "menu_category": {
+                "category": "none",
+                "group": "none"
+            }
+        },
+        "components": {
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "dirt",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:queued_ticking": {
+                "looping": true,
+                "interval_range": [ 160, 160 ],
+                "on_tick": {
+                    "event": "destroy_dirt"
+                 }
+            },
+            "minecraft:loot": "loot_tables/empty.json",
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 3
+            }
+        },
+        "events": {
+            "destroy_dirt": {
+                "run_command": {
+                    "command": [ "setblock ~ ~ ~ air [] destroy" ]
+                }
+            }
+        }
+    }
+}

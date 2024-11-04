@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "diamond_blueprint",
+		"metalness_emissive_roughness": "diamond_template_mer",
+		"heightmap": "diamond_template_heightmap"
+	}
+}

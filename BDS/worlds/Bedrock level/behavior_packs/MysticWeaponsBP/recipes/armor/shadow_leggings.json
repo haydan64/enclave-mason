@@ -1,0 +1,22 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mystic:shadow_leggings"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "###",
+            "# #",
+            "# #"
+        ],
+        "key": {
+            "#": {
+                "item": "item:dark_stone_shard"
+            }
+        },
+        "result": {
+            "item": "mystic:shadow_leggings"
+        }
+    }
+}

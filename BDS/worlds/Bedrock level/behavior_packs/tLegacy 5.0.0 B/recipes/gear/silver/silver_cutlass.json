@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:silver_cutlass"
+		},
+
+    
+		"tags": [ "silver_blueprint" ],
+		"pattern": [
+			" SS",
+			"NL ",
+			"/N "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:silver_longblade"
+			},
+			"S": {
+				"item": "hax:silver_shortblade"
+			},
+			"N": {
+				"item": "hax:silver_nugget"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:silver_blueprint"
+			}
+		],
+		"result": { "item": "hax:silver_cutlass" }
+	}
+}

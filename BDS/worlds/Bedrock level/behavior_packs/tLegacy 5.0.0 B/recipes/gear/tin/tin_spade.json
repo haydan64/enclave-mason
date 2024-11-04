@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:tin_spade"
+		},
+
+    
+		"tags": [ "tin_blueprint" ],
+		"pattern": [
+			" IH",
+			" /I",
+			"/  "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:tin_spadehead"
+			},
+			"I": {
+				"item": "hax:tin_ingot"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:tin_blueprint"
+			}
+		],
+		"result": { "item": "hax:tin_spade" }
+	}
+}

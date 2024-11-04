@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "hax:steel_chakram",
+      "materials": {
+        "default": "arrow"
+      },
+      "textures": {
+        "default": "textures/items/sets/all_ranged/steel_chakram"
+      },
+      "geometry": {
+        "default": "geometry.hax_chakram"
+      },
+      "animations": {
+        "rotate": "animation.hax_ranged.rotate",
+	"move": "animation.hax_ranged.move"
+      },
+      "scripts": {
+        "animate": [
+          {"rotate": "query.ground_speed > 0.2"},
+	  "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.arrow" ]
+    }
+  }
+}

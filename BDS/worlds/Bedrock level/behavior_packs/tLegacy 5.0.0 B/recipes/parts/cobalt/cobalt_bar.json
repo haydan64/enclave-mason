@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:cobalt_bar"
+		},
+
+    
+		"tags": [ "cobalt_blueprint" ],
+		"pattern": [
+			"",
+			"N ",
+			" N"
+		],
+
+		"key": {
+			"N": {
+				"item": "hax:cobalt_nugget"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:cobalt_blueprint"
+			}
+		],
+		"result": { "item": "hax:cobalt_bar" }
+	}
+}

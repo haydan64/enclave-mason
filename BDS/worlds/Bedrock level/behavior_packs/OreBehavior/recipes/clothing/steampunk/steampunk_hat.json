@@ -1,0 +1,28 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:steampunk_hat"
+        },
+        "tags": [ "tailors_table" ],
+        "pattern": [
+            "AAA",
+            "ABA",
+            "ACA"
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:string"
+            },
+            "B": {
+                "item": "fantasy:black_hat"
+            },
+            "C": {
+                "item": "fantasy:steampunk_glasses"
+            }
+        },
+        "result": {
+            "item": "fantasy:steampunk_hat"
+        }
+    }
+}

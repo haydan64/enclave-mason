@@ -1,0 +1,145 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.pickaxe"
+			},
+			"identifier": "hax:gold_hammer"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Golden Hammer"
+			},
+			"minecraft:icon": {
+				"texture": "hax:gold_hammer"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 9,
+			"minecraft:enchantable": {
+				"value": 22,
+				"slot": "pickaxe"
+			},
+			"minecraft:durability": {
+				"max_durability": 42
+			},
+			"minecraft:repairable":{
+				"repair_items": [
+					{
+						"items": [
+							"hax:gold_hammer"
+						],
+						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+					},
+					{
+						"items": [
+							"minecraft:gold_ingot"
+						],
+						"repair_amount": "context.other->query.max_durability * 0.25" //10
+					}
+				]
+			},
+			"minecraft:can_destroy_in_creative": true,
+			"minecraft:digger": {
+				"destroy_speeds": [
+					{ "block": "minecraft:amethyst_block", "speed": 11 },
+					{ "block": "minecraft:coal_block", "speed": 11 },
+					{ "block": "minecraft:quartz_block", "speed": 11 },
+					{ "block": "minecraft:redstone_block", "speed": 11 },
+					{ "block": "minecraft:andesite", "speed": 11 },
+					{ "block": "minecraft:basalt", "speed": 11 },
+					{ "block": "minecraft:blackstone", "speed": 11 },
+					{ "block": "minecraft:blue_ice", "speed": 11 },
+					{ "block": "minecraft:bone_block", "speed": 11 },
+					{ "block": "minecraft:brick_block", "speed": 11 },
+					{ "block": "minecraft:calcite", "speed": 11 },
+					{ "block": "minecraft:chiseled_deepslate", "speed": 11 },
+					{ "block": "minecraft:chiseled_nether_bricks", "speed": 11 },
+					{ "block": "minecraft:chiseled_polished_blackstone", "speed": 11 },
+					//{ "block": "minecraft:chiseled_stone_bricks", "speed": 11 },
+					{ "block": "minecraft:chiseled_tuff", "speed": 11 },
+					{ "block": "minecraft:chiseled_tuff_bricks", "speed": 11 },
+					{ "block": "minecraft:cobbled_deepslate", "speed": 11 },
+					{ "block": "minecraft:cobblestone", "speed": 11 },
+					{ "block": "minecraft:white_concrete", "speed": 11 },
+					{ "block": "minecraft:orange_concrete", "speed": 11 },
+					{ "block": "minecraft:magenta_concrete", "speed": 11 },
+					{ "block": "minecraft:light_blue_concrete", "speed": 11 },
+					{ "block": "minecraft:yellow_concrete", "speed": 11 },
+					{ "block": "minecraft:lime_concrete", "speed": 11 },
+					{ "block": "minecraft:pink_concrete", "speed": 11 },
+					{ "block": "minecraft:gray_concrete", "speed": 11 },
+					{ "block": "minecraft:light_gray_concrete", "speed": 11 },
+					{ "block": "minecraft:cyan_concrete", "speed": 11 },
+					{ "block": "minecraft:purple_concrete", "speed": 11 },
+					{ "block": "minecraft:blue_concrete", "speed": 11 },
+					{ "block": "minecraft:brown_concrete", "speed": 11 },
+					{ "block": "minecraft:green_concrete", "speed": 11 },
+					{ "block": "minecraft:red_concrete", "speed": 11 },
+					{ "block": "minecraft:black_concrete", "speed": 11 },
+					//{ "block": "minecraft:dark_prismarine", "speed": 11 },
+					{ "block": "minecraft:deepslate_bricks", "speed": 11 },
+					{ "block": "minecraft:deepslate_tiles", "speed": 11 },
+					{ "block": "minecraft:deepslate", "speed": 11 },
+					{ "block": "minecraft:diorite", "speed": 11 },
+					{ "block": "minecraft:dripstone_block", "speed": 11 },
+					{ "block": "minecraft:end_stone", "speed": 11 },
+					{ "block": "minecraft:gilded_blackstone", "speed": 11 },
+					{ "block": "minecraft:white_glazed_terracotta", "speed": 11 },
+					{ "block": "minecraft:orange_glazed_terracotta", "speed": 11 },
+					{ "block": "minecraft:magenta_glazed_terracotta", "speed": 11 },
+					{ "block": "minecraft:light_blue_glazed_terracotta", "speed": 11 },
+					{ "block": "minecraft:yellow_glazed_terracotta", "speed": 11 },
+					{ "block": "minecraft:lime_glazed_terracotta", "speed": 11 },
+					{ "block": "minecraft:pink_glazed_terracotta", "speed": 11 },
+					{ "block": "minecraft:gray_glazed_terracotta", "speed": 11 },
+					{ "block": "minecraft:silver_glazed_terracotta", "speed": 11 },
+					{ "block": "minecraft:cyan_glazed_terracotta", "speed": 11 },
+					{ "block": "minecraft:purple_glazed_terracotta", "speed": 11 },
+					{ "block": "minecraft:blue_glazed_terracotta", "speed": 11 },
+					{ "block": "minecraft:brown_glazed_terracotta", "speed": 11 },
+					{ "block": "minecraft:green_glazed_terracotta", "speed": 11 },
+					{ "block": "minecraft:red_glazed_terracotta", "speed": 11 },
+					{ "block": "minecraft:black_glazed_terracotta", "speed": 11 },
+					{ "block": "minecraft:granite", "speed": 11 },
+					{ "block": "minecraft:ice", "speed": 11 },
+					{ "block": "minecraft:iron_bars", "speed": 11 },
+					{ "block": "minecraft:magma", "speed": 11 },
+					{ "block": "minecraft:mossy_cobblestone", "speed": 11 },
+					//{ "block": "minecraft:mossy_stone_bricks", "speed": 11 },
+					{ "block": "minecraft:mud_bricks", "speed": 11 },
+					{ "block": "minecraft:nether_brick", "speed": 11 },
+					{ "block": "minecraft:netherrack", "speed": 11 },
+					{ "block": "minecraft:packed_ice", "speed": 11 },
+					{ "block": "minecraft:packed_mud", "speed": 11 },
+					{ "block": "minecraft:polished_andesite", "speed": 11 },
+					{ "block": "minecraft:polished_basalt", "speed": 11 },
+					{ "block": "minecraft:polished_blackstone", "speed": 11 },
+					{ "block": "minecraft:polished_blackstone_bricks", "speed": 11 },
+					{ "block": "minecraft:polished_deepslate", "speed": 11 },
+					{ "block": "minecraft:polished_diorite", "speed": 11 },
+					{ "block": "minecraft:polished_granite", "speed": 11 },
+					{ "block": "minecraft:polished_tuff", "speed": 11 },
+					//{ "block": "minecraft:prismarine_bricks", "speed": 11 },
+					{ "block": "minecraft:prismarine", "speed": 11 },
+					{ "block": "minecraft:purpur_block", "speed": 11 },
+					{ "block": "minecraft:red_nether_brick", "speed": 11 },
+					{ "block": "minecraft:red_sandstone", "speed": 11 },
+					{ "block": "minecraft:sandstone", "speed": 11 },
+					{ "block": "minecraft:smooth_basalt", "speed": 11 },
+					{ "block": "minecraft:smooth_stone", "speed": 11 },
+					{ "block": "minecraft:stonebrick", "speed": 11 },
+					//{ "block": "minecraft:stone_bricks", "speed": 11 },
+					{ "block": "minecraft:stone", "speed": 11 },
+					{ "block": "minecraft:hardened_clay", "speed": 11 },
+					{ "block": "minecraft:tuff_bricks", "speed": 11 },
+					{ "block": "minecraft:tuff", "speed": 11 },
+					{ "block": "minecraft:warped_nylium", "speed": 11 }
+				],
+				"use_efficiency": true
+			}
+		}
+	}
+}

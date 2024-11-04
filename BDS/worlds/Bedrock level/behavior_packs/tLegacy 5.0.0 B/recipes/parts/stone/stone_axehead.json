@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:stone_axehead"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"IN",
+			"I "
+		],
+
+		"key": {
+			"I": {
+				"item": "minecraft:cobblestone"
+			},
+			"N": {
+				"item": "hax:stone_pebble"
+			}
+		},
+
+        "unlock": [
+            {
+                "item": "minecraft:cobblestone"
+            }
+        ],
+		"result": { "item": "hax:stone_axehead" }
+	}
+}

@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:spinel_pickaxe"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "AAA",
+            " B ",
+            " B "
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:spinel"
+            },
+            "B": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "fantasy:spinel_pickaxe"
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:ruby_dagger"
+		},
+
+    
+		"tags": [ "ruby_blueprint" ],
+		"pattern": [
+			"S ",
+			"B ",
+			"/ "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:ruby_shortblade"
+			},
+			"B": {
+				"item": "hax:ruby_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:ruby_blueprint"
+			}
+		],
+		"result": { "item": "hax:ruby_dagger" }
+	}
+}

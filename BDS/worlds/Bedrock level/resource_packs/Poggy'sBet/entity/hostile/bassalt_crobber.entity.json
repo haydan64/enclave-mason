@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "better_on_bedrock:bassalt_crobber",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/hostile/bassalt_crobber"
+			},
+			"animations": {
+				"basic": "controller.animation.bassalt_crobber.new",
+				"walk": "animation.bassalt_crobber.walk",
+				"idle": "animation.bassalt_crobber.idle",
+				"attack": "animation.bassalt_crobber.attack"
+			},
+			"scripts": {
+				"animate": [
+					"basic"
+				]
+			},
+			"geometry": {
+				"default": "geometry.bassalt_crobber"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"base_color": "#464646",
+				"overlay_color": "#1e1e1e"
+			}
+		}
+	}
+}

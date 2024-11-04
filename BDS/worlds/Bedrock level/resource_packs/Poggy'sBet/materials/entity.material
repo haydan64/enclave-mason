@@ -1,0 +1,27 @@
+{
+    "materials": {
+        "version": "1.0.0",
+        
+        "entity_enchant:entity_static": {
+            "blendSrc": "One",
+            "blendDst": "One",
+            "depthFunc": "Equal",
+            
+            "+defines": [
+                "USE_UV_ANIM",
+                "USE_EMISSIVE",
+                "USE_COLOR_MASK"
+            ],
+            "+states": [
+                "Blending",
+                "DisableCulling"
+            ],
+            "+samplerStates": [
+                {
+                    "samplerIndex": 0,
+                    "textureWrap": "Repeat"
+                }
+            ]
+        }
+    }
+}

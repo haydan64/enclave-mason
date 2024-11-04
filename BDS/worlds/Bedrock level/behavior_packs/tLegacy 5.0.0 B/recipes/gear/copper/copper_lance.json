@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:copper_lance"
+		},
+
+    
+		"tags": [ "copper_blueprint" ],
+		"pattern": [
+			" SH",
+			"INS",
+			"/I "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:copper_spadehead"
+			},
+			"S": {
+				"item": "hax:copper_shortblade"
+			},
+			"I": {
+				"item": "minecraft:copper_ingot"
+			},
+			"N": {
+				"item": "hax:copper_nugget"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:copper_blueprint"
+			}
+		],
+		"result": { "item": "hax:copper_lance" }
+	}
+}

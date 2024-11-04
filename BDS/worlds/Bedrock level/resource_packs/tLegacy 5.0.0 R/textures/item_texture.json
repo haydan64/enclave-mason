@@ -1,0 +1,2495 @@
+{
+	"texture_data": {
+
+		"hax:quiver": {
+			"textures": "textures/items/quiver"
+		},
+		"hax:faded_quiver": {
+			"textures": "textures/items/faded_quiver"
+		},
+		"minecraft:book_written": {
+			"textures": "textures/items/book_written"
+		},
+		"chainmail" : {
+			"textures" : "textures/items/chainmail"
+		},
+
+		"htc:blank_pottery_sherd": {
+			"textures": "textures/items/htc_blank_pottery_sherd"
+		},
+		"htc:icon_pottery_sherd": {
+			"textures": "textures/items/htc_icon_pottery_sherd"
+		},
+		"htc:smith_pottery_sherd": {
+			"textures": "textures/items/htc_smith_pottery_sherd"
+		},
+
+
+
+	//brimstone/brimstone
+		"hax:brimstone_battleaxe": {
+			"textures": "textures/items/sets/brimstone/brimstone_battleaxe"
+		},
+		"hax:brimstone_broadsword": {
+			"textures": "textures/items/sets/brimstone/brimstone_broadsword"
+		},
+		"hax:brimstone_claymore": {
+			"textures": "textures/items/sets/brimstone/brimstone_claymore"
+		},
+		"hax:brimstone_cleaver": {
+			"textures": "textures/items/sets/brimstone/brimstone_cleaver"
+		},
+		"hax:brimstone_cutlass": {
+			"textures": "textures/items/sets/brimstone/brimstone_cutlass"
+		},
+		"hax:brimstone_dagger": {
+			"textures": "textures/items/sets/brimstone/brimstone_dagger"
+		},
+		"hax:brimstone_gladius": {
+			"textures": "textures/items/sets/brimstone/brimstone_gladius"
+		},
+		"hax:brimstone_greatsword": {
+			"textures": "textures/items/sets/brimstone/brimstone_greatsword"
+		},
+		"hax:brimstone_hammer": {
+			"textures": "textures/items/sets/brimstone/brimstone_hammer"
+		},
+		"hax:brimstone_kama": {
+			"textures": "textures/items/sets/brimstone/brimstone_kama"
+		},
+		"hax:brimstone_katana": {
+			"textures": "textures/items/sets/brimstone/brimstone_katana"
+		},
+		"hax:brimstone_khopesh": {
+			"textures": "textures/items/sets/brimstone/brimstone_khopesh"
+		},
+		"hax:brimstone_lance": {
+			"textures": "textures/items/sets/brimstone/brimstone_lance"
+		},
+		"hax:brimstone_longsword": {
+			"textures": "textures/items/sets/brimstone/brimstone_longsword"
+		},
+		"hax:brimstone_mace": {
+			"textures": "textures/items/sets/brimstone/brimstone_mace"
+		},
+		"hax:brimstone_machete": {
+			"textures": "textures/items/sets/brimstone/brimstone_machete"
+		},
+		"hax:brimstone_morningstar": {
+			"textures": "textures/items/sets/brimstone/brimstone_morningstar"
+		},
+		"hax:brimstone_nunchaku": {
+			"textures": "textures/items/sets/brimstone/brimstone_nunchaku"
+		},
+		"hax:brimstone_rapier": {
+			"textures": "textures/items/sets/brimstone/brimstone_rapier"
+		},
+		"hax:brimstone_sai": {
+			"textures": "textures/items/sets/brimstone/brimstone_sai"
+		},
+		"hax:brimstone_scythe": {
+			"textures": "textures/items/sets/brimstone/brimstone_scythe"
+		},
+		"hax:brimstone_spade": {
+			"textures": "textures/items/sets/brimstone/brimstone_spade"
+		},
+
+		"hax:brimstone_chakram": {
+			"textures": "textures/items/sets/all_ranged/brimstone_chakram"
+		},
+		"hax:brimstone_kunai": {
+			"textures": "textures/items/sets/all_ranged/brimstone_kunai"
+		},
+		"hax:brimstone_shuriken": {
+			"textures": "textures/items/sets/all_ranged/brimstone_shuriken"
+		},
+		"hax:brimstone_spear": {
+			"textures": "textures/items/sets/all_ranged/brimstone_spear"
+		},
+
+	//bronze/bronze
+		"hax:bronze_battleaxe": {
+			"textures": "textures/items/sets/bronze/bronze_battleaxe"
+		},
+		"hax:bronze_broadsword": {
+			"textures": "textures/items/sets/bronze/bronze_broadsword"
+		},
+		"hax:bronze_claymore": {
+			"textures": "textures/items/sets/bronze/bronze_claymore"
+		},
+		"hax:bronze_cleaver": {
+			"textures": "textures/items/sets/bronze/bronze_cleaver"
+		},
+		"hax:bronze_cutlass": {
+			"textures": "textures/items/sets/bronze/bronze_cutlass"
+		},
+		"hax:bronze_dagger": {
+			"textures": "textures/items/sets/bronze/bronze_dagger"
+		},
+		"hax:bronze_gladius": {
+			"textures": "textures/items/sets/bronze/bronze_gladius"
+		},
+		"hax:bronze_greatsword": {
+			"textures": "textures/items/sets/bronze/bronze_greatsword"
+		},
+		"hax:bronze_hammer": {
+			"textures": "textures/items/sets/bronze/bronze_hammer"
+		},
+		"hax:bronze_kama": {
+			"textures": "textures/items/sets/bronze/bronze_kama"
+		},
+		"hax:bronze_katana": {
+			"textures": "textures/items/sets/bronze/bronze_katana"
+		},
+		"hax:bronze_khopesh": {
+			"textures": "textures/items/sets/bronze/bronze_khopesh"
+		},
+		"hax:bronze_lance": {
+			"textures": "textures/items/sets/bronze/bronze_lance"
+		},
+		"hax:bronze_longsword": {
+			"textures": "textures/items/sets/bronze/bronze_longsword"
+		},
+		"hax:bronze_mace": {
+			"textures": "textures/items/sets/bronze/bronze_mace"
+		},
+		"hax:bronze_machete": {
+			"textures": "textures/items/sets/bronze/bronze_machete"
+		},
+		"hax:bronze_morningstar": {
+			"textures": "textures/items/sets/bronze/bronze_morningstar"
+		},
+		"hax:bronze_nunchaku": {
+			"textures": "textures/items/sets/bronze/bronze_nunchaku"
+		},
+		"hax:bronze_rapier": {
+			"textures": "textures/items/sets/bronze/bronze_rapier"
+		},
+		"hax:bronze_sai": {
+			"textures": "textures/items/sets/bronze/bronze_sai"
+		},
+		"hax:bronze_scythe": {
+			"textures": "textures/items/sets/bronze/bronze_scythe"
+		},
+		"hax:bronze_spade": {
+			"textures": "textures/items/sets/bronze/bronze_spade"
+		},
+
+		"hax:bronze_chakram": {
+			"textures": "textures/items/sets/all_ranged/bronze_chakram"
+		},
+		"hax:bronze_kunai": {
+			"textures": "textures/items/sets/all_ranged/bronze_kunai"
+		},
+		"hax:bronze_shuriken": {
+			"textures": "textures/items/sets/all_ranged/bronze_shuriken"
+		},
+		"hax:bronze_spear": {
+			"textures": "textures/items/sets/all_ranged/bronze_spear"
+		},
+
+	//cobalt/cobalt
+		"hax:cobalt_battleaxe": {
+			"textures": "textures/items/sets/cobalt/cobalt_battleaxe"
+		},
+		"hax:cobalt_broadsword": {
+			"textures": "textures/items/sets/cobalt/cobalt_broadsword"
+		},
+		"hax:cobalt_claymore": {
+			"textures": "textures/items/sets/cobalt/cobalt_claymore"
+		},
+		"hax:cobalt_cleaver": {
+			"textures": "textures/items/sets/cobalt/cobalt_cleaver"
+		},
+		"hax:cobalt_cutlass": {
+			"textures": "textures/items/sets/cobalt/cobalt_cutlass"
+		},
+		"hax:cobalt_dagger": {
+			"textures": "textures/items/sets/cobalt/cobalt_dagger"
+		},
+		"hax:cobalt_gladius": {
+			"textures": "textures/items/sets/cobalt/cobalt_gladius"
+		},
+		"hax:cobalt_greatsword": {
+			"textures": "textures/items/sets/cobalt/cobalt_greatsword"
+		},
+		"hax:cobalt_hammer": {
+			"textures": "textures/items/sets/cobalt/cobalt_hammer"
+		},
+		"hax:cobalt_kama": {
+			"textures": "textures/items/sets/cobalt/cobalt_kama"
+		},
+		"hax:cobalt_katana": {
+			"textures": "textures/items/sets/cobalt/cobalt_katana"
+		},
+		"hax:cobalt_khopesh": {
+			"textures": "textures/items/sets/cobalt/cobalt_khopesh"
+		},
+		"hax:cobalt_lance": {
+			"textures": "textures/items/sets/cobalt/cobalt_lance"
+		},
+		"hax:cobalt_longsword": {
+			"textures": "textures/items/sets/cobalt/cobalt_longsword"
+		},
+		"hax:cobalt_mace": {
+			"textures": "textures/items/sets/cobalt/cobalt_mace"
+		},
+		"hax:cobalt_machete": {
+			"textures": "textures/items/sets/cobalt/cobalt_machete"
+		},
+		"hax:cobalt_morningstar": {
+			"textures": "textures/items/sets/cobalt/cobalt_morningstar"
+		},
+		"hax:cobalt_nunchaku": {
+			"textures": "textures/items/sets/cobalt/cobalt_nunchaku"
+		},
+		"hax:cobalt_rapier": {
+			"textures": "textures/items/sets/cobalt/cobalt_rapier"
+		},
+		"hax:cobalt_sai": {
+			"textures": "textures/items/sets/cobalt/cobalt_sai"
+		},
+		"hax:cobalt_scythe": {
+			"textures": "textures/items/sets/cobalt/cobalt_scythe"
+		},
+		"hax:cobalt_spade": {
+			"textures": "textures/items/sets/cobalt/cobalt_spade"
+		},
+
+		"hax:cobalt_chakram": {
+			"textures": "textures/items/sets/all_ranged/cobalt_chakram"
+		},
+		"hax:cobalt_kunai": {
+			"textures": "textures/items/sets/all_ranged/cobalt_kunai"
+		},
+		"hax:cobalt_shuriken": {
+			"textures": "textures/items/sets/all_ranged/cobalt_shuriken"
+		},
+		"hax:cobalt_spear": {
+			"textures": "textures/items/sets/all_ranged/cobalt_spear"
+		},
+
+	//copper/copper
+		"hax:copper_battleaxe": {
+			"textures": "textures/items/sets/copper/copper_battleaxe"
+		},
+		"hax:copper_broadsword": {
+			"textures": "textures/items/sets/copper/copper_broadsword"
+		},
+		"hax:copper_claymore": {
+			"textures": "textures/items/sets/copper/copper_claymore"
+		},
+		"hax:copper_cleaver": {
+			"textures": "textures/items/sets/copper/copper_cleaver"
+		},
+		"hax:copper_cutlass": {
+			"textures": "textures/items/sets/copper/copper_cutlass"
+		},
+		"hax:copper_dagger": {
+			"textures": "textures/items/sets/copper/copper_dagger"
+		},
+		"hax:copper_gladius": {
+			"textures": "textures/items/sets/copper/copper_gladius"
+		},
+		"hax:copper_greatsword": {
+			"textures": "textures/items/sets/copper/copper_greatsword"
+		},
+		"hax:copper_hammer": {
+			"textures": "textures/items/sets/copper/copper_hammer"
+		},
+		"hax:copper_kama": {
+			"textures": "textures/items/sets/copper/copper_kama"
+		},
+		"hax:copper_katana": {
+			"textures": "textures/items/sets/copper/copper_katana"
+		},
+		"hax:copper_khopesh": {
+			"textures": "textures/items/sets/copper/copper_khopesh"
+		},
+		"hax:copper_lance": {
+			"textures": "textures/items/sets/copper/copper_lance"
+		},
+		"hax:copper_longsword": {
+			"textures": "textures/items/sets/copper/copper_longsword"
+		},
+		"hax:copper_mace": {
+			"textures": "textures/items/sets/copper/copper_mace"
+		},
+		"hax:copper_machete": {
+			"textures": "textures/items/sets/copper/copper_machete"
+		},
+		"hax:copper_morningstar": {
+			"textures": "textures/items/sets/copper/copper_morningstar"
+		},
+		"hax:copper_nunchaku": {
+			"textures": "textures/items/sets/copper/copper_nunchaku"
+		},
+		"hax:copper_rapier": {
+			"textures": "textures/items/sets/copper/copper_rapier"
+		},
+		"hax:copper_sai": {
+			"textures": "textures/items/sets/copper/copper_sai"
+		},
+		"hax:copper_scythe": {
+			"textures": "textures/items/sets/copper/copper_scythe"
+		},
+		"hax:copper_spade": {
+			"textures": "textures/items/sets/copper/copper_spade"
+		},
+
+		"hax:copper_chakram": {
+			"textures": "textures/items/sets/all_ranged/copper_chakram"
+		},
+		"hax:copper_kunai": {
+			"textures": "textures/items/sets/all_ranged/copper_kunai"
+		},
+		"hax:copper_shuriken": {
+			"textures": "textures/items/sets/all_ranged/copper_shuriken"
+		},
+		"hax:copper_spear": {
+			"textures": "textures/items/sets/all_ranged/copper_spear"
+		},
+
+	//diamond/diamond
+		"hax:diamond_battleaxe": {
+			"textures": "textures/items/sets/diamond/diamond_battleaxe"
+		},
+		"hax:diamond_broadsword": {
+			"textures": "textures/items/sets/diamond/diamond_broadsword"
+		},
+		"hax:diamond_claymore": {
+			"textures": "textures/items/sets/diamond/diamond_claymore"
+		},
+		"hax:diamond_cleaver": {
+			"textures": "textures/items/sets/diamond/diamond_cleaver"
+		},
+		"hax:diamond_cutlass": {
+			"textures": "textures/items/sets/diamond/diamond_cutlass"
+		},
+		"hax:diamond_dagger": {
+			"textures": "textures/items/sets/diamond/diamond_dagger"
+		},
+		"hax:diamond_gladius": {
+			"textures": "textures/items/sets/diamond/diamond_gladius"
+		},
+		"hax:diamond_greatsword": {
+			"textures": "textures/items/sets/diamond/diamond_greatsword"
+		},
+		"hax:diamond_hammer": {
+			"textures": "textures/items/sets/diamond/diamond_hammer"
+		},
+		"hax:diamond_kama": {
+			"textures": "textures/items/sets/diamond/diamond_kama"
+		},
+		"hax:diamond_katana": {
+			"textures": "textures/items/sets/diamond/diamond_katana"
+		},
+		"hax:diamond_khopesh": {
+			"textures": "textures/items/sets/diamond/diamond_khopesh"
+		},
+		"hax:diamond_lance": {
+			"textures": "textures/items/sets/diamond/diamond_lance"
+		},
+		"hax:diamond_longsword": {
+			"textures": "textures/items/sets/diamond/diamond_longsword"
+		},
+		"hax:diamond_mace": {
+			"textures": "textures/items/sets/diamond/diamond_mace"
+		},
+		"hax:diamond_machete": {
+			"textures": "textures/items/sets/diamond/diamond_machete"
+		},
+		"hax:diamond_morningstar": {
+			"textures": "textures/items/sets/diamond/diamond_morningstar"
+		},
+		"hax:diamond_nunchaku": {
+			"textures": "textures/items/sets/diamond/diamond_nunchaku"
+		},
+		"hax:diamond_rapier": {
+			"textures": "textures/items/sets/diamond/diamond_rapier"
+		},
+		"hax:diamond_sai": {
+			"textures": "textures/items/sets/diamond/diamond_sai"
+		},
+		"hax:diamond_scythe": {
+			"textures": "textures/items/sets/diamond/diamond_scythe"
+		},
+		"hax:diamond_spade": {
+			"textures": "textures/items/sets/diamond/diamond_spade"
+		},
+
+		"hax:diamond_chakram": {
+			"textures": "textures/items/sets/all_ranged/diamond_chakram"
+		},
+		"hax:diamond_kunai": {
+			"textures": "textures/items/sets/all_ranged/diamond_kunai"
+		},
+		"hax:diamond_shuriken": {
+			"textures": "textures/items/sets/all_ranged/diamond_shuriken"
+		},
+		"hax:diamond_spear": {
+			"textures": "textures/items/sets/all_ranged/diamond_spear"
+		},
+
+	//dragonscale/dragonscale
+		"hax:dragonscale_battleaxe": {
+			"textures": "textures/items/sets/dragonscale/dragonscale_battleaxe"
+		},
+		"hax:dragonscale_broadsword": {
+			"textures": "textures/items/sets/dragonscale/dragonscale_broadsword"
+		},
+		"hax:dragonscale_claymore": {
+			"textures": "textures/items/sets/dragonscale/dragonscale_claymore"
+		},
+		"hax:dragonscale_cleaver": {
+			"textures": "textures/items/sets/dragonscale/dragonscale_cleaver"
+		},
+		"hax:dragonscale_cutlass": {
+			"textures": "textures/items/sets/dragonscale/dragonscale_cutlass"
+		},
+		"hax:dragonscale_dagger": {
+			"textures": "textures/items/sets/dragonscale/dragonscale_dagger"
+		},
+		"hax:dragonscale_gladius": {
+			"textures": "textures/items/sets/dragonscale/dragonscale_gladius"
+		},
+		"hax:dragonscale_greatsword": {
+			"textures": "textures/items/sets/dragonscale/dragonscale_greatsword"
+		},
+		"hax:dragonscale_hammer": {
+			"textures": "textures/items/sets/dragonscale/dragonscale_hammer"
+		},
+		"hax:dragonscale_kama": {
+			"textures": "textures/items/sets/dragonscale/dragonscale_kama"
+		},
+		"hax:dragonscale_katana": {
+			"textures": "textures/items/sets/dragonscale/dragonscale_katana"
+		},
+		"hax:dragonscale_khopesh": {
+			"textures": "textures/items/sets/dragonscale/dragonscale_khopesh"
+		},
+		"hax:dragonscale_lance": {
+			"textures": "textures/items/sets/dragonscale/dragonscale_lance"
+		},
+		"hax:dragonscale_longsword": {
+			"textures": "textures/items/sets/dragonscale/dragonscale_longsword"
+		},
+		"hax:dragonscale_mace": {
+			"textures": "textures/items/sets/dragonscale/dragonscale_mace"
+		},
+		"hax:dragonscale_machete": {
+			"textures": "textures/items/sets/dragonscale/dragonscale_machete"
+		},
+		"hax:dragonscale_morningstar": {
+			"textures": "textures/items/sets/dragonscale/dragonscale_morningstar"
+		},
+		"hax:dragonscale_nunchaku": {
+			"textures": "textures/items/sets/dragonscale/dragonscale_nunchaku"
+		},
+		"hax:dragonscale_rapier": {
+			"textures": "textures/items/sets/dragonscale/dragonscale_rapier"
+		},
+		"hax:dragonscale_sai": {
+			"textures": "textures/items/sets/dragonscale/dragonscale_sai"
+		},
+		"hax:dragonscale_scythe": {
+			"textures": "textures/items/sets/dragonscale/dragonscale_scythe"
+		},
+		"hax:dragonscale_spade": {
+			"textures": "textures/items/sets/dragonscale/dragonscale_spade"
+		},
+
+		"hax:dragonscale_chakram": {
+			"textures": "textures/items/sets/all_ranged/dragonscale_chakram"
+		},
+		"hax:dragonscale_kunai": {
+			"textures": "textures/items/sets/all_ranged/dragonscale_kunai"
+		},
+		"hax:dragonscale_shuriken": {
+			"textures": "textures/items/sets/all_ranged/dragonscale_shuriken"
+		},
+		"hax:dragonscale_spear": {
+			"textures": "textures/items/sets/all_ranged/dragonscale_spear"
+		},
+
+	//electrum/electrum
+		"hax:electrum_battleaxe": {
+			"textures": "textures/items/sets/electrum/electrum_battleaxe"
+		},
+		"hax:electrum_broadsword": {
+			"textures": "textures/items/sets/electrum/electrum_broadsword"
+		},
+		"hax:electrum_claymore": {
+			"textures": "textures/items/sets/electrum/electrum_claymore"
+		},
+		"hax:electrum_cleaver": {
+			"textures": "textures/items/sets/electrum/electrum_cleaver"
+		},
+		"hax:electrum_cutlass": {
+			"textures": "textures/items/sets/electrum/electrum_cutlass"
+		},
+		"hax:electrum_dagger": {
+			"textures": "textures/items/sets/electrum/electrum_dagger"
+		},
+		"hax:electrum_gladius": {
+			"textures": "textures/items/sets/electrum/electrum_gladius"
+		},
+		"hax:electrum_greatsword": {
+			"textures": "textures/items/sets/electrum/electrum_greatsword"
+		},
+		"hax:electrum_hammer": {
+			"textures": "textures/items/sets/electrum/electrum_hammer"
+		},
+		"hax:electrum_kama": {
+			"textures": "textures/items/sets/electrum/electrum_kama"
+		},
+		"hax:electrum_katana": {
+			"textures": "textures/items/sets/electrum/electrum_katana"
+		},
+		"hax:electrum_khopesh": {
+			"textures": "textures/items/sets/electrum/electrum_khopesh"
+		},
+		"hax:electrum_lance": {
+			"textures": "textures/items/sets/electrum/electrum_lance"
+		},
+		"hax:electrum_longsword": {
+			"textures": "textures/items/sets/electrum/electrum_longsword"
+		},
+		"hax:electrum_mace": {
+			"textures": "textures/items/sets/electrum/electrum_mace"
+		},
+		"hax:electrum_machete": {
+			"textures": "textures/items/sets/electrum/electrum_machete"
+		},
+		"hax:electrum_morningstar": {
+			"textures": "textures/items/sets/electrum/electrum_morningstar"
+		},
+		"hax:electrum_nunchaku": {
+			"textures": "textures/items/sets/electrum/electrum_nunchaku"
+		},
+		"hax:electrum_rapier": {
+			"textures": "textures/items/sets/electrum/electrum_rapier"
+		},
+		"hax:electrum_sai": {
+			"textures": "textures/items/sets/electrum/electrum_sai"
+		},
+		"hax:electrum_scythe": {
+			"textures": "textures/items/sets/electrum/electrum_scythe"
+		},
+		"hax:electrum_spade": {
+			"textures": "textures/items/sets/electrum/electrum_spade"
+		},
+
+		"hax:electrum_chakram": {
+			"textures": "textures/items/sets/all_ranged/electrum_chakram"
+		},
+		"hax:electrum_kunai": {
+			"textures": "textures/items/sets/all_ranged/electrum_kunai"
+		},
+		"hax:electrum_shuriken": {
+			"textures": "textures/items/sets/all_ranged/electrum_shuriken"
+		},
+		"hax:electrum_spear": {
+			"textures": "textures/items/sets/all_ranged/electrum_spear"
+		},
+
+	//emerald/emerald
+		"hax:emerald_battleaxe": {
+			"textures": "textures/items/sets/emerald/emerald_battleaxe"
+		},
+		"hax:emerald_broadsword": {
+			"textures": "textures/items/sets/emerald/emerald_broadsword"
+		},
+		"hax:emerald_claymore": {
+			"textures": "textures/items/sets/emerald/emerald_claymore"
+		},
+		"hax:emerald_cleaver": {
+			"textures": "textures/items/sets/emerald/emerald_cleaver"
+		},
+		"hax:emerald_cutlass": {
+			"textures": "textures/items/sets/emerald/emerald_cutlass"
+		},
+		"hax:emerald_dagger": {
+			"textures": "textures/items/sets/emerald/emerald_dagger"
+		},
+		"hax:emerald_gladius": {
+			"textures": "textures/items/sets/emerald/emerald_gladius"
+		},
+		"hax:emerald_greatsword": {
+			"textures": "textures/items/sets/emerald/emerald_greatsword"
+		},
+		"hax:emerald_hammer": {
+			"textures": "textures/items/sets/emerald/emerald_hammer"
+		},
+		"hax:emerald_kama": {
+			"textures": "textures/items/sets/emerald/emerald_kama"
+		},
+		"hax:emerald_katana": {
+			"textures": "textures/items/sets/emerald/emerald_katana"
+		},
+		"hax:emerald_khopesh": {
+			"textures": "textures/items/sets/emerald/emerald_khopesh"
+		},
+		"hax:emerald_lance": {
+			"textures": "textures/items/sets/emerald/emerald_lance"
+		},
+		"hax:emerald_longsword": {
+			"textures": "textures/items/sets/emerald/emerald_longsword"
+		},
+		"hax:emerald_mace": {
+			"textures": "textures/items/sets/emerald/emerald_mace"
+		},
+		"hax:emerald_machete": {
+			"textures": "textures/items/sets/emerald/emerald_machete"
+		},
+		"hax:emerald_morningstar": {
+			"textures": "textures/items/sets/emerald/emerald_morningstar"
+		},
+		"hax:emerald_nunchaku": {
+			"textures": "textures/items/sets/emerald/emerald_nunchaku"
+		},
+		"hax:emerald_rapier": {
+			"textures": "textures/items/sets/emerald/emerald_rapier"
+		},
+		"hax:emerald_sai": {
+			"textures": "textures/items/sets/emerald/emerald_sai"
+		},
+		"hax:emerald_scythe": {
+			"textures": "textures/items/sets/emerald/emerald_scythe"
+		},
+		"hax:emerald_spade": {
+			"textures": "textures/items/sets/emerald/emerald_spade"
+		},
+
+		"hax:emerald_chakram": {
+			"textures": "textures/items/sets/all_ranged/emerald_chakram"
+		},
+		"hax:emerald_kunai": {
+			"textures": "textures/items/sets/all_ranged/emerald_kunai"
+		},
+		"hax:emerald_shuriken": {
+			"textures": "textures/items/sets/all_ranged/emerald_shuriken"
+		},
+		"hax:emerald_spear": {
+			"textures": "textures/items/sets/all_ranged/emerald_spear"
+		},
+
+	//enderium/enderium
+		"hax:enderium_battleaxe": {
+			"textures": "textures/items/sets/enderium/enderium_battleaxe"
+		},
+		"hax:enderium_broadsword": {
+			"textures": "textures/items/sets/enderium/enderium_broadsword"
+		},
+		"hax:enderium_claymore": {
+			"textures": "textures/items/sets/enderium/enderium_claymore"
+		},
+		"hax:enderium_cleaver": {
+			"textures": "textures/items/sets/enderium/enderium_cleaver"
+		},
+		"hax:enderium_cutlass": {
+			"textures": "textures/items/sets/enderium/enderium_cutlass"
+		},
+		"hax:enderium_dagger": {
+			"textures": "textures/items/sets/enderium/enderium_dagger"
+		},
+		"hax:enderium_gladius": {
+			"textures": "textures/items/sets/enderium/enderium_gladius"
+		},
+		"hax:enderium_greatsword": {
+			"textures": "textures/items/sets/enderium/enderium_greatsword"
+		},
+		"hax:enderium_hammer": {
+			"textures": "textures/items/sets/enderium/enderium_hammer"
+		},
+		"hax:enderium_kama": {
+			"textures": "textures/items/sets/enderium/enderium_kama"
+		},
+		"hax:enderium_katana": {
+			"textures": "textures/items/sets/enderium/enderium_katana"
+		},
+		"hax:enderium_khopesh": {
+			"textures": "textures/items/sets/enderium/enderium_khopesh"
+		},
+		"hax:enderium_lance": {
+			"textures": "textures/items/sets/enderium/enderium_lance"
+		},
+		"hax:enderium_longsword": {
+			"textures": "textures/items/sets/enderium/enderium_longsword"
+		},
+		"hax:enderium_mace": {
+			"textures": "textures/items/sets/enderium/enderium_mace"
+		},
+		"hax:enderium_machete": {
+			"textures": "textures/items/sets/enderium/enderium_machete"
+		},
+		"hax:enderium_morningstar": {
+			"textures": "textures/items/sets/enderium/enderium_morningstar"
+		},
+		"hax:enderium_nunchaku": {
+			"textures": "textures/items/sets/enderium/enderium_nunchaku"
+		},
+		"hax:enderium_rapier": {
+			"textures": "textures/items/sets/enderium/enderium_rapier"
+		},
+		"hax:enderium_sai": {
+			"textures": "textures/items/sets/enderium/enderium_sai"
+		},
+		"hax:enderium_scythe": {
+			"textures": "textures/items/sets/enderium/enderium_scythe"
+		},
+		"hax:enderium_spade": {
+			"textures": "textures/items/sets/enderium/enderium_spade"
+		},
+
+		"hax:enderium_chakram": {
+			"textures": "textures/items/sets/all_ranged/enderium_chakram"
+		},
+		"hax:enderium_kunai": {
+			"textures": "textures/items/sets/all_ranged/enderium_kunai"
+		},
+		"hax:enderium_shuriken": {
+			"textures": "textures/items/sets/all_ranged/enderium_shuriken"
+		},
+		"hax:enderium_spear": {
+			"textures": "textures/items/sets/all_ranged/enderium_spear"
+		},
+
+	//gold/gold
+		"hax:gold_battleaxe": {
+			"textures": "textures/items/sets/gold/gold_battleaxe"
+		},
+		"hax:gold_broadsword": {
+			"textures": "textures/items/sets/gold/gold_broadsword"
+		},
+		"hax:gold_claymore": {
+			"textures": "textures/items/sets/gold/gold_claymore"
+		},
+		"hax:gold_cleaver": {
+			"textures": "textures/items/sets/gold/gold_cleaver"
+		},
+		"hax:gold_cutlass": {
+			"textures": "textures/items/sets/gold/gold_cutlass"
+		},
+		"hax:gold_dagger": {
+			"textures": "textures/items/sets/gold/gold_dagger"
+		},
+		"hax:gold_gladius": {
+			"textures": "textures/items/sets/gold/gold_gladius"
+		},
+		"hax:gold_greatsword": {
+			"textures": "textures/items/sets/gold/gold_greatsword"
+		},
+		"hax:gold_hammer": {
+			"textures": "textures/items/sets/gold/gold_hammer"
+		},
+		"hax:gold_kama": {
+			"textures": "textures/items/sets/gold/gold_kama"
+		},
+		"hax:gold_katana": {
+			"textures": "textures/items/sets/gold/gold_katana"
+		},
+		"hax:gold_khopesh": {
+			"textures": "textures/items/sets/gold/gold_khopesh"
+		},
+		"hax:gold_lance": {
+			"textures": "textures/items/sets/gold/gold_lance"
+		},
+		"hax:gold_longsword": {
+			"textures": "textures/items/sets/gold/gold_longsword"
+		},
+		"hax:gold_mace": {
+			"textures": "textures/items/sets/gold/gold_mace"
+		},
+		"hax:gold_machete": {
+			"textures": "textures/items/sets/gold/gold_machete"
+		},
+		"hax:gold_morningstar": {
+			"textures": "textures/items/sets/gold/gold_morningstar"
+		},
+		"hax:gold_nunchaku": {
+			"textures": "textures/items/sets/gold/gold_nunchaku"
+		},
+		"hax:gold_rapier": {
+			"textures": "textures/items/sets/gold/gold_rapier"
+		},
+		"hax:gold_sai": {
+			"textures": "textures/items/sets/gold/gold_sai"
+		},
+		"hax:gold_scythe": {
+			"textures": "textures/items/sets/gold/gold_scythe"
+		},
+		"hax:gold_spade": {
+			"textures": "textures/items/sets/gold/gold_spade"
+		},
+
+		"hax:gold_chakram": {
+			"textures": "textures/items/sets/all_ranged/gold_chakram"
+		},
+		"hax:gold_kunai": {
+			"textures": "textures/items/sets/all_ranged/gold_kunai"
+		},
+		"hax:gold_shuriken": {
+			"textures": "textures/items/sets/all_ranged/gold_shuriken"
+		},
+		"hax:gold_spear": {
+			"textures": "textures/items/sets/all_ranged/gold_spear"
+		},
+
+	//iron/iron
+		"hax:iron_battleaxe": {
+			"textures": "textures/items/sets/iron/iron_battleaxe"
+		},
+		"hax:iron_broadsword": {
+			"textures": "textures/items/sets/iron/iron_broadsword"
+		},
+		"hax:iron_claymore": {
+			"textures": "textures/items/sets/iron/iron_claymore"
+		},
+		"hax:iron_cleaver": {
+			"textures": "textures/items/sets/iron/iron_cleaver"
+		},
+		"hax:iron_cutlass": {
+			"textures": "textures/items/sets/iron/iron_cutlass"
+		},
+		"hax:iron_dagger": {
+			"textures": "textures/items/sets/iron/iron_dagger"
+		},
+		"hax:iron_gladius": {
+			"textures": "textures/items/sets/iron/iron_gladius"
+		},
+		"hax:iron_greatsword": {
+			"textures": "textures/items/sets/iron/iron_greatsword"
+		},
+		"hax:iron_hammer": {
+			"textures": "textures/items/sets/iron/iron_hammer"
+		},
+		"hax:iron_kama": {
+			"textures": "textures/items/sets/iron/iron_kama"
+		},
+		"hax:iron_katana": {
+			"textures": "textures/items/sets/iron/iron_katana"
+		},
+		"hax:iron_khopesh": {
+			"textures": "textures/items/sets/iron/iron_khopesh"
+		},
+		"hax:iron_lance": {
+			"textures": "textures/items/sets/iron/iron_lance"
+		},
+		"hax:iron_longsword": {
+			"textures": "textures/items/sets/iron/iron_longsword"
+		},
+		"hax:iron_mace": {
+			"textures": "textures/items/sets/iron/iron_mace"
+		},
+		"hax:iron_machete": {
+			"textures": "textures/items/sets/iron/iron_machete"
+		},
+		"hax:iron_morningstar": {
+			"textures": "textures/items/sets/iron/iron_morningstar"
+		},
+		"hax:iron_nunchaku": {
+			"textures": "textures/items/sets/iron/iron_nunchaku"
+		},
+		"hax:iron_rapier": {
+			"textures": "textures/items/sets/iron/iron_rapier"
+		},
+		"hax:iron_sai": {
+			"textures": "textures/items/sets/iron/iron_sai"
+		},
+		"hax:iron_scythe": {
+			"textures": "textures/items/sets/iron/iron_scythe"
+		},
+		"hax:iron_spade": {
+			"textures": "textures/items/sets/iron/iron_spade"
+		},
+
+		"hax:iron_chakram": {
+			"textures": "textures/items/sets/all_ranged/iron_chakram"
+		},
+		"hax:iron_kunai": {
+			"textures": "textures/items/sets/all_ranged/iron_kunai"
+		},
+		"hax:iron_shuriken": {
+			"textures": "textures/items/sets/all_ranged/iron_shuriken"
+		},
+		"hax:iron_spear": {
+			"textures": "textures/items/sets/all_ranged/iron_spear"
+		},
+
+	//lead/lead
+		"hax:lead_battleaxe": {
+			"textures": "textures/items/sets/lead/lead_battleaxe"
+		},
+		"hax:lead_broadsword": {
+			"textures": "textures/items/sets/lead/lead_broadsword"
+		},
+		"hax:lead_claymore": {
+			"textures": "textures/items/sets/lead/lead_claymore"
+		},
+		"hax:lead_cleaver": {
+			"textures": "textures/items/sets/lead/lead_cleaver"
+		},
+		"hax:lead_cutlass": {
+			"textures": "textures/items/sets/lead/lead_cutlass"
+		},
+		"hax:lead_dagger": {
+			"textures": "textures/items/sets/lead/lead_dagger"
+		},
+		"hax:lead_gladius": {
+			"textures": "textures/items/sets/lead/lead_gladius"
+		},
+		"hax:lead_greatsword": {
+			"textures": "textures/items/sets/lead/lead_greatsword"
+		},
+		"hax:lead_hammer": {
+			"textures": "textures/items/sets/lead/lead_hammer"
+		},
+		"hax:lead_kama": {
+			"textures": "textures/items/sets/lead/lead_kama"
+		},
+		"hax:lead_katana": {
+			"textures": "textures/items/sets/lead/lead_katana"
+		},
+		"hax:lead_khopesh": {
+			"textures": "textures/items/sets/lead/lead_khopesh"
+		},
+		"hax:lead_lance": {
+			"textures": "textures/items/sets/lead/lead_lance"
+		},
+		"hax:lead_longsword": {
+			"textures": "textures/items/sets/lead/lead_longsword"
+		},
+		"hax:lead_mace": {
+			"textures": "textures/items/sets/lead/lead_mace"
+		},
+		"hax:lead_machete": {
+			"textures": "textures/items/sets/lead/lead_machete"
+		},
+		"hax:lead_morningstar": {
+			"textures": "textures/items/sets/lead/lead_morningstar"
+		},
+		"hax:lead_nunchaku": {
+			"textures": "textures/items/sets/lead/lead_nunchaku"
+		},
+		"hax:lead_rapier": {
+			"textures": "textures/items/sets/lead/lead_rapier"
+		},
+		"hax:lead_sai": {
+			"textures": "textures/items/sets/lead/lead_sai"
+		},
+		"hax:lead_scythe": {
+			"textures": "textures/items/sets/lead/lead_scythe"
+		},
+		"hax:lead_spade": {
+			"textures": "textures/items/sets/lead/lead_spade"
+		},
+
+		"hax:lead_chakram": {
+			"textures": "textures/items/sets/all_ranged/lead_chakram"
+		},
+		"hax:lead_kunai": {
+			"textures": "textures/items/sets/all_ranged/lead_kunai"
+		},
+		"hax:lead_shuriken": {
+			"textures": "textures/items/sets/all_ranged/lead_shuriken"
+		},
+		"hax:lead_spear": {
+			"textures": "textures/items/sets/all_ranged/lead_spear"
+		},
+
+	//netherite/netherite
+		"hax:netherite_battleaxe": {
+			"textures": "textures/items/sets/netherite/netherite_battleaxe"
+		},
+		"hax:netherite_broadsword": {
+			"textures": "textures/items/sets/netherite/netherite_broadsword"
+		},
+		"hax:netherite_claymore": {
+			"textures": "textures/items/sets/netherite/netherite_claymore"
+		},
+		"hax:netherite_cleaver": {
+			"textures": "textures/items/sets/netherite/netherite_cleaver"
+		},
+		"hax:netherite_cutlass": {
+			"textures": "textures/items/sets/netherite/netherite_cutlass"
+		},
+		"hax:netherite_dagger": {
+			"textures": "textures/items/sets/netherite/netherite_dagger"
+		},
+		"hax:netherite_gladius": {
+			"textures": "textures/items/sets/netherite/netherite_gladius"
+		},
+		"hax:netherite_greatsword": {
+			"textures": "textures/items/sets/netherite/netherite_greatsword"
+		},
+		"hax:netherite_hammer": {
+			"textures": "textures/items/sets/netherite/netherite_hammer"
+		},
+		"hax:netherite_kama": {
+			"textures": "textures/items/sets/netherite/netherite_kama"
+		},
+		"hax:netherite_katana": {
+			"textures": "textures/items/sets/netherite/netherite_katana"
+		},
+		"hax:netherite_khopesh": {
+			"textures": "textures/items/sets/netherite/netherite_khopesh"
+		},
+		"hax:netherite_lance": {
+			"textures": "textures/items/sets/netherite/netherite_lance"
+		},
+		"hax:netherite_longsword": {
+			"textures": "textures/items/sets/netherite/netherite_longsword"
+		},
+		"hax:netherite_mace": {
+			"textures": "textures/items/sets/netherite/netherite_mace"
+		},
+		"hax:netherite_machete": {
+			"textures": "textures/items/sets/netherite/netherite_machete"
+		},
+		"hax:netherite_morningstar": {
+			"textures": "textures/items/sets/netherite/netherite_morningstar"
+		},
+		"hax:netherite_nunchaku": {
+			"textures": "textures/items/sets/netherite/netherite_nunchaku"
+		},
+		"hax:netherite_rapier": {
+			"textures": "textures/items/sets/netherite/netherite_rapier"
+		},
+		"hax:netherite_sai": {
+			"textures": "textures/items/sets/netherite/netherite_sai"
+		},
+		"hax:netherite_scythe": {
+			"textures": "textures/items/sets/netherite/netherite_scythe"
+		},
+		"hax:netherite_spade": {
+			"textures": "textures/items/sets/netherite/netherite_spade"
+		},
+
+		"hax:netherite_chakram": {
+			"textures": "textures/items/sets/all_ranged/netherite_chakram"
+		},
+		"hax:netherite_kunai": {
+			"textures": "textures/items/sets/all_ranged/netherite_kunai"
+		},
+		"hax:netherite_shuriken": {
+			"textures": "textures/items/sets/all_ranged/netherite_shuriken"
+		},
+		"hax:netherite_spear": {
+			"textures": "textures/items/sets/all_ranged/netherite_spear"
+		},
+
+	//brimstone/alt/alt_brimstone
+		"hax:_netherite_battleaxe": {
+			"textures": "textures/items/sets/brimstone/alt/alt_brimstone_battleaxe"
+		},
+		"hax:_netherite_broadsword": {
+			"textures": "textures/items/sets/brimstone/alt/alt_brimstone_broadsword"
+		},
+		"hax:_netherite_claymore": {
+			"textures": "textures/items/sets/brimstone/alt/alt_brimstone_claymore"
+		},
+		"hax:_netherite_cleaver": {
+			"textures": "textures/items/sets/brimstone/alt/alt_brimstone_cleaver"
+		},
+		"hax:_netherite_cutlass": {
+			"textures": "textures/items/sets/brimstone/alt/alt_brimstone_cutlass"
+		},
+		"hax:_netherite_dagger": {
+			"textures": "textures/items/sets/brimstone/alt/alt_brimstone_dagger"
+		},
+		"hax:_netherite_gladius": {
+			"textures": "textures/items/sets/brimstone/alt/alt_brimstone_gladius"
+		},
+		"hax:_netherite_greatsword": {
+			"textures": "textures/items/sets/brimstone/alt/alt_brimstone_greatsword"
+		},
+		"hax:_netherite_hammer": {
+			"textures": "textures/items/sets/brimstone/alt/alt_brimstone_hammer"
+		},
+		"hax:_netherite_kama": {
+			"textures": "textures/items/sets/brimstone/alt/alt_brimstone_kama"
+		},
+		"hax:_netherite_katana": {
+			"textures": "textures/items/sets/brimstone/alt/alt_brimstone_katana"
+		},
+		"hax:_netherite_khopesh": {
+			"textures": "textures/items/sets/brimstone/alt/alt_brimstone_khopesh"
+		},
+		"hax:_netherite_lance": {
+			"textures": "textures/items/sets/brimstone/alt/alt_brimstone_lance"
+		},
+		"hax:_netherite_longsword": {
+			"textures": "textures/items/sets/brimstone/alt/alt_brimstone_longsword"
+		},
+		"hax:_netherite_mace": {
+			"textures": "textures/items/sets/brimstone/alt/alt_brimstone_mace"
+		},
+		"hax:_netherite_machete": {
+			"textures": "textures/items/sets/brimstone/alt/alt_brimstone_machete"
+		},
+		"hax:_netherite_morningstar": {
+			"textures": "textures/items/sets/brimstone/alt/alt_brimstone_morningstar"
+		},
+		"hax:_netherite_nunchaku": {
+			"textures": "textures/items/sets/brimstone/alt/alt_brimstone_nunchaku"
+		},
+		"hax:_netherite_rapier": {
+			"textures": "textures/items/sets/brimstone/alt/alt_brimstone_rapier"
+		},
+		"hax:_netherite_sai": {
+			"textures": "textures/items/sets/brimstone/alt/alt_brimstone_sai"
+		},
+		"hax:_netherite_scythe": {
+			"textures": "textures/items/sets/brimstone/alt/alt_brimstone_scythe"
+		},
+		"hax:_netherite_spade": {
+			"textures": "textures/items/sets/brimstone/alt/alt_brimstone_spade"
+		},
+
+		"hax:_netherite_chakram": {
+			"textures": "textures/items/sets/all_ranged/brimstone_chakram"
+		},
+		"hax:_netherite_kunai": {
+			"textures": "textures/items/sets/all_ranged/brimstone_kunai"
+		},
+		"hax:_netherite_shuriken": {
+			"textures": "textures/items/sets/all_ranged/brimstone_shuriken"
+		},
+		"hax:_netherite_spear": {
+			"textures": "textures/items/sets/all_ranged/brimstone_spear"
+		},
+
+	//obsidian/obsidian
+		"hax:obsidian_battleaxe": {
+			"textures": "textures/items/sets/obsidian/obsidian_battleaxe"
+		},
+		"hax:obsidian_broadsword": {
+			"textures": "textures/items/sets/obsidian/obsidian_broadsword"
+		},
+		"hax:obsidian_claymore": {
+			"textures": "textures/items/sets/obsidian/obsidian_claymore"
+		},
+		"hax:obsidian_cleaver": {
+			"textures": "textures/items/sets/obsidian/obsidian_cleaver"
+		},
+		"hax:obsidian_cutlass": {
+			"textures": "textures/items/sets/obsidian/obsidian_cutlass"
+		},
+		"hax:obsidian_dagger": {
+			"textures": "textures/items/sets/obsidian/obsidian_dagger"
+		},
+		"hax:obsidian_gladius": {
+			"textures": "textures/items/sets/obsidian/obsidian_gladius"
+		},
+		"hax:obsidian_greatsword": {
+			"textures": "textures/items/sets/obsidian/obsidian_greatsword"
+		},
+		"hax:obsidian_hammer": {
+			"textures": "textures/items/sets/obsidian/obsidian_hammer"
+		},
+		"hax:obsidian_kama": {
+			"textures": "textures/items/sets/obsidian/obsidian_kama"
+		},
+		"hax:obsidian_katana": {
+			"textures": "textures/items/sets/obsidian/obsidian_katana"
+		},
+		"hax:obsidian_khopesh": {
+			"textures": "textures/items/sets/obsidian/obsidian_khopesh"
+		},
+		"hax:obsidian_lance": {
+			"textures": "textures/items/sets/obsidian/obsidian_lance"
+		},
+		"hax:obsidian_longsword": {
+			"textures": "textures/items/sets/obsidian/obsidian_longsword"
+		},
+		"hax:obsidian_mace": {
+			"textures": "textures/items/sets/obsidian/obsidian_mace"
+		},
+		"hax:obsidian_machete": {
+			"textures": "textures/items/sets/obsidian/obsidian_machete"
+		},
+		"hax:obsidian_morningstar": {
+			"textures": "textures/items/sets/obsidian/obsidian_morningstar"
+		},
+		"hax:obsidian_nunchaku": {
+			"textures": "textures/items/sets/obsidian/obsidian_nunchaku"
+		},
+		"hax:obsidian_rapier": {
+			"textures": "textures/items/sets/obsidian/obsidian_rapier"
+		},
+		"hax:obsidian_sai": {
+			"textures": "textures/items/sets/obsidian/obsidian_sai"
+		},
+		"hax:obsidian_scythe": {
+			"textures": "textures/items/sets/obsidian/obsidian_scythe"
+		},
+		"hax:obsidian_spade": {
+			"textures": "textures/items/sets/obsidian/obsidian_spade"
+		},
+
+		"hax:obsidian_chakram": {
+			"textures": "textures/items/sets/all_ranged/obsidian_chakram"
+		},
+		"hax:obsidian_kunai": {
+			"textures": "textures/items/sets/all_ranged/obsidian_kunai"
+		},
+		"hax:obsidian_shuriken": {
+			"textures": "textures/items/sets/all_ranged/obsidian_shuriken"
+		},
+		"hax:obsidian_spear": {
+			"textures": "textures/items/sets/all_ranged/obsidian_spear"
+		},
+
+	//ruby/ruby
+		"hax:ruby_battleaxe": {
+			"textures": "textures/items/sets/ruby/ruby_battleaxe"
+		},
+		"hax:ruby_broadsword": {
+			"textures": "textures/items/sets/ruby/ruby_broadsword"
+		},
+		"hax:ruby_claymore": {
+			"textures": "textures/items/sets/ruby/ruby_claymore"
+		},
+		"hax:ruby_cleaver": {
+			"textures": "textures/items/sets/ruby/ruby_cleaver"
+		},
+		"hax:ruby_cutlass": {
+			"textures": "textures/items/sets/ruby/ruby_cutlass"
+		},
+		"hax:ruby_dagger": {
+			"textures": "textures/items/sets/ruby/ruby_dagger"
+		},
+		"hax:ruby_gladius": {
+			"textures": "textures/items/sets/ruby/ruby_gladius"
+		},
+		"hax:ruby_greatsword": {
+			"textures": "textures/items/sets/ruby/ruby_greatsword"
+		},
+		"hax:ruby_hammer": {
+			"textures": "textures/items/sets/ruby/ruby_hammer"
+		},
+		"hax:ruby_kama": {
+			"textures": "textures/items/sets/ruby/ruby_kama"
+		},
+		"hax:ruby_katana": {
+			"textures": "textures/items/sets/ruby/ruby_katana"
+		},
+		"hax:ruby_khopesh": {
+			"textures": "textures/items/sets/ruby/ruby_khopesh"
+		},
+		"hax:ruby_lance": {
+			"textures": "textures/items/sets/ruby/ruby_lance"
+		},
+		"hax:ruby_longsword": {
+			"textures": "textures/items/sets/ruby/ruby_longsword"
+		},
+		"hax:ruby_mace": {
+			"textures": "textures/items/sets/ruby/ruby_mace"
+		},
+		"hax:ruby_machete": {
+			"textures": "textures/items/sets/ruby/ruby_machete"
+		},
+		"hax:ruby_morningstar": {
+			"textures": "textures/items/sets/ruby/ruby_morningstar"
+		},
+		"hax:ruby_nunchaku": {
+			"textures": "textures/items/sets/ruby/ruby_nunchaku"
+		},
+		"hax:ruby_rapier": {
+			"textures": "textures/items/sets/ruby/ruby_rapier"
+		},
+		"hax:ruby_sai": {
+			"textures": "textures/items/sets/ruby/ruby_sai"
+		},
+		"hax:ruby_scythe": {
+			"textures": "textures/items/sets/ruby/ruby_scythe"
+		},
+		"hax:ruby_spade": {
+			"textures": "textures/items/sets/ruby/ruby_spade"
+		},
+
+		"hax:ruby_chakram": {
+			"textures": "textures/items/sets/all_ranged/ruby_chakram"
+		},
+		"hax:ruby_kunai": {
+			"textures": "textures/items/sets/all_ranged/ruby_kunai"
+		},
+		"hax:ruby_shuriken": {
+			"textures": "textures/items/sets/all_ranged/ruby_shuriken"
+		},
+		"hax:ruby_spear": {
+			"textures": "textures/items/sets/all_ranged/ruby_spear"
+		},
+
+	//silver/silver
+		"hax:silver_battleaxe": {
+			"textures": "textures/items/sets/silver/silver_battleaxe"
+		},
+		"hax:silver_broadsword": {
+			"textures": "textures/items/sets/silver/silver_broadsword"
+		},
+		"hax:silver_claymore": {
+			"textures": "textures/items/sets/silver/silver_claymore"
+		},
+		"hax:silver_cleaver": {
+			"textures": "textures/items/sets/silver/silver_cleaver"
+		},
+		"hax:silver_cutlass": {
+			"textures": "textures/items/sets/silver/silver_cutlass"
+		},
+		"hax:silver_dagger": {
+			"textures": "textures/items/sets/silver/silver_dagger"
+		},
+		"hax:silver_gladius": {
+			"textures": "textures/items/sets/silver/silver_gladius"
+		},
+		"hax:silver_greatsword": {
+			"textures": "textures/items/sets/silver/silver_greatsword"
+		},
+		"hax:silver_hammer": {
+			"textures": "textures/items/sets/silver/silver_hammer"
+		},
+		"hax:silver_kama": {
+			"textures": "textures/items/sets/silver/silver_kama"
+		},
+		"hax:silver_katana": {
+			"textures": "textures/items/sets/silver/silver_katana"
+		},
+		"hax:silver_khopesh": {
+			"textures": "textures/items/sets/silver/silver_khopesh"
+		},
+		"hax:silver_lance": {
+			"textures": "textures/items/sets/silver/silver_lance"
+		},
+		"hax:silver_longsword": {
+			"textures": "textures/items/sets/silver/silver_longsword"
+		},
+		"hax:silver_mace": {
+			"textures": "textures/items/sets/silver/silver_mace"
+		},
+		"hax:silver_machete": {
+			"textures": "textures/items/sets/silver/silver_machete"
+		},
+		"hax:silver_morningstar": {
+			"textures": "textures/items/sets/silver/silver_morningstar"
+		},
+		"hax:silver_nunchaku": {
+			"textures": "textures/items/sets/silver/silver_nunchaku"
+		},
+		"hax:silver_rapier": {
+			"textures": "textures/items/sets/silver/silver_rapier"
+		},
+		"hax:silver_sai": {
+			"textures": "textures/items/sets/silver/silver_sai"
+		},
+		"hax:silver_scythe": {
+			"textures": "textures/items/sets/silver/silver_scythe"
+		},
+		"hax:silver_spade": {
+			"textures": "textures/items/sets/silver/silver_spade"
+		},
+
+		"hax:silver_chakram": {
+			"textures": "textures/items/sets/all_ranged/silver_chakram"
+		},
+		"hax:silver_kunai": {
+			"textures": "textures/items/sets/all_ranged/silver_kunai"
+		},
+		"hax:silver_shuriken": {
+			"textures": "textures/items/sets/all_ranged/silver_shuriken"
+		},
+		"hax:silver_spear": {
+			"textures": "textures/items/sets/all_ranged/silver_spear"
+		},
+
+	//slime/slime
+		"hax:slime_battleaxe": {
+			"textures": "textures/items/sets/slime/slime_battleaxe"
+		},
+		"hax:slime_broadsword": {
+			"textures": "textures/items/sets/slime/slime_broadsword"
+		},
+		"hax:slime_claymore": {
+			"textures": "textures/items/sets/slime/slime_claymore"
+		},
+		"hax:slime_cleaver": {
+			"textures": "textures/items/sets/slime/slime_cleaver"
+		},
+		"hax:slime_cutlass": {
+			"textures": "textures/items/sets/slime/slime_cutlass"
+		},
+		"hax:slime_dagger": {
+			"textures": "textures/items/sets/slime/slime_dagger"
+		},
+		"hax:slime_gladius": {
+			"textures": "textures/items/sets/slime/slime_gladius"
+		},
+		"hax:slime_greatsword": {
+			"textures": "textures/items/sets/slime/slime_greatsword"
+		},
+		"hax:slime_hammer": {
+			"textures": "textures/items/sets/slime/slime_hammer"
+		},
+		"hax:slime_kama": {
+			"textures": "textures/items/sets/slime/slime_kama"
+		},
+		"hax:slime_katana": {
+			"textures": "textures/items/sets/slime/slime_katana"
+		},
+		"hax:slime_khopesh": {
+			"textures": "textures/items/sets/slime/slime_khopesh"
+		},
+		"hax:slime_lance": {
+			"textures": "textures/items/sets/slime/slime_lance"
+		},
+		"hax:slime_longsword": {
+			"textures": "textures/items/sets/slime/slime_longsword"
+		},
+		"hax:slime_mace": {
+			"textures": "textures/items/sets/slime/slime_mace"
+		},
+		"hax:slime_machete": {
+			"textures": "textures/items/sets/slime/slime_machete"
+		},
+		"hax:slime_morningstar": {
+			"textures": "textures/items/sets/slime/slime_morningstar"
+		},
+		"hax:slime_nunchaku": {
+			"textures": "textures/items/sets/slime/slime_nunchaku"
+		},
+		"hax:slime_rapier": {
+			"textures": "textures/items/sets/slime/slime_rapier"
+		},
+		"hax:slime_sai": {
+			"textures": "textures/items/sets/slime/slime_sai"
+		},
+		"hax:slime_scythe": {
+			"textures": "textures/items/sets/slime/slime_scythe"
+		},
+		"hax:slime_spade": {
+			"textures": "textures/items/sets/slime/slime_spade"
+		},
+
+		"hax:slime_chakram": {
+			"textures": "textures/items/sets/all_ranged/slime_chakram"
+		},
+		"hax:slime_kunai": {
+			"textures": "textures/items/sets/all_ranged/slime_kunai"
+		},
+		"hax:slime_shuriken": {
+			"textures": "textures/items/sets/all_ranged/slime_shuriken"
+		},
+		"hax:slime_spear": {
+			"textures": "textures/items/sets/all_ranged/slime_spear"
+		},
+
+	//steel/steel
+		"hax:steel_battleaxe": {
+			"textures": "textures/items/sets/steel/steel_battleaxe"
+		},
+		"hax:steel_broadsword": {
+			"textures": "textures/items/sets/steel/steel_broadsword"
+		},
+		"hax:steel_claymore": {
+			"textures": "textures/items/sets/steel/steel_claymore"
+		},
+		"hax:steel_cleaver": {
+			"textures": "textures/items/sets/steel/steel_cleaver"
+		},
+		"hax:steel_cutlass": {
+			"textures": "textures/items/sets/steel/steel_cutlass"
+		},
+		"hax:steel_dagger": {
+			"textures": "textures/items/sets/steel/steel_dagger"
+		},
+		"hax:steel_gladius": {
+			"textures": "textures/items/sets/steel/steel_gladius"
+		},
+		"hax:steel_greatsword": {
+			"textures": "textures/items/sets/steel/steel_greatsword"
+		},
+		"hax:steel_hammer": {
+			"textures": "textures/items/sets/steel/steel_hammer"
+		},
+		"hax:steel_kama": {
+			"textures": "textures/items/sets/steel/steel_kama"
+		},
+		"hax:steel_katana": {
+			"textures": "textures/items/sets/steel/steel_katana"
+		},
+		"hax:steel_khopesh": {
+			"textures": "textures/items/sets/steel/steel_khopesh"
+		},
+		"hax:steel_lance": {
+			"textures": "textures/items/sets/steel/steel_lance"
+		},
+		"hax:steel_longsword": {
+			"textures": "textures/items/sets/steel/steel_longsword"
+		},
+		"hax:steel_mace": {
+			"textures": "textures/items/sets/steel/steel_mace"
+		},
+		"hax:steel_machete": {
+			"textures": "textures/items/sets/steel/steel_machete"
+		},
+		"hax:steel_morningstar": {
+			"textures": "textures/items/sets/steel/steel_morningstar"
+		},
+		"hax:steel_nunchaku": {
+			"textures": "textures/items/sets/steel/steel_nunchaku"
+		},
+		"hax:steel_rapier": {
+			"textures": "textures/items/sets/steel/steel_rapier"
+		},
+		"hax:steel_sai": {
+			"textures": "textures/items/sets/steel/steel_sai"
+		},
+		"hax:steel_scythe": {
+			"textures": "textures/items/sets/steel/steel_scythe"
+		},
+		"hax:steel_spade": {
+			"textures": "textures/items/sets/steel/steel_spade"
+		},
+
+		"hax:steel_chakram": {
+			"textures": "textures/items/sets/all_ranged/steel_chakram"
+		},
+		"hax:steel_kunai": {
+			"textures": "textures/items/sets/all_ranged/steel_kunai"
+		},
+		"hax:steel_shuriken": {
+			"textures": "textures/items/sets/all_ranged/steel_shuriken"
+		},
+		"hax:steel_spear": {
+			"textures": "textures/items/sets/all_ranged/steel_spear"
+		},
+
+	//stone/stone
+		"hax:stone_battleaxe": {
+			"textures": "textures/items/sets/stone/stone_battleaxe"
+		},
+		"hax:stone_broadsword": {
+			"textures": "textures/items/sets/stone/stone_broadsword"
+		},
+		"hax:stone_claymore": {
+			"textures": "textures/items/sets/stone/stone_claymore"
+		},
+		"hax:stone_cleaver": {
+			"textures": "textures/items/sets/stone/stone_cleaver"
+		},
+		"hax:stone_cutlass": {
+			"textures": "textures/items/sets/stone/stone_cutlass"
+		},
+		"hax:stone_dagger": {
+			"textures": "textures/items/sets/stone/stone_dagger"
+		},
+		"hax:stone_gladius": {
+			"textures": "textures/items/sets/stone/stone_gladius"
+		},
+		"hax:stone_greatsword": {
+			"textures": "textures/items/sets/stone/stone_greatsword"
+		},
+		"hax:stone_hammer": {
+			"textures": "textures/items/sets/stone/stone_hammer"
+		},
+		"hax:stone_kama": {
+			"textures": "textures/items/sets/stone/stone_kama"
+		},
+		"hax:stone_katana": {
+			"textures": "textures/items/sets/stone/stone_katana"
+		},
+		"hax:stone_khopesh": {
+			"textures": "textures/items/sets/stone/stone_khopesh"
+		},
+		"hax:stone_lance": {
+			"textures": "textures/items/sets/stone/stone_lance"
+		},
+		"hax:stone_longsword": {
+			"textures": "textures/items/sets/stone/stone_longsword"
+		},
+		"hax:stone_mace": {
+			"textures": "textures/items/sets/stone/stone_mace"
+		},
+		"hax:stone_machete": {
+			"textures": "textures/items/sets/stone/stone_machete"
+		},
+		"hax:stone_morningstar": {
+			"textures": "textures/items/sets/stone/stone_morningstar"
+		},
+		"hax:stone_nunchaku": {
+			"textures": "textures/items/sets/stone/stone_nunchaku"
+		},
+		"hax:stone_rapier": {
+			"textures": "textures/items/sets/stone/stone_rapier"
+		},
+		"hax:stone_sai": {
+			"textures": "textures/items/sets/stone/stone_sai"
+		},
+		"hax:stone_scythe": {
+			"textures": "textures/items/sets/stone/stone_scythe"
+		},
+		"hax:stone_spade": {
+			"textures": "textures/items/sets/stone/stone_spade"
+		},
+
+		"hax:stone_chakram": {
+			"textures": "textures/items/sets/all_ranged/stone_chakram"
+		},
+		"hax:stone_kunai": {
+			"textures": "textures/items/sets/all_ranged/stone_kunai"
+		},
+		"hax:stone_shuriken": {
+			"textures": "textures/items/sets/all_ranged/stone_shuriken"
+		},
+		"hax:stone_spear": {
+			"textures": "textures/items/sets/all_ranged/stone_spear"
+		},
+
+	//tin/tin
+		"hax:tin_battleaxe": {
+			"textures": "textures/items/sets/tin/tin_battleaxe"
+		},
+		"hax:tin_broadsword": {
+			"textures": "textures/items/sets/tin/tin_broadsword"
+		},
+		"hax:tin_claymore": {
+			"textures": "textures/items/sets/tin/tin_claymore"
+		},
+		"hax:tin_cleaver": {
+			"textures": "textures/items/sets/tin/tin_cleaver"
+		},
+		"hax:tin_cutlass": {
+			"textures": "textures/items/sets/tin/tin_cutlass"
+		},
+		"hax:tin_dagger": {
+			"textures": "textures/items/sets/tin/tin_dagger"
+		},
+		"hax:tin_gladius": {
+			"textures": "textures/items/sets/tin/tin_gladius"
+		},
+		"hax:tin_greatsword": {
+			"textures": "textures/items/sets/tin/tin_greatsword"
+		},
+		"hax:tin_hammer": {
+			"textures": "textures/items/sets/tin/tin_hammer"
+		},
+		"hax:tin_kama": {
+			"textures": "textures/items/sets/tin/tin_kama"
+		},
+		"hax:tin_katana": {
+			"textures": "textures/items/sets/tin/tin_katana"
+		},
+		"hax:tin_khopesh": {
+			"textures": "textures/items/sets/tin/tin_khopesh"
+		},
+		"hax:tin_lance": {
+			"textures": "textures/items/sets/tin/tin_lance"
+		},
+		"hax:tin_longsword": {
+			"textures": "textures/items/sets/tin/tin_longsword"
+		},
+		"hax:tin_mace": {
+			"textures": "textures/items/sets/tin/tin_mace"
+		},
+		"hax:tin_machete": {
+			"textures": "textures/items/sets/tin/tin_machete"
+		},
+		"hax:tin_morningstar": {
+			"textures": "textures/items/sets/tin/tin_morningstar"
+		},
+		"hax:tin_nunchaku": {
+			"textures": "textures/items/sets/tin/tin_nunchaku"
+		},
+		"hax:tin_rapier": {
+			"textures": "textures/items/sets/tin/tin_rapier"
+		},
+		"hax:tin_sai": {
+			"textures": "textures/items/sets/tin/tin_sai"
+		},
+		"hax:tin_scythe": {
+			"textures": "textures/items/sets/tin/tin_scythe"
+		},
+		"hax:tin_spade": {
+			"textures": "textures/items/sets/tin/tin_spade"
+		},
+
+		"hax:tin_chakram": {
+			"textures": "textures/items/sets/all_ranged/tin_chakram"
+		},
+		"hax:tin_kunai": {
+			"textures": "textures/items/sets/all_ranged/tin_kunai"
+		},
+		"hax:tin_shuriken": {
+			"textures": "textures/items/sets/all_ranged/tin_shuriken"
+		},
+		"hax:tin_spear": {
+			"textures": "textures/items/sets/all_ranged/tin_spear"
+		},
+
+	//wood/wood
+		"hax:wood_battleaxe": {
+			"textures": "textures/items/sets/wood/wood_battleaxe"
+		},
+		"hax:wood_broadsword": {
+			"textures": "textures/items/sets/wood/wood_broadsword"
+		},
+		"hax:wood_claymore": {
+			"textures": "textures/items/sets/wood/wood_claymore"
+		},
+		"hax:wood_cleaver": {
+			"textures": "textures/items/sets/wood/wood_cleaver"
+		},
+		"hax:wood_cutlass": {
+			"textures": "textures/items/sets/wood/wood_cutlass"
+		},
+		"hax:wood_dagger": {
+			"textures": "textures/items/sets/wood/wood_dagger"
+		},
+		"hax:wood_gladius": {
+			"textures": "textures/items/sets/wood/wood_gladius"
+		},
+		"hax:wood_greatsword": {
+			"textures": "textures/items/sets/wood/wood_greatsword"
+		},
+		"hax:wood_hammer": {
+			"textures": "textures/items/sets/wood/wood_hammer"
+		},
+		"hax:wood_kama": {
+			"textures": "textures/items/sets/wood/wood_kama"
+		},
+		"hax:wood_katana": {
+			"textures": "textures/items/sets/wood/wood_katana"
+		},
+		"hax:wood_khopesh": {
+			"textures": "textures/items/sets/wood/wood_khopesh"
+		},
+		"hax:wood_lance": {
+			"textures": "textures/items/sets/wood/wood_lance"
+		},
+		"hax:wood_longsword": {
+			"textures": "textures/items/sets/wood/wood_longsword"
+		},
+		"hax:wood_mace": {
+			"textures": "textures/items/sets/wood/wood_mace"
+		},
+		"hax:wood_machete": {
+			"textures": "textures/items/sets/wood/wood_machete"
+		},
+		"hax:wood_morningstar": {
+			"textures": "textures/items/sets/wood/wood_morningstar"
+		},
+		"hax:wood_nunchaku": {
+			"textures": "textures/items/sets/wood/wood_nunchaku"
+		},
+		"hax:wood_rapier": {
+			"textures": "textures/items/sets/wood/wood_rapier"
+		},
+		"hax:wood_sai": {
+			"textures": "textures/items/sets/wood/wood_sai"
+		},
+		"hax:wood_scythe": {
+			"textures": "textures/items/sets/wood/wood_scythe"
+		},
+		"hax:wood_spade": {
+			"textures": "textures/items/sets/wood/wood_spade"
+		},
+
+		"hax:wood_chakram": {
+			"textures": "textures/items/sets/all_ranged/wood_chakram"
+		},
+		"hax:wood_kunai": {
+			"textures": "textures/items/sets/all_ranged/wood_kunai"
+		},
+		"hax:wood_shuriken": {
+			"textures": "textures/items/sets/all_ranged/wood_shuriken"
+		},
+		"hax:wood_spear": {
+			"textures": "textures/items/sets/all_ranged/wood_spear"
+		},
+
+
+
+	//brimstone/parts
+		"hax:brimstone_axehead": {
+			"textures": "textures/items/parts/brimstone/brimstone_axehead"
+		},
+		"hax:brimstone_bar": {
+			"textures": "textures/items/parts/brimstone/brimstone_bar"
+		},
+		"hax:brimstone_longblade": {
+			"textures": "textures/items/parts/brimstone/brimstone_longblade"
+		},
+		"hax:brimstone_plating": {
+			"textures": "textures/items/parts/brimstone/brimstone_plating"
+		},
+		"hax:brimstone_shortblade": {
+			"textures": "textures/items/parts/brimstone/brimstone_shortblade"
+		},
+		"hax:brimstone_spadehead": {
+			"textures": "textures/items/parts/brimstone/brimstone_spadehead"
+		},
+
+		"hax:brimstone_blueprint": {
+			"textures": "textures/items/parts/brimstone/brimstone_blueprint"
+		},
+
+	//bronze/parts
+		"hax:bronze_axehead": {
+			"textures": "textures/items/parts/bronze/bronze_axehead"
+		},
+		"hax:bronze_bar": {
+			"textures": "textures/items/parts/bronze/bronze_bar"
+		},
+		"hax:bronze_longblade": {
+			"textures": "textures/items/parts/bronze/bronze_longblade"
+		},
+		"hax:bronze_plating": {
+			"textures": "textures/items/parts/bronze/bronze_plating"
+		},
+		"hax:bronze_shortblade": {
+			"textures": "textures/items/parts/bronze/bronze_shortblade"
+		},
+		"hax:bronze_spadehead": {
+			"textures": "textures/items/parts/bronze/bronze_spadehead"
+		},
+
+		"hax:bronze_blueprint": {
+			"textures": "textures/items/parts/bronze/bronze_blueprint"
+		},
+
+	//cobalt/parts
+		"hax:cobalt_axehead": {
+			"textures": "textures/items/parts/cobalt/cobalt_axehead"
+		},
+		"hax:cobalt_bar": {
+			"textures": "textures/items/parts/cobalt/cobalt_bar"
+		},
+		"hax:cobalt_longblade": {
+			"textures": "textures/items/parts/cobalt/cobalt_longblade"
+		},
+		"hax:cobalt_plating": {
+			"textures": "textures/items/parts/cobalt/cobalt_plating"
+		},
+		"hax:cobalt_shortblade": {
+			"textures": "textures/items/parts/cobalt/cobalt_shortblade"
+		},
+		"hax:cobalt_spadehead": {
+			"textures": "textures/items/parts/cobalt/cobalt_spadehead"
+		},
+
+		"hax:cobalt_blueprint": {
+			"textures": "textures/items/parts/cobalt/cobalt_blueprint"
+		},
+
+	//copper/parts
+		"hax:copper_axehead": {
+			"textures": "textures/items/parts/copper/copper_axehead"
+		},
+		"hax:copper_bar": {
+			"textures": "textures/items/parts/copper/copper_bar"
+		},
+		"hax:copper_longblade": {
+			"textures": "textures/items/parts/copper/copper_longblade"
+		},
+		"hax:copper_plating": {
+			"textures": "textures/items/parts/copper/copper_plating"
+		},
+		"hax:copper_shortblade": {
+			"textures": "textures/items/parts/copper/copper_shortblade"
+		},
+		"hax:copper_spadehead": {
+			"textures": "textures/items/parts/copper/copper_spadehead"
+		},
+
+		"hax:copper_blueprint": {
+			"textures": "textures/items/parts/copper/copper_blueprint"
+		},
+
+	//diamond/parts
+		"hax:diamond_axehead": {
+			"textures": "textures/items/parts/diamond/diamond_axehead"
+		},
+		"hax:diamond_bar": {
+			"textures": "textures/items/parts/diamond/diamond_bar"
+		},
+		"hax:diamond_longblade": {
+			"textures": "textures/items/parts/diamond/diamond_longblade"
+		},
+		"hax:diamond_plating": {
+			"textures": "textures/items/parts/diamond/diamond_plating"
+		},
+		"hax:diamond_shortblade": {
+			"textures": "textures/items/parts/diamond/diamond_shortblade"
+		},
+		"hax:diamond_spadehead": {
+			"textures": "textures/items/parts/diamond/diamond_spadehead"
+		},
+
+		"hax:diamond_blueprint": {
+			"textures": "textures/items/parts/diamond/diamond_blueprint"
+		},
+
+	//dragonscale/parts
+		"hax:dragonscale_axehead": {
+			"textures": "textures/items/parts/dragonscale/dragonscale_axehead"
+		},
+		"hax:dragonscale_bar": {
+			"textures": "textures/items/parts/dragonscale/dragonscale_bar"
+		},
+		"hax:dragonscale_longblade": {
+			"textures": "textures/items/parts/dragonscale/dragonscale_longblade"
+		},
+		"hax:dragonscale_plating": {
+			"textures": "textures/items/parts/dragonscale/dragonscale_plating"
+		},
+		"hax:dragonscale_shortblade": {
+			"textures": "textures/items/parts/dragonscale/dragonscale_shortblade"
+		},
+		"hax:dragonscale_spadehead": {
+			"textures": "textures/items/parts/dragonscale/dragonscale_spadehead"
+		},
+
+		"hax:dragonscale_blueprint": {
+			"textures": "textures/items/parts/dragonscale/dragonscale_blueprint"
+		},
+
+	//electrum/parts
+		"hax:electrum_axehead": {
+			"textures": "textures/items/parts/electrum/electrum_axehead"
+		},
+		"hax:electrum_bar": {
+			"textures": "textures/items/parts/electrum/electrum_bar"
+		},
+		"hax:electrum_longblade": {
+			"textures": "textures/items/parts/electrum/electrum_longblade"
+		},
+		"hax:electrum_plating": {
+			"textures": "textures/items/parts/electrum/electrum_plating"
+		},
+		"hax:electrum_shortblade": {
+			"textures": "textures/items/parts/electrum/electrum_shortblade"
+		},
+		"hax:electrum_spadehead": {
+			"textures": "textures/items/parts/electrum/electrum_spadehead"
+		},
+
+		"hax:electrum_blueprint": {
+			"textures": "textures/items/parts/electrum/electrum_blueprint"
+		},
+
+	//emerald/parts
+		"hax:emerald_axehead": {
+			"textures": "textures/items/parts/emerald/emerald_axehead"
+		},
+		"hax:emerald_bar": {
+			"textures": "textures/items/parts/emerald/emerald_bar"
+		},
+		"hax:emerald_longblade": {
+			"textures": "textures/items/parts/emerald/emerald_longblade"
+		},
+		"hax:emerald_plating": {
+			"textures": "textures/items/parts/emerald/emerald_plating"
+		},
+		"hax:emerald_shortblade": {
+			"textures": "textures/items/parts/emerald/emerald_shortblade"
+		},
+		"hax:emerald_spadehead": {
+			"textures": "textures/items/parts/emerald/emerald_spadehead"
+		},
+
+		"hax:emerald_blueprint": {
+			"textures": "textures/items/parts/emerald/emerald_blueprint"
+		},
+
+	//enderium/parts
+		"hax:enderium_axehead": {
+			"textures": "textures/items/parts/enderium/enderium_axehead"
+		},
+		"hax:enderium_bar": {
+			"textures": "textures/items/parts/enderium/enderium_bar"
+		},
+		"hax:enderium_longblade": {
+			"textures": "textures/items/parts/enderium/enderium_longblade"
+		},
+		"hax:enderium_plating": {
+			"textures": "textures/items/parts/enderium/enderium_plating"
+		},
+		"hax:enderium_shortblade": {
+			"textures": "textures/items/parts/enderium/enderium_shortblade"
+		},
+		"hax:enderium_spadehead": {
+			"textures": "textures/items/parts/enderium/enderium_spadehead"
+		},
+
+		"hax:enderium_blueprint": {
+			"textures": "textures/items/parts/enderium/enderium_blueprint"
+		},
+
+	//gold/parts
+		"hax:gold_axehead": {
+			"textures": "textures/items/parts/gold/gold_axehead"
+		},
+		"hax:gold_bar": {
+			"textures": "textures/items/parts/gold/gold_bar"
+		},
+		"hax:gold_longblade": {
+			"textures": "textures/items/parts/gold/gold_longblade"
+		},
+		"hax:gold_plating": {
+			"textures": "textures/items/parts/gold/gold_plating"
+		},
+		"hax:gold_shortblade": {
+			"textures": "textures/items/parts/gold/gold_shortblade"
+		},
+		"hax:gold_spadehead": {
+			"textures": "textures/items/parts/gold/gold_spadehead"
+		},
+
+		"hax:gold_blueprint": {
+			"textures": "textures/items/parts/gold/gold_blueprint"
+		},
+
+	//iron/parts
+		"hax:iron_axehead": {
+			"textures": "textures/items/parts/iron/iron_axehead"
+		},
+		"hax:iron_bar": {
+			"textures": "textures/items/parts/iron/iron_bar"
+		},
+		"hax:iron_longblade": {
+			"textures": "textures/items/parts/iron/iron_longblade"
+		},
+		"hax:iron_plating": {
+			"textures": "textures/items/parts/iron/iron_plating"
+		},
+		"hax:iron_shortblade": {
+			"textures": "textures/items/parts/iron/iron_shortblade"
+		},
+		"hax:iron_spadehead": {
+			"textures": "textures/items/parts/iron/iron_spadehead"
+		},
+
+		"hax:iron_blueprint": {
+			"textures": "textures/items/parts/iron/iron_blueprint"
+		},
+
+	//lead/parts
+		"hax:lead_axehead": {
+			"textures": "textures/items/parts/lead/lead_axehead"
+		},
+		"hax:lead_bar": {
+			"textures": "textures/items/parts/lead/lead_bar"
+		},
+		"hax:lead_longblade": {
+			"textures": "textures/items/parts/lead/lead_longblade"
+		},
+		"hax:lead_plating": {
+			"textures": "textures/items/parts/lead/lead_plating"
+		},
+		"hax:lead_shortblade": {
+			"textures": "textures/items/parts/lead/lead_shortblade"
+		},
+		"hax:lead_spadehead": {
+			"textures": "textures/items/parts/lead/lead_spadehead"
+		},
+
+		"hax:lead_blueprint": {
+			"textures": "textures/items/parts/lead/lead_blueprint"
+		},
+
+	//obsidian/parts
+		"hax:obsidian_axehead": {
+			"textures": "textures/items/parts/obsidian/obsidian_axehead"
+		},
+		"hax:obsidian_bar": {
+			"textures": "textures/items/parts/obsidian/obsidian_bar"
+		},
+		"hax:obsidian_longblade": {
+			"textures": "textures/items/parts/obsidian/obsidian_longblade"
+		},
+		"hax:obsidian_plating": {
+			"textures": "textures/items/parts/obsidian/obsidian_plating"
+		},
+		"hax:obsidian_shortblade": {
+			"textures": "textures/items/parts/obsidian/obsidian_shortblade"
+		},
+		"hax:obsidian_spadehead": {
+			"textures": "textures/items/parts/obsidian/obsidian_spadehead"
+		},
+
+		"hax:obsidian_blueprint": {
+			"textures": "textures/items/parts/obsidian/obsidian_blueprint"
+		},
+
+	//ruby/parts
+		"hax:ruby_axehead": {
+			"textures": "textures/items/parts/ruby/ruby_axehead"
+		},
+		"hax:ruby_bar": {
+			"textures": "textures/items/parts/ruby/ruby_bar"
+		},
+		"hax:ruby_longblade": {
+			"textures": "textures/items/parts/ruby/ruby_longblade"
+		},
+		"hax:ruby_plating": {
+			"textures": "textures/items/parts/ruby/ruby_plating"
+		},
+		"hax:ruby_shortblade": {
+			"textures": "textures/items/parts/ruby/ruby_shortblade"
+		},
+		"hax:ruby_spadehead": {
+			"textures": "textures/items/parts/ruby/ruby_spadehead"
+		},
+
+		"hax:ruby_blueprint": {
+			"textures": "textures/items/parts/ruby/ruby_blueprint"
+		},
+
+	//silver/parts
+		"hax:silver_axehead": {
+			"textures": "textures/items/parts/silver/silver_axehead"
+		},
+		"hax:silver_bar": {
+			"textures": "textures/items/parts/silver/silver_bar"
+		},
+		"hax:silver_longblade": {
+			"textures": "textures/items/parts/silver/silver_longblade"
+		},
+		"hax:silver_plating": {
+			"textures": "textures/items/parts/silver/silver_plating"
+		},
+		"hax:silver_shortblade": {
+			"textures": "textures/items/parts/silver/silver_shortblade"
+		},
+		"hax:silver_spadehead": {
+			"textures": "textures/items/parts/silver/silver_spadehead"
+		},
+
+		"hax:silver_blueprint": {
+			"textures": "textures/items/parts/silver/silver_blueprint"
+		},
+
+	//slime/parts
+		"hax:slime_axehead": {
+			"textures": "textures/items/parts/slime/slime_axehead"
+		},
+		"hax:slime_bar": {
+			"textures": "textures/items/parts/slime/slime_bar"
+		},
+		"hax:slime_longblade": {
+			"textures": "textures/items/parts/slime/slime_longblade"
+		},
+		"hax:slime_plating": {
+			"textures": "textures/items/parts/slime/slime_plating"
+		},
+		"hax:slime_shortblade": {
+			"textures": "textures/items/parts/slime/slime_shortblade"
+		},
+		"hax:slime_spadehead": {
+			"textures": "textures/items/parts/slime/slime_spadehead"
+		},
+
+		"hax:slime_blueprint": {
+			"textures": "textures/items/parts/slime/slime_blueprint"
+		},
+
+	//steel/parts
+		"hax:steel_axehead": {
+			"textures": "textures/items/parts/steel/steel_axehead"
+		},
+		"hax:steel_bar": {
+			"textures": "textures/items/parts/steel/steel_bar"
+		},
+		"hax:steel_longblade": {
+			"textures": "textures/items/parts/steel/steel_longblade"
+		},
+		"hax:steel_plating": {
+			"textures": "textures/items/parts/steel/steel_plating"
+		},
+		"hax:steel_shortblade": {
+			"textures": "textures/items/parts/steel/steel_shortblade"
+		},
+		"hax:steel_spadehead": {
+			"textures": "textures/items/parts/steel/steel_spadehead"
+		},
+
+		"hax:steel_blueprint": {
+			"textures": "textures/items/parts/steel/steel_blueprint"
+		},
+
+	//stone/parts
+		"hax:stone_axehead": {
+			"textures": "textures/items/parts/stone/stone_axehead"
+		},
+		"hax:stone_bar": {
+			"textures": "textures/items/parts/stone/stone_bar"
+		},
+		"hax:stone_longblade": {
+			"textures": "textures/items/parts/stone/stone_longblade"
+		},
+		"hax:stone_plating": {
+			"textures": "textures/items/parts/stone/stone_plating"
+		},
+		"hax:stone_shortblade": {
+			"textures": "textures/items/parts/stone/stone_shortblade"
+		},
+		"hax:stone_spadehead": {
+			"textures": "textures/items/parts/stone/stone_spadehead"
+		},
+
+		"hax:stone_blueprint": {
+			"textures": "textures/items/parts/stone/stone_blueprint"
+		},
+
+	//tin/parts
+		"hax:tin_axehead": {
+			"textures": "textures/items/parts/tin/tin_axehead"
+		},
+		"hax:tin_bar": {
+			"textures": "textures/items/parts/tin/tin_bar"
+		},
+		"hax:tin_longblade": {
+			"textures": "textures/items/parts/tin/tin_longblade"
+		},
+		"hax:tin_plating": {
+			"textures": "textures/items/parts/tin/tin_plating"
+		},
+		"hax:tin_shortblade": {
+			"textures": "textures/items/parts/tin/tin_shortblade"
+		},
+		"hax:tin_spadehead": {
+			"textures": "textures/items/parts/tin/tin_spadehead"
+		},
+
+		"hax:tin_blueprint": {
+			"textures": "textures/items/parts/tin/tin_blueprint"
+		},
+
+	//wood/parts
+		"hax:wood_axehead": {
+			"textures": "textures/items/parts/wood/wood_axehead"
+		},
+		"hax:wood_bar": {
+			"textures": "textures/items/parts/wood/wood_bar"
+		},
+		"hax:wood_longblade": {
+			"textures": "textures/items/parts/wood/wood_longblade"
+		},
+		"hax:wood_plating": {
+			"textures": "textures/items/parts/wood/wood_plating"
+		},
+		"hax:wood_shortblade": {
+			"textures": "textures/items/parts/wood/wood_shortblade"
+		},
+		"hax:wood_spadehead": {
+			"textures": "textures/items/parts/wood/wood_spadehead"
+		},
+
+		"hax:basic_blueprint": {
+			"textures": "textures/items/parts/basic_blueprint"
+		},
+
+
+
+	//misc
+
+		"hax:brimstone_chunk": {
+			"textures": "textures/items/brimstone_chunk"
+		},
+		"hax:brimstone_shard": {
+			"textures": "textures/items/brimstone_shard"
+		},
+
+		"hax:bronze_blend": {
+			"textures": "textures/items/bronze_blend"
+		},
+		"hax:bronze_ingot": {
+			"textures": "textures/items/bronze_ingot"
+		},
+		"hax:bronze_nugget": {
+			"textures": "textures/items/bronze_nugget"
+		},
+
+		"hax:cobalt_dust": {
+			"textures": "textures/items/cobalt_dust"
+		},
+		"hax:cobalt_ingot": {
+			"textures": "textures/items/cobalt_ingot"
+		},
+		"hax:cobalt_nugget": {
+			"textures": "textures/items/cobalt_nugget"
+		},
+
+		"hax:copper_dust": {
+			"textures": "textures/items/copper_dust"
+		},
+		"hax:copper_nugget": {
+			"textures": "textures/items/copper_nugget"
+		},
+
+		"hax:diamond_dust": {
+			"textures": "textures/items/diamond_dust"
+		},
+		"hax:diamond_shard": {
+			"textures": "textures/items/diamond_shard"
+		},
+
+		"hax:dragonscale": {
+			"textures": "textures/items/dragonscale"
+		},
+
+		"hax:electrum_blend": {
+			"textures": "textures/items/electrum_blend"
+		},
+		"hax:electrum_ingot": {
+			"textures": "textures/items/electrum_ingot"
+		},
+		"hax:electrum_nugget": {
+			"textures": "textures/items/electrum_nugget"
+		},
+
+		"hax:emerald_shard": {
+			"textures": "textures/items/emerald_shard"
+		},
+
+		"hax:enderium_blend": {
+			"textures": "textures/items/enderium_blend"
+		},
+		"hax:enderium_ingot": {
+			"textures": "textures/items/enderium_ingot"
+		},
+		"hax:enderium_nugget": {
+			"textures": "textures/items/enderium_nugget"
+		},
+
+		"hax:endsteel_blend": {
+			"textures": "textures/items/endsteel_blend"
+		},
+		"hax:endsteel_dust": {
+			"textures": "textures/items/endsteel_dust"
+		},
+		"hax:endsteel_ingot": {
+			"textures": "textures/items/endsteel_ingot"
+		},
+
+		"hax:endstone_dust": {
+			"textures": "textures/items/endstone_dust"
+		},
+
+		"hax:gold_dust": {
+			"textures": "textures/items/gold_dust"
+		},
+
+		"hax:iron_dust": {
+			"textures": "textures/items/iron_dust"
+		},
+
+		"hax:lead_dust": {
+			"textures": "textures/items/lead_dust"
+		},
+		"hax:lead_ingot": {
+			"textures": "textures/items/lead_ingot"
+		},
+		"hax:lead_nugget": {
+			"textures": "textures/items/lead_nugget"
+		},
+
+		"hax:leadsilver_alloy": {
+			"textures": "textures/items/leadsilver_alloy"
+		},
+		"hax:leadsilver_blend": {
+			"textures": "textures/items/leadsilver_blend"
+		},
+		"hax:leadsilver_dust": {
+			"textures": "textures/items/leadsilver_dust"
+		},
+
+		"hax:obsidian_shard": {
+			"textures": "textures/items/obsidian_shard"
+		},
+
+		"hax:radiant_cluster": {
+			"textures": "textures/items/radiant_cluster"
+		},
+		"hax:radiant_shard": {
+			"textures": "textures/items/radiant_shard"
+		},
+
+		"hax:raw_cobalt": {
+			"textures": "textures/items/raw_cobalt"
+		},
+		"hax:raw_lead": {
+			"textures": "textures/items/raw_lead"
+		},
+		"hax:raw_silver": {
+			"textures": "textures/items/raw_silver"
+		},
+		"hax:raw_tin": {
+			"textures": "textures/items/raw_tin"
+		},
+
+		"hax:ruby": {
+			"textures": "textures/items/ruby"
+		},
+		"hax:ruby_shard": {
+			"textures": "textures/items/ruby_shard"
+		},
+
+		"hax:scale_cluster": {
+			"textures": "textures/items/scale_cluster"
+		},
+		"hax:scale_shard": {
+			"textures": "textures/items/scale_shard"
+		},
+
+		"hax:silver_dust": {
+			"textures": "textures/items/silver_dust"
+		},
+		"hax:silver_ingot": {
+			"textures": "textures/items/silver_ingot"
+		},
+		"hax:silver_nugget": {
+			"textures": "textures/items/silver_nugget"
+		},
+
+		"hax:steel_blend": {
+			"textures": "textures/items/steel_blend"
+		},
+		"hax:steel_dust": {
+			"textures": "textures/items/steel_dust"
+		},
+		"hax:steel_ingot": {
+			"textures": "textures/items/steel_ingot"
+		},
+		"hax:steel_nugget": {
+			"textures": "textures/items/steel_nugget"
+		},
+
+		"hax:stone_pebble": {
+			"textures": "textures/items/stone_pebble"
+		},
+
+		"hax:superconductor_blend": {
+			"textures": "textures/items/superconductor_blend"
+		},
+
+		"hax:tin_dust": {
+			"textures": "textures/items/tin_dust"
+		},
+		"hax:tin_ingot": {
+			"textures": "textures/items/tin_ingot"
+		},
+		"hax:tin_nugget": {
+			"textures": "textures/items/tin_nugget"
+		},
+
+		"hax:wooden_shavings": {
+			"textures": "textures/items/wooden_shavings"
+		},
+		"hax:sawdust": {
+			"textures": "textures/items/sawdust"
+		}
+
+	}
+}

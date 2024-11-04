@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:alt_brimstone_shard"
+    },
+
+    
+    "tags": [ "brimstone_blueprint" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "hax:brimstone_chunk"
+      }
+    },
+    "unlock": [
+			{
+				"item": "hax:brimstone_blueprint"
+			}
+		],
+    "result": {
+      "item": "hax:brimstone_shard",
+      "count": 4
+    }
+  }
+}

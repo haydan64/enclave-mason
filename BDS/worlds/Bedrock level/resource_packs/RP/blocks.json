@@ -1,0 +1,27 @@
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"enclave:night_torch": {
+		"textures": "redstone_torch_off",
+		"sound": "wood"
+	},
+	"enclave:stripped_spruce_slab": {
+		"sound": "wood",
+		"textures": {
+			"down": "stripped_spruce_log_top",
+			"side": "stripped_spruce_log_side",
+			"up": "stripped_spruce_log_top"
+		}
+	},
+	"enclave:double_stripped_spruce_slab": {
+		"sound": "wood",
+		"textures": {
+			"down": "stripped_spruce_log_top",
+			"side": "stripped_spruce_log_side",
+			"up": "stripped_spruce_log_top"
+		}
+	}
+}

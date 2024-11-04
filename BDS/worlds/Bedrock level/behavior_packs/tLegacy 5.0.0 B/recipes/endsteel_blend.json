@@ -1,0 +1,32 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "hax:endsteel_blend"
+    },
+
+    
+    "tags": [ "tiered_table" ],
+    "ingredients": [
+      {
+        "item": "hax:steel_dust"
+      },
+      {
+        "item": "hax:endstone_dust"
+      }
+    ],
+    
+    "unlock": [
+      {
+        "item": "minecraft:blast_furnace"
+      },
+      {
+        "item": "hax:steel_ingot"
+      }
+    ],
+    "result": {
+      "item": "hax:endsteel_blend",
+      "count": 1
+    }
+  }
+}

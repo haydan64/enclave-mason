@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:copper_nunchaku"
+		},
+
+    
+		"tags": [ "copper_blueprint" ],
+		"pattern": [
+			"/B",
+			"BI",
+			"/ "
+		],
+
+		"key": {
+			"B": {
+				"item": "hax:copper_bar"
+			},
+			"I": {
+				"item": "minecraft:copper_ingot"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:copper_blueprint"
+			}
+		],
+		"result": { "item": "hax:copper_nunchaku" }
+	}
+}

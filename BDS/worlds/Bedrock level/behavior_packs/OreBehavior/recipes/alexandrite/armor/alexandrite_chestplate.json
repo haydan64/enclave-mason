@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:alexandrite_chestplate"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "A A",
+            "AAA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:alexandrite"
+            }
+        },
+        "result": {
+            "item": "fantasy:alexandrite_chestplate"
+        }
+    }
+}

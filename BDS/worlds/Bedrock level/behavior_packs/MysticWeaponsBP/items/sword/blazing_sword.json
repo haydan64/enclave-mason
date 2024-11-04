@@ -1,0 +1,148 @@
+{
+    "format_version": "1.20.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "mystic:blazing_sword",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.sword"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "blazing_sword"
+            },
+            "minecraft:display_name": {
+                "value": "Blazing Sword\n§cFire§r"
+            },
+            "minecraft:tags": {
+                "tags": [ "sword", "fire" ]
+            },
+            "minecraft:cooldown": {
+                "category": "blazing_sword",
+                "duration": 9
+            },
+            "minecraft:digger": {
+                "use_efficiency": false,
+                "destroy_speeds": [
+                    {
+                        "block": "minecraft:web",
+                        "speed": 4
+                    },
+                    {
+                        "block": "minecraft:bamboo",
+                        "speed": 3
+                    }
+                ]
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false,
+            "minecraft:damage": 8,
+            "minecraft:durability": {
+                "max_durability": 200,
+                "damage_chance": {
+                    "min": 5,
+                    "max": 10
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [ "item:fire_stone_shard" ],
+                        "repair_amount": "q.max_durability * 0.15"
+                    },
+                    {
+                        "items": [ "item:fire_stone" ],
+                        "repair_amount": "q.max_durability * 0.7"
+                    },
+                    {
+                        "items": [ "mystic:blazing_sword" ],
+                        "repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
+                    }
+                ]
+            },
+            "minecraft:enchantable": {
+                "value": 10,
+                "slot": "sword"
+            },
+            "minecraft:can_destroy_in_creative": false
+        },
+        "events": {
+            "set_on_fire": {
+                "sequence": [
+                    {
+                        "run_command": {
+                            "command": [
+                                "execute @s[type=!item,type=!painting,type=!armor_stand] ~ ~ ~ setblock ~ ~ ~ fire",
+                                "effect @s fire_resistance 0 0"
+                            ],
+                            "target": "other"
+                        }
+                    },
+                    {
+                        "damage": {
+                            "type":"durability",
+                            "amount": 1
+                        }
+                    }
+                ]
+            },
+            "fire_strike": {
+                "sequence": [
+                    {
+                        "condition": "query.cardinal_facing_2d == 2",
+                        "run_command": {
+                            "command": [
+                                "fill ~ ~ ~-2 ~ ~ ~-6 fire [] replace air",
+                                "playsound fire.ignite @a[r=7]"
+                            ],
+                            "target": "holder"
+                        }
+                    },
+                    {
+                        "condition": "query.cardinal_facing_2d == 3",
+                        "run_command": {
+                            "command": [
+                                "fill ~ ~ ~2 ~ ~ ~6 fire [] replace air",
+                                "playsound fire.ignite @a[r=7]"
+                            ],
+                            "target": "holder"
+                        }
+                    },
+                    {
+                        "condition": "query.cardinal_facing_2d == 4",
+                        "run_command": {
+                            "command": [
+                                "fill ~-2 ~ ~ ~-6 ~ ~ fire [] replace air",
+                                "playsound fire.ignite @a[r=7]"
+                            ],
+                            "target": "holder"
+                        }
+                    },
+                    {
+                        "condition": "query.cardinal_facing_2d == 5",
+                        "run_command": {
+                            "command": [
+                                "fill ~2 ~ ~ ~6 ~ ~ fire [] replace air",
+                                "playsound fire.ignite @a[r=7]"
+                            ],
+                            "target": "holder"
+                        }
+                    },
+                    {
+                        "damage": {
+                            "type":"durability",
+                            "amount": 2
+                        }
+                    }
+                ]
+            },
+            "loose_durability": {
+                "damage": {
+                    "type": "durability",
+                    "amount": 1
+                }
+            }
+        }
+    }
+}

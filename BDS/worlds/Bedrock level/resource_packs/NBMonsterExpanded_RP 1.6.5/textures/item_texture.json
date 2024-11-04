@@ -1,0 +1,39 @@
+{
+  "resource_pack_name": "nba",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "flint_shard": {
+      "textures": ["textures/items/flint_shard"]
+    },
+    "blast_powder": {
+      "textures": ["textures/items/blast_powder"]
+    },
+    "blast_bottle": {
+      "textures": ["textures/items/blast_bottle"]
+    },
+    "small_blast_bottle": {
+      "textures": ["textures/items/blast_bottle_small"]
+    },
+    "empty_splash_bottle": {
+      "textures": ["textures/items/empty_splash_bottle"]
+    },
+    "mossy_sword": {
+      "textures": ["textures/items/mossy_sword"]
+    },
+    "pirate_hat": {
+      "textures": ["textures/items/other/pirate_hat"]
+    },
+    "rusted_iron_sword": {
+      "textures": ["textures/items/rusted_iron_sword"]
+    },
+    "life_crystal": {
+      "textures": ["textures/items/life_crystal"]
+    },
+    "infected_rotten_flesh": {
+      "textures": ["textures/items/other/infected_rotten_flesh"]
+    },
+    "frost_stick": {
+      "textures": ["textures/items/frost_stick"]
+    }
+  }
+}

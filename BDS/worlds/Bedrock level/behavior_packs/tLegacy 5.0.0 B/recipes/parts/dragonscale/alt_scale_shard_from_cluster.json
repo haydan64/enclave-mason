@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:alt_scale_shard_from_cluster"
+    },
+
+    
+    "tags": [ "dragonscale_blueprint" ],
+    "group": "scale_shard",
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "hax:scale_cluster"
+      }
+    },
+    "unlock": [
+			{
+				"item": "hax:dragonscale_blueprint"
+			}
+		],
+    "result": {
+      "item": "hax:scale_shard",
+      "count": 4
+    },
+"priority": 2
+  }
+}

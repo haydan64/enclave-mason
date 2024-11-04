@@ -1,0 +1,26 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "better_on_bedrock:forest/forest_tall_lush_base_feature"
+        },
+        "iterations": "math.random_integer(5,8)",
+        "x": {
+            "extent": [
+                0,
+                4
+            ],
+            "distribution": "gaussian"
+        },
+        "z": {
+            "extent": [
+                0,
+                4
+            ],
+            "distribution": "gaussian"
+        },
+        "y": "query.heightmap(variable.worldx, variable.worldz)",
+        "project_input_to_floor": false,
+        "places_feature": "better_on_bedrock:forest/forest_tall_lush_feature"
+    }
+}

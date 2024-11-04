@@ -1,0 +1,26 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "hax:enderium_spear",
+      "materials": {
+        "default": "arrow"
+      },
+      "textures": {
+        "default": "textures/items/sets/all_ranged/enderium_spear"
+      },
+      "geometry": {
+        "default": "geometry.enderium_spear"
+      },
+      "animations": {
+        "move": "animation.hax_ranged.move"
+      },
+      "scripts": {
+        "animate": [
+          "move"
+        ]
+      },
+      "render_controllers": [ "controller.render.arrow" ]
+    }
+  }
+}

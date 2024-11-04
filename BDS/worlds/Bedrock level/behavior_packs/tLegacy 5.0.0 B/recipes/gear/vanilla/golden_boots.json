@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:golden_boots"
+		},
+
+    
+		"tags": [ "gold_blueprint" ],
+		"pattern": [
+			"X X",
+			"X X"
+		],
+
+		"key": {
+			"X": {
+				"item": "minecraft:gold_ingot"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:gold_blueprint"
+			}
+		],
+		"result": { "item": "minecraft:golden_boots" }
+	}
+}

@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "better_on_bedrock:vp_grass",
+			"menu_category": {
+				"is_hidden_in_commands": false,
+				"category": "none"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": {
+				"origin": [ -5.5, 0, -5.5 ],
+				"size": [ 11, 8, 11 ]
+			},
+			"minecraft:loot": "loot_tables/blocks/voiding_plains_grass.item.loottable.json",
+			"minecraft:geometry": "geometry.chorus_lily",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "vp_grass",
+					"render_method": "alpha_test",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:placement_filter": {
+				"conditions": [
+					{
+						"allowed_faces": [ "up" ],
+						"block_filter": [ "better_on_bedrock:void_grass" ]
+					}
+				]
+			},
+			"minecraft:map_color": "#32a852"
+		}
+	}
+}

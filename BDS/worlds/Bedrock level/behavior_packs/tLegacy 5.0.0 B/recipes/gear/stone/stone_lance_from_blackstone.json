@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:stone_lance_from_blackstone"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" SH",
+			"INS",
+			"/I "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:stone_spadehead"
+			},
+			"S": {
+				"item": "hax:stone_shortblade"
+			},
+			"I": {
+				"item": "minecraft:blackstone"
+			},
+			"N": {
+				"item": "hax:stone_pebble"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:stone_pebble"
+			}
+		],
+		"result": { "item": "hax:stone_lance" }
+	}
+}

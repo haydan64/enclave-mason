@@ -1,0 +1,38 @@
+{
+    "format_version": "1.20.60",
+    "minecraft:block": {
+        "description": {
+            "identifier": "better_on_bedrock:desert_grass"
+        },
+        "components": {
+            "minecraft:geometry": "minecraft:geometry.cross",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "desert_grass",
+                    "render_method": "alpha_test",
+                    "ambient_occlusion": false,
+                    "face_dimming": false
+                }
+            },
+            
+            "minecraft:map_color": "#32a852",
+            "minecraft:loot": "loot_tables/blocks/flowers/desert_grass.json",
+            "minecraft:collision_box": false,
+            "minecraft:selection_box": {
+                "origin": [ -6, 0, -6 ],
+                "size": [ 12, 9, 12 ]
+            },
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [ "up" ],
+                        "block_filter": [
+                            "dirt",
+                            "sand"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

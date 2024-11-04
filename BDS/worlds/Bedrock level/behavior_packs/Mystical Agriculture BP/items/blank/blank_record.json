@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:blank_record",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "blank_record"
+			},
+			"minecraft:display_name": {
+				"value": "Blank Record"
+			}
+		}
+	}
+}

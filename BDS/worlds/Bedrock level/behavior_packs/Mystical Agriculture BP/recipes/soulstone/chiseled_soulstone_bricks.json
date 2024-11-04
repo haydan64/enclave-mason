@@ -1,0 +1,27 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:chiseled_soulstone_bricks"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "strat:soulstone_bricks_slab"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:chiseled_soulstone_bricks",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

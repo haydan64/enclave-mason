@@ -1,0 +1,23 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"enclave:blue_cow": {
+				"volume": 1,
+				"pitch": [
+					0.8,
+					1.2
+				],
+				"events": {
+					"ambient": "mob.blue_cow.say",
+					"hurt": "mob.blue_cow.hurt",
+					"death": "mob.blue_cow.hurt",
+					"step": {
+						"sound": "mob.blue_cow.step",
+						"volume": 0.15,
+						"pitch": 1
+					}
+				}
+			}
+		}
+	}
+}

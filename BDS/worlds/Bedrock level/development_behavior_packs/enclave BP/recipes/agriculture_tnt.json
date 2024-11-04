@@ -1,0 +1,31 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "enclave:agriculture_tnt"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"key": {
+			"#": {
+				"item": "strat:fertilized_essence"
+			},
+			"%": {
+				"item": "strat:inferium_essence"
+			},
+			"&": {
+				"item": "gunpowder"
+			}
+		},
+		"pattern": [
+			"#%#",
+			"%&%",
+			"#%#"
+		],
+		"result": {
+			"count": 1,
+			"item": "enclave:agricultural_tnt"
+		}
+	}
+}

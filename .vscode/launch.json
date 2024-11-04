@@ -1,0 +1,15 @@
+{
+    "version": "0.3.0",
+    "configurations": [
+      {
+        "type": "minecraft-js",
+        "request": "attach",
+        "name": "Debug with Minecraft",
+        "mode": "connect",
+        "host": "193.31.31.45",
+        "targetModuleUuid": "7b178306-e0e3-4f6c-9d1d-8e537b10141a",
+        "localRoot": "${workspaceFolder}/BDS/worlds/Bedrock level/behavior_packs/BP/scripts",
+        "port": 19144
+     }
+    ]
+  }

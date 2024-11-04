@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:iron_axe"
+		},
+
+    
+		"tags": [ "iron_blueprint" ],
+		"pattern": [
+			" HB",
+			" /N",
+			"/  "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:iron_axehead"
+			},
+			"B": {
+				"item": "hax:iron_bar"
+			},
+			"N": {
+				"item": "minecraft:iron_nugget"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:iron_blueprint"
+			}
+		],
+		"result": { "item": "minecraft:iron_axe" }
+	}
+}

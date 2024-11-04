@@ -1,0 +1,23 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:ore_feature": {
+        "description": {
+            "identifier": "hax:jeweled_blackstone_feature"
+        },
+        "count": 8,
+        "replace_rules": [
+            {
+                "places_block": "hax:jeweled_blackstone",
+                "may_replace": [
+                    "minecraft:blackstone"
+                ]
+            },
+            {
+                "places_block": "hax:jeweled_blackstone",
+                "may_replace": [
+                    "minecraft:polished_blackstone_bricks"
+                ]
+            }
+        ]
+    }
+}

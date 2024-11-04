@@ -1,0 +1,19 @@
+{
+    "format_version": [ 1, 1, 0 ],
+    "mystic:firaga_magma_block": {
+        "textures": "magma",
+        "sound": "stone",
+        "isotropic": true
+    },
+    "mystic:temporary_ice": {
+        "textures": "ice",
+        "sound": "glass"
+    },
+    "mystic:temporary_dirt": {
+        "textures": "dirt",
+        "sound": "gravel"
+    },
+    "mystic:glacial_ice": {
+        "sound": "glass"
+    }
+}

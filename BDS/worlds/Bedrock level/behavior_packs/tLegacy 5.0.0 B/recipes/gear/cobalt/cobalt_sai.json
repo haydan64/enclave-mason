@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:cobalt_sai"
+		},
+
+    
+		"tags": [ "cobalt_blueprint" ],
+		"pattern": [
+			" S ",
+			"NBN",
+			" / "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:cobalt_shortblade"
+			},
+			"B": {
+				"item": "hax:cobalt_bar"
+			},
+			"N": {
+				"item": "hax:cobalt_nugget"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:cobalt_blueprint"
+			}
+		],
+		"result": { "item": "hax:cobalt_sai" }
+	}
+}

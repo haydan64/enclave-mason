@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:bronze_sai"
+		},
+
+    
+		"tags": [ "bronze_blueprint" ],
+		"pattern": [
+			" S ",
+			"NBN",
+			" / "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:bronze_shortblade"
+			},
+			"B": {
+				"item": "hax:bronze_bar"
+			},
+			"N": {
+				"item": "hax:bronze_nugget"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:bronze_blueprint"
+			}
+		],
+		"result": { "item": "hax:bronze_sai" }
+	}
+}

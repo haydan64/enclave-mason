@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:slime_essence",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "slime_essence"
+			},
+			"minecraft:display_name": {
+				"value": "Slime Essence"
+			}
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "hax:underworld_underground_brimstone_ore_feature",
+      "places_feature": "hax:brimstone_ore_feature"
+    },
+    "conditions": {
+      "placement_pass": "underground_pass",
+      "minecraft:biome_filter": [
+        {
+          "any_of": [
+            {
+              "test": "has_biome_tag",
+              "operator": "==",
+              "value": "nether"
+            }
+          ]
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 6,
+      "coordinate_eval_order": "zyx",
+      "x": {
+        "distribution": "uniform",
+        "extent": [ 0, 9 ]
+      },
+      "y": {
+        "distribution": "triangle",
+        "extent": [ 27, 36 ]
+      },
+      "z": {
+        "distribution": "uniform",
+        "extent": [ 0, 9 ]
+      }
+    }
+  }
+}

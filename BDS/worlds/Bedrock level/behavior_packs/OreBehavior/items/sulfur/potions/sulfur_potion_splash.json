@@ -1,0 +1,43 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "fantasy:sulfur_potion_splash",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.splashPotion"
+            },
+            "minecraft:display_name": {
+            },
+            "minecraft:icon": {
+                "texture": "sulfur_potion_splash"
+            },
+            "minecraft:allow_off_hand": true,
+            "minecraft:foil": true,
+            "minecraft:throwable": {
+                "do_swing_animation": true
+            },
+            "minecraft:projectile": {
+                "projectile_entity": "fantasy:sulfur_potion_splash_projectile"
+            },
+            "minecraft:on_use": {
+                "on_use": {
+                    "event": "fantasy:sound"
+                }
+            }
+        },
+        "events": {
+            "fantasy:sound": {
+                "run_command": {
+                    "command": [
+                        "playsound mob.witch.throw @s ~~~ 4 1 4"
+                    ],
+                    "target": "holder"
+                }
+            }
+        }
+    }
+}

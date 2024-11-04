@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:soulium_dust",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "soulium_dust"
+			},
+			"minecraft:display_name": {
+				"value": "Soulium Dust"
+			}
+		}
+	}
+}

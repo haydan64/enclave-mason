@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:imperium_ingot",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "imperium_ingot"
+			},
+			"minecraft:display_name": {
+				"value": "Imperium Ingot"
+			}
+		}
+	}
+}

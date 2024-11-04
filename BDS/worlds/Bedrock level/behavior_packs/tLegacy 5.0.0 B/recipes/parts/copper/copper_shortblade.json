@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:copper_shortblade"
+		},
+
+    
+		"tags": [ "copper_blueprint" ],
+		"pattern": [
+			"  N",
+			" N ",
+			""
+		],
+
+		"key": {
+			"N": {
+				"item": "hax:copper_nugget"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:copper_blueprint"
+			}
+		],
+		"result": { "item": "hax:copper_shortblade" }
+	}
+}

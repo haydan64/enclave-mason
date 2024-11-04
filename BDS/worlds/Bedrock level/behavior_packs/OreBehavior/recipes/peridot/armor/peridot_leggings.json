@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:peridot_leggings"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "AAA",
+            "A A",
+            "A A"
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:peridot"
+            }
+        },
+        "result": {
+            "item": "fantasy:peridot_leggings"
+        }
+    }
+}

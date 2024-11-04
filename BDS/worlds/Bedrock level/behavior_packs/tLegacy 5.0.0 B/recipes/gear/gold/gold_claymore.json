@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:gold_claymore"
+		},
+
+    
+		"tags": [ "gold_blueprint" ],
+		"pattern": [
+			"  H",
+			"BP ",
+			"/B "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:gold_axehead"
+			},
+			"P": {
+				"item": "hax:gold_plating"
+			},
+			"B": {
+				"item": "hax:gold_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:gold_blueprint"
+			}
+		],
+		"result": { "item": "hax:gold_claymore" }
+	}
+}

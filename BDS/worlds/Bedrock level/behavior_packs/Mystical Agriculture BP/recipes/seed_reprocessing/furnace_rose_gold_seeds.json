@@ -1,0 +1,14 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_furnace": {
+		"description": {
+			"identifier": "strat:furnace_rose_gold_seeds"
+		},
+		"tags": [
+			"furnace",
+			"blast_furnace"
+		],
+		"input": "strat:rose_gold_seeds",
+		"output": "strat:rose_gold_essence"
+	}
+}

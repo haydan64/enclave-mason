@@ -1,0 +1,202 @@
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Panel</title>
+
+    <style>
+        .roboto-thin {
+            font-family: "Roboto", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+        }
+        .roboto-light {
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            font-style: normal;
+        }
+        .roboto-regular {
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        .roboto-medium {
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-style: normal;
+        }
+        .roboto-bold {
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-style: normal;
+        }
+        .roboto-black {
+            font-family: "Roboto", sans-serif;
+            font-weight: 900;
+            font-style: normal;
+        }
+        .roboto-thin-italic {
+            font-family: "Roboto", sans-serif;
+            font-weight: 100;
+            font-style: italic;
+        }
+        .roboto-light-italic {
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+            font-style: italic;
+        }
+        .roboto-regular-italic {
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            font-style: italic;
+        }
+        .roboto-medium-italic {
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-style: italic;
+        }
+        .roboto-bold-italic {
+            font-family: "Roboto", sans-serif;
+            font-weight: 700;
+            font-style: italic;
+        }
+        .roboto-black-italic {
+            font-family: "Roboto", sans-serif;
+            font-weight: 900;
+            font-style: italic;
+        }
+
+        body {
+            margin: 0px;
+            padding: 0px;
+            display: grid;
+            grid-template-rows: 1fr 2em;
+            overflow: hidden;
+        }
+
+        .shell {
+            background-color: black;
+            color:white;
+            width: 100vw;
+            overflow-y:scroll;
+        }
+
+        .control {
+            background-color: green;
+            width: 100vw;
+            display: grid;
+            grid-template-columns: 2em 2em 2em 2em 1fr;
+        }
+
+        .button {
+            border: solid grey;
+        }
+        .shellLine {
+            width: 100%;
+        }
+
+        .textinput {
+            border-bottom: solid grey;
+            background-color: rgb(24, 24, 24);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="shell" id="shell">
+
+    </div>
+    <div class="control">
+        <div class="button power"></div>
+        <div class="button power"></div>
+        <div class="button power"></div>
+        <div class="button power"></div>
+        <div class="textinput" contenteditable="true"></div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        const elm = {
+            shell: document.getElementById("shell")
+        }
+
+        const socket = io();
+        const user = {
+            authed: false
+        }
+
+        loop();
+        setInterval(loop, 5000);
+        function loop() {
+            if (!user.authed) {
+                socket.emit("auth", "J#K7392J&ajb353927Z")
+            }
+        }
+
+
+        socket.on("log", (args)=> {
+            const line = document.createElement("div");
+            line.classList.add("shellLine");
+            line.innerHTML = args.join("");
+            elm.shell.appendChild(line);
+        });
+        
+
+
+        socket.on("auth", (data) => {
+            console.log("USER AUTH " + (data.success ? "SUCCESS" : "FAILED"));
+            if (data.success) {
+                console.log("User Succesfully Authenticated.");
+                user.authed = true;
+            }
+        });
+
+        socket.on("players", (players)=>{
+            console.log(JSON.stringify(players)); //just to see player info (probably remove later i just wanted to see)
+        });
+        socket.on("Weather", (weather) => {
+
+        });
+        socket.on("Death", (death) => {
+
+        });
+        socket.on("Players Update", (data) => {
+            const dataElm = document.createElement("p");
+            dataElm.textContent = JSON.stringify(data);
+            elm.shell.appendChild(dataElm)
+        });
+        socket.on("Player Spawned", (data) => {
+        });
+        socket.on("Player Break", (data) => {
+
+        });
+        socket.on("Player Place", (data) => {
+
+        });
+        socket.on("Player Gamemode Change", (data) => {
+
+        });
+        socket.on("configReloaded", () => { });
+        socket.on("backupStarted", () => { });
+        socket.on("backupFinished", () => { });
+        socket.on("backupFailed", () => { });
+        socket.on("ceaseBDS", () => { });
+        socket.on("BDSstopped", () => { });
+        socket.on("BDSrestarting", () => { });
+
+
+        function Caps(text) {
+            return text.split(" ").map((word) => { return word.slice(0, 1).toUpperCase() + word.slice(1) }).join(" ");
+        }
+
+    </script>
+</body>
+
+</html>

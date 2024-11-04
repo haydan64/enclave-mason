@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:steel_broadsword"
+		},
+
+    
+		"tags": [ "steel_blueprint" ],
+		"pattern": [
+			"  L",
+			" B ",
+			"/  "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:steel_longblade"
+			},
+			"B": {
+				"item": "hax:steel_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:steel_blueprint"
+			}
+		],
+		"result": { "item": "hax:steel_broadsword" }
+	}
+}

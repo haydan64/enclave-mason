@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:jade_chestplate"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "A A",
+            "AAA",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:jade"
+            }
+        },
+        "result": {
+            "item": "fantasy:jade_chestplate"
+        }
+    }
+}

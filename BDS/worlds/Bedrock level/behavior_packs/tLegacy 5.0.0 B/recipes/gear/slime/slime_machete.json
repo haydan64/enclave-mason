@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:slime_machete"
+		},
+
+    
+		"tags": [ "slime_blueprint" ],
+		"pattern": [
+			" SS",
+			"SL ",
+			"/  "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:slime_longblade"
+			},
+			"S": {
+				"item": "hax:slime_shortblade"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:slime_blueprint"
+			}
+		],
+		"result": { "item": "hax:slime_machete" }
+	}
+}

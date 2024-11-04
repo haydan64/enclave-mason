@@ -1,0 +1,45 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:diamond_blueprint"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"PI",
+			"#X"
+		],
+
+		"key": {
+			"I": {
+				"item": "minecraft:diamond"
+			},
+			"P": {
+				"item": "hax:bronze_blueprint"
+			},
+			"X": {
+				"item": "hax:electrum_blueprint"
+			},
+			"#": {
+				"item": "hax:steel_blueprint"
+			}
+		},
+
+		"unlock": [
+			{
+			  "item": "hax:basic_blueprint"
+			},
+			{
+			  "item": "minecraft:diamond"
+			}
+		  ],
+		"result": [
+			{ "item": "hax:diamond_blueprint" },
+			{ "item": "hax:bronze_blueprint" },
+			{ "item": "hax:electrum_blueprint" },
+			{ "item": "hax:steel_blueprint" }
+		]
+	}
+}

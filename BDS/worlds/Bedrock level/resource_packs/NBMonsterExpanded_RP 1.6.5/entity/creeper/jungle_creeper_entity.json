@@ -1,0 +1,62 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:jungle_creeper",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "spider",
+				"charged": "charged_creeper"
+			},
+			"textures": {
+				"default": "textures/entity/creeper/jungle_creeper/creeper1",
+				"default2": "textures/entity/creeper/jungle_creeper/creeper1a",
+				"default3": "textures/entity/creeper/jungle_creeper/creeper2",
+				"default4": "textures/entity/creeper/jungle_creeper/creeper2a",
+				"default5": "textures/entity/creeper/jungle_creeper/creeper3",
+				"default6": "textures/entity/creeper/jungle_creeper/creeper3a",
+				"default7": "textures/entity/creeper/jungle_creeper/creeper4",
+				"default8": "textures/entity/creeper/jungle_creeper/creeper4a",
+				"charged": "textures/entity/creeper/creeper_armor"
+			},
+			"geometry": {
+				"default": "geometry.jungle.creeper",
+				"charged": "geometry.creeper.charged"
+			},
+			"spawn_egg": {
+				"base_color": "#133116",
+				"overlay_color": "#856427"
+			},
+			"scripts": {
+				"pre_animation": [
+					"variable.wobble = Math.sin(query.swell_amount * 5730) * query.swell_amount * 0.01 + 1.0;",
+					"variable.swelling_scale1 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.4 + 1.0) * variable.wobble;",
+					"variable.swelling_scale2 = (Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.1 + 1.0) / variable.wobble;",
+					"variable.leg_rot = Math.cos(query.modified_distance_moved * 38.17326) * 80.22 * query.modified_move_speed;",
+					"variable.flash = Math.mod(Math.Round(query.swell_amount * 10.0), 2.0);"
+				],
+				"animate":[
+					"look_at_target",
+					"creeper_legs",
+					"creeper_swelling",
+					"general",
+					"death"
+				]
+			},
+			"animations": {
+				"general": "controller.animation.creeperv2",
+				"death" : "controller.animation.creeperv2.death",
+				"idle": "animation.jungle.creeper.idlev2",
+				"stunned": "animation.jungle.creeper.stunned",
+				"look_at_target": "animation.common.look_at_target",
+				"creeper_legs": "animation.stone_creeper.legs",
+				"creeper_swelling": "animation.stone_creeper.swelling",
+				"dead" : "animation.jungle.creeper.dead",
+				"dead2" : "animation.jungle.creeper.dead2",
+				"deathrot" : "animation.jungle.creeper.death_rot"
+
+			},
+			"render_controllers": ["controller.render.eightvariant","controller.render.creeper_armor"]
+		}
+	}
+}

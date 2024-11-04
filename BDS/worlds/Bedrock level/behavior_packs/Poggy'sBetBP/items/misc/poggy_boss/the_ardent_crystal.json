@@ -1,0 +1,18 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "better_on_bedrock:the_ardent_crystal",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:custom_components": [ "pog:end_podium" ],
+			"minecraft:icon": "the_ardent_crystal",
+			"minecraft:display_name": {
+				"value": "%item.better_on_bedrock.the_ardent_crystal.name\n%item.better_on_bedrock.the_ardent_crystal.desc"
+			}
+		}
+	}
+}

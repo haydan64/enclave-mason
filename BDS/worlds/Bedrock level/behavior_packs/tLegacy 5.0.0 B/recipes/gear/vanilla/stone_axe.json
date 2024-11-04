@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:stone_axe"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" HB",
+			" /N",
+			"/  "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:stone_axehead"
+			},
+			"B": {
+				"item": "hax:stone_bar"
+			},
+			"N": {
+				"item": "hax:stone_pebble"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:stone_pebble"
+			}
+		],
+		"result": { "item": "minecraft:stone_axe" }
+	}
+}

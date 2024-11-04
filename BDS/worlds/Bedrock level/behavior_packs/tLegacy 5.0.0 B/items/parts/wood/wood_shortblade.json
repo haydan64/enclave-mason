@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			},
+			"identifier": "hax:wood_shortblade"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Wooden Shortblade"
+			},
+			"minecraft:icon": {
+				"texture": "hax:wood_shortblade"
+			},
+			"minecraft:max_stack_size": 16,
+			"minecraft:hand_equipped": true
+		}
+	}
+}

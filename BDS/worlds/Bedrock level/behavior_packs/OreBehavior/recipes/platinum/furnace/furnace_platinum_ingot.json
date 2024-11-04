@@ -1,0 +1,11 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "fantasy:furnace_platinum_ingot"
+        },
+        "tags": [ "furnace", "blast_furnace" ],
+        "input": "fantasy:platinum",
+        "output": "fantasy:platinum_ingot"
+    }
+}

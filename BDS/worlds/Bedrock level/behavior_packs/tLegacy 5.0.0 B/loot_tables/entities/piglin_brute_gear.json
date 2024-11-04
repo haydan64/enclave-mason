@@ -1,0 +1,35 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:golden_axe",
+          "weight": 18
+        },
+//more funny hax gear (an even BIGGER mistake)
+        {
+          "type": "item",
+          "name": "hax:gold_claymore",
+          "weight": 7
+        },
+        {
+          "type": "item",
+          "name": "hax:gold_cleaver",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "hax:gold_hammer",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "hax:gold_battleaxe",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

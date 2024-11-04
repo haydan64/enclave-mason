@@ -1,0 +1,14 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "better_on_bedrock:tree_rule_glowshroom_scatter_feature"
+		},
+		"places_feature": "better_on_bedrock:glowshroom_random_feature",
+		"iterations": "t.biome_idx == 0",
+		"scatter_chance": 99,
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

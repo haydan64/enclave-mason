@@ -1,0 +1,597 @@
+{
+	"resource_pack_name": "vanilla",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"fantasy:moonstone": {
+			"textures": "textures/items/pamobile/fantasy_moonstone"
+		},
+		"fantasy:solarstone": {
+			"textures": "textures/items/pamobile/fantasy_solarstone"
+		},
+		"fantasy:ospherestone": {
+			"textures": "textures/items/pamobile/fantasy_ospherestone"
+		},
+		"fantasy:burning_stone": {
+			"textures": "textures/items/pamobile/fantasy_burning_stone"
+		},
+		"fantasy_moonstone_sword": {
+			"textures": "textures/items/pamobile/fantasy_moonstone_sword"
+		},
+		"fantasy_burningstone_sword": {
+			"textures": "textures/items/pamobile/fantasy_burningstone_sword"
+		},
+		"fantasy_ospherestone_sword": {
+			"textures": "textures/items/pamobile/fantasy_ospherestone_sword"
+		},
+		"fantasy_solarstone_sword": {
+			"textures": "textures/items/pamobile/fantasy_solarstone_sword"
+		},
+		"ruby": {
+			"textures": "textures/items/ruby/ruby"
+		},
+		"ruby_sword": {
+			"textures": "textures/items/ruby/weapons/ruby_sword"
+		},
+		"ruby_labrys": {
+			"textures": "textures/items/ruby/weapons/ruby_labrys"
+		},
+		"ruby_helmet": {
+			"textures": "textures/items/ruby/armor/ruby_helmet"
+		},
+		"ruby_chestplate": {
+			"textures": "textures/items/ruby/armor/ruby_chestplate"
+		},
+		"ruby_leggings": {
+			"textures": "textures/items/ruby/armor/ruby_leggings"
+		},
+		"ruby_boots": {
+			"textures": "textures/items/ruby/armor/ruby_boots"
+		},
+		"ruby_shovel": {
+			"textures": "textures/items/ruby/tools/ruby_shovel"
+		},
+		"ruby_hoe": {
+			"textures": "textures/items/ruby/tools/ruby_hoe"
+		},
+		"ruby_axe": {
+			"textures": "textures/items/ruby/tools/ruby_axe"
+		},
+		"ruby_pickaxe": {
+			"textures": "textures/items/ruby/tools/ruby_pickaxe"
+		},
+		"sapphire": {
+			"textures": "textures/items/sapphire/sapphire"
+		},
+		"sapphire_sword": {
+			"textures": "textures/items/sapphire/weapons/sapphire_sword"
+		},
+		"sapphire_labrys": {
+			"textures": "textures/items/sapphire/weapons/sapphire_labrys"
+		},
+		"sapphire_helmet": {
+			"textures": "textures/items/sapphire/armor/sapphire_helmet"
+		},
+		"sapphire_chestplate": {
+			"textures": "textures/items/sapphire/armor/sapphire_chestplate"
+		},
+		"sapphire_leggings": {
+			"textures": "textures/items/sapphire/armor/sapphire_leggings"
+		},
+		"sapphire_boots": {
+			"textures": "textures/items/sapphire/armor/sapphire_boots"
+		},
+		"sapphire_shovel": {
+			"textures": "textures/items/sapphire/tools/sapphire_shovel"
+		},
+		"sapphire_hoe": {
+			"textures": "textures/items/sapphire/tools/sapphire_hoe"
+		},
+		"sapphire_axe": {
+			"textures": "textures/items/sapphire/tools/sapphire_axe"
+		},
+		"sapphire_pickaxe": {
+			"textures": "textures/items/sapphire/tools/sapphire_pickaxe"
+		},
+		"jade": {
+			"textures": "textures/items/jade/jade"
+		},
+		"jade_sword": {
+			"textures": "textures/items/jade/weapons/jade_sword"
+		},
+		"jade_labrys": {
+			"textures": "textures/items/jade/weapons/jade_labrys"
+		},
+		"jade_helmet": {
+			"textures": "textures/items/jade/armor/jade_helmet"
+		},
+		"jade_chestplate": {
+			"textures": "textures/items/jade/armor/jade_chestplate"
+		},
+		"jade_leggings": {
+			"textures": "textures/items/jade/armor/jade_leggings"
+		},
+		"jade_boots": {
+			"textures": "textures/items/jade/armor/jade_boots"
+		},
+		"jade_shovel": {
+			"textures": "textures/items/jade/tools/jade_shovel"
+		},
+		"jade_hoe": {
+			"textures": "textures/items/jade/tools/jade_hoe"
+		},
+		"jade_axe": {
+			"textures": "textures/items/jade/tools/jade_axe"
+		},
+		"jade_pickaxe": {
+			"textures": "textures/items/jade/tools/jade_pickaxe"
+		},
+		"spinel": {
+			"textures": "textures/items/spinel/spinel"
+		},
+		"spinel_labrys": {
+			"textures": "textures/items/spinel/weapons/spinel_labrys"
+		},
+		"spinel_helmet": {
+			"textures": "textures/items/spinel/armor/spinel_helmet"
+		},
+		"spinel_chestplate": {
+			"textures": "textures/items/spinel/armor/spinel_chestplate"
+		},
+		"spinel_leggings": {
+			"textures": "textures/items/spinel/armor/spinel_leggings"
+		},
+		"spinel_boots": {
+			"textures": "textures/items/spinel/armor/spinel_boots"
+		},
+		"spinel_hoe": {
+			"textures": "textures/items/spinel/tools/spinel_hoe"
+		},
+		"spinel_pickaxe": {
+			"textures": "textures/items/spinel/tools/spinel_pickaxe"
+		},
+		"peridot": {
+			"textures": "textures/items/peridot/peridot"
+		},
+		"peridot_sword": {
+			"textures": "textures/items/peridot/weapons/peridot_sword"
+		},
+		"peridot_labrys": {
+			"textures": "textures/items/peridot/weapons/peridot_labrys"
+		},
+		"peridot_helmet": {
+			"textures": "textures/items/peridot/armor/peridot_helmet"
+		},
+		"peridot_chestplate": {
+			"textures": "textures/items/peridot/armor/peridot_chestplate"
+		},
+		"peridot_leggings": {
+			"textures": "textures/items/peridot/armor/peridot_leggings"
+		},
+		"peridot_boots": {
+			"textures": "textures/items/peridot/armor/peridot_boots"
+		},
+		"peridot_pickaxe": {
+			"textures": "textures/items/peridot/tools/peridot_pickaxe"
+		},
+		"aquamarine": {
+			"textures": "textures/items/aquamarine/aquamarine"
+		},
+		"aquamarine_sword": {
+			"textures": "textures/items/aquamarine/weapons/aquamarine_sword"
+		},
+		"aquamarine_labrys": {
+			"textures": "textures/items/aquamarine/weapons/aquamarine_labrys"
+		},
+		"aquamarine_helmet": {
+			"textures": "textures/items/aquamarine/armor/aquamarine_helmet"
+		},
+		"aquamarine_chestplate": {
+			"textures": "textures/items/aquamarine/armor/aquamarine_chestplate"
+		},
+		"aquamarine_leggings": {
+			"textures": "textures/items/aquamarine/armor/aquamarine_leggings"
+		},
+		"aquamarine_boots": {
+			"textures": "textures/items/aquamarine/armor/aquamarine_boots"
+		},
+		"aquamarine_pickaxe": {
+			"textures": "textures/items/aquamarine/tools/aquamarine_pickaxe"
+		},
+		"bismuth": {
+			"textures": "textures/items/bismuth/bismuth"
+		},
+		"bismuth_sword": {
+			"textures": "textures/items/bismuth/weapons/bismuth_sword"
+		},
+		"bismuth_labrys": {
+			"textures": "textures/items/bismuth/weapons/bismuth_labrys"
+		},
+		"bismuth_helmet": {
+			"textures": "textures/items/bismuth/armor/bismuth_helmet"
+		},
+		"bismuth_chestplate": {
+			"textures": "textures/items/bismuth/armor/bismuth_chestplate"
+		},
+		"bismuth_leggings": {
+			"textures": "textures/items/bismuth/armor/bismuth_leggings"
+		},
+		"bismuth_boots": {
+			"textures": "textures/items/bismuth/armor/bismuth_boots"
+		},
+		"bismuth_pickaxe": {
+			"textures": "textures/items/bismuth/tools/bismuth_pickaxe"
+		},
+		"onyx": {
+			"textures": "textures/items/onyx/onyx"
+		},
+		"onyx_katana": {
+			"textures": "textures/items/onyx/weapons/onyx_katana"
+		},
+		"onyx_dagger": {
+			"textures": "textures/items/onyx/weapons/onyx_dagger"
+		},
+		"onyx_helmet": {
+			"textures": "textures/items/onyx/armor/onyx_helmet"
+		},
+		"onyx_chestplate": {
+			"textures": "textures/items/onyx/armor/onyx_chestplate"
+		},
+		"onyx_leggings": {
+			"textures": "textures/items/onyx/armor/onyx_leggings"
+		},
+		"onyx_boots": {
+			"textures": "textures/items/onyx/armor/onyx_boots"
+		},
+		"onyx_pickaxe": {
+			"textures": "textures/items/onyx/tools/onyx_pickaxe"
+		},
+		"opal": {
+			"textures": "textures/items/opal/opal"
+		},
+		"opal_helmet": {
+			"textures": "textures/items/opal/armor/opal_helmet"
+		},
+		"opal_chestplate": {
+			"textures": "textures/items/opal/armor/opal_chestplate"
+		},
+		"opal_leggings": {
+			"textures": "textures/items/opal/armor/opal_leggings"
+		},
+		"opal_boots": {
+			"textures": "textures/items/opal/armor/opal_boots"
+		},
+		"sulfur": {
+			"textures": "textures/items/sulfur/sulfur"
+		},
+		"sulfur_dust": {
+			"textures": "textures/items/sulfur/sulfur_dust"
+		},
+		"sulfur_potion": {
+			"textures": "textures/items/sulfur/potions/sulfur_potion"
+		},
+		"sulfur_potion_splash": {
+			"textures": "textures/items/sulfur/potions/sulfur_potion_splash"
+		},
+		"sulfuric_acid": {
+			"textures": "textures/items/sulfuric_acid/sulfuric_acid"
+		},
+		"sulfuric_acid_concentration": {
+			"textures": "textures/items/sulfuric_acid/sulfuric_acid_concentration"
+		},
+		"sulfate": {
+			"textures": "textures/items/sulfate/sulfate"
+		},
+		"sulfate_dust": {
+			"textures": "textures/items/sulfate/sulfate_dust"
+		},
+		"steel": {
+			"textures": "textures/items/steel/steel"
+		},
+		"steel_sword": {
+			"textures": "textures/items/steel/weapons/steel_sword"
+		},
+		"steel_helmet": {
+			"textures": "textures/items/steel/armor/steel_helmet"
+		},
+		"steel_chestplate": {
+			"textures": "textures/items/steel/armor/steel_chestplate"
+		},
+		"steel_leggings": {
+			"textures": "textures/items/steel/armor/steel_leggings"
+		},
+		"steel_boots": {
+			"textures": "textures/items/steel/armor/steel_boots"
+		},
+		"steel_pickaxe": {
+			"textures": "textures/items/steel/tools/steel_pickaxe"
+		},
+		"red_steel": {
+			"textures": "textures/items/steel/red/red_steel"
+		},
+		"blue_steel": {
+			"textures": "textures/items/steel/blue/blue_steel"
+		},
+		"water_dragon_samurai_helmet": {
+			"textures": "textures/items/steel/blue/armor/water_dragon_samurai_helmet"
+		},
+		"water_dragon_samurai_chestplate": {
+			"textures": "textures/items/steel/blue/armor/water_dragon_samurai_chestplate"
+		},
+		"water_dragon_samurai_leggings": {
+			"textures": "textures/items/steel/blue/armor/water_dragon_samurai_leggings"
+		},
+		"water_dragon_samurai_boots": {
+			"textures": "textures/items/steel/blue/armor/water_dragon_samurai_boots"
+		},
+		"fire_dragon_samurai_helmet": {
+			"textures": "textures/items/steel/red/armor/fire_dragon_samurai_helmet"
+		},
+		"fire_dragon_samurai_chestplate": {
+			"textures": "textures/items/steel/red/armor/fire_dragon_samurai_chestplate"
+		},
+		"fire_dragon_samurai_leggings": {
+			"textures": "textures/items/steel/red/armor/fire_dragon_samurai_leggings"
+		},
+		"fire_dragon_samurai_boots": {
+			"textures": "textures/items/steel/red/armor/fire_dragon_samurai_boots"
+		},
+		"white_steel": {
+			"textures": "textures/items/steel/white/white_steel"
+		},
+		"paladin_helmet": {
+			"textures": "textures/items/steel/white/armor/paladin_helmet"
+		},
+		"paladin_chestplate": {
+			"textures": "textures/items/steel/white/armor/paladin_chestplate"
+		},
+		"paladin_leggings": {
+			"textures": "textures/items/steel/white/armor/paladin_leggings"
+		},
+		"paladin_boots": {
+			"textures": "textures/items/steel/white/armor/paladin_boots"
+		},
+		"tungsten": {
+			"textures": "textures/items/tungsten/tungsten"
+		},
+		"tungsten_durandal": {
+			"textures": "textures/items/tungsten/weapons/tungsten_durandal"
+		},
+		"tungsten_helmet": {
+			"textures": "textures/items/tungsten/armor/tungsten_helmet"
+		},
+		"tungsten_chestplate": {
+			"textures": "textures/items/tungsten/armor/tungsten_chestplate"
+		},
+		"tungsten_leggings": {
+			"textures": "textures/items/tungsten/armor/tungsten_leggings"
+		},
+		"tungsten_boots": {
+			"textures": "textures/items/tungsten/armor/tungsten_boots"
+		},
+		"platinum": {
+			"textures": "textures/items/platinum/platinum"
+		},
+		"platinum_ingot": {
+			"textures": "textures/items/platinum/platinum_ingot"
+		},
+		"platinum_sword": {
+			"textures": "textures/items/platinum/weapons/platinum_sword"
+		},
+		"platinum_helmet": {
+			"textures": "textures/items/platinum/armor/platinum_helmet"
+		},
+		"platinum_chestplate": {
+			"textures": "textures/items/platinum/armor/platinum_chestplate"
+		},
+		"platinum_leggings": {
+			"textures": "textures/items/platinum/armor/platinum_leggings"
+		},
+		"platinum_boots": {
+			"textures": "textures/items/platinum/armor/platinum_boots"
+		},
+		"netheroom": {
+			"textures": "textures/items/netheroom/netheroom"
+		},
+		"netheroom_helmet": {
+			"textures": "textures/items/netheroom/armor/netheroom_helmet"
+		},
+		"netheroom_chestplate": {
+			"textures": "textures/items/netheroom/armor/netheroom_chestplate"
+		},
+		"netheroom_leggings": {
+			"textures": "textures/items/netheroom/armor/netheroom_leggings"
+		},
+		"netheroom_boots": {
+			"textures": "textures/items/netheroom/armor/netheroom_boots"
+		},
+		"garnet": {
+			"textures": "textures/items/garnet/garnet"
+		},
+		"garnet_axe": {
+			"textures": "textures/items/garnet/tools/garnet_axe"
+		},
+		"garnet_helmet": {
+			"textures": "textures/items/garnet/armor/garnet_helmet"
+		},
+		"garnet_chestplate": {
+			"textures": "textures/items/garnet/armor/garnet_chestplate"
+		},
+		"garnet_leggings": {
+			"textures": "textures/items/garnet/armor/garnet_leggings"
+		},
+		"garnet_boots": {
+			"textures": "textures/items/garnet/armor/garnet_boots"
+		},
+		"topaz": {
+			"textures": "textures/items/topaz/topaz"
+		},
+		"topaz_spear": {
+			"textures": "textures/items/topaz/weapons/topaz_spear"
+		},
+		"topaz_shovel": {
+			"textures": "textures/items/topaz/tools/topaz_shovel"
+		},
+		"topaz_axe": {
+			"textures": "textures/items/topaz/tools/topaz_axe"
+		},
+		"topaz_pickaxe": {
+			"textures": "textures/items/topaz/tools/topaz_pickaxe"
+		},
+		"topaz_helmet": {
+			"textures": "textures/items/topaz/armor/topaz_helmet"
+		},
+		"topaz_chestplate": {
+			"textures": "textures/items/topaz/armor/topaz_chestplate"
+		},
+		"topaz_leggings": {
+			"textures": "textures/items/topaz/armor/topaz_leggings"
+		},
+		"topaz_boots": {
+			"textures": "textures/items/topaz/armor/topaz_boots"
+		},
+		"alexandrite": {
+			"textures": "textures/items/alexandrite/alexandrite"
+		},
+		"alexandrite_sword": {
+			"textures": "textures/items/alexandrite/weapons/alexandrite_sword"
+		},
+		"alexandrite_shovel": {
+			"textures": "textures/items/alexandrite/tools/alexandrite_shovel"
+		},
+		"alexandrite_axe": {
+			"textures": "textures/items/alexandrite/tools/alexandrite_axe"
+		},
+		"alexandrite_pickaxe": {
+			"textures": "textures/items/alexandrite/tools/alexandrite_pickaxe"
+		},
+		"alexandrite_helmet": {
+			"textures": "textures/items/alexandrite/armor/alexandrite_helmet"
+		},
+		"alexandrite_chestplate": {
+			"textures": "textures/items/alexandrite/armor/alexandrite_chestplate"
+		},
+		"alexandrite_leggings": {
+			"textures": "textures/items/alexandrite/armor/alexandrite_leggings"
+		},
+		"alexandrite_boots": {
+			"textures": "textures/items/alexandrite/armor/alexandrite_boots"
+		},
+		"malachite": {
+			"textures": "textures/items/malachite/malachite"
+		},
+		"malachite_sword": {
+			"textures": "textures/items/malachite/weapons/malachite_sword"
+		},
+		"malachite_labrys": {
+			"textures": "textures/items/malachite/weapons/malachite_labrys"
+		},
+		"malachite_helmet": {
+			"textures": "textures/items/malachite/armor/malachite_helmet"
+		},
+		"malachite_chestplate": {
+			"textures": "textures/items/malachite/armor/malachite_chestplate"
+		},
+		"malachite_leggings": {
+			"textures": "textures/items/malachite/armor/malachite_leggings"
+		},
+		"malachite_boots": {
+			"textures": "textures/items/malachite/armor/malachite_boots"
+		},
+		"jasper": {
+			"textures": "textures/items/jasper/jasper"
+		},
+		"jasper_helmet": {
+			"textures": "textures/items/jasper/armor/jasper_helmet"
+		},
+		"watermelon_tourmaline": {
+			"textures": "textures/items/watermelon_tourmaline/watermelon_tourmaline"
+		},
+		"watermelon_tourmaline_helmet": {
+			"textures": "textures/items/watermelon_tourmaline/armor/watermelon_tourmaline_helmet"
+		},
+		"watermelon_tourmaline_chestplate": {
+			"textures": "textures/items/watermelon_tourmaline/armor/watermelon_tourmaline_chestplate"
+		},
+		"watermelon_tourmaline_leggings": {
+			"textures": "textures/items/watermelon_tourmaline/armor/watermelon_tourmaline_leggings"
+		},
+		"watermelon_tourmaline_boots": {
+			"textures": "textures/items/watermelon_tourmaline/armor/watermelon_tourmaline_boots"
+		},
+		"black_hat": {
+			"textures": "textures/items/clothing/steampunk/black_hat"
+		},
+		"steampunk_glasses": {
+			"textures": "textures/items/clothing/steampunk/steampunk_glasses"
+		},
+		"steampunk_hat": {
+			"textures": "textures/items/clothing/steampunk/steampunk_hat"
+		},
+		"tiki_mask": {
+			"textures": "textures/items/clothing/tiki_mask"
+		},
+		"analgesic": {
+			"textures": "textures/items/medicine/analgesic"
+		},
+		"jade_beetle": {
+			"textures": "textures/items/beetles/jade_beetle"
+		},
+		"escabirus_staff": {
+			"textures": "textures/items/staffs/escabirus_staff"
+		},
+		"opal_staff": {
+			"textures": "textures/items/staffs/opal_staff"
+		},
+		"platinum_staff": {
+			"textures": "textures/items/staffs/platinum_staff"
+		},
+		"moonstone_helmet.png": {
+			"textures": "textures/items/moonstone/moonstone_helmet"
+		},
+		"moonstone_chesplate.png": {
+			"textures": "textures/items/moonstone/moonstone_chesplate"
+		},
+		"moonstone_leggins.png": {
+			"textures": "textures/items/moonstone/moonstone_leggins"
+		},
+		"moonstone_boots.png": {
+			"textures": "textures/items/moonstone/moonstone_boots"
+		},
+		"solar_stone_helmet.png": {
+			"textures": "textures/items/solar_stone/solar_stone_helmet"
+		},
+		"solar_stone_chestplate.png": {
+			"textures": "textures/items/solar_stone/solar_stone_chestplate"
+		},
+		"solar_stone_leggins.png": {
+			"textures": "textures/items/solar_stone/solar_stone_leggins"
+		},
+		"solar_stone_boots.png": {
+			"textures": "textures/items/solar_stone/solar_stone_boots"
+		},
+		"osphere_helmet.png": {
+			"textures": "textures/items/osphere/osphere_helmet"
+		},
+		"osphere_chestplate.png": {
+			"textures": "textures/items/osphere/osphere_chestplate"
+		},
+		"osphere_leggings.png": {
+			"textures": "textures/items/osphere/osphere_leggings"
+		},
+		"osphere_boots.png": {
+			"textures": "textures/items/osphere/osphere_boots"
+		},
+		"burning_helmet.png": {
+			"textures": "textures/items/burning/burning_helmet"
+		},
+		"burning_chestplate.png": {
+			"textures": "textures/items/burning/burning_chestplate"
+		},
+		"burning_leggings.png": {
+			"textures": "textures/items/burning/burning_leggings"
+		},
+		"burning_boots.png": {
+			"textures": "textures/items/burning/burning_boots"
+		}
+	}
+}

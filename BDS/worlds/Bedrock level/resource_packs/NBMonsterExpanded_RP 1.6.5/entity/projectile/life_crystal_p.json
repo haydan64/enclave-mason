@@ -1,0 +1,22 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:life_crystal_p",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/tree_spirit/tree_spirit"
+			},
+			"geometry": {
+				"default": "geometry.nba.life_crystal_projectile"
+			},
+			"render_controllers": ["controller.render.onevariant"]
+
+			
+			
+		}
+	}
+}

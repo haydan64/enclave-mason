@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:iron_shovel"
+		},
+
+    
+		"tags": [ "iron_blueprint" ],
+		"pattern": [
+			"H",
+			"/",
+			"/"
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:iron_spadehead"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:iron_blueprint"
+			}
+		],
+		"result": { "item": "minecraft:iron_shovel" }
+	}
+}

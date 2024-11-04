@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:brimstone_battleaxe"
+		},
+
+    
+		"tags": [ "brimstone_blueprint" ],
+		"pattern": [
+			"HPH",
+			" / ",
+			" / "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:brimstone_axehead"
+			},
+			"P": {
+				"item": "hax:brimstone_plating"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:brimstone_blueprint"
+			}
+		],
+		"result": { "item": "hax:brimstone_battleaxe" }
+	}
+}

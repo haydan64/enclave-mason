@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "hax:furnace_gold_kama"
+    },
+
+
+    "tags": ["furnace", "blast_furnace"],
+    "input": "hax:gold_kama",
+    "output": "minecraft:gold_nugget"
+  }
+  
+}

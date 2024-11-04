@@ -1,0 +1,164 @@
+{
+    "format_version": "1.21.20",
+    "minecraft:block": {
+        "description": {
+            "identifier": "hax:gold_blueprint_craft",
+            "menu_category": {
+                "category": "none",
+                "is_hidden_in_commands": true
+            },
+            "traits": {
+                "minecraft:placement_position": {
+                    "enabled_states": [
+                        "minecraft:block_face"
+                    ]
+                }
+            },
+            "states": {
+                "htc:rotation": {
+                    "values": {
+                        "min": 0,
+                        "max": 15
+                    }
+                }
+            }
+        },
+        "components": {
+            "minecraft:custom_components": [
+                "htc:blueprint_rotation"
+            ],
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 0.2
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 45
+            },
+            "minecraft:crafting_table": {
+                "crafting_tags": [
+                    "gold_blueprint"
+                ],
+                "custom_description": "tile.hax:blueprint_craft.name",
+                "grid_size": 3,
+                "table_name": "tile.hax:gold_blueprint_craft.name"
+            },
+            "minecraft:loot": "loot_tables/blocks/blueprints/gold_blueprint.json",
+            "minecraft:collision_box": {
+                "origin": [
+                    -1,
+                    0,
+                    -1
+                ],
+                "size": [
+                    7,
+                    3,
+                    7
+                ]
+            },
+            "minecraft:selection_box": {
+                "origin": [
+                    -6,
+                    0,
+                    -6
+                ],
+                "size": [
+                    12,
+                    1,
+                    12
+                ]
+            },
+            "minecraft:geometry": {
+                "identifier": "geometry.htc_blueprint",
+                "bone_visibility": {
+                    "up_0": "q.block_state('minecraft:block_face') == 'up' && !math.mod(q.block_state('htc:rotation'), 4)",
+                    "up_22_5": "q.block_state('minecraft:block_face') == 'up' && !math.mod(q.block_state('htc:rotation') - 1, 4)",
+                    "up_45": "q.block_state('minecraft:block_face') == 'up' && !math.mod(q.block_state('htc:rotation') - 2, 4)",
+                    "up_67_5": "q.block_state('minecraft:block_face') == 'up' && !math.mod(q.block_state('htc:rotation') - 3, 4)",
+                    "side": "q.block_state('minecraft:block_face') != 'up'"
+                }
+            },
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "gold_blueprint",
+                    "render_method": "alpha_test"
+                }
+            },
+            "minecraft:placement_filter": {
+                "conditions": [
+                    {
+                        "allowed_faces": [
+                            "up",
+                            "side"
+                        ]
+                    }
+                ]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "q.block_state('htc:rotation') >= 4 || q.block_state('minecraft:block_face') == 'east'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            -90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('htc:rotation') >= 8 || q.block_state('minecraft:block_face') == 'south'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            180,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('htc:rotation') >= 12 || q.block_state('minecraft:block_face') == 'west'",
+                "components": {
+                    "minecraft:transformation": {
+                        "rotation": [
+                            0,
+                            90,
+                            0
+                        ]
+                    }
+                }
+            },
+            {
+                "condition": "q.block_state('minecraft:block_face') != 'up'",
+                "components": {
+                    "minecraft:collision_box": {
+                        "origin": [
+                            0,
+                            0,
+                            0
+                        ],
+                        "size": [
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    "minecraft:selection_box": {
+                        "origin": [
+                            -6,
+                            2,
+                            7
+                        ],
+                        "size": [
+                            12,
+                            12,
+                            1
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

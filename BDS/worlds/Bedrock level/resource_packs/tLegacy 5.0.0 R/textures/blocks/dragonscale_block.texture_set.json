@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "dragonscale_block",
+		"metalness_emissive_roughness": "dragonscale_block_mer",
+		"heightmap": "dragonscale_block_heightmap"
+	}
+}

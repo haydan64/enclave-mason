@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.log"
+			},
+			"identifier": "hax:wooden_shavings"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Wooden Shavings"
+			},
+			"minecraft:icon": {
+				"texture": "hax:wooden_shavings"
+			},
+			"minecraft:max_stack_size": 64,
+			"minecraft:stacked_by_data": false,
+			"minecraft:hand_equipped": false,
+			"minecraft:can_destroy_in_creative": true
+		}
+	}
+}

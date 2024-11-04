@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:tungsten_durandal"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "A",
+            "A",
+            "B"
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:tungsten_block"
+            },
+            "B": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "fantasy:tungsten_durandal"
+        }
+    }
+}

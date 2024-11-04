@@ -1,0 +1,23 @@
+# Ignore node_modules folders
+node_modules/
+
+# Ignore specific BDS world files and folders
+/BDS/worlds/Bedrock level/level.dat
+/BDS/worlds/Bedrock level/level.dat_old
+/BDS/worlds/Bedrock level/levelname.txt
+/BDS/worlds/Bedrock level/level.dat/db
+/BDS/worlds/Bedrock level/master-logs
+
+# Ignore backups folder
+/backups
+
+# Ignore specific BDS files and folders
+/BDS/allowlist.json
+/BDS/minecraftpe
+/BDS/premium_cache
+/BDS/treatments
+/BDS/world_templates
+/BDS/bedrock_server
+
+# Ignore master config file
+/master-config.json

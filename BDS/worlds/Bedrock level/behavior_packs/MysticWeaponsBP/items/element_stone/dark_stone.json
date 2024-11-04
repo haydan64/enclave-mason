@@ -1,0 +1,22 @@
+{
+    "format_version": "1.20.20",
+    "minecraft:item": {
+        "description": {
+            "identifier": "item:dark_stone",
+            "menu_category": {
+                "category": "nature",
+                "group": "itemGroup.name.elementStone"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "dark_stone"
+            },
+            "minecraft:display_name": {
+                "value": "Dark Stone"
+            },
+            "minecraft:glint": true,
+            "minecraft:stacked_by_data": true
+        }
+    }
+}

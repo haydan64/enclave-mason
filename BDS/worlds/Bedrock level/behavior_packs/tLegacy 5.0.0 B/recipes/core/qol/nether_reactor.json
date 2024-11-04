@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:nether_reactor"
+    },  
+    "tags": [ "tiered_table" ],
+    "pattern": [
+      "#O#",
+      "#O#",
+      "#O#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:iron_ingot"
+      },
+      "O": {
+        "item": "minecraft:diamond"
+      }
+    },
+    
+    "unlock": [
+      {
+        "item": "minecraft:end_gateway"
+      }
+    ],
+    "result": {
+      "item": "minecraft:netherreactor"
+    }
+  }
+}

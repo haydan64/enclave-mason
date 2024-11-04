@@ -1,0 +1,15 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:block": {
+        "description": {
+            "identifier": "fantasy:jade_dirt"
+        },
+        "components": {
+            "minecraft:destroy_time": 0.7,
+            "minecraft:friction": 0.6,
+            "minecraft:loot": "loot_tables/blocks/jade/jade_dirt.json",
+            "minecraft:map_color": "#FFFFFF",
+            "minecraft:block_light_emission": 0.0
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:end_agglomeratio",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "end_agglomeratio"
+			},
+			"minecraft:display_name": {
+				"value": "End Agglomeratio"
+			}
+		}
+	}
+}

@@ -1,0 +1,185 @@
+{
+	"num_mip_levels": 4,
+	"padding": 8,
+	"resource_pack_name": "enclave",
+	"texture_name": "atlas.terrain",
+	"texture_data": {
+		"enclave_kam_maprock": {
+			"textures": "textures/blocks/kam_maprock"
+		},
+		"enclave_war_maprock": {
+			"textures": "textures/blocks/war_maprock"
+		},
+		"enclave_leg_maprock": {
+			"textures": "textures/blocks/leg_maprock"
+		},
+		"enclave_poop_block": {
+			"textures": "textures/blocks/poop_block"
+		},
+		"enclave_mer_maprock": {
+			"textures": "textures/blocks/mer_maprock"
+		},
+		"enclave_agricultural_tnt_top": {
+			"textures": "textures/blocks/agricultural_tnt_top"
+		},
+		"enclave_agricultural_tnt_bottom": {
+			"textures": "textures/blocks/agricultural_tnt_bottom"
+		},
+		"enclave_agricultural_tnt_sides": {
+			"textures": "textures/blocks/agricultural_tnt"
+		},
+		"enclave_blue_brick": {
+			"textures": "textures/blocks/blue_brick"
+		},
+		"enclave_burning_obsidian": {
+			"textures": "textures/blocks/burning_obsidian"
+		},
+		"enclave_drowning_obsidian": {
+			"textures": "textures/blocks/drowning_obsidian"
+		},
+		"enclave_green_brick": {
+			"textures": "textures/blocks/green_brick"
+		},
+		"enclave_guilded_obsidian": {
+			"textures": "textures/blocks/guilded_obsidian"
+		},
+		"enclave_light_blue_brick": {
+			"textures": "textures/blocks/light_blue_brick"
+		},
+		"enclave_lime_green_brick": {
+			"textures": "textures/blocks/lime_green_brick"
+		},
+		"enclave_magenta_brick": {
+			"textures": "textures/blocks/magenta_brick"
+		},
+		"enclave_mushroom_block_skin_blue": {
+			"textures": "textures/blocks/mushroom_block_skin_blue"
+		},
+		"enclave_mushroom_block_skin_green": {
+			"textures": "textures/blocks/mushroom_block_skin_green"
+		},
+		"enclave_pink_brick": {
+			"textures": "textures/blocks/pink_brick"
+		},
+		"enclave_purple_brick": {
+			"textures": "textures/blocks/purple_brick"
+		},
+		"enclave_radio_brick": {
+			"textures": "textures/blocks/radio_brick"
+		},
+		"enclave_souled_chiseled_polished_blackstone": {
+			"textures": "textures/blocks/souled_chiseled_polished_blackstone"
+		},
+		"enclave_souled_nether_bricks": {
+			"textures": "textures/blocks/souled_nether_bricks"
+		},
+		"enclave_souled_chiseled_deepslate": {
+			"textures": "textures/blocks/soulled_chiseled_deepslate"
+		},
+		"enclave_underwater_tnt": {
+			"textures": "textures/blocks/underwater_tnt"
+		},
+		"enclave_yellow_brick": {
+			"textures": "textures/blocks/yellow_brick"
+		},
+		"enclave_deepslate_magnetite_ore": {
+			"textures": "textures/blocks/deepslate_magnetite_ore"
+		},
+		"enclave_magnetite_ore": {
+			"textures": "textures/blocks/magnetite_ore"
+		},
+		"enclave_black_purpur": {
+			"textures": "textures/blocks/black_purpur"
+		},
+		"enclave_blue_purpur": {
+			"textures": "textures/blocks/blue_purpur"
+		},
+		"enclave_blueish_purpur": {
+			"textures": "textures/blocks/blueish_purpur"
+		},
+		"enclave_child_red_purpur": {
+			"textures": "textures/blocks/child_red_purpur"
+		},
+		"enclave_copper_purpur": {
+			"textures": "textures/blocks/copper_purpur"
+		},
+		"enclave_cyan_purpur": {
+			"textures": "textures/blocks/cyan_purpur"
+		},
+		"enclave_dark_purple_purpur": {
+			"textures": "textures/blocks/dark_purple_purpur"
+		},
+		"enclave_deep_blue_purpur": {
+			"textures": "textures/blocks/deep_blue_purpur"
+		},
+		"enclave_green_purpur": {
+			"textures": "textures/blocks/green_purpur"
+		},
+		"enclave_grey_purpur": {
+			"textures": "textures/blocks/grey_purpur"
+		},
+		"enclave_lapis_blue_purpur": {
+			"textures": "textures/blocks/lapis_blue_purpur"
+		},
+		"enclave_light_blue_purpur": {
+			"textures": "textures/blocks/light_blue_purpur"
+		},
+		"enclave_light_green_purpur": {
+			"textures": "textures/blocks/light_green_purpur"
+		},
+		"enclave_light_grey_purpur": {
+			"textures": "textures/blocks/light_grey_purpur"
+		},
+		"enclave_light_purple_purpur": {
+			"textures": "textures/blocks/light_purple_purpur"
+		},
+		"enclave_light_red_purpur": {
+			"textures": "textures/blocks/light_red_purpur"
+		},
+		"enclave_light_tea_purpur": {
+			"textures": "textures/blocks/light_tea_purpur"
+		},
+		"enclave_lime_green_purpur": {
+			"textures": "textures/blocks/lime_green_purpur"
+		},
+		"enclave_love_pink_purpur": {
+			"textures": "textures/blocks/love_pink_purpur"
+		},
+		"enclave_magenta_purpur": {
+			"textures": "textures/blocks/magenta_purpur"
+		},
+		"enclave_orange_purpur": {
+			"textures": "textures/blocks/orange_purpur"
+		},
+		"enclave_pink_purpur": {
+			"textures": "textures/blocks/pink_purpur"
+		},
+		"enclave_purple_purpur": {
+			"textures": "textures/blocks/purple_purpur"
+		},
+		"enclave_radio_purpur": {
+			"textures": "textures/blocks/radio_purpur"
+		},
+		"enclave_red_purpur": {
+			"textures": "textures/blocks/red_purpur"
+		},
+		"enclave_stone_purpur": {
+			"textures": "textures/blocks/stone_purpur"
+		},
+		"enclave_terquoise_purpur": {
+			"textures": "textures/blocks/terquoise_purpur"
+		},
+		"enclave_white_purpur": {
+			"textures": "textures/blocks/white_purpur"
+		},
+		"enclave_growing_obsidian": {
+			"textures": "textures/blocks/growing_obsidian"
+		},
+		"enclave_netherrack_stairs": {
+			"textures": "textures/blocks/netherrack_stairs"
+		},
+		"enclave_magnetite_block": {
+			"textures": "textures/blocks/magnetite_block"
+		}
+	}
+}

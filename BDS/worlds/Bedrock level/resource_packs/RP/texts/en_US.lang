@@ -1,0 +1,15 @@
+pack.name=Enclave Pack RP
+pack.description=Enclave Pack
+tile.enclave:night_torch.name=Night Torch
+item.enclave:coin=Coin
+item.enclave:test=Test
+item.enclave:metal_pipe=Metal Pipe
+item.enclave:supremium_scythe=Supremium Scythe
+item.enclave:tertium_scythe=Tertium Scythe
+item.enclave:prudentium_scythe=Prudentium Scythe
+item.enclave:inferium_scythe=Inferium Scythe
+item.enclave:imperium_scythe=Imperium Scythe
+tile.xfactions:stripped_spruce_slab.name=Stripped Spruce Slab
+tile.xfactions:double_stripped_spruce_slab.name=Double Stripped Spruce Slab
+item.spawn_egg.entity.enclave:text.name=Spawn Floating Text
+entity.enclave:text.name=Floating Text

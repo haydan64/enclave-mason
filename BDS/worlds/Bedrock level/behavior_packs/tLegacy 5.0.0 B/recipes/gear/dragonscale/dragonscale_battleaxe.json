@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:dragonscale_battleaxe"
+		},
+
+    
+		"tags": [ "dragonscale_blueprint" ],
+		"pattern": [
+			"HPH",
+			" / ",
+			" / "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:dragonscale_axehead"
+			},
+			"P": {
+				"item": "hax:dragonscale_plating"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:dragonscale_blueprint"
+			}
+		],
+		"result": { "item": "hax:dragonscale_battleaxe" }
+	}
+}

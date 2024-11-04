@@ -1,0 +1,52 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"hax:lost_ember": {
+				"events": {
+					"ambient": "mob.wanderingtrader.idle",
+					"death": "mob.wanderingtrader.death",
+					"disappeared": "mob.wanderingtrader.disappeared",
+					"drink": "mob.wanderingtrader.drink_potion",
+					"haggle": "mob.wanderingtrader.haggle",
+					"haggle.no": "mob.wanderingtrader.no",
+					"haggle.yes": "mob.wanderingtrader.yes",
+					"hurt": "mob.wanderingtrader.hurt",
+					"reappeared": "mob.wanderingtrader.reappeared"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"hax:parched": {
+				"events": {
+					"ambient": "mob.skeleton.say",
+					"death": "mob.skeleton.death",
+					"hurt": {
+						"sound": "mob.skeleton.hurt",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.skeleton.step",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"hax:draugr": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": "mob.zombie.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			}
+		}
+	}
+}

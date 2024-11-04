@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "hax:leadsilver_alloy"
+    },
+
+    
+    "tags": ["blast_furnace"],
+    "input": "hax:leadsilver_blend",
+    "output": "hax:leadsilver_alloy"
+  }
+  
+}

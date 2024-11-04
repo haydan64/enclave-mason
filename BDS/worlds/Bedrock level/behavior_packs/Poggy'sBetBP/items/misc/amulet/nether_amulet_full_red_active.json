@@ -1,0 +1,32 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "better_on_bedrock:nether_amulet_full_red_active",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": "nether_amulet_3_stone_yellow_red_green",
+			"minecraft:display_name": {
+				"value": "%item.better_on_bedrock.nether_amulet.name\n%item.better_on_bedrock.nether_amulet.desc"
+			},
+			
+			"minecraft:use_modifiers": {
+				"use_duration": 9999,
+				"movement_modifier": 0.35
+			},
+			"minecraft:food": {
+				"nutrition": 8,
+				"can_always_eat": true
+			},
+			"minecraft:cooldown": {
+				"category": "red_amulet",
+				"duration": 30
+			},
+			
+			"minecraft:max_stack_size": 1
+		}
+	}
+}

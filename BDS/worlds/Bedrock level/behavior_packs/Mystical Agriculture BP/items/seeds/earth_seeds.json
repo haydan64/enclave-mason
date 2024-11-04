@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:earth_seeds",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.seed"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "earth_seeds"
+			},
+			"minecraft:display_name": {
+				"value": "Earth Seeds\n§7Tier: §eElemental§r"
+			},
+			"minecraft:block_placer": {
+				"block": "strat:earth_crop"
+			}
+		}
+	}
+}

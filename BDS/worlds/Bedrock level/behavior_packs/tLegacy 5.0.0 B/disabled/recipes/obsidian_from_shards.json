@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:obsidian_from_shards"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "obsidian",
+    "pattern": [
+      "##",
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "hax:obsidian_shard"
+      }
+    },
+    "result": {
+      "item": "minecraft:obsidian"
+    }
+  }
+}

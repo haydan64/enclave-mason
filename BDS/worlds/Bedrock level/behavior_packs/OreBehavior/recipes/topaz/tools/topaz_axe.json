@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:topaz_axe"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "AA",
+            "BA",
+            "B"
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:topaz"
+            },
+            "B": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "fantasy:topaz_axe"
+        }
+    }
+}

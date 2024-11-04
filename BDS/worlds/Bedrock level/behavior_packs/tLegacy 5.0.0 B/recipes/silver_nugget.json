@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:silver_nugget"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "hax:silver_ingot"
+      }
+    },
+    
+    "unlock": [
+      {
+        "item": "hax:silver_ingot"
+      }
+    ],
+    "result": {
+      "item": "hax:silver_nugget",
+      "count": 4
+    }
+  }
+}

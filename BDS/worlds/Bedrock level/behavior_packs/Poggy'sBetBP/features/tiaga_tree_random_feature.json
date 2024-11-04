@@ -1,0 +1,70 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "better_on_bedrock:tiaga_tree_random_feature"
+		},
+		"features": [
+			[
+				"minecraft:tiaga_tree_variation_1", //Coarse dirt weighs 5
+				5
+			],
+			[
+				"minecraft:tiaga_tree_variation_2", //Podzol dirt weighs 3
+				6
+			],
+			[
+				"minecraft:tiaga_tree_variation_3", //Cobblestone weighs 2
+				5
+			],
+			[
+				"minecraft:tiaga_tree_variation_4", //Cobblestone weighs 2
+				1.5
+			],
+			[
+				"minecraft:tiaga_tree_variation_5", //Cobblestone weighs 2
+				6
+			],
+			[
+				"minecraft:tiaga_tree_variation_6", //Cobblestone weighs 2
+				4
+			],
+			[
+				"minecraft:tiaga_tree_variation_5", //Cobblestone weighs 2
+				5
+			],
+			[
+				"minecraft:tiaga_tree_variation_7", //Cobblestone weighs 2
+				1
+			],
+			[
+				"minecraft:tiaga_tree_variation_9", //Cobblestone weighs 2
+				1
+			],
+			[
+				"minecraft:taiga_bus", //Podzol dirt weighs 3
+				12
+			],
+			[
+				"minecraft:taige_umbrella", //Cobblestone weighs 2
+				2
+			],
+			[
+				"minecraft:taiga_stone_1", //Cobblestone weighs 2
+				0.8
+			],
+			[
+				"minecraft:taiga_stone_2", //Cobblestone weighs 2
+				0.8
+			],
+			[
+				"minecraft:taiga_stone_3", //Cobblestone weighs 2
+				0.8
+			],
+			[
+				"minecraft:taiga_tree_bee", //Cobblestone weighs 2
+				1.3
+			]
+		]
+	}
+}

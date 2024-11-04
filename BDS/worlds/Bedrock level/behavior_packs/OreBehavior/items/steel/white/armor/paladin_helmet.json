@@ -1,0 +1,49 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "fantasy:paladin_helmet",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "paladin_helmet"
+            },
+            "minecraft:display_name": {},
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.helmet"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": true,
+            "minecraft:render_offsets": "helmets",
+            "minecraft:enchantable": {
+                "value": 7,
+                "slot": "armor_head"
+            },
+            "minecraft:armor": {
+                "protection": 5
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.head"
+            },
+            "minecraft:durability": {
+                "max_durability": 851,
+                "damage_chance": {
+                    "min": 90,
+                    "max": 100
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "fantasy:paladin_helmet",
+                            "fantasy:white_steel"
+                            ],
+                            "repair_amount": 421
+                    }
+                ]
+            }
+        }
+    }
+}

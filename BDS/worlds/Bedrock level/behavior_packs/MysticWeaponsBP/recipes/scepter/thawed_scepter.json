@@ -1,0 +1,28 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mystic:thawed_scepter"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            " X#",
+            " SX",
+            "S  "
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:stick"
+            },
+            "#": {
+                "item": "item:ice_stone"
+            },
+            "X": {
+                "item": "minecraft:blue_ice"
+            }
+        },
+        "result": {
+            "item": "mystic:thawed_scepter"
+        }
+    }
+}

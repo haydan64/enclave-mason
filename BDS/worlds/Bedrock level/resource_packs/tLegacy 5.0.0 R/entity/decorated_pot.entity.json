@@ -1,0 +1,13 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:decorated_pot",
+      "textures": {
+        "blank_pottery_sherd": "textures/blocks/htc_blank_pottery_pattern",
+        "icon_pottery_sherd": "textures/blocks/htc_icon_pottery_pattern",
+        "smith_pottery_sherd": "textures/blocks/htc_smith_pottery_pattern"
+      }
+    }
+  }
+}

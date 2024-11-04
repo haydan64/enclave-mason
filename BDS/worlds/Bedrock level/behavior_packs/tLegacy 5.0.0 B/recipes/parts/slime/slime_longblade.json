@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:slime_longblade"
+		},
+
+    
+		"tags": [ "slime_blueprint" ],
+		"pattern": [
+			"  I",
+			" N ",
+			"N  "
+		],
+
+		"key": {
+			"I": {
+				"item": "minecraft:slime"
+			},
+			"N": {
+				"item": "minecraft:slime_ball"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:slime_blueprint"
+			}
+		],
+		"result": { "item": "hax:slime_longblade" }
+	}
+}

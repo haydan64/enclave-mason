@@ -1,0 +1,21 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:solarstone"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "A"
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:solarstone_block"
+            }
+        },
+        "result": {
+            "item": "fantasy:solarstone",
+            "count": 9
+        }
+    }
+}

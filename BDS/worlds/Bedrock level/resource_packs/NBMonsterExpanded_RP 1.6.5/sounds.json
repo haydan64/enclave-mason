@@ -1,0 +1,1204 @@
+{
+	"entity_sounds": {
+		"entities": {
+			"nba:amethyst_mineral_zombie": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": {
+						
+						"pitch": 1,
+						"sound": "place.deepslate",
+						"volume": 0.85
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:diamond_mineral_zombie": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": {
+						
+						"pitch": 1,
+						"sound": "place.deepslate",
+						"volume": 0.85
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:emerald_mineral_zombie": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": {
+						
+						"pitch": 1,
+						"sound": "place.deepslate",
+						"volume": 0.85
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:redstone_mineral_zombie": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": {
+						
+						"pitch": 1,
+						"sound": "place.deepslate",
+						"volume": 0.85
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:iron_mineral_zombie": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": {
+						
+						"pitch": 1,
+						"sound": "place.deepslate",
+						"volume": 0.85
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:gold_mineral_zombie": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": {
+						
+						"pitch": 1,
+						"sound": "place.deepslate",
+						"volume": 0.85
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:zombie_giant": {
+				"events": {
+					"ambient": {
+						
+						"pitch": 0.6,
+						"sound": "mob.zombie.say",
+						"volume": 0.85
+					},
+					"death": {
+						
+						"pitch": 0.6,
+						"sound": "mob.zombie.death",
+						"volume": 0.85
+					},
+					"hurt": {
+						
+						"pitch": 0.6,
+						"sound": "mob.zombie.hurt",
+						"volume": 0.85
+					},
+					"step": {
+						"pitch": 0.6,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:creeper": {
+				"events": {
+					"death": "mob.creeper.death",
+					"fuse": {
+						"pitch": 0.5,
+						"sound": "random.fuse",
+						"volume": 1
+					},
+					"hurt": "mob.creeper.say"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:desert_creeper": {
+				"events": {
+					"death": "mob.creeper.death",
+					"fuse": {
+						"pitch": 0.5,
+						"sound": "random.fuse",
+						"volume": 1
+					},
+					"hurt": "mob.creeper.say"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:jungle_creeper": {
+				"events": {
+					"death": "mob.creeper.death",
+					"fuse": {
+						"pitch": 0.5,
+						"sound": "random.fuse",
+						"volume": 1
+					},
+					"hurt": "mob.creeper.say"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:mesa_creeper": {
+				"events": {
+					"death": "mob.creeper.death",
+					"fuse": {
+						"pitch": 0.5,
+						"sound": "random.fuse",
+						"volume": 1
+					},
+					"hurt": "mob.creeper.say"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:snow_creeper": {
+				"events": {
+					"death": "mob.creeper.death",
+					"fuse": {
+						"pitch": 0.5,
+						"sound": "random.fuse",
+						"volume": 1
+					},
+					"hurt": "mob.creeper.say"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:stone_creeper": {
+				"events": {
+					"death": "mob.creeper.death",
+					"fuse": {
+						"pitch": 0.5,
+						"sound": "random.fuse",
+						"volume": 1
+					},
+					"hurt": "mob.creeper.say"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:deepslate_creeper": {
+				"events": {
+					"death": "mob.creeper.death",
+					"fuse": {
+						"pitch": 0.5,
+						"sound": "random.fuse",
+						"volume": 1
+					},
+					"hurt": "mob.creeper.say"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:dripstone_creeper": {
+				"events": {
+					"death": "mob.creeper.death",
+					"fuse": {
+						"pitch": 0.5,
+						"sound": "random.fuse",
+						"volume": 1
+					},
+					"hurt": "mob.creeper.say"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:zombie": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": "mob.zombie.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:snow_zombie": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": "mob.zombie.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:jungle_zombie": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": "mob.zombie.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:swamp_zombie": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": "mob.zombie.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:skeleton": {
+				"events": {
+					"ambient": "mob.skeleton.say",
+					"death": "mob.skeleton.death",
+					"hurt": {
+						"sound": "mob.skeleton.hurt",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.skeleton.step",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:jungle_skeleton": {
+				"events": {
+					"ambient": "mob.skeleton.say",
+					"death": "mob.skeleton.death",
+					"hurt": {
+						"sound": "mob.skeleton.hurt",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.skeleton.step",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:desert_skeleton": {
+				"events": {
+					"ambient": "mob.skeleton.say",
+					"death": "mob.skeleton.death",
+					"hurt": {
+						"sound": "mob.skeleton.hurt",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.skeleton.step",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:swamp_skeleton": {
+				"events": {
+					"ambient": "mob.skeleton.say",
+					"death": "mob.skeleton.death",
+					"hurt": {
+						"sound": "mob.skeleton.hurt",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.skeleton.step",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:jungle_spider": {
+				"events": {
+					"ambient": "mob.spider.say",
+					"death": "mob.spider.death",
+					"hurt": {
+						"sound": "mob.spider.say",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.spider.step",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:plain_spider": {
+				"events": {
+					"ambient": "mob.spider.say",
+					"death": "mob.spider.death",
+					"hurt": {
+						"sound": "mob.spider.say",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.spider.step",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:snow_spider": {
+				"events": {
+					"ambient": "mob.spider.say",
+					"death": "mob.spider.death",
+					"hurt": {
+						"sound": "mob.spider.say",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.spider.step",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:desert_spider": {
+				"events": {
+					"ambient": "mob.spider.say",
+					"death": "mob.spider.death",
+					"hurt": {
+						"sound": "mob.spider.say",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.spider.step",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:mesa_spider": {
+				"events": {
+					"ambient": "mob.spider.say",
+					"death": "mob.spider.death",
+					"hurt": {
+						"sound": "mob.spider.say",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.spider.step",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:swamp_spider": {
+				"events": {
+					"ambient": "mob.spider.say",
+					"death": "mob.spider.death",
+					"hurt": {
+						"sound": "mob.spider.say",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.spider.step",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:blast_termite": {
+				"events": {
+					"death": {
+						"pitch": 1.4,
+						"sound": "mob.spider.death",
+						"volume": 1
+					},
+					"hurt": {
+						"pitch": 1.8,
+						"sound": "mob.spider.say",
+						"volume": 1
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.spider.step",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:ghost": {
+				"events": {
+					"hurt": {
+						"sound": "mob.vex.hurt",
+						"volume": 0.7
+					},
+					"death": {
+						"sound": "mob.vex.death",
+						"volume": 0.7
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:skeleton_warrior": {
+				"events": {
+					"ambient": "mob.skeleton.say",
+					"death": "mob.skeleton.death",
+					"hurt": {
+						"sound": "mob.skeleton.hurt",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.skeleton.step",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:skeleton_warrior_archer": {
+				"events": {
+					"ambient": "mob.skeleton.say",
+					"death": "mob.skeleton.death",
+					"hurt": {
+						"sound": "mob.skeleton.hurt",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.skeleton.step",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:blast_bottle": {
+				"events": {
+					"hurt": {
+						"sound": "place.deepslate",
+						"volume": 0.1
+					}
+					
+				},
+				"death": "mob.skeleton.death",
+				"pitch": [0.8, 1.2],
+				"volume": 0.1
+			},
+			"nba:small_blast_bottle": {
+				"events": {
+					"hurt": {
+						"sound": "place.deepslate",
+						"volume": 0.1
+					},
+					"death": "mob.skeleton.death"
+					
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 0.1
+			},
+			"nba:lush_bat": {
+				"events": {
+					"ambient": "mob.bat.idle",
+					"death": "mob.bat.death",
+					"hurt": "mob.bat.hurt",
+					"takeoff": {
+						"pitch": [0.8, 1.2],
+						"sound": "mob.bat.takeoff",
+						"volume": 0.05
+					}
+				},
+				"pitch": [0.76, 1.14],
+				"volume": 0.1
+			},
+			"nba:lush_creeper": {
+				"events": {
+					"death": "mob.creeper.death",
+					"fuse": {
+						"pitch": 0.5,
+						"sound": "random.fuse",
+						"volume": 1
+					},
+					"hurt": "mob.creeper.say"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:miner_zombie": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": "mob.zombie.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:lush_zombie": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": "mob.zombie.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:dripstone_zombie": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": {
+						
+						"pitch": 1,
+						"sound": "place.deepslate",
+						"volume": 0.85
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:pirate_skeleton": {
+				"events": {
+					"ambient": "mob.skeleton.say",
+					"death": "mob.skeleton.death",
+					"hurt": {
+						"sound": "mob.skeleton.hurt",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.skeleton.step",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:darkness_stalker": {
+				"events": {
+					"ambient": {
+						"pitch": 0.3,
+						"sound": "mob.zombie.say",
+						"volume": 0.8
+					},
+					"death": {
+						"pitch": 0.3,
+						"sound": "mob.zombie.death",
+						"volume": 0.8
+					},
+					"hurt": {
+						"pitch": 0.3,
+						"sound": "mob.zombie.hurt",
+						"volume": 0.8
+					},
+					"step": {
+						"pitch": 0.3,
+						"sound": "mob.zombie.step",
+						"volume": 0.8
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:darkness_watcher": {
+				"events": {
+					"ambient": {
+						"pitch": 0.2,
+						"sound": "mob.bat.idle",
+						"volume": 0.8
+					}
+				}
+			},
+			"nba:tree_spirit2" : {
+				"events" : {
+				   "ambient" : 
+				   {
+					"pitch" : [ 2.80, 3.0 ],
+					"sound" : "mob.evocation_illager.ambient",
+					"volume" : 0.3
+				 },
+				   "cast.spell" : "mob.evocation_illager.cast_spell",
+				   "death" : {
+					"pitch" : [ 1.80, 2.0 ],
+					"sound" : "mob.evocation_illager.death",
+					"volume" : 0.3
+				 	},
+				   "hurt" : {
+					"pitch" : [ 1.80, 2.0 ],
+					"sound" : "mob.evocation_illager.hurt",
+					"volume" : 0.3
+				 	},
+				   "prepare.attack" : "mob.endermen.portal",
+				   "prepare.summon" : "mob.endermen.portal",
+				   "prepare.wololo" : "mob.endermen.portal"
+				},
+				"pitch" : [ 0.80, 1.20 ],
+				"volume" : 1.0
+			 },
+			 "nba:beach_creeper": {
+				"events": {
+					"death": "mob.creeper.death",
+					"fuse": {
+						"pitch": 0.5,
+						"sound": "random.fuse",
+						"volume": 1
+					},
+					"hurt": "mob.creeper.say"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:mangrove_creeper": {
+				"events": {
+					"death": "mob.creeper.death",
+					"fuse": {
+						"pitch": 0.5,
+						"sound": "random.fuse",
+						"volume": 1
+					},
+					"hurt": "mob.creeper.say"
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:tree_guardian": {
+				"events": {
+					"ambient": {
+						"pitch": 0.6,
+						"sound": "mob.zombie.say",
+						"volume": 0.8
+					},
+					"death": {
+						"pitch": 0.6,
+						"sound": "mob.zombie.death",
+						"volume": 0.8
+					},
+					"hurt": {
+						"pitch": 0.6,
+						"sound": "mob.zombie.hurt",
+						"volume": 0.8
+					},
+					"step": {
+						"pitch": 0.6,
+						"sound": "mob.zombie.step",
+						"volume": 0.8
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:sculk_zombie": {
+				"events": {
+					"ambient": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.say",
+						"volume": 0.45
+					},
+					"death": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.death",
+						"volume": 0.45
+					},
+					"hurt": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.hurt",
+						"volume": 0.45
+					},
+					"step": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			
+			"nba:infected_zombie": {
+				"events": {
+					"ambient": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.say",
+						"volume": 0.45
+					},
+					"death": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.death",
+						"volume": 0.45
+					},
+					"hurt": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.hurt",
+						"volume": 0.45
+					},
+					"step": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:infected_jungle_zombie": {
+				"events": {
+					"ambient": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.say",
+						"volume": 0.45
+					},
+					"death": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.death",
+						"volume": 0.45
+					},
+					"hurt": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.hurt",
+						"volume": 0.45
+					},
+					"step": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:infected_dripstone_zombie": {
+				"events": {
+					"ambient": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.say",
+						"volume": 0.45
+					},
+					"death": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.death",
+						"volume": 0.45
+					},
+					"hurt": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.hurt",
+						"volume": 0.45
+					},
+					"step": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:infected_miner_zombie": {
+				"events": {
+					"ambient": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.say",
+						"volume": 0.45
+					},
+					"death": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.death",
+						"volume": 0.45
+					},
+					"hurt": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.hurt",
+						"volume": 0.45
+					},
+					"step": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:infected_snow_zombie": {
+				"events": {
+					"ambient": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.say",
+						"volume": 0.45
+					},
+					"death": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.death",
+						"volume": 0.45
+					},
+					"hurt": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.hurt",
+						"volume": 0.45
+					},
+					"step": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:infected_swamp_zombie": {
+				"events": {
+					"ambient": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.say",
+						"volume": 0.45
+					},
+					"death": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.death",
+						"volume": 0.45
+					},
+					"hurt": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.hurt",
+						"volume": 0.45
+					},
+					"step": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:infected_plain_zombie": {
+				"events": {
+					"ambient": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.say",
+						"volume": 0.45
+					},
+					"death": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.death",
+						"volume": 0.45
+					},
+					"hurt": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.hurt",
+						"volume": 0.45
+					},
+					"step": {
+						"pitch": 0.7,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:sculk_spider": {
+				"events": {
+					"ambient": {
+						"pitch": 0.7,
+						"sound": "mob.spider.say",
+						"volume": 0.7
+					},
+					"death": {
+						"pitch": 0.7,
+						"sound": "mob.spider.death",
+						"volume": 0.7
+					},
+					"hurt": {
+						"pitch": 0.7,
+						"sound": "mob.spider.say",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 0.7,
+						"sound": "mob.spider.step",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:sculk_spider_mini": {
+				"events": {
+					"ambient": {
+						"pitch": 1.2,
+						"sound": "mob.spider.say",
+						"volume": 0.7
+					},
+					"death": {
+						"pitch": 1.2,
+						"sound": "mob.spider.death",
+						"volume": 0.7
+					},
+					"hurt": {
+						"pitch": 1.2,
+						"sound": "mob.spider.say",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1.2,
+						"sound": "mob.spider.step",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:sculk_creeper": {
+				"events": {
+					"death": {
+						"pitch": 0.5,
+						"sound": "mob.creeper.death",
+						"volume": 1
+					},
+					"fuse": {
+						"pitch": 0.5,
+						"sound": "random.fuse",
+						"volume": 1
+					},
+					"hurt":{
+						"pitch": 0.5,
+						"sound": "mob.creeper.say",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:sculkexplosive": {
+				"events": {
+					"death": {
+						"pitch": 0.5,
+						"sound": "mob.creeper.death",
+						"volume": 1
+					},
+					"fuse": {
+						"pitch": 0.5,
+						"sound": "random.fuse",
+						"volume": 1
+					},
+					"hurt":{
+						"pitch": 0.5,
+						"sound": "mob.creeper.say",
+						"volume": 1
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:evil_ghost": {
+				"events": {
+					"hurt": {
+						"sound": "mob.vex.hurt",
+						"volume": 0.3
+					},
+					"ambient": {
+						"pitch": 0.4,
+						"sound": "mob.zombie.say",
+						"volume": 0.3
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:deepslate_spider": {
+				"events": {
+					"ambient": "mob.spider.say",
+					"death": "mob.spider.death",
+					"hurt": {
+						"sound": "mob.spider.say",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.spider.step",
+						"volume": 0.3
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:frost_imp" : {
+				"events" : {
+					"ambient": {
+						"pitch": 0.4,
+						"sound": "mob.bat.idle",
+						"volume": 0.5
+					},
+					"death": {
+						"pitch": 0.5,
+						"sound": "mob.bat.death",
+						"volume": 0.6
+					},
+					"hurt": {
+						"pitch": 0.5,
+						"sound": "mob.bat.hurt",
+						"volume": 0.6
+					}
+				},
+				"pitch" : [ 0.760, 1.140 ],
+				"volume" : 0.10
+			},
+			"nba:frost_ghost": {
+				"events": {
+					"hurt": {
+						"sound": "mob.vex.hurt",
+						"volume": 0.7
+					},
+					"death": {
+						"sound": "mob.vex.death",
+						"volume": 0.7
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:frost_stalker": {
+				"events": {
+					"ambient": {
+						"pitch": 0.3,
+						"sound": "mob.zombie.say",
+						"volume": 0.8
+					},
+					"death": {
+						"pitch": 0.3,
+						"sound": "mob.zombie.death",
+						"volume": 0.8
+					},
+					"hurt": {
+						"pitch": 0.3,
+						"sound": "mob.zombie.hurt",
+						"volume": 0.8
+					},
+					"step": {
+						"pitch": 0.3,
+						"sound": "mob.zombie.step",
+						"volume": 0.8
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:plain_zombie": {
+				"events": {
+					"ambient": "mob.zombie.say",
+					"death": "mob.zombie.death",
+					"hurt": "mob.zombie.hurt",
+					"step": {
+						"pitch": 1,
+						"sound": "mob.zombie.step",
+						"volume": 0.45
+					}
+				},
+				"pitch": [0.8, 1.2],
+				"volume": 1
+			},
+			"nba:drowned_skeleton": {
+				"events": {
+					"ambient": "mob.skeleton.say",
+					"death": "mob.skeleton.death",
+					"hurt": {
+						"sound": "mob.skeleton.hurt",
+						"volume": 0.7
+					},
+					"step": {
+						"pitch": 1,
+						"sound": "mob.skeleton.step",
+						"volume": 1
+					}
+				},
+				"pitch" : [ 0.50, 0.9 ],
+				"volume": 1
+			}
+			
+		}
+	}
+}

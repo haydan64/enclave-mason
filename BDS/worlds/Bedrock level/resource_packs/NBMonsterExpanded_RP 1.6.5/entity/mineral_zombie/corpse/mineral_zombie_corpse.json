@@ -1,0 +1,36 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:mineral_zombie_corpse",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "spider"
+			},
+			"textures": {
+				"default": "textures/entity/mineral_zombie/amethyst_mineral_zombie",
+				"default2": "textures/entity/mineral_zombie/diamond_mineral_zombie",
+				"default3": "textures/entity/mineral_zombie/emerald_mineral_zombie",
+				"default4": "textures/entity/mineral_zombie/gold_mineral_zombie",
+				"default5": "textures/entity/mineral_zombie/iron_mineral_zombie",
+				"default6": "textures/entity/mineral_zombie/redstone_mineral_zombie"
+			},
+			"hide_armor": false,
+			"geometry": {
+				"default": "geometry.mineral_zombie"
+			},
+			"scripts": {
+				"animate": [
+					"controller"
+				  ]
+			},
+			"animations": {
+				"controller" : "controller.animation.mineralzombie.corpse1",
+				"deadground": "animation.zombiev2.dead.mineral",
+				"deadground2": "animation.zombiev2.dead.mineral2"
+			},
+			"render_controllers": ["controller.render.sixvariant"],
+			"enable_attachables": true
+		}
+	}
+}

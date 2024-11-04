@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "hax:furnace_cobalt_ore"
+    },
+
+    
+    "tags": ["furnace", "blast_furnace"],
+    "input": "hax:nether_cobalt_ore",
+    "output": "hax:cobalt_ingot"
+  }
+  
+}

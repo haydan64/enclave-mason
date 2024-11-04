@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:soulium_gemstone",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "soulium_gemstone"
+			},
+			"minecraft:display_name": {
+				"value": "Soulium Gemstone"
+			}
+		}
+	}
+}

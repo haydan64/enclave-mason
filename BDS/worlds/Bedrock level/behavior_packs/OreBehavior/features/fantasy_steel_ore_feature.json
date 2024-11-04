@@ -1,0 +1,19 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "fantasy:fantasy_steel_ore_feature"
+    },
+    "count": 6,
+    "replace_rules": [
+      {
+        "places_block": "fantasy:steel_ore",
+        "may_replace": [
+          "minecraft:stone",
+          "minecraft:netherrack",
+          "minecraft:end_stone"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mystic:sunflicker_sword"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "#",
+            "#",
+            "S"
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:stick"
+            },
+            "#": {
+                "item": "item:light_stone_shard"
+            }
+        },
+        "result": {
+            "item": "mystic:sunflicker_sword"
+        }
+    }
+}

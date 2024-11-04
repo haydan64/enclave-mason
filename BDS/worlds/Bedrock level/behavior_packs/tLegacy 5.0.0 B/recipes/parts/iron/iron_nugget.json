@@ -1,0 +1,27 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+      "description": {
+          "identifier": "hax:alt_iron_nugget"
+      },
+      
+      "tags": [ "iron_blueprint" ],
+      "pattern": [
+          "#"
+      ],
+      "key": {
+          "#": {
+              "item": "minecraft:iron_ingot"
+          }
+      },
+      "unlock": [
+        {
+            "item": "hax:iron_blueprint"
+        }
+    ],
+      "result": {
+          "item": "minecraft:iron_nugget",
+          "count": 4
+      }
+  }
+}

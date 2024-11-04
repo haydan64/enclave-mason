@@ -1,0 +1,31 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "hax:wooden_shavings"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:stick"
+      },
+      {
+        "item": "minecraft:stick"
+      },
+      {
+        "item": "minecraft:stick"
+      }
+    ],
+    
+    "unlock": {
+      "context": "AlwaysUnlocked"
+    },
+    "result": {
+      "item": "hax:wooden_shavings",
+      "count": 6
+    },
+"priority": 0
+  }
+}

@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:stone_plating_from_blackstone"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" I ",
+			"INI",
+			" I "
+		],
+
+		"key": {
+			"I": {
+				"item": "minecraft:blackstone"
+			},
+			"N": {
+				"item": "hax:stone_pebble"
+			}
+		},
+
+        "unlock": [
+            {
+                "item": "minecraft:blackstone"
+            }
+        ],
+		"result": { "item": "hax:stone_plating" },
+    "priority": 2
+	}
+}

@@ -1,0 +1,22 @@
+{
+    "format_version": "1.20.80",
+    "minecraft:item": {
+        "description": {
+            "identifier": "better_on_bedrock:willager_hat_item",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.helmet"
+            }
+        },
+        "components": {
+            "minecraft:max_stack_size": 1,
+            "minecraft:icon": "willager_hat_item",
+            "minecraft:wearable": {
+                "slot": "slot.armor.head"
+            },
+            "minecraft:block_placer": {
+                "block": "better_on_bedrock:willager_hat"
+            }
+        }
+    }
+}

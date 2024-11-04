@@ -1,0 +1,45 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "fantasy:platinum_projectile",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false,
+            "runtime_identifier": "minecraft:snowball"
+        },
+        "components": {
+            "minecraft:collision_box": {
+                "width": 0.15,
+                "height": 0.15
+            },
+            "minecraft:scale": {
+                "value": 1.7
+            },
+            "minecraft:projectile": {
+                "onHit": {
+                    "impact_damage": {
+                        "damage": 6,
+                        "knockback": true,
+                        "semi_random_diff_damage": false
+                    },
+                    "remove_on_hit": {
+                    },
+                    "mob_effect": {
+                        "effect": "slowness",
+                        "durationeasy": 100,
+                        "durationnormal": 100,
+                        "durationhard": 100,
+                        "amplifier": 7
+                    },
+                    "arrow_effect": {}
+                },
+                "destroyOnHurt": true,
+                "power": 1.2,
+                "gravity": 0.02
+            },
+            "minecraft:physics": {
+            }
+        }
+    }
+}

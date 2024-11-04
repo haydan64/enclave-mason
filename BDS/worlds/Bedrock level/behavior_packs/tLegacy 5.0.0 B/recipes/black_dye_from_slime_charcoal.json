@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "hax:black_dye_from_slime_charcoal"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "priority": 4,
+    "ingredients": [
+      {
+        "item": "minecraft:charcoal"
+      },
+      {
+        "item": "minecraft:slime_ball"
+      }
+    ],
+    
+    "unlock": [
+      {
+        "item": "minecraft:charcoal"
+      }
+    ],
+    "result": {
+      "item": "minecraft:black_dye",
+      "count": 2
+    }
+  }
+}

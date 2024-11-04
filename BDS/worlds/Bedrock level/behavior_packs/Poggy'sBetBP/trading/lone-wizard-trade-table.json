@@ -1,0 +1,204 @@
+{
+   "tiers": [
+      {
+         "total_exp_required": 0,
+         "groups": [
+            {
+               "num_to_select": 4,
+               "trades": [
+                  {
+                     "wants": [
+                        {
+                           "item": "minecraft:emerald",
+                           "quantity": {
+                              "max": 7,
+                              "min": 2
+                           }
+                        }
+                     ],
+                     "gives": [
+                        {
+                           "item": "better_on_bedrock:basic_scroll",
+                           "quantity": {
+                              "max": 12,
+                              "min": 6
+                           },
+                           "functions": [
+                              {
+                                 "function": "set_lore",
+                                 "lore": [
+                                    "§r§8Equip in the Offhand to use the Staff\nStaff: Basic Staff"
+                                 ]
+                              }
+                           ]
+                        }
+                     ],
+                     "max_uses": 99,
+                     "reward_exp": true
+                  },
+                  {
+                     "wants": [
+                        {
+                           "item": "minecraft:emerald",
+                           "quantity": {
+                              "max": 7,
+                              "min": 2
+                           }
+                        }
+                     ],
+                     "gives": [
+                        {
+                           "item": "better_on_bedrock:scroll_of_the_king",
+                           "quantity": {
+                              "max": 12,
+                              "min": 6
+                           },
+                           "functions": [
+                              {
+                                 "function": "set_lore",
+                                 "lore": [
+                                    "§r§8Equip in the Offhand to use the Staff\nStaff: Ice Staff"
+                                 ]
+                              }
+                           ]
+                        }
+                     ],
+                     "max_uses": 99,
+                     "reward_exp": true
+                  },
+                  {
+                     "wants": [
+                        {
+                           "item": "minecraft:emerald",
+                           "quantity": {
+                              "max": 7,
+                              "min": 2
+                           }
+                        }
+                     ],
+                     "gives": [
+                        {
+                           "item": "better_on_bedrock:scroll_of_the_nether",
+                           "quantity": {
+                              "max": 12,
+                              "min": 6
+                           },
+                           "functions": [
+                              {
+                                 "function": "set_lore",
+                                 "lore": [
+                                    "§r§8Equip in the Offhand to use the Staff\nStaff: Flame Staff"
+                                 ]
+                              }
+                           ]
+                        }
+                     ],
+                     "max_uses": 99,
+                     "reward_exp": true
+                  },
+                  {
+                     "wants": [
+                        {
+                           "item": "minecraft:emerald",
+                           "quantity": {
+                              "max": 7,
+                              "min": 2
+                           }
+                        }
+                     ],
+                     "gives": [
+                        {
+                           "item": "better_on_bedrock:scroll_of_the_plains",
+                           "quantity": {
+                              "max": 12,
+                              "min": 6
+                           },
+                           "functions": [
+                              {
+                                 "function": "set_lore",
+                                 "lore": [
+                                    "§r§8Equip in the Offhand to use the Staff\nStaff: Flender Staff"
+                                 ]
+                              }
+                           ]
+                        }
+                     ],
+                     "max_uses": 99,
+                     "reward_exp": true
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "total_exp_required": 32,
+         "groups": [
+            {
+               "num_to_select": 2,
+               "trades": [
+                  {
+                     "wants": [
+                        {
+                           "item": "better_on_bedrock:scroll_of_the_king",
+                           "quantity": {
+                              "max": 1,
+                              "min": 1
+                           }
+                        }
+                     ],
+                     "gives": [
+                        {
+                           "item": "better_on_bedrock:scroll_of_the_kinglvl2",
+                           "quantity": {
+                              "max": 1,
+                              "min": 3
+                           },
+                           "functions": [
+                              {
+                                 "function": "set_lore",
+                                 "lore": [
+                                    "§r§8Equip in the Offhand to use the Staff\nStaff: Ice Staff\n§eGrants §dFrost Breath§e Staff Bonus\nGrants §dInsta-Frost§e Staff Bonus"
+                                 ]
+                              }
+                           ]
+                        }
+                     ],
+                     "max_uses": 99,
+                     "reward_exp": true
+                  },
+                  {
+                     "wants": [
+                        {
+                           "item": "better_on_bedrock:scroll_of_the_nether",
+                           "quantity": {
+                              "max": 1,
+                              "min": 1
+                           }
+                        }
+                     ],
+                     "gives": [
+                        {
+                           "item": "better_on_bedrock:scroll_of_the_netherlvl2",
+                           "quantity": {
+                              "max": 1,
+                              "min": 3
+                           },
+                           "functions": [
+                              {
+                                 "function": "set_lore",
+                                 "lore": [
+                                    "§r§8Equip in the Offhand to use the Staff\nStaff: Flame Staff\nGrants Frost Breath Staff Bonus\nGrants Insta-Frost Staff Bonus"
+                                 ]
+                              }
+                           ]
+                        }
+                     ],
+                     "max_uses": 99,
+                     "reward_exp": true
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

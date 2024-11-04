@@ -1,0 +1,35 @@
+{
+    "format_version": "1.12.50",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "kai:lich_scroll"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " sP",
+            "sSs",
+            "/  "
+        ],
+        "key": {
+            "/": {
+                "item": "minecraft:stick"
+            },
+            "P": {
+                "item": "minecraft:paper"
+            },
+            "S": {
+                "item": "minecraft:skull",
+                "data": 1
+            },
+            "s": {
+                "item": "better_on_bedrock:soul_star"
+            }
+        },
+        "result": {
+            "item": "better_on_bedrock:staff_of_protection",
+            "count": 1
+        }
+    }
+}

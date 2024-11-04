@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:obsidian_sai"
+		},
+
+    
+		"tags": [ "obsidian_blueprint" ],
+		"pattern": [
+			" S ",
+			"NBN",
+			" / "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:obsidian_shortblade"
+			},
+			"B": {
+				"item": "hax:obsidian_bar"
+			},
+			"N": {
+				"item": "hax:obsidian_shard"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:obsidian_blueprint"
+			}
+		],
+		"result": { "item": "hax:obsidian_sai" }
+	}
+}

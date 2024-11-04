@@ -1,0 +1,18 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "item",
+            "name": "nba:frost_stick",
+            "weight": 25
+          },
+          {
+            "type": "empty",
+            "weight": 25
+          }
+        ]
+      }
+    ]
+  }

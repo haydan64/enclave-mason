@@ -1,0 +1,44 @@
+{
+	"format_version": "1.10.0",
+	"particle_effect": {
+		"description": {
+			"identifier": "",
+			"basic_render_parameters": {
+				"material": "particles_alpha",
+				"texture": "textures/blocks/wool_colored_white"
+			}
+		},
+		"components": {
+			"minecraft:emitter_initialization": {
+				"per_update_expression": "v.pos_a_x=5*math.sin(v.emitter_age*100);\nv.pos_a_y=5*math.cos(v.emitter_age*100);\nv.pos_a_z=5;\nv.pos_b_x=0;\nv.pos_b_y=2*math.cos(180+v.emitter_age*300);\nv.pos_b_z=-5;"
+			},
+			"minecraft:emitter_rate_instant": {
+				"num_particles": 1
+			},
+			"minecraft:emitter_lifetime_looping": {
+				"active_time": 5
+			},
+			"minecraft:emitter_shape_point": {},
+			"minecraft:particle_lifetime_expression": {
+				"max_lifetime": 5
+			},
+			"minecraft:particle_motion_parametric": {
+				"relative_position": ["math.lerp(v.pos_a_x, v.pos_b_x, 0.5)", "math.lerp(v.pos_a_y, v.pos_b_y, 0.5)", "math.lerp(v.pos_a_z, v.pos_b_z, 0.5)"]
+			},
+			"minecraft:particle_appearance_billboard": {
+				"size": ["math.sqrt(math.pow(v.pos_a_x-v.pos_b_x, 2) + math.pow(v.pos_a_y-v.pos_b_y, 2)+math.pow(v.pos_a_z-v.pos_b_z, 2))/2;", 0.1],
+				"facing_camera_mode": "lookat_direction",
+				"direction": {
+					"mode": "custom",
+					"custom_direction": ["v.pos_a_x-v.pos_b_x", "v.pos_a_y-v.pos_b_y", "v.pos_a_z-v.pos_b_z"]
+				},
+				"uv": {
+					"texture_width": 16,
+					"texture_height": 16,
+					"uv": [0, 0],
+					"uv_size": [16, 16]
+				}
+			}
+		}
+	}
+}

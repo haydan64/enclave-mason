@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:steel_axehead"
+		},
+
+    
+		"tags": [ "steel_blueprint" ],
+		"pattern": [
+			"IN",
+			"I "
+		],
+
+		"key": {
+			"I": {
+				"item": "hax:steel_ingot"
+			},
+			"N": {
+				"item": "hax:steel_nugget"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:steel_blueprint"
+			}
+		],
+		"result": { "item": "hax:steel_axehead" }
+	}
+}

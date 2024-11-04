@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:diamond_hammer"
+		},
+
+    
+		"tags": [ "diamond_blueprint" ],
+		"pattern": [
+			"PIP",
+			" / ",
+			" / "
+		],
+
+		"key": {
+			"P": {
+				"item": "hax:diamond_plating"
+			},
+			"I": {
+				"item": "minecraft:diamond"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:diamond_blueprint"
+			}
+		],
+		"result": { "item": "hax:diamond_hammer" }
+	}
+}

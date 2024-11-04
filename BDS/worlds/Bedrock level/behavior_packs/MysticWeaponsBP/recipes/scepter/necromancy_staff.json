@@ -1,0 +1,29 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mystic:necromancy_staff"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            " X#",
+            " SX",
+            "S  "
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:stick"
+            },
+            "#": {
+                "item": "item:dark_stone"
+            },
+            "X": {
+                "item": "minecraft:bone",
+                "data": 0
+            }
+        },
+        "result": {
+            "item": "mystic:necromancy_staff"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "hax:furnace_electrum_spade"
+    },
+
+
+    "tags": ["furnace", "blast_furnace"],
+    "input": "hax:electrum_spade",
+    "output": "hax:electrum_ingot"
+  }
+  
+}

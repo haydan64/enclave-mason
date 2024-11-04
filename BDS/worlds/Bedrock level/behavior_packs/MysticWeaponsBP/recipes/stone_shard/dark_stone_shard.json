@@ -1,0 +1,21 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "item:dark_stone_shard"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "#"
+        ],
+        "key": {
+            "#": {
+                "item": "item:dark_stone"
+            }
+        },
+        "result": {
+            "item": "item:dark_stone_shard",
+            "count": 4
+        }
+    }
+}

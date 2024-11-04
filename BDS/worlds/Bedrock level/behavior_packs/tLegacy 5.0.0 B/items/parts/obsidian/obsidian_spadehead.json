@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.shovel"
+			},
+			"identifier": "hax:obsidian_spadehead"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Obsidian Spadehead"
+			},
+			"minecraft:icon": {
+				"texture": "hax:obsidian_spadehead"
+			},
+			"minecraft:max_stack_size": 16,
+			"minecraft:hand_equipped": true
+		}
+	}
+}

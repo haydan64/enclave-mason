@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "hax:iron_dust_from_ore2"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "priority": 4,
+    "ingredients": [
+      {
+        "item": "minecraft:deepslate_iron_ore"
+      }
+    ],
+    
+    "unlock": [
+      {
+        "item": "minecraft:stonecutter"
+      }
+    ],
+    "result": {
+      "item": "hax:iron_dust",
+      "count": 2
+    }
+  }
+  
+}

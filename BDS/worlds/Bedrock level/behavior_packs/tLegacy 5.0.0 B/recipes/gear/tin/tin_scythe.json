@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:tin_scythe"
+		},
+
+    
+		"tags": [ "tin_blueprint" ],
+		"pattern": [
+			"SLP",
+			" //",
+			"/  "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:tin_longblade"
+			},
+			"S": {
+				"item": "hax:tin_shortblade"
+			},
+			"P": {
+				"item": "hax:tin_plating"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:tin_blueprint"
+			}
+		],
+		"result": { "item": "hax:tin_scythe" }
+	}
+}

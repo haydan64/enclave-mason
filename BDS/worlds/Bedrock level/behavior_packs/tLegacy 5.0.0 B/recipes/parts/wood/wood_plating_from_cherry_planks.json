@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:wood_plating_from_cherry_planks"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" I ",
+			"INI",
+			" I "
+		],
+
+		"key": {
+			"I": {
+				"item": "minecraft:cherry_planks"
+			},
+			"N": {
+				"item": "hax:wooden_shavings"
+			}
+		},
+
+		"unlock": [
+			{
+			  "item": "minecraft:cherry_planks"
+			}
+		  ],
+		"result": { "item": "hax:wood_plating" },
+    "priority": 2
+	}
+}

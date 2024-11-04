@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:block": {
+		"description": {
+			"identifier": "better_on_bedrock:chorus_planks",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.planks"
+			}
+		},
+		"components": {
+			"minecraft:collision_box": true,
+			"minecraft:selection_box": true,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 30
+			},
+			"tag:minecraft:planks":{},
+			"tag:wood": {},
+			"minecraft:geometry": "geometry.chorus_block",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "chorus_planks",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:map_color": "#ffffff"
+		}
+	}
+}

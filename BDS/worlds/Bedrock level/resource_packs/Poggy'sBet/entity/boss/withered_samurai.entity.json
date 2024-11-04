@@ -1,0 +1,35 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "better_on_bedrock:withered_samurai",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/bosses/samurai/withered_samurai"
+			},
+			"animations": {
+				"basic": "controller.animation.withered_samurai.basic",
+				"summon": "animation.withered_samurai.new",
+				"summon2": "animation.withered_samurai.attack",
+				"idle": "animation.withered_samurai.idle"
+			},
+			"scripts": {
+				"animate": [
+					"basic"
+				]
+			},
+			"geometry": {
+				"default": "geometry.withered_samurai"
+			},
+			"render_controllers": [
+				"controller.render.default"
+			],
+			"spawn_egg": {
+				"base_color": "#7df2f2",
+				"overlay_color": "#ee6cae"
+			}
+		}
+	}
+}

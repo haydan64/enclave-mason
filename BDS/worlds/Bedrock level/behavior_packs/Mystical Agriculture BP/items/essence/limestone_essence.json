@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:limestone_essence",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "limestone_essence"
+			},
+			"minecraft:display_name": {
+				"value": "Limestone Essence"
+			}
+		}
+	}
+}

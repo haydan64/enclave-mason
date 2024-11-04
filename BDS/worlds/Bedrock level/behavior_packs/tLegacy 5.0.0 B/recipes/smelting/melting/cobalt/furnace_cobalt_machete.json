@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "hax:furnace_cobalt_machete"
+    },
+
+
+    "tags": ["furnace", "blast_furnace"],
+    "input": "hax:cobalt_machete",
+    "output": "hax:cobalt_nugget"
+  }
+  
+}

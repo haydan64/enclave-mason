@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:bronze_cleaver"
+		},
+
+    
+		"tags": [ "bronze_blueprint" ],
+		"pattern": [
+			" SS",
+			"BP ",
+			"/  "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:bronze_shortblade"
+			},
+			"B": {
+				"item": "hax:bronze_bar"
+			},
+			"P": {
+				"item": "hax:bronze_plating"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:bronze_blueprint"
+			}
+		],
+		"result": { "item": "hax:bronze_cleaver" }
+	}
+}

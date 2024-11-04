@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:lead_cutlass"
+		},
+
+    
+		"tags": [ "lead_blueprint" ],
+		"pattern": [
+			" SS",
+			"NL ",
+			"/N "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:lead_longblade"
+			},
+			"S": {
+				"item": "hax:lead_shortblade"
+			},
+			"N": {
+				"item": "hax:lead_nugget"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:lead_blueprint"
+			}
+		],
+		"result": { "item": "hax:lead_cutlass" }
+	}
+}

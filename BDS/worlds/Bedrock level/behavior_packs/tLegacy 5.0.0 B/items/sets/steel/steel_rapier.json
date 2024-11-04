@@ -1,0 +1,47 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			},
+			"identifier": "hax:steel_rapier"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Steel Rapier"
+			},
+			"minecraft:icon": {
+				"texture": "hax:steel_rapier"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 5,
+			"minecraft:enchantable": {
+				"value": 14,
+				"slot": "sword"
+			},
+			"minecraft:durability": {
+				"max_durability": 375
+			},
+			"minecraft:repairable":{
+				"repair_items": [
+					{
+						"items": [
+							"hax:steel_rapier"
+						],
+						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+					},
+					{
+						"items": [
+							"hax:steel_ingot"
+						],
+						"repair_amount": "context.other->query.max_durability * 0.25" //94
+					}
+				]
+			},
+			"minecraft:can_destroy_in_creative": false
+		}
+	}
+}

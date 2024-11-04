@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:lead_battleaxe"
+		},
+
+    
+		"tags": [ "lead_blueprint" ],
+		"pattern": [
+			"HPH",
+			" / ",
+			" / "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:lead_axehead"
+			},
+			"P": {
+				"item": "hax:lead_plating"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:lead_blueprint"
+			}
+		],
+		"result": { "item": "hax:lead_battleaxe" }
+	}
+}

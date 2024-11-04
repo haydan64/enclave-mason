@@ -1,0 +1,38 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:wooden_axe"
+    },
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " HB",
+      " /N",
+      "/  "
+    ],
+    "key": {
+			"H": {
+				"item": "hax:wood_axehead"
+			},
+			"B": {
+				"item": "hax:wood_bar"
+			},
+			"N": {
+				"item": "hax:wooden_shavings"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:wooden_shavings"
+			}
+		],
+		"result": { "item": "minecraft:wooden_axe" },
+    "priority": -1
+  }
+}

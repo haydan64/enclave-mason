@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:emerald_nunchaku"
+		},
+
+    
+		"tags": [ "emerald_blueprint" ],
+		"pattern": [
+			"/B",
+			"BI",
+			"/ "
+		],
+
+		"key": {
+			"B": {
+				"item": "hax:emerald_bar"
+			},
+			"I": {
+				"item": "minecraft:emerald"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:emerald_blueprint"
+			}
+		],
+		"result": { "item": "hax:emerald_nunchaku" }
+	}
+}

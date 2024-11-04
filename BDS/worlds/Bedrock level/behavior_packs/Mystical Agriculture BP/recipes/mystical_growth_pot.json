@@ -1,0 +1,33 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:mystical_growth_pot"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			" ~",
+			"#X#",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:brick"
+			},
+			"X": {
+				"item": "minecraft:dirt"
+			},
+			"~": {
+				"item": "strat:mystical_fertilizer"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:mystical_growth_pot",
+				"count": 1
+			}
+		]
+	}
+}

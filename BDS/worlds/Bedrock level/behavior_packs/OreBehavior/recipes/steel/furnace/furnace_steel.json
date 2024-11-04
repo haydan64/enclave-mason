@@ -1,0 +1,11 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "fantasy:furnace_steel"
+        },
+        "tags": [ "furnace", "blast_furnace" ],
+        "input": "fantasy:steel_ore",
+        "output": "fantasy:steel"
+    }
+}

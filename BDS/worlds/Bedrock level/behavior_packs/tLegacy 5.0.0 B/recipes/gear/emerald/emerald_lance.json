@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:emerald_lance"
+		},
+
+    
+		"tags": [ "emerald_blueprint" ],
+		"pattern": [
+			" SH",
+			"INS",
+			"/I "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:emerald_spadehead"
+			},
+			"S": {
+				"item": "hax:emerald_shortblade"
+			},
+			"I": {
+				"item": "minecraft:emerald"
+			},
+			"N": {
+				"item": "hax:emerald_shard"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:emerald_blueprint"
+			}
+		],
+		"result": { "item": "hax:emerald_lance" }
+	}
+}

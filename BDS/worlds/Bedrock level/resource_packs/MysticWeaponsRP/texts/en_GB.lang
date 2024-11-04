@@ -1,0 +1,32 @@
+entity.mystic:undead.name=Undead
+item.spawn_egg.entity.mystic:undead.name=Spawn Undead
+
+mystic.armor.dispellEffect=%s has been Dispelled
+effect.blindness=Blindness Effect
+effect.mining_fatigue=Mining Fatigue Effect
+effect.slowness=Slow Effect
+
+mystic.join.title=§6Mystic Weapon
+mystic.join.subtitle=§aBy Vechrozilator
+mystic.join.openConfig=Type "§b!config§r" to open Mystic Weapon's Configuration.
+
+mystic.stealth.active=§aStealth Mode is Active
+mystic.stealth.deactivate=§cStealth Mode Deactived
+
+mystic.unable.placeFire=Couldn't create Fiery Path here
+mystic.unable.iceWall=Couldn't place Ice Wall here
+mystic.noEffect.found=No Effect to be Dispel
+mystic.effect.purified=Dispelled Negative Effects
+mystic.weapon.noXp=Not enough XP
+mystic.weapon.noTarget=No Target Found
+mystic.weapon.cooldown=Item is in Cooldown
+mystic.weapon.unusable=Cannot be use while %s
+unusable.gliding=Gliding
+unusable.swimming=Swimming
+unusable.climbing=Climbing
+
+mystic.config.closeChat=§ePlease close the chat window to open Config Window
+mystic.config.title=Mystic Weapon's Configuration
+mystic.config.friendlyFire=Friendly Fire
+mystic.config.showDesc=Show Description
+mystic.config.showTips=Show Tips

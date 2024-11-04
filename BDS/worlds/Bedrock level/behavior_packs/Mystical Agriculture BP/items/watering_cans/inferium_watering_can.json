@@ -1,0 +1,24 @@
+{
+	"format_version": "1.20.81",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:inferium_watering_can",
+			"menu_category": {
+				"category": "equipment"
+			}
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:custom_components": ["strat:watering_can"],
+			"minecraft:hand_equipped": true,
+			"minecraft:icon": "inferium_watering_can",
+			"minecraft:display_name": {
+				"value": "Inferium Watering Can\n§7Area: §e3x3§r"
+			},
+			"minecraft:cooldown": {
+				"category": "watering_can",
+				"duration": 0.25
+			}
+		}
+	}
+}

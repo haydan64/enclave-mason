@@ -1,0 +1,342 @@
+item.fantasy:ruby=Ruby
+item.fantasy:ruby_sword=Ruby sword
+item.fantasy:ruby_labrys=Ruby labrys
+
+item.fantasy:sapphire=Sapphire
+item.fantasy:sapphire_sword=Sapphire sword
+item.fantasy:sapphire_labrys=Sapphire labrys
+
+item.fantasy:jade=Jade
+item.fantasy:jade_sword=Jade sword
+item.fantasy:jade_labrys=Jade labrys
+
+item.fantasy:spinel=Spinel
+item.fantasy:spinel_labrys=Spinel labrys
+
+item.fantasy:peridot=Peridot
+item.fantasy:peridot_labrys=Peridot labrys
+item.fantasy:peridot_sword=Peridot Sword
+
+item.fantasy:aquamarine=Aquamarine
+item.fantasy:aquamarine_sword=Aquamarine sword
+item.fantasy:aquamarine_labrys=Aquamarine labrys
+
+item.fantasy:bismuth=Bismuth
+item.fantasy:bismuth_sword=Bismuth sword
+item.fantasy:bismuth_labrys=Bismuth labrys
+
+item.fantasy:onyx=Onyx
+item.fantasy:onyx_katana=Onyx katana
+item.fantasy:onyx_dagger=Onyx dagger
+
+item.fantasy:opal=Opal
+
+item.fantasy:sulfur=Sulfur
+item.fantasy:sulfur_dust=Sulfur dust
+
+item.fantasy:sulfuric_acid=Sulfuric acid
+item.fantasy:sulfuric_acid_concentration=Sulfuric acid concentration
+
+item.fantasy:sulfate=Sulfate
+item.fantasy:sulfate_dust=Sulfate dust
+
+item.fantasy:steel=Steel ingot
+item.fantasy:steel_sword=Steel sword
+
+item.fantasy:red_steel=Red steel ingot
+
+item.fantasy:blue_steel=Blue steel ingot
+
+item.fantasy:white_steel=White steel ingot
+
+item.fantasy:tungsten=Tungsten ingot
+item.fantasy:tungsten_durandal=Tungsten durandal
+
+item.fantasy:platinum=Platinum
+item.fantasy:platinum_ingot=Platinum ingot
+item.fantasy:platinum_sword=Platinum sword
+
+item.fantasy:netheroom=Netheroom
+
+item.fantasy:garnet=Garnet
+
+item.fantasy:topaz=Topaz
+item.fantasy:topaz_spear=Topaz spear
+
+item.fantasy:alexandrite=Alexandrite
+item.fantasy:alexandrite_sword=Alexandrite sword
+
+item.fantasy:malachite=Malachite
+item.fantasy:malachite_sword=Malachite sword
+item.fantasy:malachite_labrys=Malachite labrys
+
+item.fantasy:jasper=Jasper
+
+item.fantasy:watermelon_tourmaline=Watermelon tourmaline
+
+item.fantasy:jade_beetle=Jade beetle
+
+entity.fantasy:sulfur_potion_splash_projectile.name=Sulfur potion splash 
+item.fantasy:sulfur_potion=Sulful potion
+item.fantasy:sulfur_potion_splash=Sulfur potion splash
+
+item.fantasy:analgesic=Analgesic
+
+item.fantasy:ruby_shovel=Ruby shovel
+item.fantasy:ruby_hoe=Ruby hoe
+item.fantasy:ruby_axe=Ruby axe
+item.fantasy:ruby_pickaxe=Ruby pickaxe
+
+item.fantasy:sapphire_shovel=Sapphire shovel
+item.fantasy:sapphire_hoe=Sapphire hoe
+item.fantasy:sapphire_axe=Sapphire axe
+item.fantasy:sapphire_pickaxe=Sapphire pickaxe
+
+item.fantasy:jade_shovel=Jade shovel
+item.fantasy:jade_hoe=Jade hoe
+item.fantasy:jade_axe=Jade axe
+item.fantasy:jade_pickaxe=Jade pickaxe
+
+item.fantasy:spinel_hoe=Spinel hoe
+item.fantasy:spinel_pickaxe=Spinel pickaxe
+
+item.fantasy:peridot_pickaxe=Peridot pickaxe
+
+item.fantasy:aquamarine_pickaxe=Aquamarine pickaxe
+
+item.fantasy:bismuth_pickaxe=Bismuth pickaxe
+
+item.fantasy:onyx_pickaxe=Onyx pickaxe
+
+item.fantasy:steel_pickaxe=Steel pickaxe
+
+item.fantasy:garnet_axe=Garnet axe
+
+item.fantasy:topaz_shovel=Topaz shovel
+item.fantasy:topaz_axe=Topaz axe
+item.fantasy:topaz_pickaxe=Topaz pickaxe
+
+item.fantasy:alexandrite_shovel=Alexandrite shovel
+item.fantasy:alexandrite_axe=Alexandrite axe
+item.fantasy:alexandrite_pickaxe=Alexandrite pickaxe
+
+item.fantasy:escabirus_staff=Escabirus staff
+item.fantasy:opal_staff=Opal staff
+item.fantasy:platinum_staff=Platinum staff
+
+tile.fantasy:ruby_ore.name=Ruby ore
+tile.fantasy:ruby_block.name=Ruby block
+
+tile.fantasy:sapphire_ore.name=Sapphire ore
+tile.fantasy:sapphire_block.name=Sapphire block
+
+tile.fantasy:jade_ore.name=Jade ore
+tile.fantasy:jade_block.name=Jade block
+tile.fantasy:jade_dirt.name=Jade dirt
+
+tile.fantasy:spinel_ore.name=Spinel ore
+tile.fantasy:spinel_block.name=Spinel block
+
+tile.fantasy:peridot_ore.name=Peridot ore
+tile.fantasy:peridot_block.name=Peridot block
+
+tile.fantasy:aquamarine_ore.name=Aquamarine ore
+tile.fantasy:aquamarine_block.name=Aquamarine block
+
+tile.fantasy:bismuth_ore.name=Bismuth ore
+tile.fantasy:bismuth_block.name=Bismuth block
+
+tile.fantasy:onyx_ore.name=Onyx ore
+tile.fantasy:onyx_block.name=Onyx block
+
+tile.fantasy:opal_ore.name=Opal ore
+tile.fantasy:opal_block.name=Opal block
+
+tile.fantasy:sulfur_ore.name=Sulfur ore
+
+tile.fantasy:steel_ore.name=Steel ore
+tile.fantasy:steel_block.name=Steel block
+
+tile.fantasy:tungsten_ore.name=Tungsten ore
+tile.fantasy:tungsten_block.name=Tungsten block
+
+tile.fantasy:platinum_ore.name=Platinum ore
+tile.fantasy:platinum_block.name=Platinum block
+
+tile.fantasy:netheroom_ore.name=Netheroom Ore
+tile.fantasy:netheroom_block.name=Netheroom block
+
+tile.fantasy:garnet_ore.name=Garnet ore
+tile.fantasy:garnet_block.name=Garnet block
+
+tile.fantasy:topaz_ore.name=Topaz ore
+tile.fantasy:topaz_block.name=Topaz block
+
+tile.fantasy:alexandrite_ore.name=Alexandrite ore
+tile.fantasy:alexandrite_block.name=Alexandrite block
+
+tile.fantasy:malachite_ore.name=Malachite ore
+tile.fantasy:malachite_block.name=Malachite block
+
+tile.fantasy:jasper_ore.name=Jasper ore
+tile.fantasy:jasper_block.name=Jasper block
+
+tile.fantasy:watermelon_tourmaline_ore.name=Watermelon Tourmaline ore
+tile.fantasy:watermelon_tourmaline_block.name=Watermelon tourmaline block
+
+tile.fantasy:tailors_table.name=Tailor's table
+
+item.fantasy:ruby_helmet=Ruby helmet
+item.fantasy:ruby_chestplate=Ruby chestplate
+item.fantasy:ruby_leggings=Ruby leggings
+item.fantasy:ruby_boots=Ruby boots
+
+item.fantasy:sapphire_helmet=Sapphire helmet
+item.fantasy:sapphire_chestplate=Sapphire chestplate
+item.fantasy:sapphire_leggings=Sapphire leggings
+item.fantasy:sapphire_boots=Sapphire boots
+
+item.fantasy:jade_helmet=Jade helmet
+item.fantasy:jade_chestplate=Jade chestplate
+item.fantasy:jade_leggings=Jade leggings
+item.fantasy:jade_boots=Jade boots
+
+item.fantasy:spinel_helmet=Spinel helmet
+item.fantasy:spinel_chestplate=Spinel chestplate
+item.fantasy:spinel_leggings=Spinel leggings
+item.fantasy:spinel_boots=Spinel Boots
+
+item.fantasy:peridot_helmet=Peridot helmet
+item.fantasy:peridot_chestplate=Peridot chestplate
+item.fantasy:peridot_leggings=Peridot leggings
+item.fantasy:peridot_boots=Peridot boots
+
+item.fantasy:aquamarine_helmet=Aquamarine helmet
+item.fantasy:aquamarine_chestplate=Aquamarine chestplate
+item.fantasy:aquamarine_leggings=Aquamarine leggings
+item.fantasy:aquamarine_boots=Aquamarine boots
+
+item.fantasy:bismuth_helmet=Bismuth helmet
+item.fantasy:bismuth_chestplate=Bismuth chestplate
+item.fantasy:bismuth_leggings=Bismuth leggings
+item.fantasy:bismuth_boots=Bismuth boots
+
+item.fantasy:onyx_helmet=Onyx helmet
+item.fantasy:onyx_chestplate=Onyx chestplate
+item.fantasy:onyx_leggings=Onyx leggings
+item.fantasy:onyx_boots=Onyx boots
+
+item.fantasy:opal_helmet=Opal helmet
+item.fantasy:opal_chestplate=Opal chestplate
+item.fantasy:opal_leggings=Opal leggings
+item.fantasy:opal_boots=Opal boots
+
+item.fantasy:steel_helmet=Steel helmet
+item.fantasy:steel_chestplate=Steel chestplate
+item.fantasy:steel_leggings=Steel leggings
+item.fantasy:steel_boots=Steel boots
+
+item.fantasy:water_dragon_samurai_helmet=Water Dragon Samurai Helmet
+item.fantasy:water_dragon_samurai_chestplate=Water Dragon Samurai Chestplate
+item.fantasy:water_dragon_samurai_leggings=Water Dragon Samurai Leggings
+item.fantasy:water_dragon_samurai_boots=Water Dragon Samurai Boots
+
+item.fantasy:fire_dragon_samurai_helmet=Fire Dragon Samurai Helmet
+item.fantasy:fire_dragon_samurai_chestplate=Fire Dragon Samurai Chestplate
+item.fantasy:fire_dragon_samurai_leggings=Fire Dragon Samurai Leggings
+item.fantasy:fire_dragon_samurai_boots=Fire Dragon Samurai Boots
+
+item.fantasy:paladin_helmet=Paladin helmet
+item.fantasy:paladin_chestplate=Paladin chestplate
+item.fantasy:paladin_leggings=Paladin leggings
+item.fantasy:paladin_boots=Paladin boots
+
+item.fantasy:tungsten_helmet=Tungsten helmet
+item.fantasy:tungsten_chestplate=Tungsten chestplate
+item.fantasy:tungsten_leggings=Tungsten leggings
+item.fantasy:tungsten_boots=Tungsten Boots
+
+item.fantasy:platinum_helmet=Platinum helmet
+item.fantasy:platinum_chestplate=Platinum chestplate
+item.fantasy:platinum_leggings=Platinum leggings
+item.fantasy:platinum_boots=Platinum Boots
+
+item.fantasy:netheroom_helmet=Netheroom helmet
+item.fantasy:netheroom_chestplate=Netheroom chestplate
+item.fantasy:netheroom_leggings=Netheroom leggings
+item.fantasy:netheroom_boots=Netheroom boots
+
+item.fantasy:garnet_helmet=Garnet helmet
+item.fantasy:garnet_chestplate=Garnet chestplate
+item.fantasy:garnet_leggings=Garnet leggings
+item.fantasy:garnet_boots=Garnet Boots
+
+item.fantasy:topaz_helmet=Topaz helmet
+item.fantasy:topaz_chestplate=Topaz chestplate
+item.fantasy:topaz_leggings=Topaz leggings
+item.fantasy:topaz_boots=Topaz Boots
+
+item.fantasy:alexandrite_helmet=Alexandrite helmet
+item.fantasy:alexandrite_chestplate=Alexandrite chestplate
+item.fantasy:alexandrite_leggings=Alexandrite leggings
+item.fantasy:alexandrite_boots=Alexandrite boots
+
+item.fantasy:malachite_helmet=Malachite helmet
+item.fantasy:malachite_chestplate=Malachite chestplate
+item.fantasy:malachite_leggings=Malachite leggings
+item.fantasy:malachite_boots=Malachite boots
+
+item.fantasy:jasper_helmet=Jasper helmet
+
+item.fantasy:watermelon_tourmaline_helmet=Watermelon tourmaline helmet
+item.fantasy:watermelon_tourmaline_chestplate=Watermelon tourmaline chestplate
+item.fantasy:watermelon_tourmaline_leggings=Watermelon tourmaline leggings
+item.fantasy:watermelon_tourmaline_boots=Watermelon tourmaline boots
+
+item.fantasy:moonstone_helmet=Moonstone Helmet
+item.fantasy:moonstone_chestplate=Moonstone Chestplate
+item.fantasy:moonstone_leggings=Moonstone Leggings
+item.fantasy:moonstone_boots=Moonstone Boots
+
+item.fantasy:burning_helmet=Burning Helmet
+item.fantasy:burning_chestplate=Burning Chestplate
+item.fantasy:burning_leggings=Burning Leggings
+item.fantasy:burning_boots=Burning Boots
+
+item.fantasy:solar_stone_helmet=Solar Stone Helmet
+item.fantasy:solar_stone_chestplate=Solar Stone Chestplate
+item.fantasy:solar_stone_leggings=Solar Stone Leggings
+item.fantasy:solar_stone_boots=Solar Stone Boots
+
+item.fantasy:osphere_helmet=Osphere Helmet
+item.fantasy:osphere_chestplate=Osphere Chestplate
+item.fantasy:osphere_leggings=Osphere Leggings
+item.fantasy:osphere_boots=Osphere Boots
+
+item.fantasy:black_hat=Black hat
+item.fantasy:steampunk_glasses=Steampunk glasses
+item.fantasy:steampunk_hat=Steampunk hat
+
+item.fantasy:tiki_mask=Tiki mask
+item.fantasy:moonstone.name=§5Moonstone
+tile.fantasy:moonstone_block.name=§5Moonstone Block
+tile.fantasy:moonstone_block=§5Moonstone Block
+tile.fantasy:moonstone_ore.name=§5Moonstone Ore
+tile.fantasy:moonstone_ore=§5Moonstone Ore
+item.fantasy:solarstone.name=§fSolar Stone
+tile.fantasy:solarstone_block.name=§fSolar Stone Block
+tile.fantasy:solarstone_block=§fSolar Stone Block
+tile.fantasy:solarstone_ore.name=§fSolar Stone ore
+tile.fantasy:solarstone_ore=§fSolar Stone ore
+item.fantasy:ospherestone.name=§3Osphere Stone
+tile.fantasy:ospherestone_block.name=§3Osphere Stone Block
+tile.fantasy:ospherestone_block=§3Osphere Stone Block
+tile.fantasy:ospherestone_ore.name=§3Osphere Stone Ore
+tile.fantasy:ospherestone_ore=§3Osphere Stone Ore
+item.fantasy:burning_stone.name=§6Burning Stone
+tile.fantasy:burningstone_ore.name=§6Burning Stone Ore
+tile.fantasy:burningstone_ore=§6Burning Stone Ore
+item.fantasy:moonstone_sword=Moonstone Sword
+item.fantasy:solarstone_sword=Solar Stone Sword
+item.fantasy:ospherestone_sword=Osphere Stone Sword
+item.fantasy:burningstone_sword=Burning Stone Sword

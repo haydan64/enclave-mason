@@ -1,0 +1,53 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "§6Poggy's §5Better §fon §8Bedrock §av1.2.4§r",
+        "description": "Updating Minecraft by adding tons of new stuff along with reworks to the base game!",
+        "uuid": "40d18d86-f454-4361-bbcf-b118274dec17",
+        "pack_scope": "world",
+        "version": [
+            1,
+            2,
+            4
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            40
+        ]
+    },
+    "metadata": {
+        "product_type": "addon"
+    },
+    "modules": [
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "16b646cb-98eb-41b2-a9e0-dd7f088caab4",
+            "entry": "scripts/main.js",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "e0992d5f-e7d3-4260-abba-2da0d6015c05",
+            "version": [
+                1,
+                2,
+                5
+            ]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.15.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0"
+        }
+    ]
+}

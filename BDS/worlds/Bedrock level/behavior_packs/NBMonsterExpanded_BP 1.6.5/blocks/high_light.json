@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.81",
+	"minecraft:block": {
+		"description": {
+			"identifier": "nba:high_light"
+		},
+		"components": {
+			"minecraft:light_emission": 11,
+			"minecraft:collision_box": false,
+			"minecraft:selection_box": false,
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			
+			"minecraft:geometry": "geometry.blank1",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "blank"
+				}
+			},
+			"minecraft:tick": {
+				"interval_range": [0.04,0.04],
+				"looping": true
+			},
+			"minecraft:custom_components": ["nba:disapear"]
+		}
+	}
+}

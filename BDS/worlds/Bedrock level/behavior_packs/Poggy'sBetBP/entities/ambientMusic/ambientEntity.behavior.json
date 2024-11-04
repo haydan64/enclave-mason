@@ -1,0 +1,328 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "better_on_bedrock:ambiententity",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": [ "wawla" ]
+            },
+            "minecraft:physics": {
+                "has_gravity": false,
+                "has_collision": false
+            },
+            "minecraft:pushable": {
+                "is_pushable": false
+            },
+            "minecraft:sound_volume": {
+                "value": 0
+            },
+            "minecraft:movement_sound_distance_offset": {
+                "value": 66
+            },
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "cause": "all",
+                        "deals_damage": false
+                    }
+                ]
+            },
+            "minecraft:collision_box": {
+                "height": 0,
+                "width": 0
+            },
+            "minecraft:environment_sensor": {
+                "triggers": [
+                    {
+                        "event": "swampAmbeince",
+                        "target": "self",
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "test": "has_biome_tag",
+                                    "operator": "==",
+                                    "value": "swamp"
+                                },
+                                {
+                                    "test": "is_daytime",
+                                    "operator": "==",
+                                    "value": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "event": "birdAmbience",
+                        "target": "self",
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "test": "has_biome_tag",
+                                    "operator": "==",
+                                    "value": "taiga"
+                                },
+                                {
+                                    "test": "is_daytime",
+                                    "operator": "==",
+                                    "value": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "event": "birdAmbience",
+                        "target": "self",
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "test": "has_biome_tag",
+                                    "operator": "==",
+                                    "value": "forest"
+                                },
+                                {
+                                    "test": "is_daytime",
+                                    "operator": "==",
+                                    "value": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "event": "jungleAmbience",
+                        "target": "self",
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "test": "has_biome_tag",
+                                    "operator": "==",
+                                    "value": "jungle"
+                                },
+                                {
+                                    "test": "is_daytime",
+                                    "operator": "==",
+                                    "value": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "event": "fieldAmbeince",
+                        "target": "self",
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "test": "has_biome_tag",
+                                    "operator": "==",
+                                    "value": "plains"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "event": "fieldAmbeince",
+                        "target": "self",
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "test": "has_biome_tag",
+                                    "operator": "==",
+                                    "value": "savanna"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "event": "nothing",
+                        "target": "self",
+                        "filters": {
+                            "all_of": [
+                                {
+                                    "test": "has_biome_tag",
+                                    "operator": "==",
+                                    "value": "ocean"
+                                },
+                                {
+                                    "test": "has_biome_tag",
+                                    "operator": "==",
+                                    "value": "cold_ocean"
+                                },
+                                {
+                                    "test": "has_biome_tag",
+                                    "operator": "==",
+                                    "value": "warm_ocean"
+                                },
+                                {
+                                    "test": "has_biome_tag",
+                                    "operator": "==",
+                                    "value": "cold_ocean"
+                                },
+                                {
+                                    "test": "has_biome_tag",
+                                    "operator": "==",
+                                    "value": "deep_ocean"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "event": "coldAmbience",
+                        "target": "self",
+                        "filters": {
+                            "any_of": [
+                                {
+                                    "test": "has_biome_tag",
+                                    "operator": "==",
+                                    "value": "cold"
+                                },
+                                {
+                                    "test": "has_biome_tag",
+                                    "operator": "==",
+                                    "value": "frozen"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        "component_groups": {
+            "despawn": {
+                "minecraft:instant_despawn": {
+                    "remove_child_entities": false
+                }
+            }
+        },
+        "events": {
+            "nothing": {
+                "sequence": [
+                    {
+                        "queue_command": {
+                            "command": [
+                                "execute as @s run tag @s remove swamps",
+                                "execute as @s run tag @s remove plains",
+                                "execute as @s run tag @s remove plain",
+                                "execute as @s run tag @s remove taiga",
+                                "execute as @s run tag @s remove swamp",
+                                "execute as @s run tag @s remove taigas",
+                                "execute as @s run tag @s remove lushs",
+                                "execute as @s run tag @s remove lush",
+                                "execute as @s run tag @s remove jungles",
+                                "execute as @s run tag @s remove jungle",
+                                "music stop"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "jungleAmbience": {
+                "sequence": [
+                    {
+                        "queue_command": {
+                            "command": [
+                                "execute as @s run tag @s remove swamps",
+                                "execute as @s run tag @s remove plains",
+                                "execute as @s run tag @s remove plain",
+                                "execute as @s run tag @s remove taiga",
+                                "execute as @s run tag @s remove swamp",
+                                "execute as @s run tag @s remove taigas",
+                                "execute as @s run tag @s remove lushs",
+                                "execute as @s run tag @s remove lush",
+                                "execute as @s run tag @s add jungles"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "coldAmbience": {
+                "sequence": [
+                    {
+                        "queue_command": {
+                            "command": [
+                                "execute as @s run tag @s remove swamps",
+                                "execute as @s run tag @s remove jungles",
+                                "execute as @s run tag @s remove jungle",
+                                "execute as @s run tag @s remove plains",
+                                "execute as @s run tag @s remove plain",
+                                "execute as @s run tag @s remove taiga",
+                                "execute as @s run tag @s remove swamp",
+                                "execute as @s run tag @s remove taigas",
+                                "execute as @s run tag @s remove lushs",
+                                "execute as @s run tag @s remove lush",
+                                "execute as @s run tag @s add colds"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "birdAmbience": {
+                "sequence": [
+                    {
+                        "queue_command": {
+                            "command": [
+                                "execute as @s run tag @s remove swamps",
+                                "execute as @s run tag @s remove jungles",
+                                "execute as @s run tag @s remove jungle",
+                                "execute as @s run tag @s remove plains",
+                                "execute as @s run tag @s remove plain",
+                                "execute as @s run tag @s remove swamp",
+                                "execute as @s run tag @s remove lushs",
+                                "execute as @s run tag @s remove lush",
+                                "execute as @s run tag @s add taigas"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "fieldAmbeince": {
+                "sequence": [
+                    {
+                        "queue_command": {
+                            "command": [
+                                "execute as @s run tag @s remove swamp",
+                                "execute as @s run tag @s remove jungles",
+                                "execute as @s run tag @s remove jungle",
+                                "execute as @s run tag @s remove taiga",
+                                "execute as @s run tag @s remove swamps",
+                                "execute as @s run tag @s remove taigas",
+                                "execute as @s run tag @s remove lushs",
+                                "execute as @s run tag @s remove lush",
+                                "execute as @s run tag @s add plains"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "swampAmbeince": {
+                "sequence": [
+                    {
+                        "queue_command": {
+                            "command": [
+                                "execute as @s run tag @s remove taiga",
+                                "execute as @s run tag @s remove jungles",
+                                "execute as @s run tag @s remove jungle",
+                                "execute as @s run tag @s remove plain",
+                                "execute as @s run tag @s remove taigas",
+                                "execute as @s run tag @s remove plains",
+                                "execute as @s run tag @s remove lushs",
+                                "execute as @s run tag @s remove lush",
+                                "execute as @s run tag @s add swamps"
+                            ]
+                        }
+                    }
+                ]
+            },
+            "despawn": {
+                "add": {
+                    "component_groups": [
+                        "despawn"
+                    ]
+                }
+            }
+        }
+    }
+}

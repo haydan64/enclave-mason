@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:wood_axehead"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"IN",
+			"I "
+		],
+
+		"key": {
+			"I": {
+				"item": "minecraft:planks"
+			},
+			"N": {
+				"item": "hax:wooden_shavings"
+			}
+		},
+
+		"unlock": [
+			{
+			  "item": "minecraft:planks"
+			}
+		  ],
+		"result": { "item": "hax:wood_axehead" }
+	}
+}

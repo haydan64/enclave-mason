@@ -1,0 +1,37 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:wood_hammer_from_warped_planks"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"PIP",
+			" / ",
+			" / "
+		],
+
+		"key": {
+			"P": {
+				"item": "hax:wood_plating"
+			},
+			"I": {
+				"item": "minecraft:warped_planks"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:wooden_shavings"
+			}
+		],
+		"result": { "item": "hax:wood_hammer" },
+    "priority": 2
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:slime_dagger"
+		},
+
+    
+		"tags": [ "slime_blueprint" ],
+		"pattern": [
+			"S ",
+			"B ",
+			"/ "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:slime_shortblade"
+			},
+			"B": {
+				"item": "hax:slime_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:slime_blueprint"
+			}
+		],
+		"result": { "item": "hax:slime_dagger" }
+	}
+}

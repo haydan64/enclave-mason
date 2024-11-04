@@ -1,0 +1,47 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.axe"
+			},
+			"identifier": "hax:slime_battleaxe"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Slime Battleaxe"
+			},
+			"minecraft:icon": {
+				"texture": "hax:slime_battleaxe"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 3,
+			"minecraft:enchantable": {
+				"value": 1,
+				"slot": "axe"
+			},
+			"minecraft:durability": {
+				"max_durability": 759
+			},
+			"minecraft:repairable":{
+				"repair_items": [
+					{
+						"items": [
+							"hax:slime_battleaxe"
+						],
+						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+					},
+					{
+						"items": [
+							"minecraft:slime_ball"
+						],
+						"repair_amount": "context.other->query.max_durability * 0.25" //190
+					}
+				]
+			},
+			"minecraft:can_destroy_in_creative": false
+		}
+	}
+}

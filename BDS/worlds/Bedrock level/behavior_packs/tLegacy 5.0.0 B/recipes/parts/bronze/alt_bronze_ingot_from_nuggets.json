@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:alt_bronze_ingot_from_nuggets"
+    },
+
+    
+    "tags": [ "bronze_blueprint" ],
+    "group": "bronze_ingot",
+    "pattern": [
+      "##",
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "hax:bronze_nugget"
+      }
+    },
+    "unlock": [
+			{
+				"item": "hax:bronze_blueprint"
+			}
+		],
+    "result": {
+      "item": "hax:bronze_ingot"
+    }
+  }
+}

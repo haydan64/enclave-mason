@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:enderite_essence",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "enderite_essence"
+			},
+			"minecraft:display_name": {
+				"value": "Enderite Essence"
+			}
+		}
+	}
+}

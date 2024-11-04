@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:dragonscale_spadehead"
+		},
+
+    
+		"tags": [ "dragonscale_blueprint" ],
+		"pattern": [
+			"  N",
+			"NN ",
+			" N "
+		],
+
+		"key": {
+			"N": {
+				"item": "hax:scale_shard"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:dragonscale_blueprint"
+			}
+		],
+		"result": { "item": "hax:dragonscale_spadehead" }
+	}
+}

@@ -1,0 +1,23 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "hax:nether_cobalt_ore",
+            "menu_category": {
+		        "category": "nature",
+		        "group": "itemGroup.name.ore"
+	        }
+        },
+        "components": {
+	        "minecraft:loot": "loot_tables/blocks/nether_cobalt_ore.json",
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 4
+            },
+            "minecraft:material_instances" : {
+                "*" : {
+                    "texture": "nether_cobalt_ore"
+                }
+            }
+        }
+    }
+}

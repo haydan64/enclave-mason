@@ -1,0 +1,45 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "enclave:hades",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/hades"
+			},
+			"geometry": {
+				"default": "geometry.hades"
+			},
+			"render_controllers": [
+				"controller.render.hades"
+			],
+			"animations": {
+				"chaos_bolt": "animation.hades.chaos_bolt",
+				"death": "animation.hades.death",
+				"death_grip": "animation.hades.death_grip",
+				"fly_idle": "animation.hades.fly_idle",
+				"fly_spell_strong": "animation.hades.fly_spell_strong",
+				"fly_spell_weak": "animation.hades.fly_spell_weak",
+				"fly_walk": "animation.hades.fly_walk",
+				"stand": "animation.hades.stand",
+				"idle": "animation.hades.idle",
+				"kneel": "animation.hades.kneel",
+				"idle_sitting": "animation.hades.idle_sitting"
+			},
+			"scripts": {
+				"animate": [
+					"idle",
+					{
+						"fly_walk": "query.modified_move_speed"
+					}
+				]
+			},
+			"spawn_egg": {
+				"base_color": "#000000",
+				"overlay_color": "#FFFFFF"
+			}
+		}
+	}
+}

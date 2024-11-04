@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:brimstone_cleaver"
+		},
+
+    
+		"tags": [ "brimstone_blueprint" ],
+		"pattern": [
+			" SS",
+			"BP ",
+			"/  "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:brimstone_shortblade"
+			},
+			"B": {
+				"item": "hax:brimstone_bar"
+			},
+			"P": {
+				"item": "hax:brimstone_plating"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:brimstone_blueprint"
+			}
+		],
+		"result": { "item": "hax:brimstone_cleaver" }
+	}
+}

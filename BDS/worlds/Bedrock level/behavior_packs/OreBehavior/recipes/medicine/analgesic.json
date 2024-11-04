@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:analgesic"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "AB"
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:dried_kelp"
+            },
+            "B": {
+                "item": "fantasy:sulfate_dust"
+            }
+        },
+        "result": {
+            "item": "fantasy:analgesic"
+        }
+    }
+}

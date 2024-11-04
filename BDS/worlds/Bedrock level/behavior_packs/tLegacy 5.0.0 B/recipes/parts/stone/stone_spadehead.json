@@ -1,0 +1,29 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:stone_spadehead"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"  N",
+			"NN ",
+			" N "
+		],
+
+		"key": {
+			"N": {
+				"item": "hax:stone_pebble"
+			}
+		},
+
+        "unlock": [
+            {
+                "item": "hax:stone_pebble"
+            }
+        ],
+		"result": { "item": "hax:stone_spadehead" }
+	}
+}

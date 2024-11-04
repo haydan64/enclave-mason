@@ -1,0 +1,22 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mystic:firaga_chestplate"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "# #",
+            "###",
+            "###"
+        ],
+        "key": {
+            "#": {
+                "item": "item:fire_stone_shard"
+            }
+        },
+        "result": {
+            "item": "mystic:firaga_chestplate"
+        }
+    }
+}

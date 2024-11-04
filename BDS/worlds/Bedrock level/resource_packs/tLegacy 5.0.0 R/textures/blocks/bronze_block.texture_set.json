@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "bronze_block",
+		"metalness_emissive_roughness": "bronze_block_mer",
+		"heightmap": "bronze_block_heightmap"
+	}
+}

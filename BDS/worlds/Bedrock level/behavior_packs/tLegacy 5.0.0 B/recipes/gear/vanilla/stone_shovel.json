@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:stone_shovel"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"H",
+			"/",
+			"/"
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:stone_spadehead"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:stone_pebble"
+			}
+		],
+		"result": { "item": "minecraft:stone_shovel" }
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:wood_dagger"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"S ",
+			"B ",
+			"/ "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:wood_shortblade"
+			},
+			"B": {
+				"item": "hax:wood_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:wooden_shavings"
+			}
+		],
+		"result": { "item": "hax:wood_dagger" }
+	}
+}

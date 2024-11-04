@@ -1,0 +1,54 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "hax:steel_blend_from_charcoal"
+    },
+
+    
+    "tags": [ "tiered_table" ],
+    "priority": 4,
+    "ingredients": [
+      {
+        "item": "minecraft:charcoal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      },
+      {
+        "item": "minecraft:charcoal"
+      },
+      {
+        "item": "hax:iron_dust"
+      }
+    ],
+    
+    "unlock": [
+      {
+        "item": "minecraft:blast_furnace"
+      },
+      {
+        "item": "minecraft:iron_ingot"
+      }
+    ],
+    "result": {
+      "item": "hax:steel_blend",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+  
+//tables
+  "acacia_legacy_workstation": { "textures": [ "textures/blocks/legacy_workstation/acacia_legacy_workstation" ] },
+  "bamboo_legacy_workstation": { "textures": [ "textures/blocks/legacy_workstation/bamboo_legacy_workstation" ] },
+  "birch_legacy_workstation": { "textures": [ "textures/blocks/legacy_workstation/birch_legacy_workstation" ] },
+  "cherry_legacy_workstation": { "textures": [ "textures/blocks/legacy_workstation/cherry_legacy_workstation" ] },
+  "dark_oak_legacy_workstation": { "textures": [ "textures/blocks/legacy_workstation/dark_oak_legacy_workstation" ] },
+  "jungle_legacy_workstation": { "textures": [ "textures/blocks/legacy_workstation/jungle_legacy_workstation" ] },
+  "mangrove_legacy_workstation": { "textures": [ "textures/blocks/legacy_workstation/mangrove_legacy_workstation" ] },
+  "oak_legacy_workstation": { "textures": [ "textures/blocks/legacy_workstation/oak_legacy_workstation" ] },
+  "spruce_legacy_workstation": { "textures": [ "textures/blocks/legacy_workstation/spruce_legacy_workstation" ] },
+
+  "tiered_table_top": { "textures": [ "textures/blocks/tiered_table_top" ] },
+  "tiered_table_side": { "textures": [ "textures/blocks/tiered_table_side" ] },
+  "tiered_table_bottom": { "textures": [ "textures/blocks/tiered_table_bottom" ] },
+
+  "brimstone_blueprint": { "textures": [ "textures/blocks/blueprints/brimstone_blueprint" ] },
+  "basic_blueprint": { "textures": [ "textures/blocks/blueprints/basic_blueprint" ] },
+  "bronze_blueprint": { "textures": [ "textures/blocks/blueprints/bronze_blueprint" ] },
+  "cobalt_blueprint": { "textures": [ "textures/blocks/blueprints/cobalt_blueprint" ] },
+  "copper_blueprint": { "textures": [ "textures/blocks/blueprints/copper_blueprint" ] },
+  "diamond_blueprint": { "textures": [ "textures/blocks/blueprints/diamond_blueprint" ] },
+  "dragonscale_blueprint": { "textures": [ "textures/blocks/blueprints/dragonscale_blueprint" ] },
+  "electrum_blueprint": { "textures": [ "textures/blocks/blueprints/electrum_blueprint" ] },
+  "emerald_blueprint": { "textures": [ "textures/blocks/blueprints/emerald_blueprint" ] },
+  "enderium_blueprint": { "textures": [ "textures/blocks/blueprints/enderium_blueprint" ] },
+  "gold_blueprint": { "textures": [ "textures/blocks/blueprints/gold_blueprint" ] },
+  "iron_blueprint": { "textures": [ "textures/blocks/blueprints/iron_blueprint" ] },
+  "lead_blueprint": { "textures": [ "textures/blocks/blueprints/lead_blueprint" ] },
+  "obsidian_blueprint": { "textures": [ "textures/blocks/blueprints/obsidian_blueprint" ] },
+  "ruby_blueprint": { "textures": [ "textures/blocks/blueprints/ruby_blueprint" ] },
+  "silver_blueprint": { "textures": [ "textures/blocks/blueprints/silver_blueprint" ] },
+  "slime_blueprint": { "textures": [ "textures/blocks/blueprints/slime_blueprint" ] },
+  "steel_blueprint": { "textures": [ "textures/blocks/blueprints/steel_blueprint" ] },
+  "stone_blueprint": { "textures": [ "textures/blocks/blueprints/stone_blueprint" ] },
+  "tin_blueprint": { "textures": [ "textures/blocks/blueprints/tin_blueprint" ] },
+//blocks
+  "abyssal_eye": { "textures": [ "textures/blocks/abyssal_eye" ] },
+
+  "brimstone_ore": { "textures": [ "textures/blocks/brimstone_ore" ] },
+
+  "bronze_block": { "textures": [ "textures/blocks/bronze_block" ] },
+
+  "cobalt_block": { "textures": [ "textures/blocks/cobalt_block" ] },
+  "deepslate_cobalt_ore": { "textures": [ "textures/blocks/deepslate_cobalt_ore" ] },
+  "nether_cobalt_ore": { "textures": [ "textures/blocks/nether_cobalt_ore" ] },
+  "raw_cobalt_block": { "textures": [ "textures/blocks/raw_cobalt_block" ] },
+
+  "dragonscale_block": { "textures": [ "textures/blocks/dragonscale_block" ] },
+
+  "electrum_block": { "textures": [ "textures/blocks/electrum_block" ] },
+
+  "enderium_block": { "textures": [ "textures/blocks/enderium_block" ] },
+
+  "jeweled_blackstone": { "textures": [ "textures/blocks/jeweled_blackstone" ] },
+
+  "lead_block": { "textures": [ "textures/blocks/lead_block" ] },
+  "deepslate_lead_ore": { "textures": [ "textures/blocks/deepslate_lead_ore" ] },
+  "lead_ore": { "textures": [ "textures/blocks/lead_ore" ] },
+  "raw_lead_block": { "textures": [ "textures/blocks/raw_lead_block" ] },
+
+  "radiant_block": { "textures": [ "textures/blocks/radiant_block" ] },
+
+  "ruby_block": { "textures": [ "textures/blocks/ruby_block" ] },
+  "deepslate_ruby_ore": { "textures": [ "textures/blocks/deepslate_ruby_ore" ] },
+  "ruby_ore": { "textures": [ "textures/blocks/ruby_ore" ] },
+
+  "silver_block": { "textures": [ "textures/blocks/silver_block" ] },
+  "deepslate_silver_ore": { "textures": [ "textures/blocks/deepslate_silver_ore" ] },
+  "silver_ore": { "textures": [ "textures/blocks/silver_ore" ] },
+  "raw_silver_block": { "textures": [ "textures/blocks/raw_silver_block" ] },
+
+  "steel_block": { "textures": [ "textures/blocks/steel_block" ] },
+
+  "tin_block": { "textures": [ "textures/blocks/tin_block" ] },
+  "deepslate_tin_ore": { "textures": [ "textures/blocks/deepslate_tin_ore" ] },
+  "tin_ore": { "textures": [ "textures/blocks/tin_ore" ] },
+  "raw_tin_block": { "textures": [ "textures/blocks/raw_tin_block" ] }
+  }
+}

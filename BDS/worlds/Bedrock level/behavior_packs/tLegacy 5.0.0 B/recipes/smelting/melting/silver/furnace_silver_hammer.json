@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "hax:furnace_silver_hammer"
+    },
+
+
+    "tags": ["furnace", "blast_furnace"],
+    "input": "hax:silver_hammer",
+    "output": "hax:silver_ingot"
+  }
+  
+}

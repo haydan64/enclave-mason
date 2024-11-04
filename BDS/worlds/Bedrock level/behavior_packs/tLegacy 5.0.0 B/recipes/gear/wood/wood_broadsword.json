@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:wood_broadsword"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"  L",
+			" B ",
+			"/  "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:wood_longblade"
+			},
+			"B": {
+				"item": "hax:wood_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:wooden_shavings"
+			}
+		],
+		"result": { "item": "hax:wood_broadsword" }
+	}
+}

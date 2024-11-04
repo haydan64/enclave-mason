@@ -1,0 +1,28 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mystic:lightning_scepter"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            " X#",
+            " SX",
+            "S  "
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:stick"
+            },
+            "#": {
+                "item": "item:lightning_stone"
+            },
+            "X": {
+                "item": "minecraft:amethyst_shard"
+            }
+        },
+        "result": {
+            "item": "mystic:lightning_scepter"
+        }
+    }
+}

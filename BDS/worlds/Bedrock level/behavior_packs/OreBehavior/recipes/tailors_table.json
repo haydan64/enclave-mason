@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:tailors_table"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "BBB",
+            " A ",
+            "AAA"
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:netheroom"
+            },
+            "B": {
+                "item": "minecraft:wool"
+            }
+        },
+        "result": {
+            "item": "fantasy:tailors_table"
+        }
+    }
+}

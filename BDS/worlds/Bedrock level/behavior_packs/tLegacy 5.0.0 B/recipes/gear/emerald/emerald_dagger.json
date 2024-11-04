@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:emerald_dagger"
+		},
+
+    
+		"tags": [ "emerald_blueprint" ],
+		"pattern": [
+			"S ",
+			"B ",
+			"/ "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:emerald_shortblade"
+			},
+			"B": {
+				"item": "hax:emerald_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:emerald_blueprint"
+			}
+		],
+		"result": { "item": "hax:emerald_dagger" }
+	}
+}

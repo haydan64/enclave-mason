@@ -1,0 +1,22 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:platinum_staff"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            " AA",
+            " AA",
+            "A  "
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:platinum_ingot"
+            }
+        },
+        "result": {
+            "item": "fantasy:platinum_staff"
+        }
+    }
+}

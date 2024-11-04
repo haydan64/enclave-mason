@@ -1,0 +1,41 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.quiver_full": {
+			"geometry": "geometry.default",
+			"materials": [
+				{
+					"*": "variable.is_enchanted?material.enchanted:material.default"
+				}
+			],
+			"textures": [
+				"texture.default",
+				"texture.enchanted"
+			]
+		},
+		"controller.render.quiver_half": {
+			"geometry": "geometry.default",
+			"materials": [
+				{
+					"*": "variable.is_enchanted?material.enchanted:material.default"
+				}
+			],
+			"textures": [
+				"texture.half",
+				"texture.enchanted"
+			]
+		},
+		"controller.render.quiver_empty": {
+			"geometry": "geometry.default",
+			"materials": [
+				{
+					"*": "variable.is_enchanted?material.enchanted:material.default"
+				}
+			],
+			"textures": [
+				"texture.empty",
+				"texture.enchanted"
+			]
+		}
+	}
+}

@@ -1,0 +1,23 @@
+{
+    "format_version": "1.17.0",
+    "minecraft:ore_feature": {
+        "description": {
+            "identifier": "hax:cobalt_ore_feature"
+        },
+        "count": 4,
+        "replace_rules": [
+            {
+                "places_block": "hax:nether_cobalt_ore",
+                "may_replace": [
+                    "minecraft:netherrack"
+                ]
+            },
+            {
+                "places_block": "hax:deepslate_cobalt_ore",
+                "may_replace": [
+                    "minecraft:deepslate"
+                ]
+            }
+        ]
+    }
+}

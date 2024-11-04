@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:gold_machete"
+		},
+
+    
+		"tags": [ "gold_blueprint" ],
+		"pattern": [
+			" SS",
+			"SL ",
+			"/  "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:gold_longblade"
+			},
+			"S": {
+				"item": "hax:gold_shortblade"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:gold_blueprint"
+			}
+		],
+		"result": { "item": "hax:gold_machete" }
+	}
+}

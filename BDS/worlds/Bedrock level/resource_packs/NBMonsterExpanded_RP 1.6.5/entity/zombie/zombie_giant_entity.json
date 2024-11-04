@@ -1,0 +1,50 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:zombie_giant",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "zombie"
+			},
+			"textures": {
+				"default": "textures/entity/zombie/zombie_giant"
+			},
+			"geometry": {
+				"default": "geometry.zombie.giant"
+			},
+			"hide_armor": false,
+			"spawn_egg": {
+				"base_color": "#34592c",
+				"overlay_color": "#17b613"
+			},
+			"scripts": {
+				"animate": [
+					"controller",
+					"controllerdead"
+				  ]
+			},
+			"animations": {
+				"controller" : "controller.animation.zombie.giant",
+				"controllerdead": "controller.animation.giant.zombie.death",
+				"look_at_target": "animation.common.look_at_target",
+				"idle" : "animation.zombie.giant.idle",
+				"walk" : "animation.zombie.giant.walk",
+				"attack1" : "animation.zombie.giant.attack1",
+				"attack2" : "animation.zombie.giant.attack2",
+				"specialattack" : "animation.zombie.giant.specialattack",
+				"dead" : "animation.zombie.giant.dead2",
+				"death_rot" : "animation.zombie.giant.death_rot"
+			},
+
+			"particle_effects": {
+                "green_smoke": "nba:cloud_green_explosion"
+            },
+			"sound_effects": {
+				"slash": "mob.zombiegiant.roar"
+			},
+			"render_controllers": ["controller.render.onevariant"],
+			"enable_attachables": true
+		}
+	}
+}

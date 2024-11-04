@@ -1,0 +1,28 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "mystic:solarflare_scepter"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            " X#",
+            " SX",
+            "S  "
+        ],
+        "key": {
+            "S": {
+                "item": "minecraft:stick"
+            },
+            "#": {
+                "item": "item:light_stone"
+            },
+            "X": {
+                "item": "minecraft:quartz"
+            }
+        },
+        "result": {
+            "item": "mystic:solarflare_scepter"
+        }
+    }
+}

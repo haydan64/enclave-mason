@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "hax:furnace_tin_lance"
+    },
+
+
+    "tags": ["furnace", "blast_furnace"],
+    "input": "hax:tin_lance",
+    "output": "hax:tin_nugget"
+  }
+  
+}

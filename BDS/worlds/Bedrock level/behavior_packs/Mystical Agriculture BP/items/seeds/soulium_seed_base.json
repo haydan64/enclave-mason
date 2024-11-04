@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:soulium_seed_base",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "soulium_seed_base"
+			},
+			"minecraft:display_name": {
+				"value": "Soulium Seed Base"
+			}
+		}
+	}
+}

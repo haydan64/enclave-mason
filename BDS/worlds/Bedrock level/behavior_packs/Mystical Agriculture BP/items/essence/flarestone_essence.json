@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:flarestone_essence",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "flarestone_essence"
+			},
+			"minecraft:display_name": {
+				"value": "Flarestone Essence"
+			}
+		}
+	}
+}

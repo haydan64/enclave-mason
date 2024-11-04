@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "hax:furnace_silver_kunai"
+    },
+
+
+    "tags": ["furnace", "blast_furnace"],
+    "input": "hax:silver_kunai",
+    "output": "hax:silver_nugget"
+  }
+  
+}

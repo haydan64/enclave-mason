@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:iron_scythe"
+		},
+
+    
+		"tags": [ "iron_blueprint" ],
+		"pattern": [
+			"SLP",
+			" //",
+			"/  "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:iron_longblade"
+			},
+			"S": {
+				"item": "hax:iron_shortblade"
+			},
+			"P": {
+				"item": "hax:iron_plating"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:iron_blueprint"
+			}
+		],
+		"result": { "item": "hax:iron_scythe" }
+	}
+}

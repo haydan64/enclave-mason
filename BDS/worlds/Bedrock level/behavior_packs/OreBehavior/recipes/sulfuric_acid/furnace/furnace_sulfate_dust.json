@@ -1,0 +1,11 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "fantasy:sulfuric_acid_concentration"
+        },
+        "tags": [ "furnace", "blast_furnace" ],
+        "input": "fantasy:sulfuric_acid",
+        "output": "fantasy:sulfuric_acid_concentration"
+    }
+}

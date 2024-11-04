@@ -1,0 +1,38 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:brimstone_scythe"
+		},
+
+    
+		"tags": [ "brimstone_blueprint" ],
+		"pattern": [
+			"SLP",
+			" //",
+			"/  "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:brimstone_longblade"
+			},
+			"S": {
+				"item": "hax:brimstone_shortblade"
+			},
+			"P": {
+				"item": "hax:brimstone_plating"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:brimstone_blueprint"
+			}
+		],
+		"result": { "item": "hax:brimstone_scythe" }
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:aluminium_from_essence_construct"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"~~~",
+			"~ ~",
+			"~~~"
+		],
+		"key": {
+			"~": {
+				"item": "strat:aluminium_essence"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:aluminium_ingot",
+				"count": 6
+			}
+		],
+		"priority": 0
+	}
+}

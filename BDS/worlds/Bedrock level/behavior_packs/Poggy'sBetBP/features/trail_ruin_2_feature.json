@@ -1,0 +1,14 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:structure_template_feature": {
+    "description": {
+      "identifier": "better_on_bedrock:trail_ruin_2_feature"
+    },
+    "structure_name": "mystructure:TrialruinDestroyed",
+    "adjustment_radius": 8,
+    "facing_direction": "south",
+    "constraints": {
+      "grounded": {}
+    }
+  }
+}

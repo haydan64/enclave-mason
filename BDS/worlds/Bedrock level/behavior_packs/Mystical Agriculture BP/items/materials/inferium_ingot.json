@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:inferium_ingot",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "inferium_ingot"
+			},
+			"minecraft:display_name": {
+				"value": "Inferium Ingot"
+			}
+		}
+	}
+}

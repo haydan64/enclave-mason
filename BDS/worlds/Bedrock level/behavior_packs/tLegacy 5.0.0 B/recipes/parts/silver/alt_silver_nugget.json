@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:alt_silver_nugget"
+    },
+
+    
+    "tags": [ "silver_blueprint" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "hax:silver_ingot"
+      }
+    },
+    "unlock": [
+			{
+				"item": "hax:silver_blueprint"
+			}
+		],
+    "result": {
+      "item": "hax:silver_nugget",
+      "count": 4
+    }
+  }
+}

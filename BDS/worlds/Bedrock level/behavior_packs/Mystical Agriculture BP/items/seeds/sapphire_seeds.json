@@ -1,0 +1,23 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:sapphire_seeds",
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.seed"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "sapphire_seeds"
+			},
+			"minecraft:display_name": {
+				"value": "Sapphire Seeds\n§7Tier: §b4§r"
+			},
+			"minecraft:block_placer": {
+				"block": "strat:sapphire_crop"
+			}
+		}
+	}
+}

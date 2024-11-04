@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.20",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:skeleton_essence",
+			"menu_category": {
+				"category": "items"
+			}
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "skeleton_essence"
+			},
+			"minecraft:display_name": {
+				"value": "Skeleton Essence"
+			}
+		}
+	}
+}

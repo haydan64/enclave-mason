@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:tin_lance"
+		},
+
+    
+		"tags": [ "tin_blueprint" ],
+		"pattern": [
+			" SH",
+			"INS",
+			"/I "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:tin_spadehead"
+			},
+			"S": {
+				"item": "hax:tin_shortblade"
+			},
+			"I": {
+				"item": "hax:tin_ingot"
+			},
+			"N": {
+				"item": "hax:tin_nugget"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:tin_blueprint"
+			}
+		],
+		"result": { "item": "hax:tin_lance" }
+	}
+}

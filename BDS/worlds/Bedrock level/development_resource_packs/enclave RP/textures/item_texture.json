@@ -1,0 +1,36 @@
+{
+	"resource_pack_name": "enclave",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"enclave_poop": {
+			"textures": "textures/items/poop"
+		},
+		"enclave_magnetite": {
+			"textures": "textures/items/magnetite"
+		},
+		"enclave_inferium_magnet": {
+			"textures": "textures/items/inferium_magnet"
+		},
+		"enclave_magnet": {
+			"textures": "textures/items/magnet"
+		},
+		"enclave_imperium_magnet": {
+			"textures": "textures/items/imperium_magnet"
+		},
+		"enclave_prudentium_magnet": {
+			"textures": "textures/items/prudentium_magnet"
+		},
+		"enclave_supremium_magnet": {
+			"textures": "textures/items/supremium_magnet"
+		},
+		"enclave_tertium_magnet": {
+			"textures": "textures/items/tertium_magnet"
+		},
+		"enclave_magnetite_ingot": {
+			"textures": "textures/items/magnetite_ingot"
+		},
+		"enclave_agriculture_tnt_egg": {
+			"textures": "textures/items/agricultural_tnt"
+		}
+	}
+}

@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:brimstone_shortblade"
+		},
+
+    
+		"tags": [ "brimstone_blueprint" ],
+		"pattern": [
+			"  N",
+			" N ",
+			""
+		],
+
+		"key": {
+			"N": {
+				"item": "hax:brimstone_shard"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:brimstone_blueprint"
+			}
+		],
+		"result": { "item": "hax:brimstone_shortblade" }
+	}
+}

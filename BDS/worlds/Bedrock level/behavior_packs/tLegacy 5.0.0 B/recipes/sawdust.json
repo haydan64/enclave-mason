@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "hax:sawdust"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "priority": 4,
+    "ingredients": [
+      {
+        "item": "minecraft:planks"
+      }
+    ],
+    
+    "unlock": [
+      {
+        "item": "minecraft:planks"
+      }
+    ],
+    "result": {
+      "item": "hax:sawdust",
+      "count": 1
+    }
+  }
+  
+}

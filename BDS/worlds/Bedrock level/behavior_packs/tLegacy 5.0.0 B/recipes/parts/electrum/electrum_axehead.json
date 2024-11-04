@@ -1,0 +1,31 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:electrum_axehead"
+		},
+
+    
+		"tags": [ "electrum_blueprint" ],
+		"pattern": [
+			"IN",
+			"I "
+		],
+
+		"key": {
+			"I": {
+				"item": "hax:electrum_ingot"
+			},
+			"N": {
+				"item": "hax:electrum_nugget"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:electrum_blueprint"
+			}
+		],
+		"result": { "item": "hax:electrum_axehead" }
+	}
+}

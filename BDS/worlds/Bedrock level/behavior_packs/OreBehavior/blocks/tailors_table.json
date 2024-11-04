@@ -1,0 +1,68 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "fantasy:tailors_table",
+            "properties": {
+                "fantasy:facing_direction": [0,1,2,3]
+            }
+        },
+        "permutations": [
+            {
+                "condition": "query.block_property('fantasy:facing_direction') == 0",
+                "components": {
+                    "minecraft:rotation": [0,180,0]
+                }
+            },
+            {
+                "condition": "query.block_property('fantasy:facing_direction') == 1",
+                "components": {
+                    "minecraft:rotation": [0,0,0]
+                }
+            },
+            {
+                "condition": "query.block_property('fantasy:facing_direction') == 2",
+                "components": {
+                    "minecraft:rotation": [0,270,0]
+                }
+            },
+            {
+                "condition": "query.block_property('fantasy:facing_direction') == 3",
+                "components": {
+                    "minecraft:rotation": [0,90,0]
+                }
+            }        
+        ],
+        "components": {
+            "minecraft:destroy_time": 3.5,
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "tailors_table",
+                    "render_method": "opaque"
+                }
+            },
+            "minecraft:block_light_absorption": 0,
+            "minecraft:geometry": "geometry.tailors_table",
+            "minecraft:loot": "loot_tables/blocks/tailors_table.json",
+            "minecraft:crafting_table": {
+                "custom_description": "tile.fantasy:tailors_table.name",
+                "grid_size": 3,
+                "crafting_tags": [
+                    "tailors_table"
+                ]
+            },
+            "minecraft:entity_collision": true,
+            "minecraft:pick_collision": true,
+            "minecraft:on_player_placing": {
+                "event": "set_placing_rotation"
+            }
+        },
+        "events": {
+            "set_placing_rotation": {
+                "set_block_property": {
+                    "fantasy:facing_direction": "query.cardinal_facing_2d-2"
+                }
+            }
+        }
+    }
+}

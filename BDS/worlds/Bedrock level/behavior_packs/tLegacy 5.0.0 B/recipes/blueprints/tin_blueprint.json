@@ -1,0 +1,37 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:tin_blueprint"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"PI",
+			"#P"
+		],
+
+		"key": {
+			"I": {
+				"item": "hax:tin_ingot"
+			},
+			"P": {
+				"item": "minecraft:paper"
+			},
+			"#": {
+				"item": "hax:basic_blueprint"
+			}
+		},
+
+		"unlock": [
+			{
+			  "item": "hax:basic_blueprint"
+			},
+			{
+			  "item": "hax:tin_ingot"
+			}
+		  ],
+		"result": { "item": "hax:tin_blueprint" }
+	}
+}

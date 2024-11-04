@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:stone_pebble_from_blackstone"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:blackstone"
+      }
+    },
+    
+    "unlock": [
+			{
+			  "item": "minecraft:blackstone"
+			}
+		],
+    "result": {
+      "item": "hax:stone_pebble",
+      "count": 6
+    },
+    "priority": 2
+  }
+}

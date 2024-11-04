@@ -1,0 +1,28 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:cobbled_soulstone_stairs"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#",
+			"##",
+			"###"
+		],
+		"key": {
+			"#": {
+				"item": "strat:cobbled_soulstone"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:cobbled_soulstone_stairs",
+				"count": 4
+			}
+		],
+		"priority": 1
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "enclave:child_red_purpur"
+		},
+		"components": {}
+	}
+}

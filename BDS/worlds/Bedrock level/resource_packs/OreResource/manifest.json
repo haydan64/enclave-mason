@@ -1,0 +1,28 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "Rosen isn't tolerating this BS!  by §6Arcanus y Alex",
+    "name": "§aFantasy Ores v0.0.1",
+    "uuid": "04919576-beb7-4565-bfaa-9c81e56b7ff8",
+	"version": [ 1, 0, 1 ],
+    "min_engine_version": [
+      1,
+      20,
+      50
+    ]
+  },
+  "modules": [
+    {
+      "description": "§6This great addon will add a wide variety of new minerals and with them includes several epic armors and even weapons!  by §6Arcanus y Alex",
+      "type": "resources",
+      "uuid": "c9bbe1e5-388a-4159-8250-8bcb876a944d",
+	"version": [ 1, 0, 1 ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "a2785ee6-e85e-4eb9-9a86-fe6b80740f4e",
+	"version": [ 1, 0, 1 ]
+    }
+  ]
+}

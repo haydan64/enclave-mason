@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:gold_plating"
+		},
+
+    
+		"tags": [ "gold_blueprint" ],
+		"pattern": [
+			"II",
+			"II",
+			" "
+		],
+
+		"key": {
+			"I": {
+				"item": "minecraft:gold_ingot"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:gold_blueprint"
+			}
+		],
+		"result": { "item": "hax:gold_plating" }
+	}
+}

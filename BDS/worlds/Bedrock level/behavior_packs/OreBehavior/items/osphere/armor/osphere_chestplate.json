@@ -1,0 +1,49 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "fantasy:osphere_chestplate",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "osphere_chestplate.png"
+            },
+            "minecraft:display_name": {},
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.chestplate"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": true,
+            "minecraft:render_offsets": "chestplate",
+            "minecraft:enchantable": {
+                "value": 6,
+                "slot": "armor_torso"
+            },
+            "minecraft:armor": {
+                "protection": 10
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.chest"
+            },
+            "minecraft:durability": {
+                "max_durability": 1108,
+                "damage_chance": {
+                    "min": 90,
+                    "max": 100
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "fantasy:osphere_chestplate",
+                            "fantasy:ospherestone"
+                            ],
+                            "repair_amount": 506
+                    }
+                ]
+            }
+        }
+    }
+}

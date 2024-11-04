@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "hax:furnace_bronze_mace"
+    },
+
+
+    "tags": ["furnace", "blast_furnace"],
+    "input": "hax:bronze_mace",
+    "output": "hax:bronze_nugget"
+  }
+  
+}

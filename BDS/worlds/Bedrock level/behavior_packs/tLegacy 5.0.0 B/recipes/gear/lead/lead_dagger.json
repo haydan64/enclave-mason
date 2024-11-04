@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:lead_dagger"
+		},
+
+    
+		"tags": [ "lead_blueprint" ],
+		"pattern": [
+			"S ",
+			"B ",
+			"/ "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:lead_shortblade"
+			},
+			"B": {
+				"item": "hax:lead_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:lead_blueprint"
+			}
+		],
+		"result": { "item": "hax:lead_dagger" }
+	}
+}

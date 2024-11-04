@@ -1,0 +1,33 @@
+{
+    "format_version": "1.14.0",
+    "sound_definitions": {
+        "electrocute.sfx": {
+            "categoty": "neutral",
+            "sounds": [ "sounds/mystic_sfx/electrocute.sfx" ]
+        },
+        "gust_forcefield.sfx": {
+            "categoty": "neutral",
+            "sounds": [ "sounds/mystic_sfx/gust_forcefield.sfx" ]
+        },
+        "healing.sfx": {
+            "categoty": "neutral",
+            "sounds": [ "sounds/mystic_sfx/healing.sfx" ]
+        },
+        "purified.sfx": {
+            "categoty": "neutral",
+            "sounds": [ "sounds/mystic_sfx/purified.sfx" ]
+        },
+        "solar_beam.sfx": {
+            "categoty": "neutral",
+            "sounds": [ "sounds/mystic_sfx/solar_beam.sfx" ]
+        },
+        "sword_slash.sfx": {
+            "categoty": "neutral",
+            "sounds": [ "sounds/mystic_sfx/sword_slash.sfx" ]
+        },
+        "water_splash.sfx": {
+            "categoty": "neutral",
+            "sounds": [ "sounds/mystic_sfx/water_splash.sfx" ]
+        }
+    }
+}

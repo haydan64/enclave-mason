@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.10",
+	"minecraft:block": {
+		"description": {
+			"identifier": "strat:chiseled_soulstone_bricks",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.stoneBrick"
+			}
+		},
+		"components": {
+			"minecraft:map_color": "#664C33",
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 5.0
+			},
+			"tag:stone_level": {}
+		}
+	}
+}

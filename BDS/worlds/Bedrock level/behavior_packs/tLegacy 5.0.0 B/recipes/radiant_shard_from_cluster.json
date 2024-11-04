@@ -1,0 +1,30 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:radiant_shard_from_cluster"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "hax:radiant_cluster"
+      }
+    },
+    
+    "unlock": [
+      {
+        "item": "hax:radiant_cluster"
+      }
+    ],
+    "result": {
+      "item": "hax:radiant_shard",
+      "count": 4
+    },
+"priority": 2
+  }
+}

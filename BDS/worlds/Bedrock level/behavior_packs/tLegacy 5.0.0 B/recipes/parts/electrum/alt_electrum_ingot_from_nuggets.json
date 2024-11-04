@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:alt_electrum_ingot_from_nuggets"
+    },
+
+    
+    "tags": [ "electrum_blueprint" ],
+    "group": "electrum_ingot",
+    "pattern": [
+      "##",
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "hax:electrum_nugget"
+      }
+    },
+    "unlock": [
+			{
+				"item": "hax:electrum_blueprint"
+			}
+		],
+    "result": {
+      "item": "hax:electrum_ingot"
+    }
+  }
+}

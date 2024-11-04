@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "hax:enderium_blend"
+    },
+
+    
+    "tags": [ "tiered_table" ],
+    "ingredients": [
+      {
+        "item": "hax:endsteel_dust"
+      },
+      {
+        "item": "minecraft:ender_pearl"
+      },
+      {
+        "item": "hax:leadsilver_dust"
+      }
+    ],
+    
+    "unlock": [
+      {
+        "item": "minecraft:blast_furnace"
+      },
+      {
+        "item": "hax:endsteel_ingot"
+      }
+    ],
+    "result": {
+      "item": "hax:enderium_blend",
+      "count": 1
+    }
+  }
+}

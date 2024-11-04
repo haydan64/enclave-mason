@@ -1,0 +1,45 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:dragonscale_blueprint"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			"PI",
+			"#X"
+		],
+
+		"key": {
+			"I": {
+				"item": "hax:dragonscale"
+			},
+			"P": {
+				"item": "hax:ruby_blueprint"
+			},
+			"X": {
+				"item": "hax:cobalt_blueprint"
+			},
+			"#": {
+				"item": "hax:diamond_blueprint"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:dragonscale"
+			},
+			{
+				"item": "hax:diamond_blueprint"
+			}
+		  ],
+		"result": [ 
+			{ "item": "hax:dragonscale_blueprint" },
+			{ "item": "hax:ruby_blueprint", "count": 1, "data": 0 },
+			{ "item": "hax:cobalt_blueprint", "count": 1, "data": 0 },
+			{ "item": "hax:diamond_blueprint", "count": 1, "data": 0 }
+		]
+	}
+}

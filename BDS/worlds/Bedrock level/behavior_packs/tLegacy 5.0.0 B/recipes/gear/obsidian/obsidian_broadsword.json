@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:obsidian_broadsword"
+		},
+
+    
+		"tags": [ "obsidian_blueprint" ],
+		"pattern": [
+			"  L",
+			" B ",
+			"/  "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:obsidian_longblade"
+			},
+			"B": {
+				"item": "hax:obsidian_bar"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:obsidian_blueprint"
+			}
+		],
+		"result": { "item": "hax:obsidian_broadsword" }
+	}
+}

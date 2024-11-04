@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:silver_lance"
+		},
+
+    
+		"tags": [ "silver_blueprint" ],
+		"pattern": [
+			" SH",
+			"INS",
+			"/I "
+		],
+
+		"key": {
+			"H": {
+				"item": "hax:silver_spadehead"
+			},
+			"S": {
+				"item": "hax:silver_shortblade"
+			},
+			"I": {
+				"item": "hax:silver_ingot"
+			},
+			"N": {
+				"item": "hax:silver_nugget"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:silver_blueprint"
+			}
+		],
+		"result": { "item": "hax:silver_lance" }
+	}
+}

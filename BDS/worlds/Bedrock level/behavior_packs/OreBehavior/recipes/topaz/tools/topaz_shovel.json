@@ -1,0 +1,25 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:topaz_shovel"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "A",
+            "B",
+            "B"
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:topaz"
+            },
+            "B": {
+                "item": "minecraft:stick"
+            }
+        },
+        "result": {
+            "item": "fantasy:topaz_shovel"
+        }
+    }
+}

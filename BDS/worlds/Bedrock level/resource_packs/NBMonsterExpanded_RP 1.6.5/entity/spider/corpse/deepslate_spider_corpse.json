@@ -1,0 +1,33 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:deepslate_spider_corpse",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "spider",
+				"invisible": "spider_invisible"
+			},
+			"textures": {
+				"default": "textures/entity/spider/deepslate_spider/spider"
+			},
+			"geometry": {
+				"default": "geometry.deepslatespider"
+			},
+			"spawn_egg": {
+				"base_color": "#414141",
+				"overlay_color": "#636363"
+			},
+			"scripts": {
+				"animate": [
+					"controller"
+				  ]
+			},
+			"animations": {
+				"controller" : "controller.animation.spider.corpse",
+				"dead": "animation.spider.deaddeepslate"
+			},
+			"render_controllers": ["controller.render.onevariant"]
+		}
+	}
+}

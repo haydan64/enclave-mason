@@ -1,0 +1,30 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:tin_shortblade"
+		},
+
+    
+		"tags": [ "tin_blueprint" ],
+		"pattern": [
+			"  N",
+			" N ",
+			""
+		],
+
+		"key": {
+			"N": {
+				"item": "hax:tin_nugget"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:tin_blueprint"
+			}
+		],
+		"result": { "item": "hax:tin_shortblade" }
+	}
+}

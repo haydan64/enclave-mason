@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "hax:furnace_copper_morningstar"
+    },
+
+
+    "tags": ["furnace", "blast_furnace"],
+    "input": "hax:copper_morningstar",
+    "output": "minecraft:copper_ingot"
+  }
+  
+}

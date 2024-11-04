@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "hax:sawdust_from_mangrove_planks"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "priority": 4,
+    "ingredients": [
+      {
+        "item": "minecraft:mangrove_planks"
+      }
+    ],
+    
+    "unlock": [
+      {
+        "item": "minecraft:mangrove_planks"
+      }
+    ],
+    "result": {
+      "item": "hax:sawdust",
+      "count": 1
+    }
+  }
+  
+}

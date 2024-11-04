@@ -1,0 +1,26 @@
+{
+	"format_version": "1.21.10",
+	"minecraft:item": {
+		"description": {
+			"identifier": "better_on_bedrock:record_travelers",
+			"menu_category": {
+				"category": "items",
+				"group": "itemGroup.name.record"
+			}
+		},
+		"components": {
+			"minecraft:icon": "better_on_bedrock:record_travels",
+			"minecraft:display_name": {
+				"value": "§e%item.record.name§r"
+			},
+			
+			"minecraft:record": {
+				"comparator_signal": 13,
+				"duration": 188,
+				"sound_event": "balloonpop"
+			},
+			
+			"minecraft:max_stack_size": 1
+		}
+	}
+}

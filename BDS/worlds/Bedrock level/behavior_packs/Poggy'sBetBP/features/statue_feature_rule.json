@@ -1,0 +1,18 @@
+{
+	"format_version": "1.21.0",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "better_on_bedrock:statue_feature_rule"
+		},
+		"features": [
+			[
+				"better_on_bedrock:statue_1", //Coarse dirt weighs 5
+				5
+			],
+			[
+				"better_on_bedrock:statue_2", //Podzol dirt weighs 3
+				5
+			]
+		]
+	}
+}

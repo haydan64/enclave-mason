@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:red_steel"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "AB"
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:steel"
+            },
+            "B": {
+                "item": "minecraft:dye",
+                "data": 1
+            }
+        },
+        "result": {
+            "item": "fantasy:red_steel"
+        }
+    }
+}

@@ -1,0 +1,47 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			},
+			"identifier": "hax:electrum_kama"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Electrum Kama"
+			},
+			"minecraft:icon": {
+				"texture": "hax:electrum_kama"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:damage": 5,
+			"minecraft:enchantable": {
+				"value": 22,
+				"slot": "sword"
+			},
+			"minecraft:durability": {
+				"max_durability": 96
+			},
+			"minecraft:repairable":{
+				"repair_items": [
+					{
+						"items": [
+							"hax:electrum_kama"
+						],
+						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+					},
+					{
+						"items": [
+							"hax:electrum_ingot"
+						],
+						"repair_amount": "context.other->query.max_durability * 0.25" //24
+					}
+				]
+			},
+			"minecraft:can_destroy_in_creative": false
+		}
+	}
+}

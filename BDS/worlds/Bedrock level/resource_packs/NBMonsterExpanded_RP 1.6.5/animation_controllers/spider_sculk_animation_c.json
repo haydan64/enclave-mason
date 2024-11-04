@@ -1,0 +1,88 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.spider.sculk.stand" : {
+			"initial_state" : "default_leg_posea",
+			"states" : {
+				"default_leg_posea": {
+					"animations": ["idle","default_leg_posea"],
+                    "transitions": [
+                        {"walk": "query.ground_speed >= 0.6"},
+                        {"casting": "query.is_casting"},
+                        {"casting": "query.is_casting"}
+                    ],
+                    "blend_transition": 0.3
+                    
+                },
+                "walk": {
+					"animations": ["walk"],
+                    "transitions": [
+                        {
+                            "default_leg_posea": "query.ground_speed < 0.6"
+                        }
+                    ],
+                    "blend_transition": 0.3
+                    
+                },
+                "casting": {
+					"animations": ["idle","default_leg_posea"],
+                    "transitions": [
+                        {
+                            "default_leg_posea": "!query.is_casting"
+                        }
+                    ],
+                    "particle_effects" : [
+						{
+							"effect" : "particle",
+							"locator" : "locator"
+						}
+					],
+                    "blend_transition": 0.3
+                    
+                },
+                "attack": {
+					"animations": ["idle","default_leg_posea"],
+                    "transitions": [
+                        {"walk": "query.ground_speed >= 0.6"},
+                        {"casting": "query.is_casting"},
+                        {"casting": "query.is_casting"}
+                    ],
+                    "blend_transition": 0.3
+                    
+                },
+				"stunned": {
+					"animations": ["idle","default_leg_posea"],
+                    "transitions": [
+                        {"walk": "query.ground_speed >= 0.6"},
+                        {"casting": "query.is_casting"},
+                        {"casting": "query.is_casting"}
+                    ],
+                    "blend_transition": 0.3
+                    
+                }
+			}
+		},
+		"controller.animation.spidermanjat.sculk.general": {
+            "initial_state": "biasa",
+            "states": {
+                "biasa": {
+                    "animations": ["biasa","idle"],
+                    "transitions": [
+                        {
+                            "samping": "query.is_wall_climbing && query.ground_speed >= 0.7"
+                        }
+                    ],
+                    "blend_transition": 0.3
+                },
+                
+                "samping": {
+                    "animations": ["samping","idle" ],
+                    "transitions": [
+                        {"biasa": "!query.is_wall_climbing"}
+                    ],
+                    "blend_transition": 0.3
+                }
+            }
+		}
+}
+}

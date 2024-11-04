@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hax:cobalt_blue"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "##",
+      "##"
+    ],
+    "key": {
+      "#": {
+        "item": "hax:cobalt_dust"
+      }
+    },
+
+    "unlock": [
+      {
+        "item": "hax:cobalt_dust"
+      }
+    ],
+    "result":  {
+      "item": "minecraft:blue_dye", "count": 16, "data": 0
+    }
+  }
+}

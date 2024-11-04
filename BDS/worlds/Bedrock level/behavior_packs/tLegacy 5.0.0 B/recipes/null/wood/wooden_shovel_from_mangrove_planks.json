@@ -1,0 +1,35 @@
+{
+    "format_version": "1.20.10",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "minecraft:wooden_shovel_from_mangrove_planks"
+        },
+        "tags": [
+            "null"
+        ],
+        "pattern": [
+            "A",
+            "B",
+            "B"
+        ],
+        "key": {
+            "A": {
+                "item": "mangrove_planks"
+            },
+            "B": {
+                "item": "stick"
+            }
+        },
+        "unlock": [
+            {
+                "item": "minecraft:end_gateway",
+                "data": 4
+            }
+        ],
+    "result": {
+            "item": "wooden_shovel",
+            "count": 1
+        },
+        "priority": 2
+    }
+}

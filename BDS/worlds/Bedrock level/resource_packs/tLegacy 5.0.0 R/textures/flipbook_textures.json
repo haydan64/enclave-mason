@@ -1,0 +1,56 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/legacy_workstation/acacia_legacy_workstation",
+    "atlas_tile": "acacia_legacy_workstation",
+    "frames": [ 0, 1, 2 ],
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/legacy_workstation/bamboo_legacy_workstation",
+    "atlas_tile": "bamboo_legacy_workstation",
+    "frames": [ 0, 1, 2 ],
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/legacy_workstation/birch_legacy_workstation",
+    "atlas_tile": "birch_legacy_workstation",
+    "frames": [ 0, 1, 2 ],
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/legacy_workstation/cherry_legacy_workstation",
+    "atlas_tile": "cherry_legacy_workstation",
+    "frames": [ 0, 1, 2 ],
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/legacy_workstation/dark_oak_legacy_workstation",
+    "atlas_tile": "dark_oak_legacy_workstation",
+    "frames": [ 0, 1, 2 ],
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/legacy_workstation/jungle_legacy_workstation",
+    "atlas_tile": "jungle_legacy_workstation",
+    "frames": [ 0, 1, 2 ],
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/legacy_workstation/mangrove_legacy_workstation",
+    "atlas_tile": "mangrove_legacy_workstation",
+    "frames": [ 0, 1, 2 ],
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/legacy_workstation/oak_legacy_workstation",
+    "atlas_tile": "oak_legacy_workstation",
+    "frames": [ 0, 1, 2 ],
+    "ticks_per_frame": 1
+  },
+  {
+    "flipbook_texture": "textures/blocks/legacy_workstation/spruce_legacy_workstation",
+    "atlas_tile": "spruce_legacy_workstation",
+    "frames": [ 0, 1, 2 ],
+    "ticks_per_frame": 1
+  }
+]

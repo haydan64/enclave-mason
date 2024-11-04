@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "hax:furnace_iron_dust"
+    },
+
+    
+    "tags": ["furnace", "blast_furnace"],
+    "input": "hax:iron_dust",
+    "output": "minecraft:iron_ingot"
+  }
+  
+}

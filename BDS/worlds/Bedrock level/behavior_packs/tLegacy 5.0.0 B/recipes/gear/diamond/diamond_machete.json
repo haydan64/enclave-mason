@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:diamond_machete"
+		},
+
+    
+		"tags": [ "diamond_blueprint" ],
+		"pattern": [
+			" SS",
+			"SL ",
+			"/  "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:diamond_longblade"
+			},
+			"S": {
+				"item": "hax:diamond_shortblade"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:diamond_blueprint"
+			}
+		],
+		"result": { "item": "hax:diamond_machete" }
+	}
+}

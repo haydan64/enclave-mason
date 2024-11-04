@@ -1,0 +1,39 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:frost_imp",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/entity/frost_imp"
+			},
+			"geometry": {
+				"default": "geometry.frost.imp"
+			},
+			"scripts": {
+				"animate":[
+					"general",
+					"look_at_target"
+				]
+				
+			},
+			"spawn_egg": {
+				"base_color": "#72c1c7",
+				"overlay_color": "#31b3b3"
+			},
+			"animations": {
+				"general": "controller.animation.frost.imp",
+				"walk": "animation.frost.imp.walk",
+				"idle": "animation.frost.imp.idle",
+				"angry": "animation.frost.imp.angry",
+				"look_at_target": "animation.common.look_at_target"
+				
+			},
+			"render_controllers": ["controller.render.onevariant"]
+			
+		}
+	}
+}

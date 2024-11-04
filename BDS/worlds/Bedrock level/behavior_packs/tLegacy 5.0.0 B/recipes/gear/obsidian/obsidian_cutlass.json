@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:obsidian_cutlass"
+		},
+
+    
+		"tags": [ "obsidian_blueprint" ],
+		"pattern": [
+			" SS",
+			"NL ",
+			"/N "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:obsidian_longblade"
+			},
+			"S": {
+				"item": "hax:obsidian_shortblade"
+			},
+			"N": {
+				"item": "hax:obsidian_shard"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:obsidian_blueprint"
+			}
+		],
+		"result": { "item": "hax:obsidian_cutlass" }
+	}
+}

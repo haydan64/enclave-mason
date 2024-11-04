@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="/">
+    <link rel="stylesheet" type="text/css" href="output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Enclave Kingdoms | Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+
+<body class="bg-blue-100 h-screen">
+    <nav class="bg-white shadow">
+        <div class="container mx-10px px-6 py-3">
+            <div class="flex justify-between items-center">
+                <a class="text-xl w-24 h-24 " href="#"><img src="images/logo.png" class="rounded-full" /></a>
+                <div class="hidden md:flex space-x-6 lg:space-x-12">
+                    <a href="#" class="text-blue-800 hover:text-blue-600">Home</a>
+                    <a href="dashboard.html" class="text-blue-800 hover:text-blue-600">Dashboard</a>
+                    <a href="#" class="text-blue-800 hover:text-blue-600">Factions..?</a>
+                    <a href="#" class="text-blue-800 hover:text-blue-600">Login</a>
+                    <a href="account.html" class="text-blue-800 hover:text-blue-600"><span id="name"></span><img id="avatar"></img></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container mx-auto mt-5 p-6 bg-blue-400 rounded-lg shadow h-max-content flex-row">
+        <h2 class="text-2xl font-bold mb-4 text-center">Online Players</h2>
+        <div class="flex justify-center">
+            <div class="w-max flex flex-row gap-7" id="playerContainer">
+                <!-- Player template -->
+                <div class="bg-blue-200 p-6 rounded-lg shadow-md" id="playerTemplate" style="display: none;">
+                    <h3 class="text-xl font-bold mb-2 text-center text-slate-800 playerName">[Player Name]</h3>
+                    <p class="text-center playerFaction">[Player Faction]</p>
+                    <p class="text-center playerLevel">[Player Level]</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mx-auto mt-5 p-6 bg-white rounded-lg shadow h-max-content flex-row bg-blue-400">
+        <h2 class="text-2xl font-bold mb-4 text-center ">Current Server Events</h2>
+        <div class="flex justify-center flex-col">
+            <h3 class="text-xl font-bold mb-2 text-center">[Event Name]</h3>
+            <p class="text-center">[Event Description]</p>
+            <p class="text-center">[Event End Date]</p>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        //     import { Player, EntityInventoryComponent, ItemStack } from '../../node_modules/@minecraft/server/index.js';
+
+
+        // //mc api test
+        //     const inventory = player.getComponent(EntityInventoryComponent.componentId);
+        //     if (inventory && inventory.container) {
+        //         console.log( inventory.container.getItem(0));
+        //     }
+        //     else console.log(undefined);
+        //end of test (remove when finished)
+
+
+        /**
+        * @typedef {Object} Avatar_Decoration_Data
+        * @property {String} asset
+        * @property {String} sku_id
+        * @property {String | Date | null} expires_at
+        */
+
+        /**
+        * @typedef {Object} Discord
+        * @property {BigInt} ID
+        * @property {String} username
+        * @property {String} avatar
+        * @property {String} discriminator
+        * @property {String | null} banner
+        * @property {String | null} accentColor
+        * @property {String | null} globalName
+        * @property {Avatar_Decoration_Data} avatarDecorationData
+        * @property {String | null} bannerColor
+        * @property {String | null} clan
+        * @property {String | null} locale
+        * @property {String | null} avatarDecorationData
+        */
+        /**
+        * @typedef {Object} Minecraft
+        * @property {BigInt} XUID
+        * @property {String} username
+        */
+        /**
+        * @typedef {Object} User
+        * @property {Discord} Discord
+        * @property {Minecraft} Minecraft
+        */
+
+        /**
+        * @type {User}
+        */
+
+
+        const User = "<Inject>ServerAuthedUser</Inject>";
+        window.onload = () => {
+            console.log(User);
+            // if (!User.Discord.ID) {
+            //     window.location.href = '/'
+            // }
+            if(User.Discord.ID) {
+                //set the welcome username string
+                document.getElementById('name').innerText = ` ${User.Discord.username}#${User.Discord.discriminator}`;
+    
+                //set the avatar image by constructing a url to access discord's cdn
+                document.getElementById("avatar").src = `https://cdn.discordapp.com/avatars/${User.Discord.ID}/${User.Discord.avatar}.jpg`;
+            }
+        };
+        const elm = {
+            shell: document.getElementById("playerContainer")
+        }
+
+        const socket = io();
+        const user = {
+            authed: false
+        }
+
+        loop();
+        function loop() {
+            if (!user.authed) {
+                socket.emit("auth", "J#K7392J&ajb353927Z")
+            }
+        }
+
+        socket.on("auth", (data) => {
+            console.log("USER AUTH " + (data.success ? "SUCCESS" : "FAILED"));
+            if (data.success) {
+                console.log("User Succesfully Authenticated.");
+                user.authed = true;
+            }
+        });
+
+
+        document.addEventListener("DOMContentLoaded", () => {
+        socket.on("Players Update", (data) => {
+            // Select the container where player clones will be appended
+            const container = document.getElementById("playerContainer");
+
+            // Clear existing player elements
+            container.innerHTML = '';
+
+            const playerTemplate = document.getElementById("playerTemplate");
+
+            data.forEach(player => {
+                console.log("Player Template: ", playerTemplate);
+                if (!playerTemplate) {
+                    console.error("Player template not found.");
+                    return;
+                }
+                const playerClone = playerTemplate.cloneNode(true);
+                if (!playerClone) {
+                    console.error("Player clone failed.");
+                    return;
+                }
+
+                // Remove the 'display: none' style and make it visible
+        
+                playerClone.style.display = "block";
+                playerClone.querySelector(".playerName").innerHTML = `Name: ${player.name}`;
+                // playerClone.querySelector(".playerLevel").innerHTML = `Level: ${player.level}`;
+                if (player.tag.includes("leg")) {
+                    playerClone.querySelector(".playerFaction").innerHTML = `Faction: Legion`;
+                    playerClone.querySelector(".playerName").classList.add("text-blue-700");
+                } else if (player.tag.includes("kam")) {
+                    playerClone.querySelector(".playerFaction").innerHTML = `Faction: Kamereon Kazoku`;
+                    playerClone.querySelector(".playerName").classList.add("text-yellow-600");
+                } else if (player.tag.includes("war")) {
+                    playerClone.querySelector(".playerFaction").innerHTML = `Faction: Warrior`;
+                    playerClone.querySelector(".playerName").classList.add("text-red-700");
+                } else if (player.tag.includes("mer")) {
+                    playerClone.querySelector(".playerFaction").innerHTML = `Faction: Mercenary`;
+                    playerClone.querySelector(".playerName").classList.add("text-green-700");
+                } else if (player.tag.includes("staff")) { // placeholder because I'm not sure what the actual name of the tag is
+                    playerClone.querySelector(".playerFaction").innerHTML = `Admin`;
+                    playerClone.querySelector(".playerName").classList.add("text-green-700");
+                } else {
+                    playerClone.querySelector(".playerFaction").innerHTML = `No Player Faction`;
+                }
+                container.appendChild(playerClone);
+            });
+        });
+    });
+
+
+        function Caps(text) {
+            return text.split(" ").map((word) => { return word.slice(0, 1).toUpperCase() + word.slice(1) }).join(" ");
+        }
+
+    </script>
+</body>
+
+</html>

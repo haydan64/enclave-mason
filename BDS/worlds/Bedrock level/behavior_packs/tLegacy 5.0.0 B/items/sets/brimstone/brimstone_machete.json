@@ -1,0 +1,52 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.axe"
+			},
+			"identifier": "hax:brimstone_machete"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Brimstone Machete"
+			},
+			"minecraft:icon": {
+				"texture": "hax:brimstone_machete"
+			},
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:tags": {
+				"tags": [
+					"minecraft:transformable_items"
+				]
+			},
+			"minecraft:damage": 8,
+			"minecraft:enchantable": {
+				"value": 13,
+				"slot": "axe"
+			},
+			"minecraft:durability": {
+				"max_durability": 976
+			},
+			"minecraft:repairable":{
+				"repair_items": [
+					{
+						"items": [
+							"hax:brimstone_machete"
+						],
+						"repair_amount": "context.other->query.remaining_durability + 0.05 * context.other->query.max_durability"
+					},
+					{
+						"items": [
+							"hax:brimstone_chunk"
+						],
+						"repair_amount": "context.other->query.max_durability * 0.25" //429
+					}
+				]
+			},
+			"minecraft:can_destroy_in_creative": false
+		}
+	}
+}

@@ -1,0 +1,39 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:copper_cleaver"
+		},
+
+    
+		"tags": [ "copper_blueprint" ],
+		"pattern": [
+			" SS",
+			"BP ",
+			"/  "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:copper_shortblade"
+			},
+			"B": {
+				"item": "hax:copper_bar"
+			},
+			"P": {
+				"item": "hax:copper_plating"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:copper_blueprint"
+			}
+		],
+		"result": { "item": "hax:copper_cleaver" }
+	}
+}

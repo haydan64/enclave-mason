@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:electrum_machete"
+		},
+
+    
+		"tags": [ "electrum_blueprint" ],
+		"pattern": [
+			" SS",
+			"SL ",
+			"/  "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:electrum_longblade"
+			},
+			"S": {
+				"item": "hax:electrum_shortblade"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:electrum_blueprint"
+			}
+		],
+		"result": { "item": "hax:electrum_machete" }
+	}
+}

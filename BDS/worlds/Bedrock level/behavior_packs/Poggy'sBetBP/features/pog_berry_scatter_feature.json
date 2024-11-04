@@ -1,0 +1,25 @@
+{
+  "format_version": "1.21.0",
+  "minecraft:scatter_feature": {
+    "description": {
+      "identifier": "better_on_bedrock:pog_berry_scatter_feature"
+    },
+    "places_feature": "better_on_bedrock:grape_random_feature",
+    "iterations": "math.random_integer(20,25)",
+    "x": {
+      "extent": [
+        0,
+        13
+      ],
+      "distribution": "gaussian"
+    },
+    "z": {
+      "extent": [
+        0,
+        13
+      ],
+      "distribution": "gaussian"
+    },
+    "y": "q.heightmap(v.worldx, v.worldz)"
+  }
+}

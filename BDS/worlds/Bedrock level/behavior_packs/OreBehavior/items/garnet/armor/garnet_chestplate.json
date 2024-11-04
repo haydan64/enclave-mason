@@ -1,0 +1,49 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "fantasy:garnet_chestplate",
+            "category": "equipment"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "garnet_chestplate"
+            },
+            "minecraft:display_name": {},
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.chestplate"
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": true,
+            "minecraft:render_offsets": "chestplate",
+            "minecraft:enchantable": {
+                "value": 8,
+                "slot": "armor_torso"
+            },
+            "minecraft:armor": {
+                "protection": 9
+            },
+            "minecraft:wearable": {
+                "slot": "slot.armor.chest"
+            },
+            "minecraft:durability": {
+                "max_durability": 978,
+                "damage_chance": {
+                    "min": 90,
+                    "max": 100
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [
+                            "fantasy:garnet_chestplate",
+                            "fantasy:garnet"
+                            ],
+                            "repair_amount": 476
+                    }
+                ]
+            }
+        }
+    }
+}

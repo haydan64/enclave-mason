@@ -1,0 +1,11 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+        "description": {
+            "identifier": "fantasy:furnace_sulfur_dust"
+        },
+        "tags": [ "furnace", "blast_furnace" ],
+        "input": "fantasy:sulfur",
+        "output": "fantasy:sulfur_dust"
+    }
+}

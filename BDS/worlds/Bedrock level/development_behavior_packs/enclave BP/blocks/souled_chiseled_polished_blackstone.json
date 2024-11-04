@@ -1,0 +1,9 @@
+{
+	"format_version": "1.20.80",
+	"minecraft:block": {
+		"description": {
+			"identifier": "enclave:souled_chiseled_polished_blackstone"
+		},
+		"components": {}
+	}
+}

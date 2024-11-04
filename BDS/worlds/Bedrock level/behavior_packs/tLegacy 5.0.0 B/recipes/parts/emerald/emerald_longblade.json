@@ -1,0 +1,33 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:emerald_longblade"
+		},
+
+    
+		"tags": [ "emerald_blueprint" ],
+		"pattern": [
+			"  I",
+			" N ",
+			"N  "
+		],
+
+		"key": {
+			"I": {
+				"item": "minecraft:emerald"
+			},
+			"N": {
+				"item": "hax:emerald_shard"
+			}
+		},
+
+
+		"unlock": [
+			{
+				"item": "hax:emerald_blueprint"
+			}
+		],
+		"result": { "item": "hax:emerald_longblade" }
+	}
+}

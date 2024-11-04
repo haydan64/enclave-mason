@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.50",
+	"minecraft:item": {
+		"description": {
+			"menu_category": {
+				"category": "equipment",
+				"group": "itemGroup.name.sword"
+			},
+			"identifier": "hax:dragonscale_longblade"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Dragonscale Longblade"
+			},
+			"minecraft:icon": {
+				"texture": "hax:dragonscale_longblade"
+			},
+			"minecraft:max_stack_size": 16,
+			"minecraft:hand_equipped": true
+		}
+	}
+}

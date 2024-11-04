@@ -1,0 +1,25 @@
+{
+    "format_version": "1.10.0",
+    "animation_controllers": {
+        "controller.animation.tag": {
+            "initial_state": "default",
+            "states": {
+                "default": {
+                    "on_entry": [
+                        "/tag @s[name=\"Netheroom\"] add netheroom_fire",
+                        "/tag @s[name=\"Casco de netheroom\"] add netheroom_fire",
+                        "/tag @s[name=\"Pechera de netheroom\"] add netheroom_fire",
+                        "/tag @s[name=\"Pantalones de netheroom\"] add netheroom_fire",
+                        "/tag @s[name=\"Botas de netheroom\"] add netheroom_fire",
+                        "/tag @s[name=\"Bloque de netheroom\"] add netheroom_fire",
+                        "/tag @s[name=\"Netheroom helmet\"] add netheroom_fire",
+                        "/tag @s[name=\"Netheroom chestplate\"] add netheroom_fire",
+                        "/tag @s[name=\"Netheroom leggings\"] add netheroom_fire",
+                        "/tag @s[name=\"Netheroom boots\"] add netheroom_fire",
+                        "/tag @s[name=\"Netheroom block\"] add netheroom_fire"
+                    ]
+                }
+            }
+        }
+    }
+}

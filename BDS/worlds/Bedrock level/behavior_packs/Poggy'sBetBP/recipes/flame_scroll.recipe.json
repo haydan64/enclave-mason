@@ -1,0 +1,31 @@
+{
+    "format_version": "1.12.50",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "kai:flame_scroll"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "  P",
+            " M ",
+            "/  "
+        ],
+        "key": {
+            "/": {
+                "item": "minecraft:stick"
+            },
+            "P": {
+                "item": "minecraft:paper"
+            },
+            "M": {
+                "item": "minecraft:magma_cream"
+            }
+        },
+        "result": {
+            "item": "better_on_bedrock:staff_of_strength",
+            "count": 1
+        }
+    }
+}

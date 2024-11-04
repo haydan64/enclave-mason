@@ -1,0 +1,32 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:brimstone_kama"
+		},
+
+    
+		"tags": [ "brimstone_blueprint" ],
+		"pattern": [
+			"SS",
+			" /",
+			"/ "
+		],
+
+		"key": {
+			"S": {
+				"item": "hax:brimstone_shortblade"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:brimstone_blueprint"
+			}
+		],
+		"result": { "item": "hax:brimstone_kama" }
+	}
+}

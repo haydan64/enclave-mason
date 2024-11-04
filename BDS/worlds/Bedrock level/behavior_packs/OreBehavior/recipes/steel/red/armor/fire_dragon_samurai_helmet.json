@@ -1,0 +1,21 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "fantasy:fire_dragon_samurai_helmet"
+        },
+        "tags": [ "crafting_table" ],
+        "pattern": [
+            "AAA",
+            "A A"
+        ],
+        "key": {
+            "A": {
+                "item": "fantasy:red_steel"
+            }
+        },
+        "result": {
+            "item": "fantasy:fire_dragon_samurai_helmet"
+        }
+    }
+}

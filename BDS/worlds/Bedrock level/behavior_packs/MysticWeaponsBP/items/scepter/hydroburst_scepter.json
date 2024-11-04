@@ -1,0 +1,57 @@
+{
+    "format_version": "1.20.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "mystic:hydroburst_scepter",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.scepter"
+            }
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "hydroburst_scepter"
+            },
+            "minecraft:display_name": {
+                "value": "Hydroburst Scepter\n§tWater§r"
+            },
+            "minecraft:tags": {
+                "tags": [ "scepter", "water" ]
+            },
+            "minecraft:cooldown": {
+                "category": "hydroburst_scepter",
+                "duration": 12
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:allow_off_hand": false,
+            "minecraft:durability": {
+                "max_durability": 60,
+                "damage_chance": {
+                    "min": 1,
+                    "max": 2
+                }
+            },
+            "minecraft:repairable": {
+                "repair_items": [
+                    {
+                        "items": [ "item:water_stone_shard" ],
+                        "repair_amount": "q.max_durability * 0.15"
+                    },
+                    {
+                        "items": [ "item:water_stone" ],
+                        "repair_amount": "q.max_durability * 0.7"
+                    },
+                    {
+                        "items": [ "mystic:hydroburst_scepter" ],
+                        "repair_amount": "c.other->q.remaining_durability + 0.05 * c.other->q.max_durability"
+                    }
+                ]
+            },
+            "minecraft:enchantable": {
+                "value": 10,
+                "slot": "elytra"
+            },
+            "minecraft:can_destroy_in_creative": false
+        }
+    }
+}

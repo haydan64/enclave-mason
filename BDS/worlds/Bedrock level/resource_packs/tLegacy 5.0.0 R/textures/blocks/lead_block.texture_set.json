@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "lead_block",
+		"metalness_emissive_roughness": "lead_block_mer",
+		"heightmap": "lead_block_heightmap"
+	}
+}

@@ -1,0 +1,42 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "nba:med_light"
+		},
+		"components": {
+			"minecraft:block_light_emission": 0.7,
+			"minecraft:explosion_resistance": 0,
+			"minecraft:block_light_absorption": 0,
+			"minecraft:entity_collision": false,
+			"minecraft:pick_collision": false,
+            "minecraft:destroy_time": 0,
+			
+			"minecraft:geometry": "geometry.blank1",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "blank"
+				}
+			},
+			"minecraft:ticking": {
+				"looping": true,
+				"on_tick": {
+					"event": "dissapear"
+				},
+				"range": [
+					0.01,
+					0.01
+				]
+			}
+		},
+		"events": {
+			"dissapear": {
+				"run_command": {
+					"command": [
+						"setblock ~~~ nba:high_light"
+					]
+				}
+			}
+		}
+	}
+}

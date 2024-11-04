@@ -1,0 +1,53 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "nba:infected_zombie",
+			"min_engine_version": "1.8.0",
+			"materials": {
+				"default": "spider"
+			},
+			"textures": {
+				"default": "textures/entity/zombie/infected_zombie/zombie/zombie0"
+			},
+			"hide_armor": false,
+			"geometry": {
+				"default": "geometry.aabbb"
+			},
+			"scripts": {
+				"animate": [
+						"controller",
+						"controllerdead",
+						"look_at_target"
+					  ]
+			},
+			"animations": {
+				"controller" : "controller.animation.plainzombie",
+				"controllerdead": "controller.animation.plainzombie.death",
+				"look_at_target": "animation.common.look_at_target",
+				"idle" : "animation.zombiev2.idle",
+				"walk" : "animation.zombiev2.walk",
+				"walk2" : "animation.zombiev2.walk2",
+				"walk3" : "animation.zombiev2.walk3",
+				"walkwater": "animation.zombiev2.walkwater",
+				"chase": "animation.zombiev2.chase",
+				"chase2": "animation.zombiev2.chase2",
+				"chase3": "animation.zombiev2.chase3",
+				"attack": "animation.zombiev2.attack",
+				"attack2": "animation.zombiev2.attack2",
+				"attack3": "animation.zombiev2.attack3",
+				"attackweapon": "animation.zombiev2.attackweapon1",
+				"attackweapon2": "animation.zombiev2.attackweapon2",
+				"attackweapon3": "animation.zombiev2.attackweapon3",
+				"stunned": "animation.zombiev2.stun",
+				"riding": "animation.zombiev2.riding",
+				"ridingattack": "animation.zombiev2.riding.attack",
+				"ridingstun": "animation.zombiev2.riding.hit",
+				"dead": "animation.zombiev2.dead",
+				"death_rot": "animation.zombiev2.death_rot"
+			},
+			"render_controllers": ["controller.render.onevariant"],
+			"enable_attachables": true
+		}
+	}
+}

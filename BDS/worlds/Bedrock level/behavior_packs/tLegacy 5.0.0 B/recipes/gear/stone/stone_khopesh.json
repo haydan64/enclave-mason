@@ -1,0 +1,35 @@
+{
+	"format_version": "1.20.40",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "hax:stone_khopesh"
+		},
+
+    
+		"tags": [ "crafting_table" ],
+		"pattern": [
+			" SL",
+			" L ",
+			"/  "
+		],
+
+		"key": {
+			"L": {
+				"item": "hax:stone_longblade"
+			},
+			"S": {
+				"item": "hax:stone_shortblade"
+			},
+			"/": {
+				"item": "minecraft:stick"
+			}
+		},
+
+		"unlock": [
+			{
+				"item": "hax:stone_pebble"
+			}
+		],
+		"result": { "item": "hax:stone_khopesh" }
+	}
+}

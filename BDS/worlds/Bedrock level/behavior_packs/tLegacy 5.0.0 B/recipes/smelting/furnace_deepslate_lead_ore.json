@@ -1,0 +1,14 @@
+{
+  "format_version": "1.20.40",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "hax:furnace_deepslate_lead_ore"
+    },
+
+    
+    "tags": ["furnace", "blast_furnace"],
+    "input": "hax:deepslate_lead_ore",
+    "output": "hax:lead_ingot"
+  }
+  
+}

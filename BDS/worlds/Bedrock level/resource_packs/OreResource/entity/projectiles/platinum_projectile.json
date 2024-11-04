@@ -1,0 +1,20 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "fantasy:platinum_projectile",
+            "materials": {
+                "default": "egg"
+            },
+            "textures": {
+                "default": "textures/entity/projectiles/platinum_projectile"
+            },
+            "geometry": {
+                "default": "geometry.platinum_projectile"
+            },
+            "render_controllers": [
+                "controller.render.default"
+            ]
+        }
+    }
+}
