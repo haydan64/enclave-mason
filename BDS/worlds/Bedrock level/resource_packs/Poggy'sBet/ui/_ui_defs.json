@@ -1,9 +1,0 @@
-{
-	"ui_defs": [
-		"ui/npc_interact_screen.json",
-		"ui/hud_screen.json",
-		"ui/chest_screen.json",
-		"ui/entity_health.json",
-		"ui/boss_bar.json"
-	]
-}
