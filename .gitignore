@@ -21,3 +21,4 @@ node_modules/
 
 # Ignore master config file
 /master-config.json
+BDS/Dedicated_Server.txt
